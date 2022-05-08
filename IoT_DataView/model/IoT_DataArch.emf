@@ -1,0 +1,429 @@
+@namespace(uri="DataArch", prefix="DA")
+package DataArch;
+
+@gmf.diagram
+class DataArchitecture {
+	val DataNode[*] dataNodes;
+	val Connection[*] dataConnection;
+}
+
+@gmf.node(label="NodeName",label.icon="true", border.color="0,0,0",tool.large.bundle="IoT_DataView",  tool.large.path="dataicons/basics/datanode.png", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/datanode.gif")
+//tool.small.bundle="IoT_DataView",tool.small.path="dataicons/basics/component.gif",
+class DataNode {
+	attr String NodeName;
+	ref Connection[*] outgoing;
+	ref Connection[*] incoming;
+
+	@gmf.compartment(collapsible="true")
+	//val NodeBehavior[1] nodeBehavior;
+	val BehaviouralElement[*] behaviouralElements;
+
+	@gmf.affixed
+	val MessagePort[*] ports;
+}
+
+@gmf.link(label="text", source="source", target="target", target.decoration="arrow", style="solid", tool.name="Data Node Link", tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/Connection.gif", tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/Connection.gif")
+class Connection {
+	attr String text;
+	ref OutMessagePort[1] source;
+	ref InMessagePort[1] target;
+}
+
+abstract class MessagePort {
+	attr String name;
+}
+
+@gmf.node(size="20,20", label="name",  label.icon="false", border.color="0,255,0")
+//,tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/InMessagePort.gif", tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/InMessagePort.gif""
+class InMessagePort extends MessagePort {
+}
+
+@gmf.node(size="20,20", label="name",  label.icon="false", border.color="255,0,0")
+//,tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/OutMessagePort.gif", tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/OutMessagePort.gif""
+class OutMessagePort extends MessagePort {
+}
+
+//@gmf.node(border.style="dash", label="name", label.icon="false")
+//class NodeBehavior {
+//	attr String name;
+
+//	@gmf.compartment(collapsible="false")
+//	val BehaviouralElement[*] behaviouralElements;
+//}
+
+abstract class BehaviouralElement {
+	attr String name;
+}
+
+abstract class DataFormat extends DataRepresentation {
+}
+
+
+abstract class StructuredData extends DataFormat {
+}
+abstract class SemiStructuredData extends DataFormat {
+}
+abstract class UnStructuredData extends DataFormat {
+}
+
+abstract class DataStorageType extends DataRepresentation {
+}
+abstract class DataLocation extends DataRepresentation{
+	
+}
+
+@gmf.node(label="name",figure="iot_DataView.figures.CloudFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/cloud.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/cloud.gif")
+class Cloud extends DataLocation {
+}
+
+@gmf.node(label="name",figure="iot_DataView.figures.On_PremiseFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/On_Premise.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/On_Premise.gif")
+class On_Premise extends DataLocation {
+}
+
+
+@gmf.node(label="name",figure="iot_DataView.figures.File_SystemFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/fileSystem.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/fileSystem.gif")
+class File_System extends DataStorageType {
+}
+
+@gmf.node(label="name",figure="iot_DataView.figures.RelationalFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/releationalDB.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/releationalDB.gif")
+class Relational extends DataStorageType {
+}
+
+@gmf.node(label="name",figure="iot_DataView.figures.MultidimensionalFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/multid.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/multid.gif")
+class Multidimensional extends DataStorageType {
+}
+
+
+abstract class NoSQL extends DataStorageType {
+}
+
+abstract class DataProcessingType extends DataRepresentation {
+}
+
+@gmf.node(label="name",figure="iot_DataView.figures.RealTimeFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/realtime.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/realtime.gif")
+class RealTime extends DataProcessingType {
+}
+
+@gmf.node(label="name",figure="iot_DataView.figures.BatchFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/batch.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/batch.gif")
+class Batch extends DataProcessingType {
+}
+
+
+abstract class LinkableElement extends BehaviouralElement {
+	ref Link[*]#source outgoing;
+}
+
+
+abstract class DataRepresentation extends Action {
+}
+
+@gmf.node(label="name", label.icon="false")
+abstract class Action extends LinkableElement {
+	ref Link[*]#target incoming;
+}
+
+@gmf.link(source="source", color="0,0,0", target="target", target.decoration="arrow", style="solid", tool.name="Data Element Link")
+class Link extends BehaviouralElement {
+	ref LinkableElement[1]#outgoing source;
+	ref Action[1]#incoming target;
+}
+
+abstract class Event extends LinkableElement {
+}
+
+@gmf.node(label="name",figure="iot_DataView.figures.ReceiveDataFigure",label.placement="external", label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/ReceiveData.gif", tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/ReceiveData.gif")
+class ReceiveData extends Event {
+
+	@gmf.link(target.decoration="none", style="dot", tool.name="Receive Data Link")
+	ref InMessagePort[+] fromMessagePorts;
+	ref DataRepresentation dataRecipient;
+}
+
+@gmf.node(figure="iot_DataView.figures.SendDataFigure",label.placement="external", label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/SendData.gif", tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/SendData.gif")
+class SendData extends Action {
+
+	@gmf.link(target.decoration="none", style="dot", tool.name="Send Data Link")
+	ref OutMessagePort[+] toMessagePorts;
+	ref DataRepresentation dataRecipient;
+}
+
+@gmf.node(figure="iot_DataView.figures.GenerateFigure",label.placement="external", label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/generatingData.gif", tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/generatingData.gif")
+class Generate extends Action {
+}
+
+
+@gmf.node(label="name", figure="iot_DataView.figures.IngestFigure",label.placement="external",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/ingest.gif",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/ingest.gif")
+class Ingest extends Action {
+}
+
+
+abstract class Store extends Action {
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.AnalyzeFigure",label.placement="external",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/analyze.gif",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/analyze.gif")
+ class Analyze extends Action {
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.ConsumeFigure",label.placement="external")
+abstract class Consume extends Action {
+}
+@gmf.node(label="name", figure="iot_DataView.figures.VisualizeFigure",label.placement="external",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/dataVisulization.gif",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/dataVisulization.gif")
+class Visualize extends Consume {
+}
+@gmf.node(label="name", figure="iot_DataView.figures.Query_ReportFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/query.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/query.gif")
+class Query_Report extends Consume {
+}
+@gmf.node(label="name", figure="iot_DataView.figures.APIFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/API.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/API.gif")
+class API extends Consume {
+	
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.ProcessFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/processing.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/processing.gif")
+class Process extends Action {
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.TranformFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/transform.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/transform.gif")
+class Tranfrom extends Ingest {
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.CompressFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/compress.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/compress.gif")
+class Compress extends Ingest {
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.IntegrateFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/integrate.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/integrate.gif")
+class Integrate extends Ingest {
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.IdentifyFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/idetify.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/idetify.gif")
+class Identify extends Ingest {
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.ValidateFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/validate.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/validate.gif")
+class Validate extends Ingest {
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.ClassifyFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/classify.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/classify.gif")
+class Classify extends Process {
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.SortFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/sort.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/sort.gif")
+class Sort extends Process {
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.MergeFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/merge.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/merge.gif")
+class Merge extends Process {
+}
+
+
+//@gmf.node(label="name")
+//class Tranform extends Process {
+//}
+
+@gmf.node(label="name", figure="iot_DataView.figures.AggregateFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/aggregate.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/aggregate.gif")
+class Aggregate extends Process {
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.CleaningFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/clean.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/clean.gif")
+class Cleaning extends Process {
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.FilterFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/filter.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/filter.gif")
+class Filter extends Ingest, Process {
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.ReduceNoiseFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/dataReduction.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/dataReduction.gif")
+class ReduceNoise extends Ingest {
+}
+
+abstract class Type extends Analyze {
+}
+
+abstract class Technique extends Analyze {
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.DescribeFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/descript.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/descript.gif")
+class Describe extends Type {
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.DiagnoseFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/diagnose.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/diagnose.gif")
+class Diagnose extends Type {
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.PredictFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/predict.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/predict.gif")
+class Predict extends Type {
+}
+
+@gmf.node(label="name", figure="iot_DataView.figures.PrescriptFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/prescriptive.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/prescriptive.gif")
+class Prescript extends Type {
+}
+
+
+///////////////////////////////////////////////////
+@gmf.node(label="name", figure="iot_DataView.figures.MathOpFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/mathOp.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/mathOp.gif")
+class Math_Operation extends Process {
+}
+@gmf.node(label="name", figure="iot_DataView.figures.RelationalDBFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/releationalFormat.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/releationalFormat.gif")
+class RelationalDB extends StructuredData{
+	attr String dbName;
+	
+}
+
+/////////// SemiStructuredData 
+@gmf.node(label="name", figure="iot_DataView.figures.XMLFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/xml.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/xml.gif")
+class XML extends SemiStructuredData{
+	
+}
+@gmf.node(label="name", figure="iot_DataView.figures.JSONFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/JSON.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/JSON.gif")
+class JSON extends SemiStructuredData{
+	
+}
+@gmf.node(label="name", figure="iot_DataView.figures.CSVFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/CSV.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/CSV.gif")
+class CSV extends SemiStructuredData{
+	
+}
+@gmf.node(label="name", figure="iot_DataView.figures.ExcelFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/Excel.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/Excel.gif")
+class Excel extends SemiStructuredData{
+	
+}
+@gmf.node(label="name", figure="iot_DataView.figures.HTMLFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/html.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/html.gif")
+class HTML extends SemiStructuredData{
+	
+}
+@gmf.node(label="name", figure="iot_DataView.figures.RDFFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/rdf.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/rdf.gif")
+//Resource Description Framework
+class RDF extends SemiStructuredData{
+	
+}
+//Electronic data interchange (EDI)
+@gmf.node(label="name", figure="iot_DataView.figures.EDIFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/edi.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/edi.gif")
+class EDI extends SemiStructuredData{}
+//Really Simple Syndication
+//class RSS extends SemiStructuredData{}
+//Really Simple Syndication
+//class SOAP extends SemiStructuredData{}
+@gmf.node(label="name", figure="iot_DataView.figures.SMSFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/sms.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/sms.gif")
+class SMS extends SemiStructuredData{
+	attr String from;
+	attr String to;
+	attr String message;
+}
+@gmf.node(label="name", figure="iot_DataView.figures.EmailFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/email.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/email.gif")
+class Email extends SemiStructuredData{
+	attr String subject;
+	attr String from;
+	attr String to;
+	attr String message;
+	//ref UnStructuredData[*] attachmentData;
+}
+
+////////// UnStructuredData
+abstract class Multimedia extends UnStructuredData{
+	attr int id_Multi;
+	
+	attr String size;
+	attr String comment;
+	attr String length;
+	attr String format;
+	attr String url;
+}
+@gmf.node(label="name", figure="iot_DataView.figures.AudioFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/audio.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/audio.gif")
+class Audio extends Multimedia{
+	
+}
+@gmf.node(label="name", figure="iot_DataView.figures.VideoFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/Video.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/video.gif")
+class Video extends Multimedia{
+	
+}
+@gmf.node(label="name", figure="iot_DataView.figures.ImageFormatFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/image.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/image.gif")
+class Image extends Multimedia{
+	attr int numberColor;
+	attr boolean transparency;
+	attr boolean animation;
+	attr String timestamp;
+	
+}
+@gmf.node(label="name", figure="iot_DataView.figures.GPSDataFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/gps.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/gps.gif")
+class GPSData extends UnStructuredData{
+	attr String latitude;
+	attr String longitude;
+	attr String position;
+	attr String altitude;
+	attr String time;
+	
+}
+
+abstract class OfficeFile extends UnStructuredData{
+	
+	attr String text;
+	attr String font;
+	attr String textsize;
+	attr String color;
+	attr boolean bold;
+	attr boolean italics;
+	attr boolean underline;
+	attr String url;
+	attr int size;
+}
+@gmf.node(label="name", figure="iot_DataView.figures.LogsFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/log.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/log.gif")
+class Logs extends  OfficeFile{
+	
+}
+@gmf.node(label="name", figure="iot_DataView.figures.WordFileFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/word.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/word.gif")
+class WordFile extends  OfficeFile{
+	
+}
+@gmf.node(label="name", figure="iot_DataView.figures.PDFFileFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/pdf.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/pdf.gif")
+class PDFFile extends  OfficeFile{
+	
+}
+@gmf.node(label="name", figure="iot_DataView.figures.TextFileFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/txt.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/txt.gif")
+class TextFile extends  OfficeFile{
+	
+}
+
+
+@gmf.node(label="name", figure="iot_DataView.figures.SensorDataFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/sensorData.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/sensorData.gif")
+class SensorData extends UnStructuredData{
+	attr String physicalsize;
+	attr String measuringRange;
+	attr String sensivity;
+	attr String resolution;
+	attr String precision;
+	attr String reproducibility;
+	attr String linearity;
+	attr String responseTime;
+	attr String Bandwidth;
+	attr String hystersis;
+	attr String temperatureRange;
+}
+@gmf.node(label="name", figure="iot_DataView.figures.DocumentOrientedFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/DocumentDB.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/DocumentDB.gif")
+class DocumentOriented extends NoSQL{}
+@gmf.node(label="name", figure="iot_DataView.figures.ColumnOrientedFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/columnarDB.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/columnarDB.gif")
+class ColumnOriented extends NoSQL{}
+@gmf.node(label="name", figure="iot_DataView.figures.GraphsDatabaseFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/GraphDB.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/GraphDB.gif")
+class GraphsDatabase extends NoSQL{}
+@gmf.node(label="name", figure="iot_DataView.figures.KeyValueFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/key_value.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/key_value.gif")
+class KeyValue extends NoSQL{}
+
+@gmf.node(label="name", figure="iot_DataView.figures.RetrieveFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/retrieveData.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/retrieveData.gif")
+class Retrieve extends Store {}
+@gmf.node(label="name", figure="iot_DataView.figures.StoreFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/store.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/store.gif")
+class Save extends Store {}
+@gmf.node(label="name", figure="iot_DataView.figures.ArchiveFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/archive.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/archive.gif")
+class Archive extends Store {}
+@gmf.node(label="name", figure="iot_DataView.figures.GovernFigure",label.placement="external",tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/dataGovenance.gif",label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/dataGovernance.gif")
+class Govern extends Store {}
+/**
+@gmf.node(label="name")
+class Quantitative extends Technique {
+}
+
+@gmf.node(label="name")
+class Qualitative extends Technique {
+}
+
+@gmf.node(label="name")
+class Statistical extends Technique {
+}*/
+
+

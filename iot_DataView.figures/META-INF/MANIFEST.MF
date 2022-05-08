@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: iot_DataView.figures; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: %providerName
+Bundle-Activator: iot_DataView.figures.activator.PluginActivator
+Bundle-Localization: plugin
+Export-Package: iot_DataView.figures.activator,
+ iot_DataView.figures
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.draw2d,
+ org.eclipse.gmf.runtime.draw2d.ui,
+ org.eclipse.ui;bundle-version="3.116.0"
+Eclipse-LazyStart: true

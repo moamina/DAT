@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="DataArch" nsURI="DataArch" nsPrefix="DA">
+  <eClassifiers xsi:type="ecore:EClass" name="DataArchitecture">
+    <eAnnotations source="gmf.diagram"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dataNodes" upperBound="-1"
+        eType="#//DataNode" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dataConnection" upperBound="-1"
+        eType="#//Connection" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DataNode">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="NodeName"/>
+      <details key="label.icon" value="true"/>
+      <details key="border.color" value="0,0,0"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/datanode.png"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/datanode.gif"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="NodeName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="outgoing" upperBound="-1"
+        eType="#//Connection"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="incoming" upperBound="-1"
+        eType="#//Connection"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="behaviouralElements" upperBound="-1"
+        eType="#//BehaviouralElement" containment="true">
+      <eAnnotations source="gmf.compartment">
+        <details key="collapsible" value="true"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ports" upperBound="-1"
+        eType="#//MessagePort" containment="true">
+      <eAnnotations source="gmf.affixed"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Connection">
+    <eAnnotations source="gmf.link">
+      <details key="label" value="text"/>
+      <details key="source" value="source"/>
+      <details key="target" value="target"/>
+      <details key="target.decoration" value="arrow"/>
+      <details key="style" value="solid"/>
+      <details key="tool.name" value="Data Node Link"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/Connection.gif"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/Connection.gif"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="source" lowerBound="1"
+        eType="#//OutMessagePort"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="target" lowerBound="1"
+        eType="#//InMessagePort"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MessagePort" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InMessagePort" eSuperTypes="#//MessagePort">
+    <eAnnotations source="gmf.node">
+      <details key="size" value="20,20"/>
+      <details key="label" value="name"/>
+      <details key="label.icon" value="false"/>
+      <details key="border.color" value="0,255,0"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OutMessagePort" eSuperTypes="#//MessagePort">
+    <eAnnotations source="gmf.node">
+      <details key="size" value="20,20"/>
+      <details key="label" value="name"/>
+      <details key="label.icon" value="false"/>
+      <details key="border.color" value="255,0,0"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BehaviouralElement" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DataFormat" abstract="true" eSuperTypes="#//DataRepresentation"/>
+  <eClassifiers xsi:type="ecore:EClass" name="StructuredData" abstract="true" eSuperTypes="#//DataFormat"/>
+  <eClassifiers xsi:type="ecore:EClass" name="SemiStructuredData" abstract="true"
+      eSuperTypes="#//DataFormat"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UnStructuredData" abstract="true" eSuperTypes="#//DataFormat"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DataStorageType" abstract="true" eSuperTypes="#//DataRepresentation"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DataLocation" abstract="true" eSuperTypes="#//DataRepresentation"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Cloud" eSuperTypes="#//DataLocation">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.CloudFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/cloud.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/cloud.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="On_Premise" eSuperTypes="#//DataLocation">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.On_PremiseFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/On_Premise.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/On_Premise.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="File_System" eSuperTypes="#//DataStorageType">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.File_SystemFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/fileSystem.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/fileSystem.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Relational" eSuperTypes="#//DataStorageType">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.RelationalFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/releationalDB.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/releationalDB.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Multidimensional" eSuperTypes="#//DataStorageType">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.MultidimensionalFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/multid.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/multid.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NoSQL" abstract="true" eSuperTypes="#//DataStorageType"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DataProcessingType" abstract="true"
+      eSuperTypes="#//DataRepresentation"/>
+  <eClassifiers xsi:type="ecore:EClass" name="RealTime" eSuperTypes="#//DataProcessingType">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.RealTimeFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/realtime.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/realtime.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Batch" eSuperTypes="#//DataProcessingType">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.BatchFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/batch.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/batch.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LinkableElement" abstract="true" eSuperTypes="#//BehaviouralElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="outgoing" upperBound="-1"
+        eType="#//Link" eOpposite="#//Link/source"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DataRepresentation" abstract="true"
+      eSuperTypes="#//Action"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Action" abstract="true" eSuperTypes="#//LinkableElement">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="label.icon" value="false"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="incoming" upperBound="-1"
+        eType="#//Link" eOpposite="#//Link/target"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Link" eSuperTypes="#//BehaviouralElement">
+    <eAnnotations source="gmf.link">
+      <details key="source" value="source"/>
+      <details key="color" value="0,0,0"/>
+      <details key="target" value="target"/>
+      <details key="target.decoration" value="arrow"/>
+      <details key="style" value="solid"/>
+      <details key="tool.name" value="Data Element Link"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="source" lowerBound="1"
+        eType="#//LinkableElement" eOpposite="#//LinkableElement/outgoing"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="target" lowerBound="1"
+        eType="#//Action" eOpposite="#//Action/incoming"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Event" abstract="true" eSuperTypes="#//LinkableElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ReceiveData" eSuperTypes="#//Event">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.ReceiveDataFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/ReceiveData.gif"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/ReceiveData.gif"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fromMessagePorts" lowerBound="1"
+        upperBound="-1" eType="#//InMessagePort">
+      <eAnnotations source="gmf.link">
+        <details key="target.decoration" value="none"/>
+        <details key="style" value="dot"/>
+        <details key="tool.name" value="Receive Data Link"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dataRecipient" eType="#//DataRepresentation"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SendData" eSuperTypes="#//Action">
+    <eAnnotations source="gmf.node">
+      <details key="figure" value="iot_DataView.figures.SendDataFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/SendData.gif"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/SendData.gif"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="toMessagePorts" lowerBound="1"
+        upperBound="-1" eType="#//OutMessagePort">
+      <eAnnotations source="gmf.link">
+        <details key="target.decoration" value="none"/>
+        <details key="style" value="dot"/>
+        <details key="tool.name" value="Send Data Link"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dataRecipient" eType="#//DataRepresentation"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Generate" eSuperTypes="#//Action">
+    <eAnnotations source="gmf.node">
+      <details key="figure" value="iot_DataView.figures.GenerateFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/generatingData.gif"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/generatingData.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Ingest" eSuperTypes="#//Action">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.IngestFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/ingest.gif"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/ingest.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Store" abstract="true" eSuperTypes="#//Action"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Analyze" eSuperTypes="#//Action">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.AnalyzeFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/analyze.gif"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/analyze.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Consume" abstract="true" eSuperTypes="#//Action">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.ConsumeFigure"/>
+      <details key="label.placement" value="external"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Visualize" eSuperTypes="#//Consume">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.VisualizeFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/dataVisulization.gif"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/dataVisulization.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Query_Report" eSuperTypes="#//Consume">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.Query_ReportFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/query.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/query.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="API" eSuperTypes="#//Consume">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.APIFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/API.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/API.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Process" eSuperTypes="#//Action">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.ProcessFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/processing.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/processing.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tranfrom" eSuperTypes="#//Ingest">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.TranformFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/transform.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/transform.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Compress" eSuperTypes="#//Ingest">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.CompressFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/compress.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/compress.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Integrate" eSuperTypes="#//Ingest">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.IntegrateFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/integrate.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/integrate.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Identify" eSuperTypes="#//Ingest">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.IdentifyFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/idetify.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/idetify.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Validate" eSuperTypes="#//Ingest">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.ValidateFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/validate.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/validate.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Classify" eSuperTypes="#//Process">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.ClassifyFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/classify.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/classify.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Sort" eSuperTypes="#//Process">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.SortFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/sort.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/sort.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Merge" eSuperTypes="#//Process">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.MergeFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/merge.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/merge.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Aggregate" eSuperTypes="#//Process">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.AggregateFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/aggregate.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/aggregate.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Cleaning" eSuperTypes="#//Process">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.CleaningFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/clean.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/clean.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Filter" eSuperTypes="#//Ingest #//Process">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.FilterFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/filter.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/filter.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ReduceNoise" eSuperTypes="#//Ingest">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.ReduceNoiseFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/dataReduction.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/dataReduction.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Type" abstract="true" eSuperTypes="#//Analyze"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Technique" abstract="true" eSuperTypes="#//Analyze"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Describe" eSuperTypes="#//Type">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.DescribeFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/descript.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/descript.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Diagnose" eSuperTypes="#//Type">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.DiagnoseFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/diagnose.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/diagnose.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Predict" eSuperTypes="#//Type">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.PredictFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/predict.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/predict.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Prescript" eSuperTypes="#//Type">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.PrescriptFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/prescriptive.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/prescriptive.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Math_Operation" eSuperTypes="#//Process">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.MathOpFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/mathOp.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/mathOp.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RelationalDB" eSuperTypes="#//StructuredData">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.RelationalDBFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/releationalFormat.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/releationalFormat.gif"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="dbName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="XML" eSuperTypes="#//SemiStructuredData">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.XMLFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/xml.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/xml.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JSON" eSuperTypes="#//SemiStructuredData">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.JSONFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/JSON.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/JSON.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CSV" eSuperTypes="#//SemiStructuredData">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.CSVFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/CSV.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/CSV.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Excel" eSuperTypes="#//SemiStructuredData">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.ExcelFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/Excel.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/Excel.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="HTML" eSuperTypes="#//SemiStructuredData">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.HTMLFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/html.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/html.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RDF" eSuperTypes="#//SemiStructuredData">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.RDFFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/rdf.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/rdf.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EDI" eSuperTypes="#//SemiStructuredData">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.EDIFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/edi.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/edi.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SMS" eSuperTypes="#//SemiStructuredData">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.SMSFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/sms.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/sms.gif"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="from" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="to" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="message" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Email" eSuperTypes="#//SemiStructuredData">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.EmailFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/email.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/email.gif"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="subject" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="from" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="to" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="message" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Multimedia" abstract="true" eSuperTypes="#//UnStructuredData">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id_Multi" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="size" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="comment" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="length" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="format" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="url" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Audio" eSuperTypes="#//Multimedia">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.AudioFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/audio.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/audio.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Video" eSuperTypes="#//Multimedia">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.VideoFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/Video.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/video.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Image" eSuperTypes="#//Multimedia">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.ImageFormatFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/image.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/image.gif"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="numberColor" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="transparency" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="animation" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timestamp" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GPSData" eSuperTypes="#//UnStructuredData">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.GPSDataFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/gps.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/gps.gif"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="latitude" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="longitude" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="position" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="altitude" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="time" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OfficeFile" abstract="true" eSuperTypes="#//UnStructuredData">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="font" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="textsize" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="color" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="bold" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="italics" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="underline" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="url" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="size" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Logs" eSuperTypes="#//OfficeFile">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.LogsFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/log.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/log.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="WordFile" eSuperTypes="#//OfficeFile">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.WordFileFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/word.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/word.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PDFFile" eSuperTypes="#//OfficeFile">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.PDFFileFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/pdf.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/pdf.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TextFile" eSuperTypes="#//OfficeFile">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.TextFileFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/txt.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/txt.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SensorData" eSuperTypes="#//UnStructuredData">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.SensorDataFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/sensorData.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/sensorData.gif"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="physicalsize" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="measuringRange" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="sensivity" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="resolution" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="precision" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="reproducibility" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="linearity" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="responseTime" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Bandwidth" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hystersis" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="temperatureRange" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DocumentOriented" eSuperTypes="#//NoSQL">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.DocumentOrientedFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/DocumentDB.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/DocumentDB.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ColumnOriented" eSuperTypes="#//NoSQL">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.ColumnOrientedFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/columnarDB.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/columnarDB.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GraphsDatabase" eSuperTypes="#//NoSQL">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.GraphsDatabaseFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/GraphDB.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/GraphDB.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="KeyValue" eSuperTypes="#//NoSQL">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.KeyValueFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/key_value.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/key_value.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Retrieve" eSuperTypes="#//Store">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.RetrieveFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/retrieveData.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/retrieveData.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Save" eSuperTypes="#//Store">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.StoreFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/store.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/store.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Archive" eSuperTypes="#//Store">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.ArchiveFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/archive.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/archive.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Govern" eSuperTypes="#//Store">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="figure" value="iot_DataView.figures.GovernFigure"/>
+      <details key="label.placement" value="external"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/dataGovenance.gif"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/dataGovernance.gif"/>
+    </eAnnotations>
+  </eClassifiers>
+</ecore:EPackage>

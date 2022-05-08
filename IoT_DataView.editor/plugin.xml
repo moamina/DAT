@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated IoT_DataArch -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="DataArch.presentation.DataArchModelWizardID"
+            name="%_UI_DataArchModelWizard_label"
+            class="DataArch.presentation.DataArchModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/DataArchModelFile.gif">
+         <description>%_UI_DataArchModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated IoT_DataArch -->
+      <editor
+            id="DataArch.presentation.DataArchEditorID"
+            name="%_UI_DataArchEditor_label"
+            icon="icons/full/obj16/DataArchModelFile.gif"
+            extensions="dataarch"
+            class="DataArch.presentation.DataArchEditor"
+            contributorClass="DataArch.presentation.DataArchActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="ASCII"?>
+<gmfgraph:Canvas xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmfgraph="http://www.eclipse.org/gmf/2006/GraphicalDefinition" name="DataArch">
+  <figures name="Default" implementationBundle="iot_DataView.figures">
+    <descriptors name="DataNodeFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.DataNodeFigure">
+        <customChildren accessor="getFigureDataNodeLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+        <customChildren accessor="getDataNodeBehaviouralElementsCompartmentFigure">
+          <typedFigure xsi:type="gmfgraph:Rectangle"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureDataNodeLabelFigure" figure="//@figures.0/@descriptors.0/@actualFigure/@customChildren.0/@typedFigure"/>
+      <accessors accessor="getDataNodeBehaviouralElementsCompartmentFigure" figure="//@figures.0/@descriptors.0/@actualFigure/@customChildren.1/@typedFigure"/>
+    </descriptors>
+    <descriptors name="InMessagePortFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.InMessagePortFigure"/>
+    </descriptors>
+    <descriptors name="OutMessagePortFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.OutMessagePortFigure"/>
+    </descriptors>
+    <descriptors name="File_SystemFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.File_SystemFigure">
+        <customChildren accessor="getFigureFile_SystemLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureFile_SystemLabelFigure" figure="//@figures.0/@descriptors.3/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="RelationalFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.RelationalFigure">
+        <customChildren accessor="getFigureRelationalLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureRelationalLabelFigure" figure="//@figures.0/@descriptors.4/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="MultidimensionalFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.MultidimensionalFigure">
+        <customChildren accessor="getFigureMultidimensionalLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureMultidimensionalLabelFigure" figure="//@figures.0/@descriptors.5/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="RealTimeFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.RealTimeFigure">
+        <customChildren accessor="getFigureRealTimeLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureRealTimeLabelFigure" figure="//@figures.0/@descriptors.6/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="BatchFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.BatchFigure">
+        <customChildren accessor="getFigureBatchLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureBatchLabelFigure" figure="//@figures.0/@descriptors.7/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="DataRepresentationFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.DataRepresentationFigure">
+        <customChildren accessor="getFigureDataRepresentationLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureDataRepresentationLabelFigure" figure="//@figures.0/@descriptors.8/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="ReceiveDataFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.ReceiveDataFigure"/>
+    </descriptors>
+    <descriptors name="SendDataFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.SendDataFigure"/>
+    </descriptors>
+    <descriptors name="GenerateFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.GenerateFigure">
+        <customChildren accessor="getFigureGenerateLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureGenerateLabelFigure" figure="//@figures.0/@descriptors.11/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="IngestFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.IngestFigure">
+        <customChildren accessor="getFigureIngestLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureIngestLabelFigure" figure="//@figures.0/@descriptors.12/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="StoreFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.StoreFigure">
+        <customChildren accessor="getFigureStoreLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureStoreLabelFigure" figure="//@figures.0/@descriptors.13/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="AnalyzeFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.AnalyzeFigure">
+        <customChildren accessor="getFigureAnalyzeLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureAnalyzeLabelFigure" figure="//@figures.0/@descriptors.14/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="ConsumeFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.ConsumeFigure">
+        <customChildren accessor="getFigureConsumeLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureConsumeLabelFigure" figure="//@figures.0/@descriptors.15/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="ProcessFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.ProcessFigure">
+        <customChildren accessor="getFigureProcessLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureProcessLabelFigure" figure="//@figures.0/@descriptors.16/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="TranfromFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.TranfromFigure">
+        <customChildren accessor="getFigureTranfromLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureTranfromLabelFigure" figure="//@figures.0/@descriptors.17/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="CompressFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.CompressFigure">
+        <customChildren accessor="getFigureCompressLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureCompressLabelFigure" figure="//@figures.0/@descriptors.18/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="IntegrateFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.IntegrateFigure">
+        <customChildren accessor="getFigureIntegrateLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureIntegrateLabelFigure" figure="//@figures.0/@descriptors.19/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="IdentifyFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.IdentifyFigure">
+        <customChildren accessor="getFigureIdentifyLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureIdentifyLabelFigure" figure="//@figures.0/@descriptors.20/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="ValidateFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.ValidateFigure">
+        <customChildren accessor="getFigureValidateLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureValidateLabelFigure" figure="//@figures.0/@descriptors.21/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="ClassifyFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.ClassifyFigure">
+        <customChildren accessor="getFigureClassifyLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureClassifyLabelFigure" figure="//@figures.0/@descriptors.22/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="SortFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.SortFigure">
+        <customChildren accessor="getFigureSortLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureSortLabelFigure" figure="//@figures.0/@descriptors.23/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="MergeFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.MergeFigure">
+        <customChildren accessor="getFigureMergeLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureMergeLabelFigure" figure="//@figures.0/@descriptors.24/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="TranformFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.TranformFigure">
+        <customChildren accessor="getFigureTranformLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureTranformLabelFigure" figure="//@figures.0/@descriptors.25/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="AggregateFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.AggregateFigure">
+        <customChildren accessor="getFigureAggregateLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureAggregateLabelFigure" figure="//@figures.0/@descriptors.26/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="CleaningFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.CleaningFigure">
+        <customChildren accessor="getFigureCleaningLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureCleaningLabelFigure" figure="//@figures.0/@descriptors.27/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="FilterFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.FilterFigure">
+        <customChildren accessor="getFigureFilterLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureFilterLabelFigure" figure="//@figures.0/@descriptors.28/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="ReduceNoiseFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.ReduceNoiseFigure">
+        <customChildren accessor="getFigureReduceNoiseLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureReduceNoiseLabelFigure" figure="//@figures.0/@descriptors.29/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="DescribeFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.DescribeFigure">
+        <customChildren accessor="getFigureDescribeLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureDescribeLabelFigure" figure="//@figures.0/@descriptors.30/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="DiagnoseFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.DiagnoseFigure">
+        <customChildren accessor="getFigureDiagnoseLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureDiagnoseLabelFigure" figure="//@figures.0/@descriptors.31/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="PredictFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.PredictFigure">
+        <customChildren accessor="getFigurePredictLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigurePredictLabelFigure" figure="//@figures.0/@descriptors.32/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="PrescriptFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.PrescriptFigure">
+        <customChildren accessor="getFigurePrescriptLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigurePrescriptLabelFigure" figure="//@figures.0/@descriptors.33/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="QuantitativeFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.QuantitativeFigure">
+        <customChildren accessor="getFigureQuantitativeLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureQuantitativeLabelFigure" figure="//@figures.0/@descriptors.34/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="QualitativeFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.QualitativeFigure">
+        <customChildren accessor="getFigureQualitativeLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureQualitativeLabelFigure" figure="//@figures.0/@descriptors.35/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="StatisticalFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.StatisticalFigure">
+        <customChildren accessor="getFigureStatisticalLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureStatisticalLabelFigure" figure="//@figures.0/@descriptors.36/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="ConnectionFigure">
+      <actualFigure xsi:type="gmfgraph:CustomConnection" qualifiedClassName="iot_DataView.figures.ConnectionFigure"/>
+    </descriptors>
+    <descriptors name="LinkFigure">
+      <actualFigure xsi:type="gmfgraph:CustomConnection" qualifiedClassName="iot_DataView.figures.LinkFigure"/>
+    </descriptors>
+    <descriptors name="ReceiveDataFromMessagePortsFigure">
+      <actualFigure xsi:type="gmfgraph:CustomConnection" qualifiedClassName="iot_DataView.figures.ReceiveDataFromMessagePortsFigure"/>
+    </descriptors>
+    <descriptors name="SendDataToMessagePortsFigure">
+      <actualFigure xsi:type="gmfgraph:CustomConnection" qualifiedClassName="iot_DataView.figures.SendDataToMessagePortsFigure"/>
+    </descriptors>
+    <descriptors name="InMessagePortLabelFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.InMessagePortLabelFigure"/>
+    </descriptors>
+    <descriptors name="OutMessagePortLabelFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.OutMessagePortLabelFigure"/>
+    </descriptors>
+    <descriptors name="ReceiveDataLabelFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.ReceiveDataLabelFigure"/>
+    </descriptors>
+    <descriptors name="SendDataLabelFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.SendDataLabelFigure"/>
+    </descriptors>
+    <descriptors name="ConnectionLabelFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.ConnectionLabelFigure"/>
+    </descriptors>
+    <descriptors name="ReceiveDataFromMessagePortsExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.ReceiveDataFromMessagePortsExternalLabelFigure"/>
+    </descriptors>
+    <descriptors name="SendDataToMessagePortsExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="iot_DataView.figures.SendDataToMessagePortsExternalLabelFigure"/>
+    </descriptors>
+  </figures>
+  <nodes name="DataNode" figure="DataNodeFigure"/>
+  <nodes name="InMessagePort" figure="InMessagePortFigure" affixedParentSide="NORTH">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="20" dy="20"/>
+    </facets>
+  </nodes>
+  <nodes name="OutMessagePort" figure="OutMessagePortFigure" affixedParentSide="NORTH">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="20" dy="20"/>
+    </facets>
+  </nodes>
+  <nodes name="File_System" figure="File_SystemFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Relational" figure="RelationalFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Multidimensional" figure="MultidimensionalFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="RealTime" figure="RealTimeFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Batch" figure="BatchFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="DataRepresentation" figure="DataRepresentationFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="ReceiveData" figure="ReceiveDataFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="SendData" figure="SendDataFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Generate" figure="GenerateFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Ingest" figure="IngestFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Store" figure="StoreFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Analyze" figure="AnalyzeFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Consume" figure="ConsumeFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Process" figure="ProcessFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Tranfrom" figure="TranfromFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Compress" figure="CompressFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Integrate" figure="IntegrateFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Identify" figure="IdentifyFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Validate" figure="ValidateFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Classify" figure="ClassifyFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Sort" figure="SortFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Merge" figure="MergeFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Tranform" figure="TranformFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Aggregate" figure="AggregateFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Cleaning" figure="CleaningFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Filter" figure="FilterFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="ReduceNoise" figure="ReduceNoiseFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Describe" figure="DescribeFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Diagnose" figure="DiagnoseFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Predict" figure="PredictFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Prescript" figure="PrescriptFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Quantitative" figure="QuantitativeFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Qualitative" figure="QualitativeFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <nodes name="Statistical" figure="StatisticalFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="48" dy="48"/>
+    </facets>
+  </nodes>
+  <connections name="Connection" figure="ConnectionFigure"/>
+  <connections name="Link" figure="LinkFigure"/>
+  <connections name="ReceiveDataFromMessagePorts" figure="ReceiveDataFromMessagePortsFigure"/>
+  <connections name="SendDataToMessagePorts" figure="SendDataToMessagePortsFigure"/>
+  <compartments name="DataNodeBehaviouralElementsCompartment" figure="DataNodeFigure" collapsible="true" accessor="//@figures.0/@descriptors.0/@accessors.1"/>
+  <labels name="DataNodeLabel" figure="DataNodeFigure" accessor="//@figures.0/@descriptors.0/@accessors.0"/>
+  <labels name="InMessagePortLabel" figure="InMessagePortLabelFigure"/>
+  <labels name="OutMessagePortLabel" figure="OutMessagePortLabelFigure"/>
+  <labels name="File_SystemLabel" figure="File_SystemFigure" elementIcon="false" accessor="//@figures.0/@descriptors.3/@accessors.0"/>
+  <labels name="RelationalLabel" figure="RelationalFigure" elementIcon="false" accessor="//@figures.0/@descriptors.4/@accessors.0"/>
+  <labels name="MultidimensionalLabel" figure="MultidimensionalFigure" elementIcon="false" accessor="//@figures.0/@descriptors.5/@accessors.0"/>
+  <labels name="RealTimeLabel" figure="RealTimeFigure" elementIcon="false" accessor="//@figures.0/@descriptors.6/@accessors.0"/>
+  <labels name="BatchLabel" figure="BatchFigure" elementIcon="false" accessor="//@figures.0/@descriptors.7/@accessors.0"/>
+  <labels name="DataRepresentationLabel" figure="DataRepresentationFigure" elementIcon="false" accessor="//@figures.0/@descriptors.8/@accessors.0"/>
+  <labels name="ReceiveDataLabel" figure="ReceiveDataLabelFigure" elementIcon="false"/>
+  <labels name="SendDataLabel" figure="SendDataLabelFigure" elementIcon="false"/>
+  <labels name="GenerateLabel" figure="GenerateFigure" elementIcon="false" accessor="//@figures.0/@descriptors.11/@accessors.0"/>
+  <labels name="IngestLabel" figure="IngestFigure" elementIcon="false" accessor="//@figures.0/@descriptors.12/@accessors.0"/>
+  <labels name="StoreLabel" figure="StoreFigure" elementIcon="false" accessor="//@figures.0/@descriptors.13/@accessors.0"/>
+  <labels name="AnalyzeLabel" figure="AnalyzeFigure" elementIcon="false" accessor="//@figures.0/@descriptors.14/@accessors.0"/>
+  <labels name="ConsumeLabel" figure="ConsumeFigure" elementIcon="false" accessor="//@figures.0/@descriptors.15/@accessors.0"/>
+  <labels name="ProcessLabel" figure="ProcessFigure" elementIcon="false" accessor="//@figures.0/@descriptors.16/@accessors.0"/>
+  <labels name="TranfromLabel" figure="TranfromFigure" elementIcon="false" accessor="//@figures.0/@descriptors.17/@accessors.0"/>
+  <labels name="CompressLabel" figure="CompressFigure" elementIcon="false" accessor="//@figures.0/@descriptors.18/@accessors.0"/>
+  <labels name="IntegrateLabel" figure="IntegrateFigure" elementIcon="false" accessor="//@figures.0/@descriptors.19/@accessors.0"/>
+  <labels name="IdentifyLabel" figure="IdentifyFigure" elementIcon="false" accessor="//@figures.0/@descriptors.20/@accessors.0"/>
+  <labels name="ValidateLabel" figure="ValidateFigure" elementIcon="false" accessor="//@figures.0/@descriptors.21/@accessors.0"/>
+  <labels name="ClassifyLabel" figure="ClassifyFigure" elementIcon="false" accessor="//@figures.0/@descriptors.22/@accessors.0"/>
+  <labels name="SortLabel" figure="SortFigure" elementIcon="false" accessor="//@figures.0/@descriptors.23/@accessors.0"/>
+  <labels name="MergeLabel" figure="MergeFigure" elementIcon="false" accessor="//@figures.0/@descriptors.24/@accessors.0"/>
+  <labels name="TranformLabel" figure="TranformFigure" elementIcon="false" accessor="//@figures.0/@descriptors.25/@accessors.0"/>
+  <labels name="AggregateLabel" figure="AggregateFigure" elementIcon="false" accessor="//@figures.0/@descriptors.26/@accessors.0"/>
+  <labels name="CleaningLabel" figure="CleaningFigure" elementIcon="false" accessor="//@figures.0/@descriptors.27/@accessors.0"/>
+  <labels name="FilterLabel" figure="FilterFigure" elementIcon="false" accessor="//@figures.0/@descriptors.28/@accessors.0"/>
+  <labels name="ReduceNoiseLabel" figure="ReduceNoiseFigure" elementIcon="false" accessor="//@figures.0/@descriptors.29/@accessors.0"/>
+  <labels name="DescribeLabel" figure="DescribeFigure" elementIcon="false" accessor="//@figures.0/@descriptors.30/@accessors.0"/>
+  <labels name="DiagnoseLabel" figure="DiagnoseFigure" elementIcon="false" accessor="//@figures.0/@descriptors.31/@accessors.0"/>
+  <labels name="PredictLabel" figure="PredictFigure" elementIcon="false" accessor="//@figures.0/@descriptors.32/@accessors.0"/>
+  <labels name="PrescriptLabel" figure="PrescriptFigure" elementIcon="false" accessor="//@figures.0/@descriptors.33/@accessors.0"/>
+  <labels name="QuantitativeLabel" figure="QuantitativeFigure" elementIcon="false" accessor="//@figures.0/@descriptors.34/@accessors.0"/>
+  <labels name="QualitativeLabel" figure="QualitativeFigure" elementIcon="false" accessor="//@figures.0/@descriptors.35/@accessors.0"/>
+  <labels name="StatisticalLabel" figure="StatisticalFigure" elementIcon="false" accessor="//@figures.0/@descriptors.36/@accessors.0"/>
+  <labels name="ConnectionLabel" figure="ConnectionLabelFigure" elementIcon="false"/>
+  <labels name="ReceiveDataFromMessagePortsExternalLabel" figure="ReceiveDataFromMessagePortsExternalLabelFigure" elementIcon="false"/>
+  <labels name="SendDataToMessagePortsExternalLabel" figure="SendDataToMessagePortsExternalLabelFigure" elementIcon="false"/>
+</gmfgraph:Canvas>

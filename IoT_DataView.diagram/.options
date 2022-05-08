@@ -1,0 +1,7 @@
+# Tracing options for the IoT_DataView.diagram plug-in
+
+# Common issues
+IoT_DataView.diagram/debug=false
+
+# Visual IDs
+IoT_DataView.diagram/debug/visualID=false

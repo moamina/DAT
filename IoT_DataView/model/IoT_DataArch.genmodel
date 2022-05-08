@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" copyrightText="" modelDirectory="/IoT_DataView/src" modelPluginID="IoT_DataView"
+    modelName="DataArch" importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0"
+    copyrightFields="false">
+  <foreignModel>IoT_DataArch.ecore</foreignModel>
+  <genPackages prefix="DataArch" disposableProviderFactory="true" ecorePackage="IoT_DataArch.ecore#/">
+    <genClasses ecoreClass="IoT_DataArch.ecore#//DataArchitecture">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//DataArchitecture/dataNodes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//DataArchitecture/dataConnection"/>
+    </genClasses>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//DataNode">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//DataNode/NodeName"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//DataNode/outgoing"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//DataNode/incoming"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//DataNode/behaviouralElements"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//DataNode/ports"/>
+    </genClasses>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Connection">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//Connection/text"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//Connection/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//Connection/target"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//MessagePort">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//MessagePort/name"/>
+    </genClasses>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//InMessagePort"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//OutMessagePort"/>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//BehaviouralElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//BehaviouralElement/name"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//DataFormat"/>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//StructuredData"/>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//SemiStructuredData"/>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//UnStructuredData"/>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//DataStorageType"/>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//DataLocation"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Cloud"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//On_Premise"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//File_System"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Relational"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Multidimensional"/>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//NoSQL"/>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//DataProcessingType"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//RealTime"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Batch"/>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//LinkableElement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//LinkableElement/outgoing"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//DataRepresentation"/>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//Action">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//Action/incoming"/>
+    </genClasses>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Link">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//Link/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//Link/target"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//Event"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//ReceiveData">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//ReceiveData/fromMessagePorts"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//ReceiveData/dataRecipient"/>
+    </genClasses>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//SendData">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//SendData/toMessagePorts"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//SendData/dataRecipient"/>
+    </genClasses>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Generate"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Ingest"/>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//Store"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Analyze"/>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//Consume"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Visualize"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Query_Report"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//API"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Process"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Tranfrom"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Compress"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Integrate"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Identify"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Validate"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Classify"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Sort"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Merge"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Aggregate"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Cleaning"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Filter"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//ReduceNoise"/>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//Type"/>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//Technique"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Describe"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Diagnose"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Predict"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Prescript"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Math_Operation"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//RelationalDB">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//RelationalDB/dbName"/>
+    </genClasses>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//XML"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//JSON"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//CSV"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Excel"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//HTML"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//RDF"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//EDI"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//SMS">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//SMS/from"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//SMS/to"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//SMS/message"/>
+    </genClasses>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Email">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//Email/subject"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//Email/from"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//Email/to"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//Email/message"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//Multimedia">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//Multimedia/id_Multi"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//Multimedia/size"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//Multimedia/comment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//Multimedia/length"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//Multimedia/format"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//Multimedia/url"/>
+    </genClasses>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Audio"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Video"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Image">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//Image/numberColor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//Image/transparency"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//Image/animation"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//Image/timestamp"/>
+    </genClasses>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//GPSData">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//GPSData/latitude"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//GPSData/longitude"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//GPSData/position"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//GPSData/altitude"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//GPSData/time"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="IoT_DataArch.ecore#//OfficeFile">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//OfficeFile/text"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//OfficeFile/font"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//OfficeFile/textsize"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//OfficeFile/color"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//OfficeFile/bold"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//OfficeFile/italics"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//OfficeFile/underline"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//OfficeFile/url"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//OfficeFile/size"/>
+    </genClasses>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Logs"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//WordFile"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//PDFFile"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//TextFile"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//SensorData">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//SensorData/physicalsize"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//SensorData/measuringRange"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//SensorData/sensivity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//SensorData/resolution"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//SensorData/precision"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//SensorData/reproducibility"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//SensorData/linearity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//SensorData/responseTime"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//SensorData/Bandwidth"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//SensorData/hystersis"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//SensorData/temperatureRange"/>
+    </genClasses>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//DocumentOriented"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//ColumnOriented"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//GraphsDatabase"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//KeyValue"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Retrieve"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Save"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Archive"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//Govern"/>
+  </genPackages>
+</genmodel:GenModel>
