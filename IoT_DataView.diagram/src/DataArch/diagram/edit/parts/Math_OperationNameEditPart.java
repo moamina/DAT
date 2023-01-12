@@ -57,7 +57,7 @@ public class Math_OperationNameEditPart extends LabelEditPart implements ITextAw
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5048;
+	public static final int VISUAL_ID = 5050;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class Math_OperationNameEditPart extends LabelEditPart implements ITextAw
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.Math_Operation_3048, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.Math_Operation_3050, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.Math_OperationNameEditPart.VISUAL_ID));
 		}

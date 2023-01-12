@@ -38,7 +38,7 @@ public class RetrieveEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3049;
+	public static final int VISUAL_ID = 3051;
 
 	/**
 	* @generated

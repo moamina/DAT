@@ -26,7 +26,7 @@ public class On_PremiseItemSemanticEditPolicy
 	* @generated
 	*/
 	public On_PremiseItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.On_Premise_3061);
+		super(DataArch.diagram.providers.DataArchElementTypes.On_Premise_3025);
 	}
 
 	/**

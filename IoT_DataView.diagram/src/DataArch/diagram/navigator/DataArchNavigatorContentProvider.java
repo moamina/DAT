@@ -618,6 +618,12 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			connectedViews = getChildrenByType(connectedViews, DataArch.diagram.part.DataArchVisualIDRegistry
 					.getType(DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					DataArch.diagram.part.DataArchVisualIDRegistry.getType(
+							DataArch.diagram.edit.parts.DataNodeDataNodeBehaviouralElementsCompartmentEditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(connectedViews, DataArch.diagram.part.DataArchVisualIDRegistry
+					.getType(DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID));
+			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
 			connectedViews = getChildrenByType(Collections.singleton(sv), DataArch.diagram.part.DataArchVisualIDRegistry
 					.getType(DataArch.diagram.edit.parts.InMessagePortEditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
@@ -1248,14 +1254,68 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			return result.toArray();
 		}
 
+		case DataArch.diagram.edit.parts.CloudEditPart.VISUAL_ID: {
+			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
+			Node sv = (Node) view;
+			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
+					DataArch.diagram.part.Messages.NavigatorGroupName_Cloud_3024_incominglinks,
+					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
+			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
+					DataArch.diagram.part.Messages.NavigatorGroupName_Cloud_3024_outgoinglinks,
+					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
+			Collection<View> connectedViews;
+			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
+					DataArch.diagram.part.DataArchVisualIDRegistry
+							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
+			incominglinks.addChildren(createNavigatorItems(connectedViews, incominglinks, true));
+			connectedViews = getOutgoingLinksByType(Collections.singleton(sv),
+					DataArch.diagram.part.DataArchVisualIDRegistry
+							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
+			outgoinglinks.addChildren(createNavigatorItems(connectedViews, outgoinglinks, true));
+			if (!incominglinks.isEmpty()) {
+				result.add(incominglinks);
+			}
+			if (!outgoinglinks.isEmpty()) {
+				result.add(outgoinglinks);
+			}
+			return result.toArray();
+		}
+
+		case DataArch.diagram.edit.parts.On_PremiseEditPart.VISUAL_ID: {
+			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
+			Node sv = (Node) view;
+			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
+					DataArch.diagram.part.Messages.NavigatorGroupName_On_Premise_3025_incominglinks,
+					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
+			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
+					DataArch.diagram.part.Messages.NavigatorGroupName_On_Premise_3025_outgoinglinks,
+					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
+			Collection<View> connectedViews;
+			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
+					DataArch.diagram.part.DataArchVisualIDRegistry
+							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
+			incominglinks.addChildren(createNavigatorItems(connectedViews, incominglinks, true));
+			connectedViews = getOutgoingLinksByType(Collections.singleton(sv),
+					DataArch.diagram.part.DataArchVisualIDRegistry
+							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
+			outgoinglinks.addChildren(createNavigatorItems(connectedViews, outgoinglinks, true));
+			if (!incominglinks.isEmpty()) {
+				result.add(incominglinks);
+			}
+			if (!outgoinglinks.isEmpty()) {
+				result.add(outgoinglinks);
+			}
+			return result.toArray();
+		}
+
 		case DataArch.diagram.edit.parts.File_SystemEditPart.VISUAL_ID: {
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_File_System_3024_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_File_System_3026_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_File_System_3024_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_File_System_3026_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1279,10 +1339,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Relational_3025_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Relational_3027_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Relational_3025_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Relational_3027_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1306,10 +1366,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Multidimensional_3026_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Multidimensional_3028_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Multidimensional_3026_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Multidimensional_3028_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1333,10 +1393,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_RealTime_3027_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_RealTime_3029_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_RealTime_3027_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_RealTime_3029_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1360,10 +1420,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Batch_3028_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Batch_3030_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Batch_3028_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Batch_3030_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1387,10 +1447,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Filter_3029_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Filter_3031_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Filter_3029_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Filter_3031_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1414,10 +1474,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Describe_3030_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Describe_3032_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Describe_3030_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Describe_3032_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1441,10 +1501,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Diagnose_3031_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Diagnose_3033_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Diagnose_3031_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Diagnose_3033_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1468,10 +1528,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Predict_3032_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Predict_3034_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Predict_3032_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Predict_3034_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1495,10 +1555,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Prescript_3033_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Prescript_3035_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Prescript_3033_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Prescript_3035_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1522,10 +1582,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Visualize_3034_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Visualize_3036_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Visualize_3034_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Visualize_3036_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1549,10 +1609,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Query_Report_3035_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Query_Report_3037_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Query_Report_3035_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Query_Report_3037_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1576,10 +1636,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_API_3036_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_API_3038_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_API_3036_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_API_3038_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1603,10 +1663,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Tranfrom_3037_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Tranfrom_3039_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Tranfrom_3037_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Tranfrom_3039_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1630,10 +1690,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Compress_3038_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Compress_3040_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Compress_3038_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Compress_3040_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1657,10 +1717,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Integrate_3039_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Integrate_3041_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Integrate_3039_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Integrate_3041_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1684,10 +1744,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Identify_3040_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Identify_3042_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Identify_3040_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Identify_3042_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1711,10 +1771,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Validate_3041_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Validate_3043_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Validate_3041_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Validate_3043_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1738,10 +1798,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Classify_3042_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Classify_3044_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Classify_3042_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Classify_3044_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1765,10 +1825,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Sort_3043_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Sort_3045_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Sort_3043_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Sort_3045_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1792,10 +1852,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Merge_3044_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Merge_3046_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Merge_3044_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Merge_3046_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1819,10 +1879,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Aggregate_3045_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Aggregate_3047_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Aggregate_3045_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Aggregate_3047_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1846,10 +1906,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Cleaning_3046_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Cleaning_3048_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Cleaning_3046_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Cleaning_3048_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1873,10 +1933,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_ReduceNoise_3047_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_ReduceNoise_3049_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_ReduceNoise_3047_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_ReduceNoise_3049_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1900,10 +1960,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Math_Operation_3048_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Math_Operation_3050_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Math_Operation_3048_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Math_Operation_3050_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1927,10 +1987,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Retrieve_3049_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Retrieve_3051_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Retrieve_3049_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Retrieve_3051_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1954,10 +2014,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Save_3050_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Save_3052_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Save_3050_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Save_3052_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -1981,10 +2041,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Archive_3051_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Archive_3053_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Archive_3051_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Archive_3053_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -2008,10 +2068,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Govern_3052_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Govern_3054_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Govern_3052_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Govern_3054_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -2035,7 +2095,7 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_ReceiveData_3053_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_ReceiveData_3055_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getOutgoingLinksByType(Collections.singleton(sv),
@@ -2056,10 +2116,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_SendData_3054_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_SendData_3056_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_SendData_3054_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_SendData_3056_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -2087,166 +2147,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Generate_3055_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Generate_3057_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Generate_3055_outgoinglinks,
-					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
-			Collection<View> connectedViews;
-			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
-					DataArch.diagram.part.DataArchVisualIDRegistry
-							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
-			incominglinks.addChildren(createNavigatorItems(connectedViews, incominglinks, true));
-			connectedViews = getOutgoingLinksByType(Collections.singleton(sv),
-					DataArch.diagram.part.DataArchVisualIDRegistry
-							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
-			outgoinglinks.addChildren(createNavigatorItems(connectedViews, outgoinglinks, true));
-			if (!incominglinks.isEmpty()) {
-				result.add(incominglinks);
-			}
-			if (!outgoinglinks.isEmpty()) {
-				result.add(outgoinglinks);
-			}
-			return result.toArray();
-		}
-
-		case DataArch.diagram.edit.parts.AnalyzeEditPart.VISUAL_ID: {
-			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
-			Node sv = (Node) view;
-			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Analyze_3056_incominglinks,
-					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
-			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Analyze_3056_outgoinglinks,
-					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
-			Collection<View> connectedViews;
-			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
-					DataArch.diagram.part.DataArchVisualIDRegistry
-							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
-			incominglinks.addChildren(createNavigatorItems(connectedViews, incominglinks, true));
-			connectedViews = getOutgoingLinksByType(Collections.singleton(sv),
-					DataArch.diagram.part.DataArchVisualIDRegistry
-							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
-			outgoinglinks.addChildren(createNavigatorItems(connectedViews, outgoinglinks, true));
-			if (!incominglinks.isEmpty()) {
-				result.add(incominglinks);
-			}
-			if (!outgoinglinks.isEmpty()) {
-				result.add(outgoinglinks);
-			}
-			return result.toArray();
-		}
-
-		case DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID: {
-			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
-			Node sv = (Node) view;
-			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Process_3057_incominglinks,
-					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
-			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Process_3057_outgoinglinks,
-					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
-			Collection<View> connectedViews;
-			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
-					DataArch.diagram.part.DataArchVisualIDRegistry
-							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
-			incominglinks.addChildren(createNavigatorItems(connectedViews, incominglinks, true));
-			connectedViews = getOutgoingLinksByType(Collections.singleton(sv),
-					DataArch.diagram.part.DataArchVisualIDRegistry
-							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
-			outgoinglinks.addChildren(createNavigatorItems(connectedViews, outgoinglinks, true));
-			if (!incominglinks.isEmpty()) {
-				result.add(incominglinks);
-			}
-			if (!outgoinglinks.isEmpty()) {
-				result.add(outgoinglinks);
-			}
-			return result.toArray();
-		}
-
-		case DataArch.diagram.edit.parts.InMessagePortEditPart.VISUAL_ID: {
-			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
-			Node sv = (Node) view;
-			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_InMessagePort_3058_incominglinks,
-					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
-			Collection<View> connectedViews;
-			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
-					DataArch.diagram.part.DataArchVisualIDRegistry
-							.getType(DataArch.diagram.edit.parts.ConnectionEditPart.VISUAL_ID));
-			incominglinks.addChildren(createNavigatorItems(connectedViews, incominglinks, true));
-			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
-					DataArch.diagram.part.DataArchVisualIDRegistry
-							.getType(DataArch.diagram.edit.parts.ReceiveDataFromMessagePortsEditPart.VISUAL_ID));
-			incominglinks.addChildren(createNavigatorItems(connectedViews, incominglinks, true));
-			if (!incominglinks.isEmpty()) {
-				result.add(incominglinks);
-			}
-			return result.toArray();
-		}
-
-		case DataArch.diagram.edit.parts.OutMessagePortEditPart.VISUAL_ID: {
-			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
-			Node sv = (Node) view;
-			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_OutMessagePort_3059_outgoinglinks,
-					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
-			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_OutMessagePort_3059_incominglinks,
-					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
-			Collection<View> connectedViews;
-			connectedViews = getOutgoingLinksByType(Collections.singleton(sv),
-					DataArch.diagram.part.DataArchVisualIDRegistry
-							.getType(DataArch.diagram.edit.parts.ConnectionEditPart.VISUAL_ID));
-			outgoinglinks.addChildren(createNavigatorItems(connectedViews, outgoinglinks, true));
-			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
-					DataArch.diagram.part.DataArchVisualIDRegistry
-							.getType(DataArch.diagram.edit.parts.SendDataToMessagePortsEditPart.VISUAL_ID));
-			incominglinks.addChildren(createNavigatorItems(connectedViews, incominglinks, true));
-			if (!outgoinglinks.isEmpty()) {
-				result.add(outgoinglinks);
-			}
-			if (!incominglinks.isEmpty()) {
-				result.add(incominglinks);
-			}
-			return result.toArray();
-		}
-
-		case DataArch.diagram.edit.parts.CloudEditPart.VISUAL_ID: {
-			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
-			Node sv = (Node) view;
-			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Cloud_3060_incominglinks,
-					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
-			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Cloud_3060_outgoinglinks,
-					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
-			Collection<View> connectedViews;
-			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
-					DataArch.diagram.part.DataArchVisualIDRegistry
-							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
-			incominglinks.addChildren(createNavigatorItems(connectedViews, incominglinks, true));
-			connectedViews = getOutgoingLinksByType(Collections.singleton(sv),
-					DataArch.diagram.part.DataArchVisualIDRegistry
-							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
-			outgoinglinks.addChildren(createNavigatorItems(connectedViews, outgoinglinks, true));
-			if (!incominglinks.isEmpty()) {
-				result.add(incominglinks);
-			}
-			if (!outgoinglinks.isEmpty()) {
-				result.add(outgoinglinks);
-			}
-			return result.toArray();
-		}
-
-		case DataArch.diagram.edit.parts.On_PremiseEditPart.VISUAL_ID: {
-			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
-			Node sv = (Node) view;
-			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_On_Premise_3061_incominglinks,
-					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
-			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_On_Premise_3061_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Generate_3057_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -2270,10 +2174,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Ingest_3062_incominglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Ingest_3058_incominglinks,
 					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
-					DataArch.diagram.part.Messages.NavigatorGroupName_Ingest_3062_outgoinglinks,
+					DataArch.diagram.part.Messages.NavigatorGroupName_Ingest_3058_outgoinglinks,
 					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
 			Collection<View> connectedViews;
 			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
@@ -2289,6 +2193,135 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			}
 			if (!outgoinglinks.isEmpty()) {
 				result.add(outgoinglinks);
+			}
+			return result.toArray();
+		}
+
+		case DataArch.diagram.edit.parts.AnalyzeEditPart.VISUAL_ID: {
+			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
+			Node sv = (Node) view;
+			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
+					DataArch.diagram.part.Messages.NavigatorGroupName_Analyze_3059_incominglinks,
+					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
+			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
+					DataArch.diagram.part.Messages.NavigatorGroupName_Analyze_3059_outgoinglinks,
+					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
+			Collection<View> connectedViews;
+			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
+					DataArch.diagram.part.DataArchVisualIDRegistry
+							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
+			incominglinks.addChildren(createNavigatorItems(connectedViews, incominglinks, true));
+			connectedViews = getOutgoingLinksByType(Collections.singleton(sv),
+					DataArch.diagram.part.DataArchVisualIDRegistry
+							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
+			outgoinglinks.addChildren(createNavigatorItems(connectedViews, outgoinglinks, true));
+			if (!incominglinks.isEmpty()) {
+				result.add(incominglinks);
+			}
+			if (!outgoinglinks.isEmpty()) {
+				result.add(outgoinglinks);
+			}
+			return result.toArray();
+		}
+
+		case DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID: {
+			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
+			Node sv = (Node) view;
+			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
+					DataArch.diagram.part.Messages.NavigatorGroupName_Process_3060_incominglinks,
+					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
+			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
+					DataArch.diagram.part.Messages.NavigatorGroupName_Process_3060_outgoinglinks,
+					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
+			Collection<View> connectedViews;
+			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
+					DataArch.diagram.part.DataArchVisualIDRegistry
+							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
+			incominglinks.addChildren(createNavigatorItems(connectedViews, incominglinks, true));
+			connectedViews = getOutgoingLinksByType(Collections.singleton(sv),
+					DataArch.diagram.part.DataArchVisualIDRegistry
+							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
+			outgoinglinks.addChildren(createNavigatorItems(connectedViews, outgoinglinks, true));
+			if (!incominglinks.isEmpty()) {
+				result.add(incominglinks);
+			}
+			if (!outgoinglinks.isEmpty()) {
+				result.add(outgoinglinks);
+			}
+			return result.toArray();
+		}
+
+		case DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID: {
+			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
+			Node sv = (Node) view;
+			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
+					DataArch.diagram.part.Messages.NavigatorGroupName_VerifyData_3061_incominglinks,
+					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
+			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
+					DataArch.diagram.part.Messages.NavigatorGroupName_VerifyData_3061_outgoinglinks,
+					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
+			Collection<View> connectedViews;
+			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
+					DataArch.diagram.part.DataArchVisualIDRegistry
+							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
+			incominglinks.addChildren(createNavigatorItems(connectedViews, incominglinks, true));
+			connectedViews = getOutgoingLinksByType(Collections.singleton(sv),
+					DataArch.diagram.part.DataArchVisualIDRegistry
+							.getType(DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID));
+			outgoinglinks.addChildren(createNavigatorItems(connectedViews, outgoinglinks, true));
+			if (!incominglinks.isEmpty()) {
+				result.add(incominglinks);
+			}
+			if (!outgoinglinks.isEmpty()) {
+				result.add(outgoinglinks);
+			}
+			return result.toArray();
+		}
+
+		case DataArch.diagram.edit.parts.InMessagePortEditPart.VISUAL_ID: {
+			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
+			Node sv = (Node) view;
+			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
+					DataArch.diagram.part.Messages.NavigatorGroupName_InMessagePort_3062_incominglinks,
+					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
+			Collection<View> connectedViews;
+			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
+					DataArch.diagram.part.DataArchVisualIDRegistry
+							.getType(DataArch.diagram.edit.parts.ConnectionEditPart.VISUAL_ID));
+			incominglinks.addChildren(createNavigatorItems(connectedViews, incominglinks, true));
+			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
+					DataArch.diagram.part.DataArchVisualIDRegistry
+							.getType(DataArch.diagram.edit.parts.ReceiveDataFromMessagePortsEditPart.VISUAL_ID));
+			incominglinks.addChildren(createNavigatorItems(connectedViews, incominglinks, true));
+			if (!incominglinks.isEmpty()) {
+				result.add(incominglinks);
+			}
+			return result.toArray();
+		}
+
+		case DataArch.diagram.edit.parts.OutMessagePortEditPart.VISUAL_ID: {
+			LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem> result = new LinkedList<DataArch.diagram.navigator.DataArchAbstractNavigatorItem>();
+			Node sv = (Node) view;
+			DataArch.diagram.navigator.DataArchNavigatorGroup outgoinglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
+					DataArch.diagram.part.Messages.NavigatorGroupName_OutMessagePort_3063_outgoinglinks,
+					"icons/outgoingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
+			DataArch.diagram.navigator.DataArchNavigatorGroup incominglinks = new DataArch.diagram.navigator.DataArchNavigatorGroup(
+					DataArch.diagram.part.Messages.NavigatorGroupName_OutMessagePort_3063_incominglinks,
+					"icons/incomingLinksNavigatorGroup.gif", parentElement); //$NON-NLS-1$
+			Collection<View> connectedViews;
+			connectedViews = getOutgoingLinksByType(Collections.singleton(sv),
+					DataArch.diagram.part.DataArchVisualIDRegistry
+							.getType(DataArch.diagram.edit.parts.ConnectionEditPart.VISUAL_ID));
+			outgoinglinks.addChildren(createNavigatorItems(connectedViews, outgoinglinks, true));
+			connectedViews = getIncomingLinksByType(Collections.singleton(sv),
+					DataArch.diagram.part.DataArchVisualIDRegistry
+							.getType(DataArch.diagram.edit.parts.SendDataToMessagePortsEditPart.VISUAL_ID));
+			incominglinks.addChildren(createNavigatorItems(connectedViews, incominglinks, true));
+			if (!outgoinglinks.isEmpty()) {
+				result.add(outgoinglinks);
+			}
+			if (!incominglinks.isEmpty()) {
+				result.add(incominglinks);
 			}
 			return result.toArray();
 		}
@@ -2539,6 +2572,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID));
 			target.addChildren(createNavigatorItems(connectedViews, target, true));
+			connectedViews = getLinksTargetByType(Collections.singleton(sv),
+					DataArch.diagram.part.DataArchVisualIDRegistry
+							.getType(DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID));
+			target.addChildren(createNavigatorItems(connectedViews, target, true));
 			connectedViews = getLinksSourceByType(Collections.singleton(sv),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.AudioEditPart.VISUAL_ID));
@@ -2778,6 +2815,10 @@ public class DataArchNavigatorContentProvider implements ICommonContentProvider 
 			connectedViews = getLinksSourceByType(Collections.singleton(sv),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID));
+			source.addChildren(createNavigatorItems(connectedViews, source, true));
+			connectedViews = getLinksSourceByType(Collections.singleton(sv),
+					DataArch.diagram.part.DataArchVisualIDRegistry
+							.getType(DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID));
 			source.addChildren(createNavigatorItems(connectedViews, source, true));
 			if (!target.isEmpty()) {
 				result.add(target);

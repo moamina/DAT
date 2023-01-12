@@ -25,7 +25,7 @@ public class ProcessItemSemanticEditPolicy extends DataArch.diagram.edit.policie
 	* @generated
 	*/
 	public ProcessItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Process_3057);
+		super(DataArch.diagram.providers.DataArchElementTypes.Process_3060);
 	}
 
 	/**

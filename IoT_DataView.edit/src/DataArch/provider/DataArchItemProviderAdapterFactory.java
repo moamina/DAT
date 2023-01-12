@@ -1590,6 +1590,52 @@ public class DataArchItemProviderAdapterFactory extends DataArchAdapterFactory i
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link DataArch.VerifyData} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected VerifyDataItemProvider verifyDataItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link DataArch.VerifyData}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createVerifyDataAdapter() {
+		if (verifyDataItemProvider == null) {
+			verifyDataItemProvider = new VerifyDataItemProvider(this);
+		}
+
+		return verifyDataItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link DataArch.QualityMetrices} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected QualityMetricesItemProvider qualityMetricesItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link DataArch.QualityMetrices}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createQualityMetricesAdapter() {
+		if (qualityMetricesItemProvider == null) {
+			qualityMetricesItemProvider = new QualityMetricesItemProvider(this);
+		}
+
+		return qualityMetricesItemProvider;
+	}
+
+	/**
 	 * This returns the root adapter factory that contains this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1760,6 +1806,8 @@ public class DataArchItemProviderAdapterFactory extends DataArchAdapterFactory i
 		if (saveItemProvider != null) saveItemProvider.dispose();
 		if (archiveItemProvider != null) archiveItemProvider.dispose();
 		if (governItemProvider != null) governItemProvider.dispose();
+		if (verifyDataItemProvider != null) verifyDataItemProvider.dispose();
+		if (qualityMetricesItemProvider != null) qualityMetricesItemProvider.dispose();
 	}
 
 }

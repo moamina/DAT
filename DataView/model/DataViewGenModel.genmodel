@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/DataView/src" modelPluginID="DataView" modelName="DataViewGenModel"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="8.0" copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>DataView.ecore</foreignModel>
+  <genPackages prefix="DataView_MM" disposableProviderFactory="true" ecorePackage="DataView.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="DataView.ecore#//DataLinkTypes">
+      <genEnumLiterals ecoreEnumLiteral="DataView.ecore#//DataLinkTypes/CONTINUOUS"/>
+      <genEnumLiterals ecoreEnumLiteral="DataView.ecore#//DataLinkTypes/INTERMITTENT"/>
+      <genEnumLiterals ecoreEnumLiteral="DataView.ecore#//DataLinkTypes/BATCHES"/>
+      <genEnumLiterals ecoreEnumLiteral="DataView.ecore#//DataLinkTypes/STRUCTURED"/>
+      <genEnumLiterals ecoreEnumLiteral="DataView.ecore#//DataLinkTypes/LABELLED"/>
+      <genEnumLiterals ecoreEnumLiteral="DataView.ecore#//DataLinkTypes/PREPROCESSED"/>
+    </genEnums>
+    <genClasses ecoreClass="DataView.ecore#//DataView_Model">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference DataView.ecore#//DataView_Model/nodes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference DataView.ecore#//DataView_Model/links"/>
+    </genClasses>
+    <genClasses ecoreClass="DataView.ecore#//Node">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute DataView.ecore#//Node/NodeName"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference DataView.ecore#//Node/outgoing"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference DataView.ecore#//Node/incoming"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference DataView.ecore#//Node/dataRepresentation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference DataView.ecore#//Node/nodeBehavior"/>
+    </genClasses>
+    <genClasses ecoreClass="DataView.ecore#//Link">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference DataView.ecore#//Link/from"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference DataView.ecore#//Link/to"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference DataView.ecore#//Link/dataRepresentation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference DataView.ecore#//Link/linkBehavior"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute DataView.ecore#//Link/dataLinkTypes"/>
+    </genClasses>
+    <genClasses ecoreClass="DataView.ecore#//NodeBehavior">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference DataView.ecore#//NodeBehavior/nodeAction"/>
+    </genClasses>
+    <genClasses ecoreClass="DataView.ecore#//LinkBehavior">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference DataView.ecore#//LinkBehavior/linkAction"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="DataView.ecore#//NodeAction">
+      <genOperations ecoreOperation="DataView.ecore#//NodeAction/sentData"/>
+      <genOperations ecoreOperation="DataView.ecore#//NodeAction/receiveData"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="DataView.ecore#//LinkAction">
+      <genOperations ecoreOperation="DataView.ecore#//LinkAction/getNext"/>
+      <genOperations ecoreOperation="DataView.ecore#//LinkAction/getPrevious"/>
+      <genOperations ecoreOperation="DataView.ecore#//LinkAction/Transmit"/>
+    </genClasses>
+    <genClasses ecoreClass="DataView.ecore#//GenerateData"/>
+    <genClasses ecoreClass="DataView.ecore#//CollectData"/>
+    <genClasses ecoreClass="DataView.ecore#//IngestData"/>
+    <genClasses ecoreClass="DataView.ecore#//ProcessData"/>
+    <genClasses ecoreClass="DataView.ecore#//StoreData"/>
+    <genClasses ecoreClass="DataView.ecore#//LableData"/>
+    <genClasses ecoreClass="DataView.ecore#//PreprocessData"/>
+    <genClasses ecoreClass="DataView.ecore#//ReceptData"/>
+    <genClasses ecoreClass="DataView.ecore#//AuthinticateData"/>
+    <genClasses ecoreClass="DataView.ecore#//ValidateData"/>
+    <genClasses ecoreClass="DataView.ecore#//MonitorData"/>
+    <genClasses ecoreClass="DataView.ecore#//MitigateData"/>
+    <genClasses ecoreClass="DataView.ecore#//SendingAlarmData"/>
+    <genClasses ecoreClass="DataView.ecore#//DataRepresentation">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference DataView.ecore#//DataRepresentation/dataFormat"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="DataView.ecore#//DataFormat"/>
+    <genClasses ecoreClass="DataView.ecore#//StructuredData"/>
+    <genClasses ecoreClass="DataView.ecore#//SemiStructuredData"/>
+    <genClasses ecoreClass="DataView.ecore#//UnStructuredData"/>
+  </genPackages>
+</genmodel:GenModel>

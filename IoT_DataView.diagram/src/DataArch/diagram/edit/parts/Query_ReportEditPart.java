@@ -38,7 +38,7 @@ public class Query_ReportEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3035;
+	public static final int VISUAL_ID = 3037;
 
 	/**
 	* @generated

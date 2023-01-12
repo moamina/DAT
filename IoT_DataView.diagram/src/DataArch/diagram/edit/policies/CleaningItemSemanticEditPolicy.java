@@ -25,7 +25,7 @@ public class CleaningItemSemanticEditPolicy extends DataArch.diagram.edit.polici
 	* @generated
 	*/
 	public CleaningItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Cleaning_3046);
+		super(DataArch.diagram.providers.DataArchElementTypes.Cleaning_3048);
 	}
 
 	/**

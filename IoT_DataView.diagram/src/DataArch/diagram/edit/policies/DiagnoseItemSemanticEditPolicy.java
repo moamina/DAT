@@ -25,7 +25,7 @@ public class DiagnoseItemSemanticEditPolicy extends DataArch.diagram.edit.polici
 	* @generated
 	*/
 	public DiagnoseItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Diagnose_3031);
+		super(DataArch.diagram.providers.DataArchElementTypes.Diagnose_3033);
 	}
 
 	/**

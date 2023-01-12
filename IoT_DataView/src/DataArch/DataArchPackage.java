@@ -4,6 +4,7 @@ package DataArch;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EEnum;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.EReference;
 
@@ -4830,6 +4831,117 @@ public interface DataArchPackage extends EPackage {
 	 */
 	int GOVERN_FEATURE_COUNT = STORE_FEATURE_COUNT + 0;
 
+	/**
+	 * The meta object id for the '{@link DataArch.impl.VerifyDataImpl <em>Verify Data</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see DataArch.impl.VerifyDataImpl
+	 * @see DataArch.impl.DataArchPackageImpl#getVerifyData()
+	 * @generated
+	 */
+	int VERIFY_DATA = 86;
+
+	/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int VERIFY_DATA__NAME = ACTION__NAME;
+
+	/**
+	 * The feature id for the '<em><b>Outgoing</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int VERIFY_DATA__OUTGOING = ACTION__OUTGOING;
+
+	/**
+	 * The feature id for the '<em><b>Incoming</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int VERIFY_DATA__INCOMING = ACTION__INCOMING;
+
+	/**
+	 * The feature id for the '<em><b>Quality Metrics</b></em>' attribute list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int VERIFY_DATA__QUALITY_METRICS = ACTION_FEATURE_COUNT + 0;
+
+	/**
+	 * The feature id for the '<em><b>Desc</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int VERIFY_DATA__DESC = ACTION_FEATURE_COUNT + 1;
+
+	/**
+	 * The number of structural features of the '<em>Verify Data</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int VERIFY_DATA_FEATURE_COUNT = ACTION_FEATURE_COUNT + 2;
+
+	/**
+	 * The meta object id for the '{@link DataArch.impl.QualityMetricesImpl <em>Quality Metrices</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see DataArch.impl.QualityMetricesImpl
+	 * @see DataArch.impl.DataArchPackageImpl#getQualityMetrices()
+	 * @generated
+	 */
+	int QUALITY_METRICES = 87;
+
+	/**
+	 * The feature id for the '<em><b>Desc</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUALITY_METRICES__DESC = 0;
+
+	/**
+	 * The feature id for the '<em><b>Type</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUALITY_METRICES__TYPE = 1;
+
+	/**
+	 * The number of structural features of the '<em>Quality Metrices</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUALITY_METRICES_FEATURE_COUNT = 2;
+
+	/**
+	 * The meta object id for the '{@link DataArch.Metrics <em>Metrics</em>}' enum.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see DataArch.Metrics
+	 * @see DataArch.impl.DataArchPackageImpl#getMetrics()
+	 * @generated
+	 */
+	int METRICS = 88;
+
 
 	/**
 	 * Returns the meta object for class '{@link DataArch.DataArchitecture <em>Data Architecture</em>}'.
@@ -6385,6 +6497,80 @@ public interface DataArchPackage extends EPackage {
 	EClass getGovern();
 
 	/**
+	 * Returns the meta object for class '{@link DataArch.VerifyData <em>Verify Data</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Verify Data</em>'.
+	 * @see DataArch.VerifyData
+	 * @generated
+	 */
+	EClass getVerifyData();
+
+	/**
+	 * Returns the meta object for the attribute list '{@link DataArch.VerifyData#getQualityMetrics <em>Quality Metrics</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute list '<em>Quality Metrics</em>'.
+	 * @see DataArch.VerifyData#getQualityMetrics()
+	 * @see #getVerifyData()
+	 * @generated
+	 */
+	EAttribute getVerifyData_QualityMetrics();
+
+	/**
+	 * Returns the meta object for the attribute '{@link DataArch.VerifyData#getDesc <em>Desc</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Desc</em>'.
+	 * @see DataArch.VerifyData#getDesc()
+	 * @see #getVerifyData()
+	 * @generated
+	 */
+	EAttribute getVerifyData_Desc();
+
+	/**
+	 * Returns the meta object for class '{@link DataArch.QualityMetrices <em>Quality Metrices</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Quality Metrices</em>'.
+	 * @see DataArch.QualityMetrices
+	 * @generated
+	 */
+	EClass getQualityMetrices();
+
+	/**
+	 * Returns the meta object for the attribute '{@link DataArch.QualityMetrices#getDesc <em>Desc</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Desc</em>'.
+	 * @see DataArch.QualityMetrices#getDesc()
+	 * @see #getQualityMetrices()
+	 * @generated
+	 */
+	EAttribute getQualityMetrices_Desc();
+
+	/**
+	 * Returns the meta object for the attribute '{@link DataArch.QualityMetrices#getType <em>Type</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Type</em>'.
+	 * @see DataArch.QualityMetrices#getType()
+	 * @see #getQualityMetrices()
+	 * @generated
+	 */
+	EAttribute getQualityMetrices_Type();
+
+	/**
+	 * Returns the meta object for enum '{@link DataArch.Metrics <em>Metrics</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for enum '<em>Metrics</em>'.
+	 * @see DataArch.Metrics
+	 * @generated
+	 */
+	EEnum getMetrics();
+
+	/**
 	 * Returns the factory that creates the instances of the model.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -7769,6 +7955,68 @@ public interface DataArchPackage extends EPackage {
 		 * @generated
 		 */
 		EClass GOVERN = eINSTANCE.getGovern();
+
+		/**
+		 * The meta object literal for the '{@link DataArch.impl.VerifyDataImpl <em>Verify Data</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see DataArch.impl.VerifyDataImpl
+		 * @see DataArch.impl.DataArchPackageImpl#getVerifyData()
+		 * @generated
+		 */
+		EClass VERIFY_DATA = eINSTANCE.getVerifyData();
+
+		/**
+		 * The meta object literal for the '<em><b>Quality Metrics</b></em>' attribute list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute VERIFY_DATA__QUALITY_METRICS = eINSTANCE.getVerifyData_QualityMetrics();
+
+		/**
+		 * The meta object literal for the '<em><b>Desc</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute VERIFY_DATA__DESC = eINSTANCE.getVerifyData_Desc();
+
+		/**
+		 * The meta object literal for the '{@link DataArch.impl.QualityMetricesImpl <em>Quality Metrices</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see DataArch.impl.QualityMetricesImpl
+		 * @see DataArch.impl.DataArchPackageImpl#getQualityMetrices()
+		 * @generated
+		 */
+		EClass QUALITY_METRICES = eINSTANCE.getQualityMetrices();
+
+		/**
+		 * The meta object literal for the '<em><b>Desc</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute QUALITY_METRICES__DESC = eINSTANCE.getQualityMetrices_Desc();
+
+		/**
+		 * The meta object literal for the '<em><b>Type</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute QUALITY_METRICES__TYPE = eINSTANCE.getQualityMetrices_Type();
+
+		/**
+		 * The meta object literal for the '{@link DataArch.Metrics <em>Metrics</em>}' enum.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see DataArch.Metrics
+		 * @see DataArch.impl.DataArchPackageImpl#getMetrics()
+		 * @generated
+		 */
+		EEnum METRICS = eINSTANCE.getMetrics();
 
 	}
 

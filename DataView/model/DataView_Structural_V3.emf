@@ -1,0 +1,247 @@
+@namespace(uri="MM", prefix="DV_MM")
+package DataView_MM;
+
+/* Root Def. */
+class DataArchitecture {
+	val Node[*] nodes;
+	val Connection[*] links;
+}
+
+/*Main Two Components Node & Link*/
+class Node{
+	attr String NodeName;
+	ref Connection[*]#from outgoing;
+	ref Connection[*]#to incoming;
+	
+	val DataRepresentation[1..*] dataRepresentation;	
+	val Mode[1..*] mode;
+	val MessagePort[*] ports;
+}
+class Connection{
+	
+	ref Node#outgoing from;
+	ref Node#incoming to;
+	
+	
+	val LinkBehavior linkBehavior;
+	attr DataLinkTypes[*] dataLinkTypes;
+	
+	ref OutMessagePort[1] source;
+  	ref InMessagePort[1] target;
+	
+}
+
+abstract class MessagePort {
+  attr String name;
+}
+
+
+class InMessagePort extends MessagePort {
+}
+
+
+class OutMessagePort extends MessagePort {
+}
+
+class Mode
+{
+	val NodeBehavior[1] nodeBehavior;
+}
+class initialMode extends Mode{
+	
+}
+
+
+/*
+	Behaviors Def.
+*/
+class NodeBehavior{
+	//val NodeAction nodeAction;
+}
+
+class LinkBehavior{
+	//val LinkAction linkAction;
+}
+/*
+abstract class NodeAction {
+	op boolean sentData();
+	op DataRepresentation receiveData();
+	op boolean storeData();
+}
+abstract class LinkAction {
+	
+	
+	
+}
+*/
+//////////////////[ Data-Representation Def. ] ///////////////////////////
+class DataRepresentation
+{
+	ref DataFormat dataFormat;	
+	attr String dataDescription;
+	attr SensitivityLevel sensitivityLevel;
+	ref DataProcessingType dataProcessingType;
+	ref DataStorageType dataStorageType;
+	//---------------
+	//ref Node source;
+	//ref Node destination;
+	//.......
+	// source & destination
+	// Data -- status (encrypted, normal, encoded, ... )
+	// other info.
+	// 
+}
+
+abstract class DataFormat{}
+abstract class StructuredData extends DataFormat{}
+abstract class SemiStructuredData extends DataFormat{}
+abstract class UnStructuredData extends DataFormat{}
+
+abstract class DataStorageType{}
+class HDFS extends DataStorageType{}
+class Relational extends DataStorageType{}
+class Multidimensional extends DataStorageType{}
+abstract class NoSQL extends DataStorageType{}
+
+/*
+class DocumentOriented extends NoSQL{}
+class ColumnOriented extends NoSQL{}
+class GraphsDatabase extends NoSQL{}
+class KeyValue extends NoSQL{}
+*/
+
+abstract class DataProcessingType{}
+class RealTime extends DataProcessingType{}
+class Batch extends DataProcessingType{}
+/////////// StructuredData
+/////////// StructuredData ------ Data Base ------
+/*
+class RelationalDB extends StructuredData{
+	attr String dbName;
+}
+
+
+/////////// SemiStructuredData 
+class XML extends SemiStructuredData{
+	
+}
+
+
+class JSON extends SemiStructuredData{
+	
+}
+class CSV extends SemiStructuredData{
+	
+}
+class Excel extends SemiStructuredData{
+	
+}
+class HTML extends SemiStructuredData{
+	
+}
+
+//Resource Description Framework
+class RDF extends SemiStructuredData{
+	
+}
+//Electronic data interchange (EDI)
+class EDI extends SemiStructuredData{}
+//Really Simple Syndication
+//class RSS extends SemiStructuredData{}
+//Really Simple Syndication
+//class SOAP extends SemiStructuredData{}
+
+class SMS extends SemiStructuredData{
+	
+}
+class Email extends SemiStructuredData{
+	
+	ref UnStructuredData[*] attachmentData;
+}
+*/
+////////// UnStructuredData
+
+/*abstract class Multimedia extends UnStructuredData{
+	
+}
+
+class Audio extends Multimedia{
+	
+}
+class Video extends Multimedia{
+	
+}
+class Image extends Multimedia{
+	
+	
+}
+
+class GPSData extends UnStructuredData{
+	
+	
+}
+
+abstract class OfficeFile extends UnStructuredData{
+	
+}
+
+class Logs extends  OfficeFile{
+	
+}
+class WordFile extends  OfficeFile{
+	
+}
+
+class PDFFile extends  OfficeFile{
+	
+}
+class TextFile extends  OfficeFile{
+	
+}
+
+
+
+class SensorData extends UnStructuredData{
+	
+}
+*/
+
+/*Enums Def.*/
+enum DataLinkTypes
+{
+	CONTINUOUS=1;
+	INTERMITTENT=2;
+	BATCHES=3;
+	STRUCTURED=4;
+	LABELLED=5;
+	PREPROCESSED=6;
+}
+enum SensitivityLevel 
+{
+	High=1;
+	Medium=2;
+	Low=3;
+}
+
+/* 
+enum DataBaseLocation
+{
+	
+	Centralized=1;
+	Distributed=2;	
+	
+}*/
+/* 
+enum DataBaseDesign
+{
+	//The purpose of multidimensional databases is to support data analysis (OLAP) addressed to decision support
+	//unlike relational databases that are dedicated to daily transactions (OLTP) of an entity
+	Operational_OLTP=1;	
+	Analytical_OLAP=2;
+	
+} */
+enum DataBaseHosting
+{	
+	Local=1;
+	Cloud=2;	
+}

@@ -57,7 +57,7 @@ public class File_SystemNameEditPart extends LabelEditPart implements ITextAware
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5024;
+	public static final int VISUAL_ID = 5026;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class File_SystemNameEditPart extends LabelEditPart implements ITextAware
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.File_System_3024, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.File_System_3026, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.File_SystemNameEditPart.VISUAL_ID));
 		}

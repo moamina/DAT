@@ -57,7 +57,7 @@ public class MultidimensionalNameEditPart extends LabelEditPart implements IText
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5026;
+	public static final int VISUAL_ID = 5028;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class MultidimensionalNameEditPart extends LabelEditPart implements IText
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.Multidimensional_3026, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.Multidimensional_3028, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.MultidimensionalNameEditPart.VISUAL_ID));
 		}

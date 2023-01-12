@@ -38,7 +38,7 @@ public class Math_OperationEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3048;
+	public static final int VISUAL_ID = 3050;
 
 	/**
 	* @generated

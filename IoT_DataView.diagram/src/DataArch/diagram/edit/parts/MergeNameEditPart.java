@@ -57,7 +57,7 @@ public class MergeNameEditPart extends LabelEditPart implements ITextAwareEditPa
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5044;
+	public static final int VISUAL_ID = 5046;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class MergeNameEditPart extends LabelEditPart implements ITextAwareEditPa
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.Merge_3044, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.Merge_3046, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.MergeNameEditPart.VISUAL_ID));
 		}

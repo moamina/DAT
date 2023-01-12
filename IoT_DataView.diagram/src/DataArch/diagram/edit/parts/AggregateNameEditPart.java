@@ -57,7 +57,7 @@ public class AggregateNameEditPart extends LabelEditPart implements ITextAwareEd
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5045;
+	public static final int VISUAL_ID = 5047;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class AggregateNameEditPart extends LabelEditPart implements ITextAwareEd
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.Aggregate_3045, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.Aggregate_3047, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.AggregateNameEditPart.VISUAL_ID));
 		}

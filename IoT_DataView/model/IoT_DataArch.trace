@@ -7,7 +7,7 @@
       visualID="2001"
       queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataArchitecture') and _containmentMF_.name = 'dataNodes')">
     <nodeLabelTraces
-        visualID="5060"
+        visualID="5064"
         queryText="true"/>
     <compartmentTraces
         visualID="7001"
@@ -176,273 +176,280 @@
   </childNodeTraces>
   <childNodeTraces
       visualID="3024"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'File_System') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Cloud') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5024"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3025"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Relational') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'On_Premise') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5025"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3026"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Multidimensional') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'File_System') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5026"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3027"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'RealTime') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Relational') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5027"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3028"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Batch') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Multidimensional') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5028"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3029"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Filter') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'RealTime') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5029"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3030"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Describe') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Batch') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5030"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3031"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Diagnose') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Filter') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5031"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3032"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Predict') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Describe') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5032"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3033"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Prescript') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Diagnose') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5033"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3034"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Visualize') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Predict') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5034"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3035"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Query_Report') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Prescript') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5035"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3036"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'API') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Visualize') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5036"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3037"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Tranfrom') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Query_Report') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5037"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3038"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Compress') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'API') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5038"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3039"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Integrate') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Tranfrom') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5039"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3040"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Identify') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Compress') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5040"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3041"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Validate') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Integrate') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5041"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3042"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Classify') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Identify') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5042"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3043"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Sort') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Validate') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5043"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3044"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Merge') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Classify') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5044"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3045"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Aggregate') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Sort') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5045"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3046"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Cleaning') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Merge') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5046"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3047"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'ReduceNoise') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Aggregate') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5047"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3048"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Math_Operation') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Cleaning') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5048"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3049"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Retrieve') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'ReduceNoise') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5049"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3050"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Save') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Math_Operation') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5050"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3051"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Archive') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Retrieve') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5051"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3052"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Govern') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Save') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5052"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3053"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'ReceiveData') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Archive') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5053"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3054"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'SendData') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Govern') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5054"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3055"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Generate') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'ReceiveData') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5055"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3056"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Analyze') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'SendData') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5056"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3057"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Process') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Generate') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5057"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3058"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'InMessagePort') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'ports')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Ingest') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5058"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3059"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'OutMessagePort') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'ports')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Analyze') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5059"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
       visualID="3060"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Cloud') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Process') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+    <nodeLabelTraces
+        visualID="5060"
+        queryText="true"/>
+  </childNodeTraces>
+  <childNodeTraces
+      visualID="3061"
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'VerifyData') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
     <nodeLabelTraces
         visualID="5061"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
-      visualID="3061"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'On_Premise') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      visualID="3062"
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'InMessagePort') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'ports')">
     <nodeLabelTraces
         visualID="5062"
         queryText="true"/>
   </childNodeTraces>
   <childNodeTraces
-      visualID="3062"
-      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'Ingest') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'behaviouralElements')">
+      visualID="3063"
+      queryText="(let _eClass_:ecore::EClass = modelFacet.metaClass.ecoreClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'OutMessagePort') and (let _containmentMF_:ecore::EStructuralFeature = modelFacet.containmentMetaFeature.ecoreFeature in (let _eClass_:ecore::EClass = _containmentMF_.eContainingClass in _eClass_.ePackage.nsURI = 'DataArch' and _eClass_.name = 'DataNode') and _containmentMF_.name = 'ports')">
     <nodeLabelTraces
         visualID="5063"
         queryText="true"/>

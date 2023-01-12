@@ -26,7 +26,7 @@ public class RelationalItemSemanticEditPolicy
 	* @generated
 	*/
 	public RelationalItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Relational_3025);
+		super(DataArch.diagram.providers.DataArchElementTypes.Relational_3027);
 	}
 
 	/**

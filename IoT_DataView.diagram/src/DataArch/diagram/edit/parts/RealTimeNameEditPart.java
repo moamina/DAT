@@ -57,7 +57,7 @@ public class RealTimeNameEditPart extends LabelEditPart implements ITextAwareEdi
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5027;
+	public static final int VISUAL_ID = 5029;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class RealTimeNameEditPart extends LabelEditPart implements ITextAwareEdi
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.RealTime_3027, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.RealTime_3029, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.RealTimeNameEditPart.VISUAL_ID));
 		}

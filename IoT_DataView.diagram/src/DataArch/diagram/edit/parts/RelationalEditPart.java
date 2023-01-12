@@ -38,7 +38,7 @@ public class RelationalEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3025;
+	public static final int VISUAL_ID = 3027;
 
 	/**
 	* @generated

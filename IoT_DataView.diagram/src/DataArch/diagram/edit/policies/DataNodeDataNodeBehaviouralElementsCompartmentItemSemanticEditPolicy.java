@@ -92,116 +92,119 @@ public class DataNodeDataNodeBehaviouralElementsCompartmentItemSemanticEditPolic
 		if (DataArch.diagram.providers.DataArchElementTypes.KeyValue_3023 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.KeyValueCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Cloud_3060 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Cloud_3024 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.CloudCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.On_Premise_3061 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.On_Premise_3025 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.On_PremiseCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.File_System_3024 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.File_System_3026 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.File_SystemCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Relational_3025 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Relational_3027 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.RelationalCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Multidimensional_3026 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Multidimensional_3028 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.MultidimensionalCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.RealTime_3027 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.RealTime_3029 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.RealTimeCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Batch_3028 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Batch_3030 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.BatchCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Filter_3029 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Filter_3031 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.FilterCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Describe_3030 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Describe_3032 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.DescribeCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Diagnose_3031 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Diagnose_3033 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.DiagnoseCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Predict_3032 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Predict_3034 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.PredictCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Prescript_3033 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Prescript_3035 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.PrescriptCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Visualize_3034 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Visualize_3036 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.VisualizeCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Query_Report_3035 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Query_Report_3037 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.Query_ReportCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.API_3036 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.API_3038 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.APICreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Tranfrom_3037 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Tranfrom_3039 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.TranfromCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Compress_3038 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Compress_3040 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.CompressCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Integrate_3039 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Integrate_3041 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.IntegrateCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Identify_3040 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Identify_3042 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.IdentifyCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Validate_3041 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Validate_3043 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.ValidateCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Classify_3042 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Classify_3044 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.ClassifyCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Sort_3043 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Sort_3045 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.SortCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Merge_3044 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Merge_3046 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.MergeCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Aggregate_3045 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Aggregate_3047 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.AggregateCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Cleaning_3046 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Cleaning_3048 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.CleaningCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.ReduceNoise_3047 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.ReduceNoise_3049 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.ReduceNoiseCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Math_Operation_3048 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Math_Operation_3050 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.Math_OperationCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Retrieve_3049 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Retrieve_3051 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.RetrieveCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Save_3050 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Save_3052 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.SaveCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Archive_3051 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Archive_3053 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.ArchiveCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Govern_3052 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Govern_3054 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.GovernCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.ReceiveData_3053 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.ReceiveData_3055 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.ReceiveDataCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.SendData_3054 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.SendData_3056 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.SendDataCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Generate_3055 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Generate_3057 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.GenerateCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Ingest_3062 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Ingest_3058 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.IngestCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Analyze_3056 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Analyze_3059 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.AnalyzeCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.Process_3057 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.Process_3060 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.ProcessCreateCommand(req));
+		}
+		if (DataArch.diagram.providers.DataArchElementTypes.VerifyData_3061 == req.getElementType()) {
+			return getGEFWrapper(new DataArch.diagram.edit.commands.VerifyDataCreateCommand(req));
 		}
 		return super.getCreateCommand(req);
 	}

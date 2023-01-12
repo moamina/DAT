@@ -24,19 +24,19 @@ public class DataArchParserProvider extends AbstractProvider implements IParserP
 	/**
 	* @generated
 	*/
-	private IParser dataNodeNodeName_5060Parser;
+	private IParser dataNodeNodeName_5064Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getDataNodeNodeName_5060Parser() {
-		if (dataNodeNodeName_5060Parser == null) {
+	private IParser getDataNodeNodeName_5064Parser() {
+		if (dataNodeNodeName_5064Parser == null) {
 			EAttribute[] features = new EAttribute[] { DataArch.DataArchPackage.eINSTANCE.getDataNode_NodeName() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			dataNodeNodeName_5060Parser = parser;
+			dataNodeNodeName_5064Parser = parser;
 		}
-		return dataNodeNodeName_5060Parser;
+		return dataNodeNodeName_5064Parser;
 	}
 
 	/**
@@ -479,740 +479,759 @@ public class DataArchParserProvider extends AbstractProvider implements IParserP
 	/**
 	* @generated
 	*/
-	private IParser cloudName_5061Parser;
+	private IParser cloudName_5024Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getCloudName_5061Parser() {
-		if (cloudName_5061Parser == null) {
+	private IParser getCloudName_5024Parser() {
+		if (cloudName_5024Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			cloudName_5061Parser = parser;
+			cloudName_5024Parser = parser;
 		}
-		return cloudName_5061Parser;
+		return cloudName_5024Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser on_PremiseName_5062Parser;
+	private IParser on_PremiseName_5025Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getOn_PremiseName_5062Parser() {
-		if (on_PremiseName_5062Parser == null) {
+	private IParser getOn_PremiseName_5025Parser() {
+		if (on_PremiseName_5025Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			on_PremiseName_5062Parser = parser;
+			on_PremiseName_5025Parser = parser;
 		}
-		return on_PremiseName_5062Parser;
+		return on_PremiseName_5025Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser file_SystemName_5024Parser;
+	private IParser file_SystemName_5026Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getFile_SystemName_5024Parser() {
-		if (file_SystemName_5024Parser == null) {
+	private IParser getFile_SystemName_5026Parser() {
+		if (file_SystemName_5026Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			file_SystemName_5024Parser = parser;
+			file_SystemName_5026Parser = parser;
 		}
-		return file_SystemName_5024Parser;
+		return file_SystemName_5026Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser relationalName_5025Parser;
+	private IParser relationalName_5027Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getRelationalName_5025Parser() {
-		if (relationalName_5025Parser == null) {
+	private IParser getRelationalName_5027Parser() {
+		if (relationalName_5027Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			relationalName_5025Parser = parser;
+			relationalName_5027Parser = parser;
 		}
-		return relationalName_5025Parser;
+		return relationalName_5027Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser multidimensionalName_5026Parser;
+	private IParser multidimensionalName_5028Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getMultidimensionalName_5026Parser() {
-		if (multidimensionalName_5026Parser == null) {
+	private IParser getMultidimensionalName_5028Parser() {
+		if (multidimensionalName_5028Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			multidimensionalName_5026Parser = parser;
+			multidimensionalName_5028Parser = parser;
 		}
-		return multidimensionalName_5026Parser;
+		return multidimensionalName_5028Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser realTimeName_5027Parser;
+	private IParser realTimeName_5029Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getRealTimeName_5027Parser() {
-		if (realTimeName_5027Parser == null) {
+	private IParser getRealTimeName_5029Parser() {
+		if (realTimeName_5029Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			realTimeName_5027Parser = parser;
+			realTimeName_5029Parser = parser;
 		}
-		return realTimeName_5027Parser;
+		return realTimeName_5029Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser batchName_5028Parser;
+	private IParser batchName_5030Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getBatchName_5028Parser() {
-		if (batchName_5028Parser == null) {
+	private IParser getBatchName_5030Parser() {
+		if (batchName_5030Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			batchName_5028Parser = parser;
+			batchName_5030Parser = parser;
 		}
-		return batchName_5028Parser;
+		return batchName_5030Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser filterName_5029Parser;
+	private IParser filterName_5031Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getFilterName_5029Parser() {
-		if (filterName_5029Parser == null) {
+	private IParser getFilterName_5031Parser() {
+		if (filterName_5031Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			filterName_5029Parser = parser;
+			filterName_5031Parser = parser;
 		}
-		return filterName_5029Parser;
+		return filterName_5031Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser describeName_5030Parser;
+	private IParser describeName_5032Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getDescribeName_5030Parser() {
-		if (describeName_5030Parser == null) {
+	private IParser getDescribeName_5032Parser() {
+		if (describeName_5032Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			describeName_5030Parser = parser;
+			describeName_5032Parser = parser;
 		}
-		return describeName_5030Parser;
+		return describeName_5032Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser diagnoseName_5031Parser;
+	private IParser diagnoseName_5033Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getDiagnoseName_5031Parser() {
-		if (diagnoseName_5031Parser == null) {
+	private IParser getDiagnoseName_5033Parser() {
+		if (diagnoseName_5033Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			diagnoseName_5031Parser = parser;
+			diagnoseName_5033Parser = parser;
 		}
-		return diagnoseName_5031Parser;
+		return diagnoseName_5033Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser predictName_5032Parser;
+	private IParser predictName_5034Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getPredictName_5032Parser() {
-		if (predictName_5032Parser == null) {
+	private IParser getPredictName_5034Parser() {
+		if (predictName_5034Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			predictName_5032Parser = parser;
+			predictName_5034Parser = parser;
 		}
-		return predictName_5032Parser;
+		return predictName_5034Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser prescriptName_5033Parser;
+	private IParser prescriptName_5035Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getPrescriptName_5033Parser() {
-		if (prescriptName_5033Parser == null) {
+	private IParser getPrescriptName_5035Parser() {
+		if (prescriptName_5035Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			prescriptName_5033Parser = parser;
+			prescriptName_5035Parser = parser;
 		}
-		return prescriptName_5033Parser;
+		return prescriptName_5035Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser visualizeName_5034Parser;
+	private IParser visualizeName_5036Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getVisualizeName_5034Parser() {
-		if (visualizeName_5034Parser == null) {
+	private IParser getVisualizeName_5036Parser() {
+		if (visualizeName_5036Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			visualizeName_5034Parser = parser;
+			visualizeName_5036Parser = parser;
 		}
-		return visualizeName_5034Parser;
+		return visualizeName_5036Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser query_ReportName_5035Parser;
+	private IParser query_ReportName_5037Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getQuery_ReportName_5035Parser() {
-		if (query_ReportName_5035Parser == null) {
+	private IParser getQuery_ReportName_5037Parser() {
+		if (query_ReportName_5037Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			query_ReportName_5035Parser = parser;
+			query_ReportName_5037Parser = parser;
 		}
-		return query_ReportName_5035Parser;
+		return query_ReportName_5037Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser aPIName_5036Parser;
+	private IParser aPIName_5038Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getAPIName_5036Parser() {
-		if (aPIName_5036Parser == null) {
+	private IParser getAPIName_5038Parser() {
+		if (aPIName_5038Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			aPIName_5036Parser = parser;
+			aPIName_5038Parser = parser;
 		}
-		return aPIName_5036Parser;
+		return aPIName_5038Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser tranfromName_5037Parser;
+	private IParser tranfromName_5039Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getTranfromName_5037Parser() {
-		if (tranfromName_5037Parser == null) {
+	private IParser getTranfromName_5039Parser() {
+		if (tranfromName_5039Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			tranfromName_5037Parser = parser;
+			tranfromName_5039Parser = parser;
 		}
-		return tranfromName_5037Parser;
+		return tranfromName_5039Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser compressName_5038Parser;
+	private IParser compressName_5040Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getCompressName_5038Parser() {
-		if (compressName_5038Parser == null) {
+	private IParser getCompressName_5040Parser() {
+		if (compressName_5040Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			compressName_5038Parser = parser;
+			compressName_5040Parser = parser;
 		}
-		return compressName_5038Parser;
+		return compressName_5040Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser integrateName_5039Parser;
+	private IParser integrateName_5041Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getIntegrateName_5039Parser() {
-		if (integrateName_5039Parser == null) {
+	private IParser getIntegrateName_5041Parser() {
+		if (integrateName_5041Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			integrateName_5039Parser = parser;
+			integrateName_5041Parser = parser;
 		}
-		return integrateName_5039Parser;
+		return integrateName_5041Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser identifyName_5040Parser;
+	private IParser identifyName_5042Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getIdentifyName_5040Parser() {
-		if (identifyName_5040Parser == null) {
+	private IParser getIdentifyName_5042Parser() {
+		if (identifyName_5042Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			identifyName_5040Parser = parser;
+			identifyName_5042Parser = parser;
 		}
-		return identifyName_5040Parser;
+		return identifyName_5042Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser validateName_5041Parser;
+	private IParser validateName_5043Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getValidateName_5041Parser() {
-		if (validateName_5041Parser == null) {
+	private IParser getValidateName_5043Parser() {
+		if (validateName_5043Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			validateName_5041Parser = parser;
+			validateName_5043Parser = parser;
 		}
-		return validateName_5041Parser;
+		return validateName_5043Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser classifyName_5042Parser;
+	private IParser classifyName_5044Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getClassifyName_5042Parser() {
-		if (classifyName_5042Parser == null) {
+	private IParser getClassifyName_5044Parser() {
+		if (classifyName_5044Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			classifyName_5042Parser = parser;
+			classifyName_5044Parser = parser;
 		}
-		return classifyName_5042Parser;
+		return classifyName_5044Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser sortName_5043Parser;
+	private IParser sortName_5045Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getSortName_5043Parser() {
-		if (sortName_5043Parser == null) {
+	private IParser getSortName_5045Parser() {
+		if (sortName_5045Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			sortName_5043Parser = parser;
+			sortName_5045Parser = parser;
 		}
-		return sortName_5043Parser;
+		return sortName_5045Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser mergeName_5044Parser;
+	private IParser mergeName_5046Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getMergeName_5044Parser() {
-		if (mergeName_5044Parser == null) {
+	private IParser getMergeName_5046Parser() {
+		if (mergeName_5046Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			mergeName_5044Parser = parser;
+			mergeName_5046Parser = parser;
 		}
-		return mergeName_5044Parser;
+		return mergeName_5046Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser aggregateName_5045Parser;
+	private IParser aggregateName_5047Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getAggregateName_5045Parser() {
-		if (aggregateName_5045Parser == null) {
+	private IParser getAggregateName_5047Parser() {
+		if (aggregateName_5047Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			aggregateName_5045Parser = parser;
+			aggregateName_5047Parser = parser;
 		}
-		return aggregateName_5045Parser;
+		return aggregateName_5047Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser cleaningName_5046Parser;
+	private IParser cleaningName_5048Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getCleaningName_5046Parser() {
-		if (cleaningName_5046Parser == null) {
+	private IParser getCleaningName_5048Parser() {
+		if (cleaningName_5048Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			cleaningName_5046Parser = parser;
+			cleaningName_5048Parser = parser;
 		}
-		return cleaningName_5046Parser;
+		return cleaningName_5048Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser reduceNoiseName_5047Parser;
+	private IParser reduceNoiseName_5049Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getReduceNoiseName_5047Parser() {
-		if (reduceNoiseName_5047Parser == null) {
+	private IParser getReduceNoiseName_5049Parser() {
+		if (reduceNoiseName_5049Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			reduceNoiseName_5047Parser = parser;
+			reduceNoiseName_5049Parser = parser;
 		}
-		return reduceNoiseName_5047Parser;
+		return reduceNoiseName_5049Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser math_OperationName_5048Parser;
+	private IParser math_OperationName_5050Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getMath_OperationName_5048Parser() {
-		if (math_OperationName_5048Parser == null) {
+	private IParser getMath_OperationName_5050Parser() {
+		if (math_OperationName_5050Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			math_OperationName_5048Parser = parser;
+			math_OperationName_5050Parser = parser;
 		}
-		return math_OperationName_5048Parser;
+		return math_OperationName_5050Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser retrieveName_5049Parser;
+	private IParser retrieveName_5051Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getRetrieveName_5049Parser() {
-		if (retrieveName_5049Parser == null) {
+	private IParser getRetrieveName_5051Parser() {
+		if (retrieveName_5051Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			retrieveName_5049Parser = parser;
+			retrieveName_5051Parser = parser;
 		}
-		return retrieveName_5049Parser;
+		return retrieveName_5051Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser saveName_5050Parser;
+	private IParser saveName_5052Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getSaveName_5050Parser() {
-		if (saveName_5050Parser == null) {
+	private IParser getSaveName_5052Parser() {
+		if (saveName_5052Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			saveName_5050Parser = parser;
+			saveName_5052Parser = parser;
 		}
-		return saveName_5050Parser;
+		return saveName_5052Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser archiveName_5051Parser;
+	private IParser archiveName_5053Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getArchiveName_5051Parser() {
-		if (archiveName_5051Parser == null) {
+	private IParser getArchiveName_5053Parser() {
+		if (archiveName_5053Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			archiveName_5051Parser = parser;
+			archiveName_5053Parser = parser;
 		}
-		return archiveName_5051Parser;
+		return archiveName_5053Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser governName_5052Parser;
+	private IParser governName_5054Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getGovernName_5052Parser() {
-		if (governName_5052Parser == null) {
+	private IParser getGovernName_5054Parser() {
+		if (governName_5054Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			governName_5052Parser = parser;
+			governName_5054Parser = parser;
 		}
-		return governName_5052Parser;
+		return governName_5054Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser receiveDataName_5053Parser;
+	private IParser receiveDataName_5055Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getReceiveDataName_5053Parser() {
-		if (receiveDataName_5053Parser == null) {
+	private IParser getReceiveDataName_5055Parser() {
+		if (receiveDataName_5055Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			receiveDataName_5053Parser = parser;
+			receiveDataName_5055Parser = parser;
 		}
-		return receiveDataName_5053Parser;
+		return receiveDataName_5055Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser sendDataName_5054Parser;
+	private IParser sendDataName_5056Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getSendDataName_5054Parser() {
-		if (sendDataName_5054Parser == null) {
+	private IParser getSendDataName_5056Parser() {
+		if (sendDataName_5056Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			sendDataName_5054Parser = parser;
+			sendDataName_5056Parser = parser;
 		}
-		return sendDataName_5054Parser;
+		return sendDataName_5056Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser generateName_5055Parser;
+	private IParser generateName_5057Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getGenerateName_5055Parser() {
-		if (generateName_5055Parser == null) {
+	private IParser getGenerateName_5057Parser() {
+		if (generateName_5057Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			generateName_5055Parser = parser;
+			generateName_5057Parser = parser;
 		}
-		return generateName_5055Parser;
+		return generateName_5057Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser ingestName_5063Parser;
+	private IParser ingestName_5058Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getIngestName_5063Parser() {
-		if (ingestName_5063Parser == null) {
+	private IParser getIngestName_5058Parser() {
+		if (ingestName_5058Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			ingestName_5063Parser = parser;
+			ingestName_5058Parser = parser;
 		}
-		return ingestName_5063Parser;
+		return ingestName_5058Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser analyzeName_5056Parser;
+	private IParser analyzeName_5059Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getAnalyzeName_5056Parser() {
-		if (analyzeName_5056Parser == null) {
+	private IParser getAnalyzeName_5059Parser() {
+		if (analyzeName_5059Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			analyzeName_5056Parser = parser;
+			analyzeName_5059Parser = parser;
 		}
-		return analyzeName_5056Parser;
+		return analyzeName_5059Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser processName_5057Parser;
+	private IParser processName_5060Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getProcessName_5057Parser() {
-		if (processName_5057Parser == null) {
+	private IParser getProcessName_5060Parser() {
+		if (processName_5060Parser == null) {
 			EAttribute[] features = new EAttribute[] {
 					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			processName_5057Parser = parser;
+			processName_5060Parser = parser;
 		}
-		return processName_5057Parser;
+		return processName_5060Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser inMessagePortName_5058Parser;
+	private IParser verifyDataName_5061Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getInMessagePortName_5058Parser() {
-		if (inMessagePortName_5058Parser == null) {
+	private IParser getVerifyDataName_5061Parser() {
+		if (verifyDataName_5061Parser == null) {
+			EAttribute[] features = new EAttribute[] {
+					DataArch.DataArchPackage.eINSTANCE.getBehaviouralElement_Name() };
+			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
+					features);
+			verifyDataName_5061Parser = parser;
+		}
+		return verifyDataName_5061Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser inMessagePortName_5062Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getInMessagePortName_5062Parser() {
+		if (inMessagePortName_5062Parser == null) {
 			EAttribute[] features = new EAttribute[] { DataArch.DataArchPackage.eINSTANCE.getMessagePort_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			inMessagePortName_5058Parser = parser;
+			inMessagePortName_5062Parser = parser;
 		}
-		return inMessagePortName_5058Parser;
+		return inMessagePortName_5062Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser outMessagePortName_5059Parser;
+	private IParser outMessagePortName_5063Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getOutMessagePortName_5059Parser() {
-		if (outMessagePortName_5059Parser == null) {
+	private IParser getOutMessagePortName_5063Parser() {
+		if (outMessagePortName_5063Parser == null) {
 			EAttribute[] features = new EAttribute[] { DataArch.DataArchPackage.eINSTANCE.getMessagePort_Name() };
 			DataArch.diagram.parsers.MessageFormatParser parser = new DataArch.diagram.parsers.MessageFormatParser(
 					features);
-			outMessagePortName_5059Parser = parser;
+			outMessagePortName_5063Parser = parser;
 		}
-		return outMessagePortName_5059Parser;
+		return outMessagePortName_5063Parser;
 	}
 
 	/**
@@ -1239,7 +1258,7 @@ public class DataArchParserProvider extends AbstractProvider implements IParserP
 	protected IParser getParser(int visualID) {
 		switch (visualID) {
 		case DataArch.diagram.edit.parts.DataNodeNodeNameEditPart.VISUAL_ID:
-			return getDataNodeNodeName_5060Parser();
+			return getDataNodeNodeName_5064Parser();
 		case DataArch.diagram.edit.parts.AudioNameEditPart.VISUAL_ID:
 			return getAudioName_5001Parser();
 		case DataArch.diagram.edit.parts.VideoNameEditPart.VISUAL_ID:
@@ -1287,83 +1306,85 @@ public class DataArchParserProvider extends AbstractProvider implements IParserP
 		case DataArch.diagram.edit.parts.KeyValueNameEditPart.VISUAL_ID:
 			return getKeyValueName_5023Parser();
 		case DataArch.diagram.edit.parts.CloudNameEditPart.VISUAL_ID:
-			return getCloudName_5061Parser();
+			return getCloudName_5024Parser();
 		case DataArch.diagram.edit.parts.On_PremiseNameEditPart.VISUAL_ID:
-			return getOn_PremiseName_5062Parser();
+			return getOn_PremiseName_5025Parser();
 		case DataArch.diagram.edit.parts.File_SystemNameEditPart.VISUAL_ID:
-			return getFile_SystemName_5024Parser();
+			return getFile_SystemName_5026Parser();
 		case DataArch.diagram.edit.parts.RelationalNameEditPart.VISUAL_ID:
-			return getRelationalName_5025Parser();
+			return getRelationalName_5027Parser();
 		case DataArch.diagram.edit.parts.MultidimensionalNameEditPart.VISUAL_ID:
-			return getMultidimensionalName_5026Parser();
+			return getMultidimensionalName_5028Parser();
 		case DataArch.diagram.edit.parts.RealTimeNameEditPart.VISUAL_ID:
-			return getRealTimeName_5027Parser();
+			return getRealTimeName_5029Parser();
 		case DataArch.diagram.edit.parts.BatchNameEditPart.VISUAL_ID:
-			return getBatchName_5028Parser();
+			return getBatchName_5030Parser();
 		case DataArch.diagram.edit.parts.FilterNameEditPart.VISUAL_ID:
-			return getFilterName_5029Parser();
+			return getFilterName_5031Parser();
 		case DataArch.diagram.edit.parts.DescribeNameEditPart.VISUAL_ID:
-			return getDescribeName_5030Parser();
+			return getDescribeName_5032Parser();
 		case DataArch.diagram.edit.parts.DiagnoseNameEditPart.VISUAL_ID:
-			return getDiagnoseName_5031Parser();
+			return getDiagnoseName_5033Parser();
 		case DataArch.diagram.edit.parts.PredictNameEditPart.VISUAL_ID:
-			return getPredictName_5032Parser();
+			return getPredictName_5034Parser();
 		case DataArch.diagram.edit.parts.PrescriptNameEditPart.VISUAL_ID:
-			return getPrescriptName_5033Parser();
+			return getPrescriptName_5035Parser();
 		case DataArch.diagram.edit.parts.VisualizeNameEditPart.VISUAL_ID:
-			return getVisualizeName_5034Parser();
+			return getVisualizeName_5036Parser();
 		case DataArch.diagram.edit.parts.Query_ReportNameEditPart.VISUAL_ID:
-			return getQuery_ReportName_5035Parser();
+			return getQuery_ReportName_5037Parser();
 		case DataArch.diagram.edit.parts.APINameEditPart.VISUAL_ID:
-			return getAPIName_5036Parser();
+			return getAPIName_5038Parser();
 		case DataArch.diagram.edit.parts.TranfromNameEditPart.VISUAL_ID:
-			return getTranfromName_5037Parser();
+			return getTranfromName_5039Parser();
 		case DataArch.diagram.edit.parts.CompressNameEditPart.VISUAL_ID:
-			return getCompressName_5038Parser();
+			return getCompressName_5040Parser();
 		case DataArch.diagram.edit.parts.IntegrateNameEditPart.VISUAL_ID:
-			return getIntegrateName_5039Parser();
+			return getIntegrateName_5041Parser();
 		case DataArch.diagram.edit.parts.IdentifyNameEditPart.VISUAL_ID:
-			return getIdentifyName_5040Parser();
+			return getIdentifyName_5042Parser();
 		case DataArch.diagram.edit.parts.ValidateNameEditPart.VISUAL_ID:
-			return getValidateName_5041Parser();
+			return getValidateName_5043Parser();
 		case DataArch.diagram.edit.parts.ClassifyNameEditPart.VISUAL_ID:
-			return getClassifyName_5042Parser();
+			return getClassifyName_5044Parser();
 		case DataArch.diagram.edit.parts.SortNameEditPart.VISUAL_ID:
-			return getSortName_5043Parser();
+			return getSortName_5045Parser();
 		case DataArch.diagram.edit.parts.MergeNameEditPart.VISUAL_ID:
-			return getMergeName_5044Parser();
+			return getMergeName_5046Parser();
 		case DataArch.diagram.edit.parts.AggregateNameEditPart.VISUAL_ID:
-			return getAggregateName_5045Parser();
+			return getAggregateName_5047Parser();
 		case DataArch.diagram.edit.parts.CleaningNameEditPart.VISUAL_ID:
-			return getCleaningName_5046Parser();
+			return getCleaningName_5048Parser();
 		case DataArch.diagram.edit.parts.ReduceNoiseNameEditPart.VISUAL_ID:
-			return getReduceNoiseName_5047Parser();
+			return getReduceNoiseName_5049Parser();
 		case DataArch.diagram.edit.parts.Math_OperationNameEditPart.VISUAL_ID:
-			return getMath_OperationName_5048Parser();
+			return getMath_OperationName_5050Parser();
 		case DataArch.diagram.edit.parts.RetrieveNameEditPart.VISUAL_ID:
-			return getRetrieveName_5049Parser();
+			return getRetrieveName_5051Parser();
 		case DataArch.diagram.edit.parts.SaveNameEditPart.VISUAL_ID:
-			return getSaveName_5050Parser();
+			return getSaveName_5052Parser();
 		case DataArch.diagram.edit.parts.ArchiveNameEditPart.VISUAL_ID:
-			return getArchiveName_5051Parser();
+			return getArchiveName_5053Parser();
 		case DataArch.diagram.edit.parts.GovernNameEditPart.VISUAL_ID:
-			return getGovernName_5052Parser();
+			return getGovernName_5054Parser();
 		case DataArch.diagram.edit.parts.ReceiveDataNameEditPart.VISUAL_ID:
-			return getReceiveDataName_5053Parser();
+			return getReceiveDataName_5055Parser();
 		case DataArch.diagram.edit.parts.SendDataNameEditPart.VISUAL_ID:
-			return getSendDataName_5054Parser();
+			return getSendDataName_5056Parser();
 		case DataArch.diagram.edit.parts.GenerateNameEditPart.VISUAL_ID:
-			return getGenerateName_5055Parser();
+			return getGenerateName_5057Parser();
 		case DataArch.diagram.edit.parts.IngestNameEditPart.VISUAL_ID:
-			return getIngestName_5063Parser();
+			return getIngestName_5058Parser();
 		case DataArch.diagram.edit.parts.AnalyzeNameEditPart.VISUAL_ID:
-			return getAnalyzeName_5056Parser();
+			return getAnalyzeName_5059Parser();
 		case DataArch.diagram.edit.parts.ProcessNameEditPart.VISUAL_ID:
-			return getProcessName_5057Parser();
+			return getProcessName_5060Parser();
+		case DataArch.diagram.edit.parts.VerifyDataNameEditPart.VISUAL_ID:
+			return getVerifyDataName_5061Parser();
 		case DataArch.diagram.edit.parts.InMessagePortNameEditPart.VISUAL_ID:
-			return getInMessagePortName_5058Parser();
+			return getInMessagePortName_5062Parser();
 		case DataArch.diagram.edit.parts.OutMessagePortNameEditPart.VISUAL_ID:
-			return getOutMessagePortName_5059Parser();
+			return getOutMessagePortName_5063Parser();
 		case DataArch.diagram.edit.parts.ConnectionTextEditPart.VISUAL_ID:
 			return getConnectionText_6001Parser();
 		}

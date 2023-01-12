@@ -28,7 +28,7 @@ public class SendDataItemSemanticEditPolicy extends DataArch.diagram.edit.polici
 	* @generated
 	*/
 	public SendDataItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.SendData_3054);
+		super(DataArch.diagram.providers.DataArchElementTypes.SendData_3056);
 	}
 
 	/**

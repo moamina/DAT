@@ -38,7 +38,7 @@ public class TranfromEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3037;
+	public static final int VISUAL_ID = 3039;
 
 	/**
 	* @generated

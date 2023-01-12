@@ -22,8 +22,8 @@ public class DataArchModelingAssistantProviderOfDataNodeEditPart
 
 	public List<IElementType> getTypesForPopupBar(IAdaptable host) {
 		List<IElementType> types = new ArrayList<IElementType>(2);
-		types.add(DataArch.diagram.providers.DataArchElementTypes.InMessagePort_3058);
-		types.add(DataArch.diagram.providers.DataArchElementTypes.OutMessagePort_3059);
+		types.add(DataArch.diagram.providers.DataArchElementTypes.InMessagePort_3062);
+		types.add(DataArch.diagram.providers.DataArchElementTypes.OutMessagePort_3063);
 		return types;
 	}
 

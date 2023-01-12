@@ -35,10 +35,10 @@ public class DataNodeItemSemanticEditPolicy extends DataArch.diagram.edit.polici
 	* @generated
 	*/
 	protected Command getCreateCommand(CreateElementRequest req) {
-		if (DataArch.diagram.providers.DataArchElementTypes.InMessagePort_3058 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.InMessagePort_3062 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.InMessagePortCreateCommand(req));
 		}
-		if (DataArch.diagram.providers.DataArchElementTypes.OutMessagePort_3059 == req.getElementType()) {
+		if (DataArch.diagram.providers.DataArchElementTypes.OutMessagePort_3063 == req.getElementType()) {
 			return getGEFWrapper(new DataArch.diagram.edit.commands.OutMessagePortCreateCommand(req));
 		}
 		return super.getCreateCommand(req);
@@ -1670,6 +1670,32 @@ public class DataNodeItemSemanticEditPolicy extends DataArch.diagram.edit.polici
 						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
 						break;
 					case DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID:
+						for (Iterator<?> it = cnode.getTargetEdges().iterator(); it.hasNext();) {
+							Edge incomingLink = (Edge) it.next();
+							if (DataArch.diagram.part.DataArchVisualIDRegistry
+									.getVisualID(incomingLink) == DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID) {
+								DestroyElementRequest r = new DestroyElementRequest(incomingLink.getElement(), false);
+								cmd.add(new DestroyElementCommand(r));
+								cmd.add(new DeleteCommand(getEditingDomain(), incomingLink));
+								continue;
+							}
+						}
+						for (Iterator<?> it = cnode.getSourceEdges().iterator(); it.hasNext();) {
+							Edge outgoingLink = (Edge) it.next();
+							if (DataArch.diagram.part.DataArchVisualIDRegistry
+									.getVisualID(outgoingLink) == DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID) {
+								DestroyElementRequest r = new DestroyElementRequest(outgoingLink.getElement(), false);
+								cmd.add(new DestroyElementCommand(r));
+								cmd.add(new DeleteCommand(getEditingDomain(), outgoingLink));
+								continue;
+							}
+						}
+						cmd.add(new DestroyElementCommand(
+								new DestroyElementRequest(getEditingDomain(), cnode.getElement(), false))); // directlyOwned: true
+						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 
+						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
+						break;
+					case DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID:
 						for (Iterator<?> it = cnode.getTargetEdges().iterator(); it.hasNext();) {
 							Edge incomingLink = (Edge) it.next();
 							if (DataArch.diagram.part.DataArchVisualIDRegistry

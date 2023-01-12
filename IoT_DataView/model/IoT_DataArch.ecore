@@ -968,4 +968,31 @@
       <details key="tool.small.path" value="dataicons/basics/dataGovernance.gif"/>
     </eAnnotations>
   </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VerifyData" eSuperTypes="#//Action">
+    <eAnnotations source="gmf.node">
+      <details key="figure" value="iot_DataView.figures.VerifyData"/>
+      <details key="label.placement" value="external"/>
+      <details key="label.icon" value="false"/>
+      <details key="size" value="48,48"/>
+      <details key="tool.small.bundle" value="IoT_DataView"/>
+      <details key="tool.small.path" value="dataicons/basics/dataquality.gif"/>
+      <details key="tool.large.bundle" value="IoT_DataView"/>
+      <details key="tool.large.path" value="dataicons/basics/dataquality.gif"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="QualityMetrics" lowerBound="6"
+        upperBound="6" eType="#//Metrics"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="desc" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="QualityMetrices">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="desc" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//Metrics"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Metrics">
+    <eLiterals name="Completeness" value="1"/>
+    <eLiterals name="Consistency" value="2"/>
+    <eLiterals name="Validity" value="3"/>
+    <eLiterals name="Accuracy" value="4"/>
+    <eLiterals name="Uniqueness" value="5"/>
+    <eLiterals name="Timeliness" value="6"/>
+  </eClassifiers>
 </ecore:EPackage>

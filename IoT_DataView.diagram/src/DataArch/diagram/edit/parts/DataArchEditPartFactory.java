@@ -392,6 +392,12 @@ public class DataArchEditPartFactory implements EditPartFactory {
 			case DataArch.diagram.edit.parts.ProcessNameEditPart.VISUAL_ID:
 				return new DataArch.diagram.edit.parts.ProcessNameEditPart(view);
 
+			case DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID:
+				return new DataArch.diagram.edit.parts.VerifyDataEditPart(view);
+
+			case DataArch.diagram.edit.parts.VerifyDataNameEditPart.VISUAL_ID:
+				return new DataArch.diagram.edit.parts.VerifyDataNameEditPart(view);
+
 			case DataArch.diagram.edit.parts.InMessagePortEditPart.VISUAL_ID:
 				return new DataArch.diagram.edit.parts.InMessagePortEditPart(view);
 

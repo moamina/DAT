@@ -1,0 +1,141 @@
+@namespace(uri="DV_Beh_MM", prefix="DV_MM")
+package DataView_Behavioral_MM;
+
+class NodeBehavior {
+}
+
+class DataRepresentation {
+}
+
+abstract class LinkableElement extends NodeBehavior {
+	ref Link[*]#source outgoing;
+}
+
+abstract class Action extends LinkableElement {
+	ref Link[*]#target incoming;
+}
+
+class Link extends NodeBehavior {
+	ref LinkableElement[1]#outgoing source;
+	ref Action[1]#incoming target;
+}
+
+abstract class Event extends LinkableElement {
+}
+
+class ReceiveData extends Event {
+	ref DataRepresentation dataRecipient;
+}
+
+class SendData extends Action {
+	ref DataRepresentation dataRecipient;
+}
+
+class Generate extends Action {
+}
+
+class Ingest extends Action {
+}
+
+class Store extends Action {
+}
+
+class Analyze extends Action {
+}
+
+class Consume extends Action {
+}
+
+class Process extends Action {
+}
+
+class Tranfrom extends Ingest {
+}
+
+class Compress extends Ingest {
+}
+
+class Integrate extends Ingest {
+}
+
+class Identify extends Ingest {
+}
+
+class Validate extends Ingest {
+}
+
+class Classify extends Process {
+}
+
+class Sort extends Process {
+}
+
+class Merge extends Process {
+}
+
+class Tranform extends Process {
+}
+
+class Aggregate extends Process {
+}
+
+class Cleaning extends Process {
+}
+
+class Filter extends Process {
+}
+
+class ReduceNoise extends Ingest {
+}
+
+class Math_Operation extends Process {
+}
+
+class Retrieve extends Store {
+}
+
+class Save extends Store {
+}
+
+class Archive extends Store {
+}
+
+class Govern extends Store {
+}
+
+class Visulize extends Consume {
+}
+
+class Query_Report extends Consume {
+}
+
+class API extends Consume {
+}
+
+class Type extends Analyze {
+}
+
+class Technique extends Analyze {
+}
+
+class Describe extends Type {
+}
+
+class Diagnose extends Type {
+}
+
+class Predict extends Type {
+}
+
+class Prescript extends Type {
+}
+
+class Quantitative extends Technique {
+}
+
+class Qualitative extends Technique {
+}
+
+class Statistical extends Technique {
+}
+

@@ -25,7 +25,7 @@ public class PredictItemSemanticEditPolicy extends DataArch.diagram.edit.policie
 	* @generated
 	*/
 	public PredictItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Predict_3032);
+		super(DataArch.diagram.providers.DataArchElementTypes.Predict_3034);
 	}
 
 	/**

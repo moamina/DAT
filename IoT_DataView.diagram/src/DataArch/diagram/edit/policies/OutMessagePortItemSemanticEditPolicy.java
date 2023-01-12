@@ -29,7 +29,7 @@ public class OutMessagePortItemSemanticEditPolicy
 	* @generated
 	*/
 	public OutMessagePortItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.OutMessagePort_3059);
+		super(DataArch.diagram.providers.DataArchElementTypes.OutMessagePort_3063);
 	}
 
 	/**

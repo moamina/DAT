@@ -26,7 +26,7 @@ public class Math_OperationItemSemanticEditPolicy
 	* @generated
 	*/
 	public Math_OperationItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Math_Operation_3048);
+		super(DataArch.diagram.providers.DataArchElementTypes.Math_Operation_3050);
 	}
 
 	/**

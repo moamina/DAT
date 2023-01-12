@@ -258,7 +258,7 @@
          </object>
          <context viewClass="org.eclipse.gmf.runtime.notation.Node" containerViews="referencing-diagrams"/>
          <context viewClass="org.eclipse.gmf.runtime.notation.Diagram" semanticHints="DataArch"/>
-         <context viewClass="org.eclipse.gmf.runtime.notation.Node" semanticHints="2001,3001,3002,3003,3004,3005,3006,3007,3008,3009,3010,3011,3012,3013,3014,3015,3016,3017,3018,3019,3020,3021,3022,3023,3060,3061,3024,3025,3026,3027,3028,3029,3030,3031,3032,3033,3034,3035,3036,3037,3038,3039,3040,3041,3042,3043,3044,3045,3046,3047,3048,3049,3050,3051,3052,3053,3054,3055,3062,3056,3057,3058,3059"/>
+         <context viewClass="org.eclipse.gmf.runtime.notation.Node" semanticHints="2001,3001,3002,3003,3004,3005,3006,3007,3008,3009,3010,3011,3012,3013,3014,3015,3016,3017,3018,3019,3020,3021,3022,3023,3024,3025,3026,3027,3028,3029,3030,3031,3032,3033,3034,3035,3036,3037,3038,3039,3040,3041,3042,3043,3044,3045,3046,3047,3048,3049,3050,3051,3052,3053,3054,3055,3056,3057,3058,3059,3060,3061,3062,3063"/>
          <context viewClass="org.eclipse.gmf.runtime.notation.Edge" semanticHints="4001,4002,4003,4004"/>
       </viewProvider>
    </extension>
@@ -271,13 +271,13 @@
             <method name="getType()" value="DataArch"/>
          </object>
          <object class="org.eclipse.gmf.runtime.notation.Node" id="generated-nodes">
-            <method name="getType()" value="2001,3001,3002,3003,3004,3005,3006,3007,3008,3009,3010,3011,3012,3013,3014,3015,3016,3017,3018,3019,3020,3021,3022,3023,3060,3061,3024,3025,3026,3027,3028,3029,3030,3031,3032,3033,3034,3035,3036,3037,3038,3039,3040,3041,3042,3043,3044,3045,3046,3047,3048,3049,3050,3051,3052,3053,3054,3055,3062,3056,3057,3058,3059"/>
+            <method name="getType()" value="2001,3001,3002,3003,3004,3005,3006,3007,3008,3009,3010,3011,3012,3013,3014,3015,3016,3017,3018,3019,3020,3021,3022,3023,3024,3025,3026,3027,3028,3029,3030,3031,3032,3033,3034,3035,3036,3037,3038,3039,3040,3041,3042,3043,3044,3045,3046,3047,3048,3049,3050,3051,3052,3053,3054,3055,3056,3057,3058,3059,3060,3061,3062,3063"/>
          </object>
          <object class="org.eclipse.gmf.runtime.notation.Edge" id="generated-links">
             <method name="getType()" value="4001,4002,4003,4004"/>
          </object>
          <object class="org.eclipse.gmf.runtime.notation.Node" id="generated-labels">
-            <method name="getType()" value="5060,5001,5002,5003,5004,5005,5006,5007,5008,5009,5010,5011,5012,5013,5014,5015,5016,5017,5018,5019,5020,5021,5022,5023,5061,5062,5024,5025,5026,5027,5028,5029,5030,5031,5032,5033,5034,5035,5036,5037,5038,5039,5040,5041,5042,5043,5044,5045,5046,5047,5048,5049,5050,5051,5052,5053,5054,5055,5063,5056,5057,5058,5059"/>
+            <method name="getType()" value="5064,5001,5002,5003,5004,5005,5006,5007,5008,5009,5010,5011,5012,5013,5014,5015,5016,5017,5018,5019,5020,5021,5022,5023,5024,5025,5026,5027,5028,5029,5030,5031,5032,5033,5034,5035,5036,5037,5038,5039,5040,5041,5042,5043,5044,5045,5046,5047,5048,5049,5050,5051,5052,5053,5054,5055,5056,5057,5058,5059,5060,5061,5062,5063"/>
          </object>
          <object class="org.eclipse.gmf.runtime.notation.Node" id="generated-compartments">
             <method name="getType()" value="7001"/>
@@ -416,198 +416,203 @@
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfCloudEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.CloudEditPart" id="Cloud_3060"/>
-         <context elements="Cloud_3060"/>
+         <object class="DataArch.diagram.edit.parts.CloudEditPart" id="Cloud_3024"/>
+         <context elements="Cloud_3024"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfOn_PremiseEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.On_PremiseEditPart" id="On_Premise_3061"/>
-         <context elements="On_Premise_3061"/>
+         <object class="DataArch.diagram.edit.parts.On_PremiseEditPart" id="On_Premise_3025"/>
+         <context elements="On_Premise_3025"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfFile_SystemEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.File_SystemEditPart" id="File_System_3024"/>
-         <context elements="File_System_3024"/>
+         <object class="DataArch.diagram.edit.parts.File_SystemEditPart" id="File_System_3026"/>
+         <context elements="File_System_3026"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfRelationalEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.RelationalEditPart" id="Relational_3025"/>
-         <context elements="Relational_3025"/>
+         <object class="DataArch.diagram.edit.parts.RelationalEditPart" id="Relational_3027"/>
+         <context elements="Relational_3027"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfMultidimensionalEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.MultidimensionalEditPart" id="Multidimensional_3026"/>
-         <context elements="Multidimensional_3026"/>
+         <object class="DataArch.diagram.edit.parts.MultidimensionalEditPart" id="Multidimensional_3028"/>
+         <context elements="Multidimensional_3028"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfRealTimeEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.RealTimeEditPart" id="RealTime_3027"/>
-         <context elements="RealTime_3027"/>
+         <object class="DataArch.diagram.edit.parts.RealTimeEditPart" id="RealTime_3029"/>
+         <context elements="RealTime_3029"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfBatchEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.BatchEditPart" id="Batch_3028"/>
-         <context elements="Batch_3028"/>
+         <object class="DataArch.diagram.edit.parts.BatchEditPart" id="Batch_3030"/>
+         <context elements="Batch_3030"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfFilterEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.FilterEditPart" id="Filter_3029"/>
-         <context elements="Filter_3029"/>
+         <object class="DataArch.diagram.edit.parts.FilterEditPart" id="Filter_3031"/>
+         <context elements="Filter_3031"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfDescribeEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.DescribeEditPart" id="Describe_3030"/>
-         <context elements="Describe_3030"/>
+         <object class="DataArch.diagram.edit.parts.DescribeEditPart" id="Describe_3032"/>
+         <context elements="Describe_3032"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfDiagnoseEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.DiagnoseEditPart" id="Diagnose_3031"/>
-         <context elements="Diagnose_3031"/>
+         <object class="DataArch.diagram.edit.parts.DiagnoseEditPart" id="Diagnose_3033"/>
+         <context elements="Diagnose_3033"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfPredictEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.PredictEditPart" id="Predict_3032"/>
-         <context elements="Predict_3032"/>
+         <object class="DataArch.diagram.edit.parts.PredictEditPart" id="Predict_3034"/>
+         <context elements="Predict_3034"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfPrescriptEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.PrescriptEditPart" id="Prescript_3033"/>
-         <context elements="Prescript_3033"/>
+         <object class="DataArch.diagram.edit.parts.PrescriptEditPart" id="Prescript_3035"/>
+         <context elements="Prescript_3035"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfVisualizeEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.VisualizeEditPart" id="Visualize_3034"/>
-         <context elements="Visualize_3034"/>
+         <object class="DataArch.diagram.edit.parts.VisualizeEditPart" id="Visualize_3036"/>
+         <context elements="Visualize_3036"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfQuery_ReportEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.Query_ReportEditPart" id="Query_Report_3035"/>
-         <context elements="Query_Report_3035"/>
+         <object class="DataArch.diagram.edit.parts.Query_ReportEditPart" id="Query_Report_3037"/>
+         <context elements="Query_Report_3037"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfAPIEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.APIEditPart" id="API_3036"/>
-         <context elements="API_3036"/>
+         <object class="DataArch.diagram.edit.parts.APIEditPart" id="API_3038"/>
+         <context elements="API_3038"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfTranfromEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.TranfromEditPart" id="Tranfrom_3037"/>
-         <context elements="Tranfrom_3037"/>
+         <object class="DataArch.diagram.edit.parts.TranfromEditPart" id="Tranfrom_3039"/>
+         <context elements="Tranfrom_3039"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfCompressEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.CompressEditPart" id="Compress_3038"/>
-         <context elements="Compress_3038"/>
+         <object class="DataArch.diagram.edit.parts.CompressEditPart" id="Compress_3040"/>
+         <context elements="Compress_3040"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfIntegrateEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.IntegrateEditPart" id="Integrate_3039"/>
-         <context elements="Integrate_3039"/>
+         <object class="DataArch.diagram.edit.parts.IntegrateEditPart" id="Integrate_3041"/>
+         <context elements="Integrate_3041"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfIdentifyEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.IdentifyEditPart" id="Identify_3040"/>
-         <context elements="Identify_3040"/>
+         <object class="DataArch.diagram.edit.parts.IdentifyEditPart" id="Identify_3042"/>
+         <context elements="Identify_3042"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfValidateEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.ValidateEditPart" id="Validate_3041"/>
-         <context elements="Validate_3041"/>
+         <object class="DataArch.diagram.edit.parts.ValidateEditPart" id="Validate_3043"/>
+         <context elements="Validate_3043"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfClassifyEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.ClassifyEditPart" id="Classify_3042"/>
-         <context elements="Classify_3042"/>
+         <object class="DataArch.diagram.edit.parts.ClassifyEditPart" id="Classify_3044"/>
+         <context elements="Classify_3044"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfSortEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.SortEditPart" id="Sort_3043"/>
-         <context elements="Sort_3043"/>
+         <object class="DataArch.diagram.edit.parts.SortEditPart" id="Sort_3045"/>
+         <context elements="Sort_3045"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfMergeEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.MergeEditPart" id="Merge_3044"/>
-         <context elements="Merge_3044"/>
+         <object class="DataArch.diagram.edit.parts.MergeEditPart" id="Merge_3046"/>
+         <context elements="Merge_3046"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfAggregateEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.AggregateEditPart" id="Aggregate_3045"/>
-         <context elements="Aggregate_3045"/>
+         <object class="DataArch.diagram.edit.parts.AggregateEditPart" id="Aggregate_3047"/>
+         <context elements="Aggregate_3047"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfCleaningEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.CleaningEditPart" id="Cleaning_3046"/>
-         <context elements="Cleaning_3046"/>
+         <object class="DataArch.diagram.edit.parts.CleaningEditPart" id="Cleaning_3048"/>
+         <context elements="Cleaning_3048"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfReduceNoiseEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.ReduceNoiseEditPart" id="ReduceNoise_3047"/>
-         <context elements="ReduceNoise_3047"/>
+         <object class="DataArch.diagram.edit.parts.ReduceNoiseEditPart" id="ReduceNoise_3049"/>
+         <context elements="ReduceNoise_3049"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfMath_OperationEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.Math_OperationEditPart" id="Math_Operation_3048"/>
-         <context elements="Math_Operation_3048"/>
+         <object class="DataArch.diagram.edit.parts.Math_OperationEditPart" id="Math_Operation_3050"/>
+         <context elements="Math_Operation_3050"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfRetrieveEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.RetrieveEditPart" id="Retrieve_3049"/>
-         <context elements="Retrieve_3049"/>
+         <object class="DataArch.diagram.edit.parts.RetrieveEditPart" id="Retrieve_3051"/>
+         <context elements="Retrieve_3051"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfSaveEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.SaveEditPart" id="Save_3050"/>
-         <context elements="Save_3050"/>
+         <object class="DataArch.diagram.edit.parts.SaveEditPart" id="Save_3052"/>
+         <context elements="Save_3052"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfArchiveEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.ArchiveEditPart" id="Archive_3051"/>
-         <context elements="Archive_3051"/>
+         <object class="DataArch.diagram.edit.parts.ArchiveEditPart" id="Archive_3053"/>
+         <context elements="Archive_3053"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfGovernEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.GovernEditPart" id="Govern_3052"/>
-         <context elements="Govern_3052"/>
+         <object class="DataArch.diagram.edit.parts.GovernEditPart" id="Govern_3054"/>
+         <context elements="Govern_3054"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfReceiveDataEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.ReceiveDataEditPart" id="ReceiveData_3053"/>
-         <context elements="ReceiveData_3053"/>
+         <object class="DataArch.diagram.edit.parts.ReceiveDataEditPart" id="ReceiveData_3055"/>
+         <context elements="ReceiveData_3055"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfSendDataEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.SendDataEditPart" id="SendData_3054"/>
-         <context elements="SendData_3054"/>
+         <object class="DataArch.diagram.edit.parts.SendDataEditPart" id="SendData_3056"/>
+         <context elements="SendData_3056"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfGenerateEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.GenerateEditPart" id="Generate_3055"/>
-         <context elements="Generate_3055"/>
+         <object class="DataArch.diagram.edit.parts.GenerateEditPart" id="Generate_3057"/>
+         <context elements="Generate_3057"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfIngestEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.IngestEditPart" id="Ingest_3062"/>
-         <context elements="Ingest_3062"/>
+         <object class="DataArch.diagram.edit.parts.IngestEditPart" id="Ingest_3058"/>
+         <context elements="Ingest_3058"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfAnalyzeEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.AnalyzeEditPart" id="Analyze_3056"/>
-         <context elements="Analyze_3056"/>
+         <object class="DataArch.diagram.edit.parts.AnalyzeEditPart" id="Analyze_3059"/>
+         <context elements="Analyze_3059"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfProcessEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.ProcessEditPart" id="Process_3057"/>
-         <context elements="Process_3057"/>
+         <object class="DataArch.diagram.edit.parts.ProcessEditPart" id="Process_3060"/>
+         <context elements="Process_3060"/>
+      </modelingAssistantProvider>
+            <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfVerifyDataEditPart">
+         <Priority name="Lowest"/>
+         <object class="DataArch.diagram.edit.parts.VerifyDataEditPart" id="VerifyData_3061"/>
+         <context elements="VerifyData_3061"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfInMessagePortEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.InMessagePortEditPart" id="InMessagePort_3058"/>
-         <context elements="InMessagePort_3058"/>
+         <object class="DataArch.diagram.edit.parts.InMessagePortEditPart" id="InMessagePort_3062"/>
+         <context elements="InMessagePort_3062"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="DataArch.diagram.providers.assistants.DataArchModelingAssistantProviderOfOutMessagePortEditPart">
          <Priority name="Lowest"/>
-         <object class="DataArch.diagram.edit.parts.OutMessagePortEditPart" id="OutMessagePort_3059"/>
-         <context elements="OutMessagePort_3059"/>
+         <object class="DataArch.diagram.edit.parts.OutMessagePortEditPart" id="OutMessagePort_3063"/>
+         <context elements="OutMessagePort_3063"/>
       </modelingAssistantProvider>
       
    </extension>
@@ -892,392 +897,402 @@
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Cloud_3060"
-               name="%metatype.name.Cloud_3060"
+               id="IoT_DataView.diagram.Cloud_3024"
+               name="%metatype.name.Cloud_3024"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
                eclass="Cloud"
                edithelper="DataArch.diagram.edit.helpers.CloudEditHelper">
-            <param name="semanticHint" value="3060"/>
-         </metamodelType>
-      </metamodel>
-      <metamodel nsURI="DataArch">
-         <metamodelType
-               id="IoT_DataView.diagram.On_Premise_3061"
-               name="%metatype.name.On_Premise_3061"
-               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="On_Premise"
-               edithelper="DataArch.diagram.edit.helpers.On_PremiseEditHelper">
-            <param name="semanticHint" value="3061"/>
-         </metamodelType>
-      </metamodel>
-      <metamodel nsURI="DataArch">
-         <metamodelType
-               id="IoT_DataView.diagram.File_System_3024"
-               name="%metatype.name.File_System_3024"
-               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="File_System"
-               edithelper="DataArch.diagram.edit.helpers.File_SystemEditHelper">
             <param name="semanticHint" value="3024"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Relational_3025"
-               name="%metatype.name.Relational_3025"
+               id="IoT_DataView.diagram.On_Premise_3025"
+               name="%metatype.name.On_Premise_3025"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Relational"
-               edithelper="DataArch.diagram.edit.helpers.RelationalEditHelper">
+               eclass="On_Premise"
+               edithelper="DataArch.diagram.edit.helpers.On_PremiseEditHelper">
             <param name="semanticHint" value="3025"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Multidimensional_3026"
-               name="%metatype.name.Multidimensional_3026"
+               id="IoT_DataView.diagram.File_System_3026"
+               name="%metatype.name.File_System_3026"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Multidimensional"
-               edithelper="DataArch.diagram.edit.helpers.MultidimensionalEditHelper">
+               eclass="File_System"
+               edithelper="DataArch.diagram.edit.helpers.File_SystemEditHelper">
             <param name="semanticHint" value="3026"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.RealTime_3027"
-               name="%metatype.name.RealTime_3027"
+               id="IoT_DataView.diagram.Relational_3027"
+               name="%metatype.name.Relational_3027"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="RealTime"
-               edithelper="DataArch.diagram.edit.helpers.RealTimeEditHelper">
+               eclass="Relational"
+               edithelper="DataArch.diagram.edit.helpers.RelationalEditHelper">
             <param name="semanticHint" value="3027"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Batch_3028"
-               name="%metatype.name.Batch_3028"
+               id="IoT_DataView.diagram.Multidimensional_3028"
+               name="%metatype.name.Multidimensional_3028"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Batch"
-               edithelper="DataArch.diagram.edit.helpers.BatchEditHelper">
+               eclass="Multidimensional"
+               edithelper="DataArch.diagram.edit.helpers.MultidimensionalEditHelper">
             <param name="semanticHint" value="3028"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Filter_3029"
-               name="%metatype.name.Filter_3029"
+               id="IoT_DataView.diagram.RealTime_3029"
+               name="%metatype.name.RealTime_3029"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Filter"
-               edithelper="DataArch.diagram.edit.helpers.FilterEditHelper">
+               eclass="RealTime"
+               edithelper="DataArch.diagram.edit.helpers.RealTimeEditHelper">
             <param name="semanticHint" value="3029"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Describe_3030"
-               name="%metatype.name.Describe_3030"
+               id="IoT_DataView.diagram.Batch_3030"
+               name="%metatype.name.Batch_3030"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Describe"
-               edithelper="DataArch.diagram.edit.helpers.DescribeEditHelper">
+               eclass="Batch"
+               edithelper="DataArch.diagram.edit.helpers.BatchEditHelper">
             <param name="semanticHint" value="3030"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Diagnose_3031"
-               name="%metatype.name.Diagnose_3031"
+               id="IoT_DataView.diagram.Filter_3031"
+               name="%metatype.name.Filter_3031"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Diagnose"
-               edithelper="DataArch.diagram.edit.helpers.DiagnoseEditHelper">
+               eclass="Filter"
+               edithelper="DataArch.diagram.edit.helpers.FilterEditHelper">
             <param name="semanticHint" value="3031"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Predict_3032"
-               name="%metatype.name.Predict_3032"
+               id="IoT_DataView.diagram.Describe_3032"
+               name="%metatype.name.Describe_3032"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Predict"
-               edithelper="DataArch.diagram.edit.helpers.PredictEditHelper">
+               eclass="Describe"
+               edithelper="DataArch.diagram.edit.helpers.DescribeEditHelper">
             <param name="semanticHint" value="3032"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Prescript_3033"
-               name="%metatype.name.Prescript_3033"
+               id="IoT_DataView.diagram.Diagnose_3033"
+               name="%metatype.name.Diagnose_3033"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Prescript"
-               edithelper="DataArch.diagram.edit.helpers.PrescriptEditHelper">
+               eclass="Diagnose"
+               edithelper="DataArch.diagram.edit.helpers.DiagnoseEditHelper">
             <param name="semanticHint" value="3033"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Visualize_3034"
-               name="%metatype.name.Visualize_3034"
+               id="IoT_DataView.diagram.Predict_3034"
+               name="%metatype.name.Predict_3034"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Visualize"
-               edithelper="DataArch.diagram.edit.helpers.VisualizeEditHelper">
+               eclass="Predict"
+               edithelper="DataArch.diagram.edit.helpers.PredictEditHelper">
             <param name="semanticHint" value="3034"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Query_Report_3035"
-               name="%metatype.name.Query_Report_3035"
+               id="IoT_DataView.diagram.Prescript_3035"
+               name="%metatype.name.Prescript_3035"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Query_Report"
-               edithelper="DataArch.diagram.edit.helpers.Query_ReportEditHelper">
+               eclass="Prescript"
+               edithelper="DataArch.diagram.edit.helpers.PrescriptEditHelper">
             <param name="semanticHint" value="3035"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.API_3036"
-               name="%metatype.name.API_3036"
+               id="IoT_DataView.diagram.Visualize_3036"
+               name="%metatype.name.Visualize_3036"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="API"
-               edithelper="DataArch.diagram.edit.helpers.APIEditHelper">
+               eclass="Visualize"
+               edithelper="DataArch.diagram.edit.helpers.VisualizeEditHelper">
             <param name="semanticHint" value="3036"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Tranfrom_3037"
-               name="%metatype.name.Tranfrom_3037"
+               id="IoT_DataView.diagram.Query_Report_3037"
+               name="%metatype.name.Query_Report_3037"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Tranfrom"
-               edithelper="DataArch.diagram.edit.helpers.TranfromEditHelper">
+               eclass="Query_Report"
+               edithelper="DataArch.diagram.edit.helpers.Query_ReportEditHelper">
             <param name="semanticHint" value="3037"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Compress_3038"
-               name="%metatype.name.Compress_3038"
+               id="IoT_DataView.diagram.API_3038"
+               name="%metatype.name.API_3038"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Compress"
-               edithelper="DataArch.diagram.edit.helpers.CompressEditHelper">
+               eclass="API"
+               edithelper="DataArch.diagram.edit.helpers.APIEditHelper">
             <param name="semanticHint" value="3038"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Integrate_3039"
-               name="%metatype.name.Integrate_3039"
+               id="IoT_DataView.diagram.Tranfrom_3039"
+               name="%metatype.name.Tranfrom_3039"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Integrate"
-               edithelper="DataArch.diagram.edit.helpers.IntegrateEditHelper">
+               eclass="Tranfrom"
+               edithelper="DataArch.diagram.edit.helpers.TranfromEditHelper">
             <param name="semanticHint" value="3039"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Identify_3040"
-               name="%metatype.name.Identify_3040"
+               id="IoT_DataView.diagram.Compress_3040"
+               name="%metatype.name.Compress_3040"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Identify"
-               edithelper="DataArch.diagram.edit.helpers.IdentifyEditHelper">
+               eclass="Compress"
+               edithelper="DataArch.diagram.edit.helpers.CompressEditHelper">
             <param name="semanticHint" value="3040"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Validate_3041"
-               name="%metatype.name.Validate_3041"
+               id="IoT_DataView.diagram.Integrate_3041"
+               name="%metatype.name.Integrate_3041"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Validate"
-               edithelper="DataArch.diagram.edit.helpers.ValidateEditHelper">
+               eclass="Integrate"
+               edithelper="DataArch.diagram.edit.helpers.IntegrateEditHelper">
             <param name="semanticHint" value="3041"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Classify_3042"
-               name="%metatype.name.Classify_3042"
+               id="IoT_DataView.diagram.Identify_3042"
+               name="%metatype.name.Identify_3042"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Classify"
-               edithelper="DataArch.diagram.edit.helpers.ClassifyEditHelper">
+               eclass="Identify"
+               edithelper="DataArch.diagram.edit.helpers.IdentifyEditHelper">
             <param name="semanticHint" value="3042"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Sort_3043"
-               name="%metatype.name.Sort_3043"
+               id="IoT_DataView.diagram.Validate_3043"
+               name="%metatype.name.Validate_3043"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Sort"
-               edithelper="DataArch.diagram.edit.helpers.SortEditHelper">
+               eclass="Validate"
+               edithelper="DataArch.diagram.edit.helpers.ValidateEditHelper">
             <param name="semanticHint" value="3043"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Merge_3044"
-               name="%metatype.name.Merge_3044"
+               id="IoT_DataView.diagram.Classify_3044"
+               name="%metatype.name.Classify_3044"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Merge"
-               edithelper="DataArch.diagram.edit.helpers.MergeEditHelper">
+               eclass="Classify"
+               edithelper="DataArch.diagram.edit.helpers.ClassifyEditHelper">
             <param name="semanticHint" value="3044"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Aggregate_3045"
-               name="%metatype.name.Aggregate_3045"
+               id="IoT_DataView.diagram.Sort_3045"
+               name="%metatype.name.Sort_3045"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Aggregate"
-               edithelper="DataArch.diagram.edit.helpers.AggregateEditHelper">
+               eclass="Sort"
+               edithelper="DataArch.diagram.edit.helpers.SortEditHelper">
             <param name="semanticHint" value="3045"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Cleaning_3046"
-               name="%metatype.name.Cleaning_3046"
+               id="IoT_DataView.diagram.Merge_3046"
+               name="%metatype.name.Merge_3046"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Cleaning"
-               edithelper="DataArch.diagram.edit.helpers.CleaningEditHelper">
+               eclass="Merge"
+               edithelper="DataArch.diagram.edit.helpers.MergeEditHelper">
             <param name="semanticHint" value="3046"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.ReduceNoise_3047"
-               name="%metatype.name.ReduceNoise_3047"
+               id="IoT_DataView.diagram.Aggregate_3047"
+               name="%metatype.name.Aggregate_3047"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="ReduceNoise"
-               edithelper="DataArch.diagram.edit.helpers.ReduceNoiseEditHelper">
+               eclass="Aggregate"
+               edithelper="DataArch.diagram.edit.helpers.AggregateEditHelper">
             <param name="semanticHint" value="3047"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Math_Operation_3048"
-               name="%metatype.name.Math_Operation_3048"
+               id="IoT_DataView.diagram.Cleaning_3048"
+               name="%metatype.name.Cleaning_3048"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Math_Operation"
-               edithelper="DataArch.diagram.edit.helpers.Math_OperationEditHelper">
+               eclass="Cleaning"
+               edithelper="DataArch.diagram.edit.helpers.CleaningEditHelper">
             <param name="semanticHint" value="3048"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Retrieve_3049"
-               name="%metatype.name.Retrieve_3049"
+               id="IoT_DataView.diagram.ReduceNoise_3049"
+               name="%metatype.name.ReduceNoise_3049"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Retrieve"
-               edithelper="DataArch.diagram.edit.helpers.RetrieveEditHelper">
+               eclass="ReduceNoise"
+               edithelper="DataArch.diagram.edit.helpers.ReduceNoiseEditHelper">
             <param name="semanticHint" value="3049"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Save_3050"
-               name="%metatype.name.Save_3050"
+               id="IoT_DataView.diagram.Math_Operation_3050"
+               name="%metatype.name.Math_Operation_3050"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Save"
-               edithelper="DataArch.diagram.edit.helpers.SaveEditHelper">
+               eclass="Math_Operation"
+               edithelper="DataArch.diagram.edit.helpers.Math_OperationEditHelper">
             <param name="semanticHint" value="3050"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Archive_3051"
-               name="%metatype.name.Archive_3051"
+               id="IoT_DataView.diagram.Retrieve_3051"
+               name="%metatype.name.Retrieve_3051"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Archive"
-               edithelper="DataArch.diagram.edit.helpers.ArchiveEditHelper">
+               eclass="Retrieve"
+               edithelper="DataArch.diagram.edit.helpers.RetrieveEditHelper">
             <param name="semanticHint" value="3051"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Govern_3052"
-               name="%metatype.name.Govern_3052"
+               id="IoT_DataView.diagram.Save_3052"
+               name="%metatype.name.Save_3052"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Govern"
-               edithelper="DataArch.diagram.edit.helpers.GovernEditHelper">
+               eclass="Save"
+               edithelper="DataArch.diagram.edit.helpers.SaveEditHelper">
             <param name="semanticHint" value="3052"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.ReceiveData_3053"
-               name="%metatype.name.ReceiveData_3053"
+               id="IoT_DataView.diagram.Archive_3053"
+               name="%metatype.name.Archive_3053"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="ReceiveData"
-               edithelper="DataArch.diagram.edit.helpers.ReceiveDataEditHelper">
+               eclass="Archive"
+               edithelper="DataArch.diagram.edit.helpers.ArchiveEditHelper">
             <param name="semanticHint" value="3053"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.SendData_3054"
-               name="%metatype.name.SendData_3054"
+               id="IoT_DataView.diagram.Govern_3054"
+               name="%metatype.name.Govern_3054"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="SendData"
-               edithelper="DataArch.diagram.edit.helpers.SendDataEditHelper">
+               eclass="Govern"
+               edithelper="DataArch.diagram.edit.helpers.GovernEditHelper">
             <param name="semanticHint" value="3054"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Generate_3055"
-               name="%metatype.name.Generate_3055"
+               id="IoT_DataView.diagram.ReceiveData_3055"
+               name="%metatype.name.ReceiveData_3055"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Generate"
-               edithelper="DataArch.diagram.edit.helpers.GenerateEditHelper">
+               eclass="ReceiveData"
+               edithelper="DataArch.diagram.edit.helpers.ReceiveDataEditHelper">
             <param name="semanticHint" value="3055"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Ingest_3062"
-               name="%metatype.name.Ingest_3062"
+               id="IoT_DataView.diagram.SendData_3056"
+               name="%metatype.name.SendData_3056"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Ingest"
-               edithelper="DataArch.diagram.edit.helpers.IngestEditHelper">
-            <param name="semanticHint" value="3062"/>
-         </metamodelType>
-      </metamodel>
-      <metamodel nsURI="DataArch">
-         <metamodelType
-               id="IoT_DataView.diagram.Analyze_3056"
-               name="%metatype.name.Analyze_3056"
-               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Analyze"
-               edithelper="DataArch.diagram.edit.helpers.AnalyzeEditHelper">
+               eclass="SendData"
+               edithelper="DataArch.diagram.edit.helpers.SendDataEditHelper">
             <param name="semanticHint" value="3056"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.Process_3057"
-               name="%metatype.name.Process_3057"
+               id="IoT_DataView.diagram.Generate_3057"
+               name="%metatype.name.Generate_3057"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="Process"
-               edithelper="DataArch.diagram.edit.helpers.ProcessEditHelper">
+               eclass="Generate"
+               edithelper="DataArch.diagram.edit.helpers.GenerateEditHelper">
             <param name="semanticHint" value="3057"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.InMessagePort_3058"
-               name="%metatype.name.InMessagePort_3058"
+               id="IoT_DataView.diagram.Ingest_3058"
+               name="%metatype.name.Ingest_3058"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
-               eclass="InMessagePort"
-               edithelper="DataArch.diagram.edit.helpers.InMessagePortEditHelper">
+               eclass="Ingest"
+               edithelper="DataArch.diagram.edit.helpers.IngestEditHelper">
             <param name="semanticHint" value="3058"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
          <metamodelType
-               id="IoT_DataView.diagram.OutMessagePort_3059"
-               name="%metatype.name.OutMessagePort_3059"
+               id="IoT_DataView.diagram.Analyze_3059"
+               name="%metatype.name.Analyze_3059"
+               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
+               eclass="Analyze"
+               edithelper="DataArch.diagram.edit.helpers.AnalyzeEditHelper">
+            <param name="semanticHint" value="3059"/>
+         </metamodelType>
+      </metamodel>
+      <metamodel nsURI="DataArch">
+         <metamodelType
+               id="IoT_DataView.diagram.Process_3060"
+               name="%metatype.name.Process_3060"
+               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
+               eclass="Process"
+               edithelper="DataArch.diagram.edit.helpers.ProcessEditHelper">
+            <param name="semanticHint" value="3060"/>
+         </metamodelType>
+      </metamodel>
+      <metamodel nsURI="DataArch">
+         <metamodelType
+               id="IoT_DataView.diagram.VerifyData_3061"
+               name="%metatype.name.VerifyData_3061"
+               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
+               eclass="VerifyData"
+               edithelper="DataArch.diagram.edit.helpers.VerifyDataEditHelper">
+            <param name="semanticHint" value="3061"/>
+         </metamodelType>
+      </metamodel>
+      <metamodel nsURI="DataArch">
+         <metamodelType
+               id="IoT_DataView.diagram.InMessagePort_3062"
+               name="%metatype.name.InMessagePort_3062"
+               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
+               eclass="InMessagePort"
+               edithelper="DataArch.diagram.edit.helpers.InMessagePortEditHelper">
+            <param name="semanticHint" value="3062"/>
+         </metamodelType>
+      </metamodel>
+      <metamodel nsURI="DataArch">
+         <metamodelType
+               id="IoT_DataView.diagram.OutMessagePort_3063"
+               name="%metatype.name.OutMessagePort_3063"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
                eclass="OutMessagePort"
                edithelper="DataArch.diagram.edit.helpers.OutMessagePortEditHelper">
-            <param name="semanticHint" value="3059"/>
+            <param name="semanticHint" value="3063"/>
          </metamodelType>
       </metamodel>
       <metamodel nsURI="DataArch">
@@ -1355,45 +1370,46 @@
          <elementType ref="IoT_DataView.diagram.ColumnOriented_3021"/>
          <elementType ref="IoT_DataView.diagram.GraphsDatabase_3022"/>
          <elementType ref="IoT_DataView.diagram.KeyValue_3023"/>
-         <elementType ref="IoT_DataView.diagram.Cloud_3060"/>
-         <elementType ref="IoT_DataView.diagram.On_Premise_3061"/>
-         <elementType ref="IoT_DataView.diagram.File_System_3024"/>
-         <elementType ref="IoT_DataView.diagram.Relational_3025"/>
-         <elementType ref="IoT_DataView.diagram.Multidimensional_3026"/>
-         <elementType ref="IoT_DataView.diagram.RealTime_3027"/>
-         <elementType ref="IoT_DataView.diagram.Batch_3028"/>
-         <elementType ref="IoT_DataView.diagram.Filter_3029"/>
-         <elementType ref="IoT_DataView.diagram.Describe_3030"/>
-         <elementType ref="IoT_DataView.diagram.Diagnose_3031"/>
-         <elementType ref="IoT_DataView.diagram.Predict_3032"/>
-         <elementType ref="IoT_DataView.diagram.Prescript_3033"/>
-         <elementType ref="IoT_DataView.diagram.Visualize_3034"/>
-         <elementType ref="IoT_DataView.diagram.Query_Report_3035"/>
-         <elementType ref="IoT_DataView.diagram.API_3036"/>
-         <elementType ref="IoT_DataView.diagram.Tranfrom_3037"/>
-         <elementType ref="IoT_DataView.diagram.Compress_3038"/>
-         <elementType ref="IoT_DataView.diagram.Integrate_3039"/>
-         <elementType ref="IoT_DataView.diagram.Identify_3040"/>
-         <elementType ref="IoT_DataView.diagram.Validate_3041"/>
-         <elementType ref="IoT_DataView.diagram.Classify_3042"/>
-         <elementType ref="IoT_DataView.diagram.Sort_3043"/>
-         <elementType ref="IoT_DataView.diagram.Merge_3044"/>
-         <elementType ref="IoT_DataView.diagram.Aggregate_3045"/>
-         <elementType ref="IoT_DataView.diagram.Cleaning_3046"/>
-         <elementType ref="IoT_DataView.diagram.ReduceNoise_3047"/>
-         <elementType ref="IoT_DataView.diagram.Math_Operation_3048"/>
-         <elementType ref="IoT_DataView.diagram.Retrieve_3049"/>
-         <elementType ref="IoT_DataView.diagram.Save_3050"/>
-         <elementType ref="IoT_DataView.diagram.Archive_3051"/>
-         <elementType ref="IoT_DataView.diagram.Govern_3052"/>
-         <elementType ref="IoT_DataView.diagram.ReceiveData_3053"/>
-         <elementType ref="IoT_DataView.diagram.SendData_3054"/>
-         <elementType ref="IoT_DataView.diagram.Generate_3055"/>
-         <elementType ref="IoT_DataView.diagram.Ingest_3062"/>
-         <elementType ref="IoT_DataView.diagram.Analyze_3056"/>
-         <elementType ref="IoT_DataView.diagram.Process_3057"/>
-         <elementType ref="IoT_DataView.diagram.InMessagePort_3058"/>
-         <elementType ref="IoT_DataView.diagram.OutMessagePort_3059"/>
+         <elementType ref="IoT_DataView.diagram.Cloud_3024"/>
+         <elementType ref="IoT_DataView.diagram.On_Premise_3025"/>
+         <elementType ref="IoT_DataView.diagram.File_System_3026"/>
+         <elementType ref="IoT_DataView.diagram.Relational_3027"/>
+         <elementType ref="IoT_DataView.diagram.Multidimensional_3028"/>
+         <elementType ref="IoT_DataView.diagram.RealTime_3029"/>
+         <elementType ref="IoT_DataView.diagram.Batch_3030"/>
+         <elementType ref="IoT_DataView.diagram.Filter_3031"/>
+         <elementType ref="IoT_DataView.diagram.Describe_3032"/>
+         <elementType ref="IoT_DataView.diagram.Diagnose_3033"/>
+         <elementType ref="IoT_DataView.diagram.Predict_3034"/>
+         <elementType ref="IoT_DataView.diagram.Prescript_3035"/>
+         <elementType ref="IoT_DataView.diagram.Visualize_3036"/>
+         <elementType ref="IoT_DataView.diagram.Query_Report_3037"/>
+         <elementType ref="IoT_DataView.diagram.API_3038"/>
+         <elementType ref="IoT_DataView.diagram.Tranfrom_3039"/>
+         <elementType ref="IoT_DataView.diagram.Compress_3040"/>
+         <elementType ref="IoT_DataView.diagram.Integrate_3041"/>
+         <elementType ref="IoT_DataView.diagram.Identify_3042"/>
+         <elementType ref="IoT_DataView.diagram.Validate_3043"/>
+         <elementType ref="IoT_DataView.diagram.Classify_3044"/>
+         <elementType ref="IoT_DataView.diagram.Sort_3045"/>
+         <elementType ref="IoT_DataView.diagram.Merge_3046"/>
+         <elementType ref="IoT_DataView.diagram.Aggregate_3047"/>
+         <elementType ref="IoT_DataView.diagram.Cleaning_3048"/>
+         <elementType ref="IoT_DataView.diagram.ReduceNoise_3049"/>
+         <elementType ref="IoT_DataView.diagram.Math_Operation_3050"/>
+         <elementType ref="IoT_DataView.diagram.Retrieve_3051"/>
+         <elementType ref="IoT_DataView.diagram.Save_3052"/>
+         <elementType ref="IoT_DataView.diagram.Archive_3053"/>
+         <elementType ref="IoT_DataView.diagram.Govern_3054"/>
+         <elementType ref="IoT_DataView.diagram.ReceiveData_3055"/>
+         <elementType ref="IoT_DataView.diagram.SendData_3056"/>
+         <elementType ref="IoT_DataView.diagram.Generate_3057"/>
+         <elementType ref="IoT_DataView.diagram.Ingest_3058"/>
+         <elementType ref="IoT_DataView.diagram.Analyze_3059"/>
+         <elementType ref="IoT_DataView.diagram.Process_3060"/>
+         <elementType ref="IoT_DataView.diagram.VerifyData_3061"/>
+         <elementType ref="IoT_DataView.diagram.InMessagePort_3062"/>
+         <elementType ref="IoT_DataView.diagram.OutMessagePort_3063"/>
          <elementType ref="IoT_DataView.diagram.Link_4001"/>
          <elementType ref="IoT_DataView.diagram.Connection_4002"/>
          <elementType ref="IoT_DataView.diagram.ReceiveDataFromMessagePorts_4003"/>

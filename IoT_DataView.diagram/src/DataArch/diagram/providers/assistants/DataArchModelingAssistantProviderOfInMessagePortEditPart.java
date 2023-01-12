@@ -54,9 +54,9 @@ public class DataArchModelingAssistantProviderOfInMessagePortEditPart
 			IElementType relationshipType) {
 		List<IElementType> types = new ArrayList<IElementType>();
 		if (relationshipType == DataArch.diagram.providers.DataArchElementTypes.Connection_4002) {
-			types.add(DataArch.diagram.providers.DataArchElementTypes.OutMessagePort_3059);
+			types.add(DataArch.diagram.providers.DataArchElementTypes.OutMessagePort_3063);
 		} else if (relationshipType == DataArch.diagram.providers.DataArchElementTypes.ReceiveDataFromMessagePorts_4003) {
-			types.add(DataArch.diagram.providers.DataArchElementTypes.ReceiveData_3053);
+			types.add(DataArch.diagram.providers.DataArchElementTypes.ReceiveData_3055);
 		}
 		return types;
 	}

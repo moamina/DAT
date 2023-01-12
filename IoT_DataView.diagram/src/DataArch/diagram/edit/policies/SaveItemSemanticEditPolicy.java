@@ -25,7 +25,7 @@ public class SaveItemSemanticEditPolicy extends DataArch.diagram.edit.policies.D
 	* @generated
 	*/
 	public SaveItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Save_3050);
+		super(DataArch.diagram.providers.DataArchElementTypes.Save_3052);
 	}
 
 	/**

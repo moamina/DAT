@@ -38,7 +38,7 @@ public class ReduceNoiseEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3047;
+	public static final int VISUAL_ID = 3049;
 
 	/**
 	* @generated

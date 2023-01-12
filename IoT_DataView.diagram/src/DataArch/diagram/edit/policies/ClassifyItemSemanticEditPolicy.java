@@ -25,7 +25,7 @@ public class ClassifyItemSemanticEditPolicy extends DataArch.diagram.edit.polici
 	* @generated
 	*/
 	public ClassifyItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Classify_3042);
+		super(DataArch.diagram.providers.DataArchElementTypes.Classify_3044);
 	}
 
 	/**

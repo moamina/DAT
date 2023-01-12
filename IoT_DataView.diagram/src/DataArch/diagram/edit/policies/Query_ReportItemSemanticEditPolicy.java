@@ -26,7 +26,7 @@ public class Query_ReportItemSemanticEditPolicy
 	* @generated
 	*/
 	public Query_ReportItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Query_Report_3035);
+		super(DataArch.diagram.providers.DataArchElementTypes.Query_Report_3037);
 	}
 
 	/**

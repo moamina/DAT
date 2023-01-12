@@ -57,7 +57,7 @@ public class ReduceNoiseNameEditPart extends LabelEditPart implements ITextAware
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5047;
+	public static final int VISUAL_ID = 5049;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class ReduceNoiseNameEditPart extends LabelEditPart implements ITextAware
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.ReduceNoise_3047, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.ReduceNoise_3049, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.ReduceNoiseNameEditPart.VISUAL_ID));
 		}

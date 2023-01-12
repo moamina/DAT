@@ -38,7 +38,7 @@ public class CleaningEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3046;
+	public static final int VISUAL_ID = 3048;
 
 	/**
 	* @generated

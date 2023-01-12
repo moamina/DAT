@@ -25,7 +25,7 @@ public class IntegrateItemSemanticEditPolicy extends DataArch.diagram.edit.polic
 	* @generated
 	*/
 	public IntegrateItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Integrate_3039);
+		super(DataArch.diagram.providers.DataArchElementTypes.Integrate_3041);
 	}
 
 	/**

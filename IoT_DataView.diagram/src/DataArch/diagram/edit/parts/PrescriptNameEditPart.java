@@ -57,7 +57,7 @@ public class PrescriptNameEditPart extends LabelEditPart implements ITextAwareEd
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5033;
+	public static final int VISUAL_ID = 5035;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class PrescriptNameEditPart extends LabelEditPart implements ITextAwareEd
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.Prescript_3033, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.Prescript_3035, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.PrescriptNameEditPart.VISUAL_ID));
 		}

@@ -57,7 +57,7 @@ public class RelationalNameEditPart extends LabelEditPart implements ITextAwareE
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5025;
+	public static final int VISUAL_ID = 5027;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class RelationalNameEditPart extends LabelEditPart implements ITextAwareE
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.Relational_3025, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.Relational_3027, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.RelationalNameEditPart.VISUAL_ID));
 		}

@@ -55,7 +55,7 @@ public class DataNodeNodeNameEditPart extends CompartmentEditPart implements ITe
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5060;
+	public static final int VISUAL_ID = 5064;
 
 	/**
 	* @generated

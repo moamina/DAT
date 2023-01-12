@@ -38,7 +38,7 @@ public class DiagnoseEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3031;
+	public static final int VISUAL_ID = 3033;
 
 	/**
 	* @generated

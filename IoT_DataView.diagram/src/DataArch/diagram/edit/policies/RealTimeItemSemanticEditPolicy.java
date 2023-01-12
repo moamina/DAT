@@ -25,7 +25,7 @@ public class RealTimeItemSemanticEditPolicy extends DataArch.diagram.edit.polici
 	* @generated
 	*/
 	public RealTimeItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.RealTime_3027);
+		super(DataArch.diagram.providers.DataArchElementTypes.RealTime_3029);
 	}
 
 	/**

@@ -534,6 +534,11 @@ public class DataNodeItemProvider
 
 		newChildDescriptors.add
 			(createChildParameter
+				(DataArchPackage.Literals.DATA_NODE__BEHAVIOURAL_ELEMENTS,
+				 DataArchFactory.eINSTANCE.createVerifyData()));
+
+		newChildDescriptors.add
+			(createChildParameter
 				(DataArchPackage.Literals.DATA_NODE__PORTS,
 				 DataArchFactory.eINSTANCE.createInMessagePort()));
 

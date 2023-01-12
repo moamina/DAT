@@ -25,7 +25,7 @@ public class PrescriptItemSemanticEditPolicy extends DataArch.diagram.edit.polic
 	* @generated
 	*/
 	public PrescriptItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Prescript_3033);
+		super(DataArch.diagram.providers.DataArchElementTypes.Prescript_3035);
 	}
 
 	/**

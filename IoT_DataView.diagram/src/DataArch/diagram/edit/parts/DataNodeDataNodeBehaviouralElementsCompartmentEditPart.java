@@ -155,115 +155,118 @@ public class DataNodeDataNodeBehaviouralElementsCompartmentEditPart extends Shap
 			if (type == DataArch.diagram.providers.DataArchElementTypes.KeyValue_3023) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Cloud_3060) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Cloud_3024) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.On_Premise_3061) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.On_Premise_3025) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.File_System_3024) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.File_System_3026) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Relational_3025) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Relational_3027) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Multidimensional_3026) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Multidimensional_3028) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.RealTime_3027) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.RealTime_3029) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Batch_3028) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Batch_3030) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Filter_3029) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Filter_3031) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Describe_3030) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Describe_3032) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Diagnose_3031) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Diagnose_3033) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Predict_3032) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Predict_3034) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Prescript_3033) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Prescript_3035) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Visualize_3034) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Visualize_3036) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Query_Report_3035) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Query_Report_3037) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.API_3036) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.API_3038) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Tranfrom_3037) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Tranfrom_3039) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Compress_3038) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Compress_3040) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Integrate_3039) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Integrate_3041) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Identify_3040) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Identify_3042) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Validate_3041) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Validate_3043) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Classify_3042) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Classify_3044) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Sort_3043) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Sort_3045) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Merge_3044) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Merge_3046) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Aggregate_3045) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Aggregate_3047) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Cleaning_3046) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Cleaning_3048) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.ReduceNoise_3047) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.ReduceNoise_3049) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Math_Operation_3048) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Math_Operation_3050) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Retrieve_3049) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Retrieve_3051) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Save_3050) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Save_3052) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Archive_3051) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Archive_3053) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Govern_3052) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Govern_3054) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.ReceiveData_3053) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.ReceiveData_3055) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.SendData_3054) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.SendData_3056) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Generate_3055) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Generate_3057) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Ingest_3062) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Ingest_3058) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Analyze_3056) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Analyze_3059) {
 				return this;
 			}
-			if (type == DataArch.diagram.providers.DataArchElementTypes.Process_3057) {
+			if (type == DataArch.diagram.providers.DataArchElementTypes.Process_3060) {
+				return this;
+			}
+			if (type == DataArch.diagram.providers.DataArchElementTypes.VerifyData_3061) {
 				return this;
 			}
 			return getParent().getTargetEditPart(request);

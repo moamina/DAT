@@ -57,7 +57,7 @@ public class On_PremiseNameEditPart extends LabelEditPart implements ITextAwareE
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5062;
+	public static final int VISUAL_ID = 5025;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class On_PremiseNameEditPart extends LabelEditPart implements ITextAwareE
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.On_Premise_3061, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.On_Premise_3025, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.On_PremiseNameEditPart.VISUAL_ID));
 		}

@@ -57,7 +57,7 @@ public class Query_ReportNameEditPart extends LabelEditPart implements ITextAwar
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5035;
+	public static final int VISUAL_ID = 5037;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class Query_ReportNameEditPart extends LabelEditPart implements ITextAwar
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.Query_Report_3035, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.Query_Report_3037, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.Query_ReportNameEditPart.VISUAL_ID));
 		}

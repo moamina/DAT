@@ -26,7 +26,7 @@ public class MultidimensionalItemSemanticEditPolicy
 	* @generated
 	*/
 	public MultidimensionalItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Multidimensional_3026);
+		super(DataArch.diagram.providers.DataArchElementTypes.Multidimensional_3028);
 	}
 
 	/**

@@ -25,7 +25,7 @@ public class AggregateItemSemanticEditPolicy extends DataArch.diagram.edit.polic
 	* @generated
 	*/
 	public AggregateItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Aggregate_3045);
+		super(DataArch.diagram.providers.DataArchElementTypes.Aggregate_3047);
 	}
 
 	/**

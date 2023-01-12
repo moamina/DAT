@@ -38,7 +38,7 @@ public class ValidateEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3041;
+	public static final int VISUAL_ID = 3043;
 
 	/**
 	* @generated

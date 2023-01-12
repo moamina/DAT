@@ -57,7 +57,7 @@ public class ArchiveNameEditPart extends LabelEditPart implements ITextAwareEdit
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5051;
+	public static final int VISUAL_ID = 5053;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class ArchiveNameEditPart extends LabelEditPart implements ITextAwareEdit
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.Archive_3051, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.Archive_3053, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.ArchiveNameEditPart.VISUAL_ID));
 		}

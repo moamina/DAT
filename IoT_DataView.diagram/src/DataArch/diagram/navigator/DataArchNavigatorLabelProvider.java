@@ -150,120 +150,123 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 		case DataArch.diagram.edit.parts.KeyValueEditPart.VISUAL_ID:
 			return getImage("Navigator?Node?DataArch?KeyValue", //$NON-NLS-1$
 					DataArch.diagram.providers.DataArchElementTypes.KeyValue_3023);
-		case DataArch.diagram.edit.parts.File_SystemEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?File_System", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.File_System_3024);
-		case DataArch.diagram.edit.parts.RelationalEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Relational", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Relational_3025);
-		case DataArch.diagram.edit.parts.MultidimensionalEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Multidimensional", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Multidimensional_3026);
-		case DataArch.diagram.edit.parts.RealTimeEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?RealTime", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.RealTime_3027);
-		case DataArch.diagram.edit.parts.BatchEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Batch", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Batch_3028);
-		case DataArch.diagram.edit.parts.FilterEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Filter", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Filter_3029);
-		case DataArch.diagram.edit.parts.DescribeEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Describe", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Describe_3030);
-		case DataArch.diagram.edit.parts.DiagnoseEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Diagnose", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Diagnose_3031);
-		case DataArch.diagram.edit.parts.PredictEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Predict", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Predict_3032);
-		case DataArch.diagram.edit.parts.PrescriptEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Prescript", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Prescript_3033);
-		case DataArch.diagram.edit.parts.VisualizeEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Visualize", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Visualize_3034);
-		case DataArch.diagram.edit.parts.Query_ReportEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Query_Report", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Query_Report_3035);
-		case DataArch.diagram.edit.parts.APIEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?API", DataArch.diagram.providers.DataArchElementTypes.API_3036); //$NON-NLS-1$
-		case DataArch.diagram.edit.parts.TranfromEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Tranfrom", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Tranfrom_3037);
-		case DataArch.diagram.edit.parts.CompressEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Compress", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Compress_3038);
-		case DataArch.diagram.edit.parts.IntegrateEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Integrate", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Integrate_3039);
-		case DataArch.diagram.edit.parts.IdentifyEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Identify", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Identify_3040);
-		case DataArch.diagram.edit.parts.ValidateEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Validate", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Validate_3041);
-		case DataArch.diagram.edit.parts.ClassifyEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Classify", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Classify_3042);
-		case DataArch.diagram.edit.parts.SortEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Sort", DataArch.diagram.providers.DataArchElementTypes.Sort_3043); //$NON-NLS-1$
-		case DataArch.diagram.edit.parts.MergeEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Merge", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Merge_3044);
-		case DataArch.diagram.edit.parts.AggregateEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Aggregate", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Aggregate_3045);
-		case DataArch.diagram.edit.parts.CleaningEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Cleaning", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Cleaning_3046);
-		case DataArch.diagram.edit.parts.ReduceNoiseEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?ReduceNoise", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.ReduceNoise_3047);
-		case DataArch.diagram.edit.parts.Math_OperationEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Math_Operation", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Math_Operation_3048);
-		case DataArch.diagram.edit.parts.RetrieveEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Retrieve", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Retrieve_3049);
-		case DataArch.diagram.edit.parts.SaveEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Save", DataArch.diagram.providers.DataArchElementTypes.Save_3050); //$NON-NLS-1$
-		case DataArch.diagram.edit.parts.ArchiveEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Archive", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Archive_3051);
-		case DataArch.diagram.edit.parts.GovernEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Govern", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Govern_3052);
-		case DataArch.diagram.edit.parts.ReceiveDataEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?ReceiveData", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.ReceiveData_3053);
-		case DataArch.diagram.edit.parts.SendDataEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?SendData", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.SendData_3054);
-		case DataArch.diagram.edit.parts.GenerateEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Generate", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Generate_3055);
-		case DataArch.diagram.edit.parts.AnalyzeEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Analyze", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Analyze_3056);
-		case DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?Process", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Process_3057);
-		case DataArch.diagram.edit.parts.InMessagePortEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?InMessagePort", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.InMessagePort_3058);
-		case DataArch.diagram.edit.parts.OutMessagePortEditPart.VISUAL_ID:
-			return getImage("Navigator?Node?DataArch?OutMessagePort", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.OutMessagePort_3059);
 		case DataArch.diagram.edit.parts.CloudEditPart.VISUAL_ID:
 			return getImage("Navigator?Node?DataArch?Cloud", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Cloud_3060);
+					DataArch.diagram.providers.DataArchElementTypes.Cloud_3024);
 		case DataArch.diagram.edit.parts.On_PremiseEditPart.VISUAL_ID:
 			return getImage("Navigator?Node?DataArch?On_Premise", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.On_Premise_3061);
+					DataArch.diagram.providers.DataArchElementTypes.On_Premise_3025);
+		case DataArch.diagram.edit.parts.File_SystemEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?File_System", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.File_System_3026);
+		case DataArch.diagram.edit.parts.RelationalEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Relational", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Relational_3027);
+		case DataArch.diagram.edit.parts.MultidimensionalEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Multidimensional", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Multidimensional_3028);
+		case DataArch.diagram.edit.parts.RealTimeEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?RealTime", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.RealTime_3029);
+		case DataArch.diagram.edit.parts.BatchEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Batch", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Batch_3030);
+		case DataArch.diagram.edit.parts.FilterEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Filter", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Filter_3031);
+		case DataArch.diagram.edit.parts.DescribeEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Describe", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Describe_3032);
+		case DataArch.diagram.edit.parts.DiagnoseEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Diagnose", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Diagnose_3033);
+		case DataArch.diagram.edit.parts.PredictEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Predict", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Predict_3034);
+		case DataArch.diagram.edit.parts.PrescriptEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Prescript", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Prescript_3035);
+		case DataArch.diagram.edit.parts.VisualizeEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Visualize", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Visualize_3036);
+		case DataArch.diagram.edit.parts.Query_ReportEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Query_Report", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Query_Report_3037);
+		case DataArch.diagram.edit.parts.APIEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?API", DataArch.diagram.providers.DataArchElementTypes.API_3038); //$NON-NLS-1$
+		case DataArch.diagram.edit.parts.TranfromEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Tranfrom", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Tranfrom_3039);
+		case DataArch.diagram.edit.parts.CompressEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Compress", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Compress_3040);
+		case DataArch.diagram.edit.parts.IntegrateEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Integrate", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Integrate_3041);
+		case DataArch.diagram.edit.parts.IdentifyEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Identify", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Identify_3042);
+		case DataArch.diagram.edit.parts.ValidateEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Validate", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Validate_3043);
+		case DataArch.diagram.edit.parts.ClassifyEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Classify", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Classify_3044);
+		case DataArch.diagram.edit.parts.SortEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Sort", DataArch.diagram.providers.DataArchElementTypes.Sort_3045); //$NON-NLS-1$
+		case DataArch.diagram.edit.parts.MergeEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Merge", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Merge_3046);
+		case DataArch.diagram.edit.parts.AggregateEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Aggregate", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Aggregate_3047);
+		case DataArch.diagram.edit.parts.CleaningEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Cleaning", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Cleaning_3048);
+		case DataArch.diagram.edit.parts.ReduceNoiseEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?ReduceNoise", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.ReduceNoise_3049);
+		case DataArch.diagram.edit.parts.Math_OperationEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Math_Operation", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Math_Operation_3050);
+		case DataArch.diagram.edit.parts.RetrieveEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Retrieve", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Retrieve_3051);
+		case DataArch.diagram.edit.parts.SaveEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Save", DataArch.diagram.providers.DataArchElementTypes.Save_3052); //$NON-NLS-1$
+		case DataArch.diagram.edit.parts.ArchiveEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Archive", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Archive_3053);
+		case DataArch.diagram.edit.parts.GovernEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Govern", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Govern_3054);
+		case DataArch.diagram.edit.parts.ReceiveDataEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?ReceiveData", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.ReceiveData_3055);
+		case DataArch.diagram.edit.parts.SendDataEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?SendData", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.SendData_3056);
+		case DataArch.diagram.edit.parts.GenerateEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Generate", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Generate_3057);
 		case DataArch.diagram.edit.parts.IngestEditPart.VISUAL_ID:
 			return getImage("Navigator?Node?DataArch?Ingest", //$NON-NLS-1$
-					DataArch.diagram.providers.DataArchElementTypes.Ingest_3062);
+					DataArch.diagram.providers.DataArchElementTypes.Ingest_3058);
+		case DataArch.diagram.edit.parts.AnalyzeEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Analyze", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Analyze_3059);
+		case DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?Process", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.Process_3060);
+		case DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?VerifyData", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.VerifyData_3061);
+		case DataArch.diagram.edit.parts.InMessagePortEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?InMessagePort", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.InMessagePort_3062);
+		case DataArch.diagram.edit.parts.OutMessagePortEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?DataArch?OutMessagePort", //$NON-NLS-1$
+					DataArch.diagram.providers.DataArchElementTypes.OutMessagePort_3063);
 		case DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID:
 			return getImage("Navigator?Link?DataArch?Link", DataArch.diagram.providers.DataArchElementTypes.Link_4001); //$NON-NLS-1$
 		case DataArch.diagram.edit.parts.ConnectionEditPart.VISUAL_ID:
@@ -385,84 +388,86 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 			return getGraphsDatabase_3022Text(view);
 		case DataArch.diagram.edit.parts.KeyValueEditPart.VISUAL_ID:
 			return getKeyValue_3023Text(view);
-		case DataArch.diagram.edit.parts.File_SystemEditPart.VISUAL_ID:
-			return getFile_System_3024Text(view);
-		case DataArch.diagram.edit.parts.RelationalEditPart.VISUAL_ID:
-			return getRelational_3025Text(view);
-		case DataArch.diagram.edit.parts.MultidimensionalEditPart.VISUAL_ID:
-			return getMultidimensional_3026Text(view);
-		case DataArch.diagram.edit.parts.RealTimeEditPart.VISUAL_ID:
-			return getRealTime_3027Text(view);
-		case DataArch.diagram.edit.parts.BatchEditPart.VISUAL_ID:
-			return getBatch_3028Text(view);
-		case DataArch.diagram.edit.parts.FilterEditPart.VISUAL_ID:
-			return getFilter_3029Text(view);
-		case DataArch.diagram.edit.parts.DescribeEditPart.VISUAL_ID:
-			return getDescribe_3030Text(view);
-		case DataArch.diagram.edit.parts.DiagnoseEditPart.VISUAL_ID:
-			return getDiagnose_3031Text(view);
-		case DataArch.diagram.edit.parts.PredictEditPart.VISUAL_ID:
-			return getPredict_3032Text(view);
-		case DataArch.diagram.edit.parts.PrescriptEditPart.VISUAL_ID:
-			return getPrescript_3033Text(view);
-		case DataArch.diagram.edit.parts.VisualizeEditPart.VISUAL_ID:
-			return getVisualize_3034Text(view);
-		case DataArch.diagram.edit.parts.Query_ReportEditPart.VISUAL_ID:
-			return getQuery_Report_3035Text(view);
-		case DataArch.diagram.edit.parts.APIEditPart.VISUAL_ID:
-			return getAPI_3036Text(view);
-		case DataArch.diagram.edit.parts.TranfromEditPart.VISUAL_ID:
-			return getTranfrom_3037Text(view);
-		case DataArch.diagram.edit.parts.CompressEditPart.VISUAL_ID:
-			return getCompress_3038Text(view);
-		case DataArch.diagram.edit.parts.IntegrateEditPart.VISUAL_ID:
-			return getIntegrate_3039Text(view);
-		case DataArch.diagram.edit.parts.IdentifyEditPart.VISUAL_ID:
-			return getIdentify_3040Text(view);
-		case DataArch.diagram.edit.parts.ValidateEditPart.VISUAL_ID:
-			return getValidate_3041Text(view);
-		case DataArch.diagram.edit.parts.ClassifyEditPart.VISUAL_ID:
-			return getClassify_3042Text(view);
-		case DataArch.diagram.edit.parts.SortEditPart.VISUAL_ID:
-			return getSort_3043Text(view);
-		case DataArch.diagram.edit.parts.MergeEditPart.VISUAL_ID:
-			return getMerge_3044Text(view);
-		case DataArch.diagram.edit.parts.AggregateEditPart.VISUAL_ID:
-			return getAggregate_3045Text(view);
-		case DataArch.diagram.edit.parts.CleaningEditPart.VISUAL_ID:
-			return getCleaning_3046Text(view);
-		case DataArch.diagram.edit.parts.ReduceNoiseEditPart.VISUAL_ID:
-			return getReduceNoise_3047Text(view);
-		case DataArch.diagram.edit.parts.Math_OperationEditPart.VISUAL_ID:
-			return getMath_Operation_3048Text(view);
-		case DataArch.diagram.edit.parts.RetrieveEditPart.VISUAL_ID:
-			return getRetrieve_3049Text(view);
-		case DataArch.diagram.edit.parts.SaveEditPart.VISUAL_ID:
-			return getSave_3050Text(view);
-		case DataArch.diagram.edit.parts.ArchiveEditPart.VISUAL_ID:
-			return getArchive_3051Text(view);
-		case DataArch.diagram.edit.parts.GovernEditPart.VISUAL_ID:
-			return getGovern_3052Text(view);
-		case DataArch.diagram.edit.parts.ReceiveDataEditPart.VISUAL_ID:
-			return getReceiveData_3053Text(view);
-		case DataArch.diagram.edit.parts.SendDataEditPart.VISUAL_ID:
-			return getSendData_3054Text(view);
-		case DataArch.diagram.edit.parts.GenerateEditPart.VISUAL_ID:
-			return getGenerate_3055Text(view);
-		case DataArch.diagram.edit.parts.AnalyzeEditPart.VISUAL_ID:
-			return getAnalyze_3056Text(view);
-		case DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID:
-			return getProcess_3057Text(view);
-		case DataArch.diagram.edit.parts.InMessagePortEditPart.VISUAL_ID:
-			return getInMessagePort_3058Text(view);
-		case DataArch.diagram.edit.parts.OutMessagePortEditPart.VISUAL_ID:
-			return getOutMessagePort_3059Text(view);
 		case DataArch.diagram.edit.parts.CloudEditPart.VISUAL_ID:
-			return getCloud_3060Text(view);
+			return getCloud_3024Text(view);
 		case DataArch.diagram.edit.parts.On_PremiseEditPart.VISUAL_ID:
-			return getOn_Premise_3061Text(view);
+			return getOn_Premise_3025Text(view);
+		case DataArch.diagram.edit.parts.File_SystemEditPart.VISUAL_ID:
+			return getFile_System_3026Text(view);
+		case DataArch.diagram.edit.parts.RelationalEditPart.VISUAL_ID:
+			return getRelational_3027Text(view);
+		case DataArch.diagram.edit.parts.MultidimensionalEditPart.VISUAL_ID:
+			return getMultidimensional_3028Text(view);
+		case DataArch.diagram.edit.parts.RealTimeEditPart.VISUAL_ID:
+			return getRealTime_3029Text(view);
+		case DataArch.diagram.edit.parts.BatchEditPart.VISUAL_ID:
+			return getBatch_3030Text(view);
+		case DataArch.diagram.edit.parts.FilterEditPart.VISUAL_ID:
+			return getFilter_3031Text(view);
+		case DataArch.diagram.edit.parts.DescribeEditPart.VISUAL_ID:
+			return getDescribe_3032Text(view);
+		case DataArch.diagram.edit.parts.DiagnoseEditPart.VISUAL_ID:
+			return getDiagnose_3033Text(view);
+		case DataArch.diagram.edit.parts.PredictEditPart.VISUAL_ID:
+			return getPredict_3034Text(view);
+		case DataArch.diagram.edit.parts.PrescriptEditPart.VISUAL_ID:
+			return getPrescript_3035Text(view);
+		case DataArch.diagram.edit.parts.VisualizeEditPart.VISUAL_ID:
+			return getVisualize_3036Text(view);
+		case DataArch.diagram.edit.parts.Query_ReportEditPart.VISUAL_ID:
+			return getQuery_Report_3037Text(view);
+		case DataArch.diagram.edit.parts.APIEditPart.VISUAL_ID:
+			return getAPI_3038Text(view);
+		case DataArch.diagram.edit.parts.TranfromEditPart.VISUAL_ID:
+			return getTranfrom_3039Text(view);
+		case DataArch.diagram.edit.parts.CompressEditPart.VISUAL_ID:
+			return getCompress_3040Text(view);
+		case DataArch.diagram.edit.parts.IntegrateEditPart.VISUAL_ID:
+			return getIntegrate_3041Text(view);
+		case DataArch.diagram.edit.parts.IdentifyEditPart.VISUAL_ID:
+			return getIdentify_3042Text(view);
+		case DataArch.diagram.edit.parts.ValidateEditPart.VISUAL_ID:
+			return getValidate_3043Text(view);
+		case DataArch.diagram.edit.parts.ClassifyEditPart.VISUAL_ID:
+			return getClassify_3044Text(view);
+		case DataArch.diagram.edit.parts.SortEditPart.VISUAL_ID:
+			return getSort_3045Text(view);
+		case DataArch.diagram.edit.parts.MergeEditPart.VISUAL_ID:
+			return getMerge_3046Text(view);
+		case DataArch.diagram.edit.parts.AggregateEditPart.VISUAL_ID:
+			return getAggregate_3047Text(view);
+		case DataArch.diagram.edit.parts.CleaningEditPart.VISUAL_ID:
+			return getCleaning_3048Text(view);
+		case DataArch.diagram.edit.parts.ReduceNoiseEditPart.VISUAL_ID:
+			return getReduceNoise_3049Text(view);
+		case DataArch.diagram.edit.parts.Math_OperationEditPart.VISUAL_ID:
+			return getMath_Operation_3050Text(view);
+		case DataArch.diagram.edit.parts.RetrieveEditPart.VISUAL_ID:
+			return getRetrieve_3051Text(view);
+		case DataArch.diagram.edit.parts.SaveEditPart.VISUAL_ID:
+			return getSave_3052Text(view);
+		case DataArch.diagram.edit.parts.ArchiveEditPart.VISUAL_ID:
+			return getArchive_3053Text(view);
+		case DataArch.diagram.edit.parts.GovernEditPart.VISUAL_ID:
+			return getGovern_3054Text(view);
+		case DataArch.diagram.edit.parts.ReceiveDataEditPart.VISUAL_ID:
+			return getReceiveData_3055Text(view);
+		case DataArch.diagram.edit.parts.SendDataEditPart.VISUAL_ID:
+			return getSendData_3056Text(view);
+		case DataArch.diagram.edit.parts.GenerateEditPart.VISUAL_ID:
+			return getGenerate_3057Text(view);
 		case DataArch.diagram.edit.parts.IngestEditPart.VISUAL_ID:
-			return getIngest_3062Text(view);
+			return getIngest_3058Text(view);
+		case DataArch.diagram.edit.parts.AnalyzeEditPart.VISUAL_ID:
+			return getAnalyze_3059Text(view);
+		case DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID:
+			return getProcess_3060Text(view);
+		case DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID:
+			return getVerifyData_3061Text(view);
+		case DataArch.diagram.edit.parts.InMessagePortEditPart.VISUAL_ID:
+			return getInMessagePort_3062Text(view);
+		case DataArch.diagram.edit.parts.OutMessagePortEditPart.VISUAL_ID:
+			return getOutMessagePort_3063Text(view);
 		case DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID:
 			return getLink_4001Text(view);
 		case DataArch.diagram.edit.parts.ConnectionEditPart.VISUAL_ID:
@@ -495,7 +500,7 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 					ParserOptions.NONE.intValue());
 		} else {
 			DataArch.diagram.part.DataArchDiagramEditorPlugin.getInstance()
-					.logError("Parser was not found for label " + 5060); //$NON-NLS-1$
+					.logError("Parser was not found for label " + 5064); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}
@@ -917,11 +922,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getFile_System_3024Text(View view) {
+	private String getCloud_3024Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.File_System_3024,
+				DataArch.diagram.providers.DataArchElementTypes.Cloud_3024,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.File_SystemNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.CloudNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -935,11 +940,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getRelational_3025Text(View view) {
+	private String getOn_Premise_3025Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Relational_3025,
+				DataArch.diagram.providers.DataArchElementTypes.On_Premise_3025,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.RelationalNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.On_PremiseNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -953,11 +958,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getMultidimensional_3026Text(View view) {
+	private String getFile_System_3026Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Multidimensional_3026,
+				DataArch.diagram.providers.DataArchElementTypes.File_System_3026,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.MultidimensionalNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.File_SystemNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -971,11 +976,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getRealTime_3027Text(View view) {
+	private String getRelational_3027Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.RealTime_3027,
+				DataArch.diagram.providers.DataArchElementTypes.Relational_3027,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.RealTimeNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.RelationalNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -989,11 +994,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getBatch_3028Text(View view) {
+	private String getMultidimensional_3028Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Batch_3028,
+				DataArch.diagram.providers.DataArchElementTypes.Multidimensional_3028,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.BatchNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.MultidimensionalNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1007,11 +1012,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getFilter_3029Text(View view) {
+	private String getRealTime_3029Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Filter_3029,
+				DataArch.diagram.providers.DataArchElementTypes.RealTime_3029,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.FilterNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.RealTimeNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1025,11 +1030,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getDescribe_3030Text(View view) {
+	private String getBatch_3030Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Describe_3030,
+				DataArch.diagram.providers.DataArchElementTypes.Batch_3030,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.DescribeNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.BatchNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1043,11 +1048,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getDiagnose_3031Text(View view) {
+	private String getFilter_3031Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Diagnose_3031,
+				DataArch.diagram.providers.DataArchElementTypes.Filter_3031,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.DiagnoseNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.FilterNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1061,11 +1066,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getPredict_3032Text(View view) {
+	private String getDescribe_3032Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Predict_3032,
+				DataArch.diagram.providers.DataArchElementTypes.Describe_3032,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.PredictNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.DescribeNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1079,11 +1084,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getPrescript_3033Text(View view) {
+	private String getDiagnose_3033Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Prescript_3033,
+				DataArch.diagram.providers.DataArchElementTypes.Diagnose_3033,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.PrescriptNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.DiagnoseNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1097,11 +1102,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getVisualize_3034Text(View view) {
+	private String getPredict_3034Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Visualize_3034,
+				DataArch.diagram.providers.DataArchElementTypes.Predict_3034,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.VisualizeNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.PredictNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1115,11 +1120,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getQuery_Report_3035Text(View view) {
+	private String getPrescript_3035Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Query_Report_3035,
+				DataArch.diagram.providers.DataArchElementTypes.Prescript_3035,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.Query_ReportNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.PrescriptNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1133,11 +1138,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getAPI_3036Text(View view) {
+	private String getVisualize_3036Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.API_3036,
+				DataArch.diagram.providers.DataArchElementTypes.Visualize_3036,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.APINameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.VisualizeNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1151,11 +1156,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getTranfrom_3037Text(View view) {
+	private String getQuery_Report_3037Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Tranfrom_3037,
+				DataArch.diagram.providers.DataArchElementTypes.Query_Report_3037,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.TranfromNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.Query_ReportNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1169,11 +1174,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getCompress_3038Text(View view) {
+	private String getAPI_3038Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Compress_3038,
+				DataArch.diagram.providers.DataArchElementTypes.API_3038,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.CompressNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.APINameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1187,11 +1192,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getIntegrate_3039Text(View view) {
+	private String getTranfrom_3039Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Integrate_3039,
+				DataArch.diagram.providers.DataArchElementTypes.Tranfrom_3039,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.IntegrateNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.TranfromNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1205,11 +1210,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getIdentify_3040Text(View view) {
+	private String getCompress_3040Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Identify_3040,
+				DataArch.diagram.providers.DataArchElementTypes.Compress_3040,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.IdentifyNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.CompressNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1223,11 +1228,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getValidate_3041Text(View view) {
+	private String getIntegrate_3041Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Validate_3041,
+				DataArch.diagram.providers.DataArchElementTypes.Integrate_3041,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.ValidateNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.IntegrateNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1241,11 +1246,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getClassify_3042Text(View view) {
+	private String getIdentify_3042Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Classify_3042,
+				DataArch.diagram.providers.DataArchElementTypes.Identify_3042,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.ClassifyNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.IdentifyNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1259,11 +1264,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getSort_3043Text(View view) {
+	private String getValidate_3043Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Sort_3043,
+				DataArch.diagram.providers.DataArchElementTypes.Validate_3043,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.SortNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.ValidateNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1277,11 +1282,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getMerge_3044Text(View view) {
+	private String getClassify_3044Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Merge_3044,
+				DataArch.diagram.providers.DataArchElementTypes.Classify_3044,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.MergeNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.ClassifyNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1295,11 +1300,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getAggregate_3045Text(View view) {
+	private String getSort_3045Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Aggregate_3045,
+				DataArch.diagram.providers.DataArchElementTypes.Sort_3045,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.AggregateNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.SortNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1313,11 +1318,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getCleaning_3046Text(View view) {
+	private String getMerge_3046Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Cleaning_3046,
+				DataArch.diagram.providers.DataArchElementTypes.Merge_3046,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.CleaningNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.MergeNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1331,11 +1336,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getReduceNoise_3047Text(View view) {
+	private String getAggregate_3047Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.ReduceNoise_3047,
+				DataArch.diagram.providers.DataArchElementTypes.Aggregate_3047,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.ReduceNoiseNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.AggregateNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1349,11 +1354,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getMath_Operation_3048Text(View view) {
+	private String getCleaning_3048Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Math_Operation_3048,
+				DataArch.diagram.providers.DataArchElementTypes.Cleaning_3048,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.Math_OperationNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.CleaningNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1367,11 +1372,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getRetrieve_3049Text(View view) {
+	private String getReduceNoise_3049Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Retrieve_3049,
+				DataArch.diagram.providers.DataArchElementTypes.ReduceNoise_3049,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.RetrieveNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.ReduceNoiseNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1385,11 +1390,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getSave_3050Text(View view) {
+	private String getMath_Operation_3050Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Save_3050,
+				DataArch.diagram.providers.DataArchElementTypes.Math_Operation_3050,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.SaveNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.Math_OperationNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1403,11 +1408,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getArchive_3051Text(View view) {
+	private String getRetrieve_3051Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Archive_3051,
+				DataArch.diagram.providers.DataArchElementTypes.Retrieve_3051,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.ArchiveNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.RetrieveNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1421,11 +1426,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getGovern_3052Text(View view) {
+	private String getSave_3052Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Govern_3052,
+				DataArch.diagram.providers.DataArchElementTypes.Save_3052,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.GovernNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.SaveNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1439,11 +1444,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getReceiveData_3053Text(View view) {
+	private String getArchive_3053Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.ReceiveData_3053,
+				DataArch.diagram.providers.DataArchElementTypes.Archive_3053,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.ReceiveDataNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.ArchiveNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1457,11 +1462,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getSendData_3054Text(View view) {
+	private String getGovern_3054Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.SendData_3054,
+				DataArch.diagram.providers.DataArchElementTypes.Govern_3054,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.SendDataNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.GovernNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1475,11 +1480,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getGenerate_3055Text(View view) {
+	private String getReceiveData_3055Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Generate_3055,
+				DataArch.diagram.providers.DataArchElementTypes.ReceiveData_3055,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.GenerateNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.ReceiveDataNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1493,11 +1498,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getAnalyze_3056Text(View view) {
+	private String getSendData_3056Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Analyze_3056,
+				DataArch.diagram.providers.DataArchElementTypes.SendData_3056,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.AnalyzeNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.SendDataNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1511,11 +1516,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getProcess_3057Text(View view) {
+	private String getGenerate_3057Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Process_3057,
+				DataArch.diagram.providers.DataArchElementTypes.Generate_3057,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.ProcessNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.GenerateNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1529,11 +1534,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getInMessagePort_3058Text(View view) {
+	private String getIngest_3058Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.InMessagePort_3058,
+				DataArch.diagram.providers.DataArchElementTypes.Ingest_3058,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.InMessagePortNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.IngestNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1547,11 +1552,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getOutMessagePort_3059Text(View view) {
+	private String getAnalyze_3059Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.OutMessagePort_3059,
+				DataArch.diagram.providers.DataArchElementTypes.Analyze_3059,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.OutMessagePortNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.AnalyzeNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1565,11 +1570,29 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getCloud_3060Text(View view) {
+	private String getProcess_3060Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Cloud_3060,
+				DataArch.diagram.providers.DataArchElementTypes.Process_3060,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.CloudNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.ProcessNameEditPart.VISUAL_ID));
+		if (parser != null) {
+			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
+					ParserOptions.NONE.intValue());
+		} else {
+			DataArch.diagram.part.DataArchDiagramEditorPlugin.getInstance()
+					.logError("Parser was not found for label " + 5060); //$NON-NLS-1$
+			return ""; //$NON-NLS-1$
+		}
+	}
+
+	/**
+	* @generated
+	*/
+	private String getVerifyData_3061Text(View view) {
+		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
+				DataArch.diagram.providers.DataArchElementTypes.VerifyData_3061,
+				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
+						.getType(DataArch.diagram.edit.parts.VerifyDataNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1583,11 +1606,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getOn_Premise_3061Text(View view) {
+	private String getInMessagePort_3062Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.On_Premise_3061,
+				DataArch.diagram.providers.DataArchElementTypes.InMessagePort_3062,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.On_PremiseNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.InMessagePortNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1601,11 +1624,11 @@ public class DataArchNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getIngest_3062Text(View view) {
+	private String getOutMessagePort_3063Text(View view) {
 		IParser parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-				DataArch.diagram.providers.DataArchElementTypes.Ingest_3062,
+				DataArch.diagram.providers.DataArchElementTypes.OutMessagePort_3063,
 				view.getElement() != null ? view.getElement() : view, DataArch.diagram.part.DataArchVisualIDRegistry
-						.getType(DataArch.diagram.edit.parts.IngestNameEditPart.VISUAL_ID));
+						.getType(DataArch.diagram.edit.parts.OutMessagePortNameEditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());

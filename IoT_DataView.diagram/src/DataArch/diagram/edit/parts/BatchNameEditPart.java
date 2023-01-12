@@ -57,7 +57,7 @@ public class BatchNameEditPart extends LabelEditPart implements ITextAwareEditPa
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5028;
+	public static final int VISUAL_ID = 5030;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class BatchNameEditPart extends LabelEditPart implements ITextAwareEditPa
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.Batch_3028, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.Batch_3030, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.BatchNameEditPart.VISUAL_ID));
 		}

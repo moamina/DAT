@@ -38,7 +38,7 @@ public class File_SystemEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3024;
+	public static final int VISUAL_ID = 3026;
 
 	/**
 	* @generated

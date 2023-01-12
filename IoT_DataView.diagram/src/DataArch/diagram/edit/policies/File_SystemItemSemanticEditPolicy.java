@@ -26,7 +26,7 @@ public class File_SystemItemSemanticEditPolicy
 	* @generated
 	*/
 	public File_SystemItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.File_System_3024);
+		super(DataArch.diagram.providers.DataArchElementTypes.File_System_3026);
 	}
 
 	/**

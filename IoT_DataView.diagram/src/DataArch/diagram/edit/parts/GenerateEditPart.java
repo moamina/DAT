@@ -38,7 +38,7 @@ public class GenerateEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3055;
+	public static final int VISUAL_ID = 3057;
 
 	/**
 	* @generated

@@ -38,7 +38,7 @@ public class CompressEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3038;
+	public static final int VISUAL_ID = 3040;
 
 	/**
 	* @generated

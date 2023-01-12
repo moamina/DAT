@@ -25,7 +25,7 @@ public class RetrieveItemSemanticEditPolicy extends DataArch.diagram.edit.polici
 	* @generated
 	*/
 	public RetrieveItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Retrieve_3049);
+		super(DataArch.diagram.providers.DataArchElementTypes.Retrieve_3051);
 	}
 
 	/**

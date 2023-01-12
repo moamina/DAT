@@ -38,7 +38,7 @@ public class MergeEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3044;
+	public static final int VISUAL_ID = 3046;
 
 	/**
 	* @generated

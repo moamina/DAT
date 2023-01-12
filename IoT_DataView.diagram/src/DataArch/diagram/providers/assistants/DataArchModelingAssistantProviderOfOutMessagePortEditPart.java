@@ -78,7 +78,7 @@ public class DataArchModelingAssistantProviderOfOutMessagePortEditPart
 			IElementType relationshipType) {
 		List<IElementType> types = new ArrayList<IElementType>();
 		if (relationshipType == DataArch.diagram.providers.DataArchElementTypes.Connection_4002) {
-			types.add(DataArch.diagram.providers.DataArchElementTypes.InMessagePort_3058);
+			types.add(DataArch.diagram.providers.DataArchElementTypes.InMessagePort_3062);
 		}
 		return types;
 	}
@@ -120,7 +120,7 @@ public class DataArchModelingAssistantProviderOfOutMessagePortEditPart
 			IElementType relationshipType) {
 		List<IElementType> types = new ArrayList<IElementType>();
 		if (relationshipType == DataArch.diagram.providers.DataArchElementTypes.SendDataToMessagePorts_4004) {
-			types.add(DataArch.diagram.providers.DataArchElementTypes.SendData_3054);
+			types.add(DataArch.diagram.providers.DataArchElementTypes.SendData_3056);
 		}
 		return types;
 	}

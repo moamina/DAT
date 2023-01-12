@@ -57,7 +57,7 @@ public class TranfromNameEditPart extends LabelEditPart implements ITextAwareEdi
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5037;
+	public static final int VISUAL_ID = 5039;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class TranfromNameEditPart extends LabelEditPart implements ITextAwareEdi
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.Tranfrom_3037, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.Tranfrom_3039, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.TranfromNameEditPart.VISUAL_ID));
 		}

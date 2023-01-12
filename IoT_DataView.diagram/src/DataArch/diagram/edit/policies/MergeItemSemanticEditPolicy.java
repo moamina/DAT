@@ -25,7 +25,7 @@ public class MergeItemSemanticEditPolicy extends DataArch.diagram.edit.policies.
 	* @generated
 	*/
 	public MergeItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Merge_3044);
+		super(DataArch.diagram.providers.DataArchElementTypes.Merge_3046);
 	}
 
 	/**

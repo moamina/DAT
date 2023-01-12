@@ -25,7 +25,7 @@ public class CompressItemSemanticEditPolicy extends DataArch.diagram.edit.polici
 	* @generated
 	*/
 	public CompressItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Compress_3038);
+		super(DataArch.diagram.providers.DataArchElementTypes.Compress_3040);
 	}
 
 	/**

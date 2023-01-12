@@ -137,6 +137,7 @@ public class DataNodeDataNodeBehaviouralElementsCompartmentCanonicalEditPolicy e
 		case DataArch.diagram.edit.parts.IngestEditPart.VISUAL_ID:
 		case DataArch.diagram.edit.parts.AnalyzeEditPart.VISUAL_ID:
 		case DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID:
+		case DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID:
 			return true;
 		}
 		return false;

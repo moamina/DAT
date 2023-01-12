@@ -38,7 +38,7 @@ public class MultidimensionalEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3026;
+	public static final int VISUAL_ID = 3028;
 
 	/**
 	* @generated

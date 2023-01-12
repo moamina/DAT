@@ -62,6 +62,7 @@ import DataArch.OutMessagePort;
 import DataArch.PDFFile;
 import DataArch.Predict;
 import DataArch.Prescript;
+import DataArch.QualityMetrices;
 import DataArch.Query_Report;
 import DataArch.RDF;
 import DataArch.RealTime;
@@ -84,6 +85,7 @@ import DataArch.Tranfrom;
 import DataArch.Type;
 import DataArch.UnStructuredData;
 import DataArch.Validate;
+import DataArch.VerifyData;
 import DataArch.Video;
 import DataArch.Visualize;
 import DataArch.WordFile;
@@ -495,6 +497,14 @@ public class DataArchAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseGovern(Govern object) {
 				return createGovernAdapter();
+			}
+			@Override
+			public Adapter caseVerifyData(VerifyData object) {
+				return createVerifyDataAdapter();
+			}
+			@Override
+			public Adapter caseQualityMetrices(QualityMetrices object) {
+				return createQualityMetricesAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -1717,6 +1727,34 @@ public class DataArchAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createGovernAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link DataArch.VerifyData <em>Verify Data</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see DataArch.VerifyData
+	 * @generated
+	 */
+	public Adapter createVerifyDataAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link DataArch.QualityMetrices <em>Quality Metrices</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see DataArch.QualityMetrices
+	 * @generated
+	 */
+	public Adapter createQualityMetricesAdapter() {
 		return null;
 	}
 

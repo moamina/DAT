@@ -419,28 +419,28 @@ public class DataArchitectureCanonicalEditPolicy extends CanonicalEditPolicy {
 		}
 		case DataArch.diagram.edit.parts.CloudEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getCloud_3060ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getCloud_3024ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.On_PremiseEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getOn_Premise_3061ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getOn_Premise_3025ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.File_SystemEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getFile_System_3024ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getFile_System_3026ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.RelationalEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getRelational_3025ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getRelational_3027ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
@@ -448,245 +448,252 @@ public class DataArchitectureCanonicalEditPolicy extends CanonicalEditPolicy {
 		case DataArch.diagram.edit.parts.MultidimensionalEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
 				result.addAll(
-						DataArch.diagram.part.DataArchDiagramUpdater.getMultidimensional_3026ContainedLinks(view));
+						DataArch.diagram.part.DataArchDiagramUpdater.getMultidimensional_3028ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.RealTimeEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getRealTime_3027ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getRealTime_3029ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.BatchEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getBatch_3028ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getBatch_3030ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.FilterEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getFilter_3029ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getFilter_3031ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.DescribeEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getDescribe_3030ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getDescribe_3032ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.DiagnoseEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getDiagnose_3031ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getDiagnose_3033ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.PredictEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getPredict_3032ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getPredict_3034ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.PrescriptEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getPrescript_3033ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getPrescript_3035ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.VisualizeEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getVisualize_3034ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getVisualize_3036ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.Query_ReportEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getQuery_Report_3035ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getQuery_Report_3037ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.APIEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getAPI_3036ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getAPI_3038ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.TranfromEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getTranfrom_3037ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getTranfrom_3039ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.CompressEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getCompress_3038ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getCompress_3040ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.IntegrateEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getIntegrate_3039ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getIntegrate_3041ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.IdentifyEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getIdentify_3040ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getIdentify_3042ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.ValidateEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getValidate_3041ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getValidate_3043ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.ClassifyEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getClassify_3042ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getClassify_3044ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.SortEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getSort_3043ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getSort_3045ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.MergeEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getMerge_3044ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getMerge_3046ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.AggregateEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getAggregate_3045ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getAggregate_3047ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.CleaningEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getCleaning_3046ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getCleaning_3048ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.ReduceNoiseEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getReduceNoise_3047ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getReduceNoise_3049ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.Math_OperationEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getMath_Operation_3048ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getMath_Operation_3050ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.RetrieveEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getRetrieve_3049ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getRetrieve_3051ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.SaveEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getSave_3050ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getSave_3052ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.ArchiveEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getArchive_3051ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getArchive_3053ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.GovernEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getGovern_3052ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getGovern_3054ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.ReceiveDataEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getReceiveData_3053ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getReceiveData_3055ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.SendDataEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getSendData_3054ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getSendData_3056ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.GenerateEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getGenerate_3055ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getGenerate_3057ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.IngestEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getIngest_3062ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getIngest_3058ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.AnalyzeEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getAnalyze_3056ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getAnalyze_3059ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getProcess_3057ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getProcess_3060ContainedLinks(view));
+			}
+			domain2NotationMap.putView(view.getElement(), view);
+			break;
+		}
+		case DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID: {
+			if (!domain2NotationMap.containsKey(view.getElement())) {
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getVerifyData_3061ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.InMessagePortEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getInMessagePort_3058ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getInMessagePort_3062ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;
 		}
 		case DataArch.diagram.edit.parts.OutMessagePortEditPart.VISUAL_ID: {
 			if (!domain2NotationMap.containsKey(view.getElement())) {
-				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getOutMessagePort_3059ContainedLinks(view));
+				result.addAll(DataArch.diagram.part.DataArchDiagramUpdater.getOutMessagePort_3063ContainedLinks(view));
 			}
 			domain2NotationMap.putView(view.getElement(), view);
 			break;

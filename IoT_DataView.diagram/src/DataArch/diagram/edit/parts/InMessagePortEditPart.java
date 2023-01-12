@@ -34,7 +34,7 @@ public class InMessagePortEditPart extends AbstractBorderItemEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3058;
+	public static final int VISUAL_ID = 3062;
 
 	/**
 	* @generated

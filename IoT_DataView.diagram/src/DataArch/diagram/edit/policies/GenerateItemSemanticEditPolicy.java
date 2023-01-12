@@ -25,7 +25,7 @@ public class GenerateItemSemanticEditPolicy extends DataArch.diagram.edit.polici
 	* @generated
 	*/
 	public GenerateItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Generate_3055);
+		super(DataArch.diagram.providers.DataArchElementTypes.Generate_3057);
 	}
 
 	/**

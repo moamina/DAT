@@ -38,7 +38,7 @@ public class SortEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3043;
+	public static final int VISUAL_ID = 3045;
 
 	/**
 	* @generated

@@ -57,7 +57,7 @@ public class CompressNameEditPart extends LabelEditPart implements ITextAwareEdi
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5038;
+	public static final int VISUAL_ID = 5040;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class CompressNameEditPart extends LabelEditPart implements ITextAwareEdi
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.Compress_3038, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.Compress_3040, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.CompressNameEditPart.VISUAL_ID));
 		}

@@ -25,7 +25,7 @@ public class APIItemSemanticEditPolicy extends DataArch.diagram.edit.policies.Da
 	* @generated
 	*/
 	public APIItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.API_3036);
+		super(DataArch.diagram.providers.DataArchElementTypes.API_3038);
 	}
 
 	/**

@@ -62,6 +62,7 @@ import DataArch.OutMessagePort;
 import DataArch.PDFFile;
 import DataArch.Predict;
 import DataArch.Prescript;
+import DataArch.QualityMetrices;
 import DataArch.Query_Report;
 import DataArch.RDF;
 import DataArch.RealTime;
@@ -84,6 +85,7 @@ import DataArch.Tranfrom;
 import DataArch.Type;
 import DataArch.UnStructuredData;
 import DataArch.Validate;
+import DataArch.VerifyData;
 import DataArch.Video;
 import DataArch.Visualize;
 import DataArch.WordFile;
@@ -1036,6 +1038,21 @@ public class DataArchSwitch<T> extends Switch<T> {
 				if (result == null) result = caseAction(govern);
 				if (result == null) result = caseLinkableElement(govern);
 				if (result == null) result = caseBehaviouralElement(govern);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case DataArchPackage.VERIFY_DATA: {
+				VerifyData verifyData = (VerifyData)theEObject;
+				T result = caseVerifyData(verifyData);
+				if (result == null) result = caseAction(verifyData);
+				if (result == null) result = caseLinkableElement(verifyData);
+				if (result == null) result = caseBehaviouralElement(verifyData);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case DataArchPackage.QUALITY_METRICES: {
+				QualityMetrices qualityMetrices = (QualityMetrices)theEObject;
+				T result = caseQualityMetrices(qualityMetrices);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -2330,6 +2347,36 @@ public class DataArchSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseGovern(Govern object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Verify Data</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Verify Data</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseVerifyData(VerifyData object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Quality Metrices</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Quality Metrices</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseQualityMetrices(QualityMetrices object) {
 		return null;
 	}
 

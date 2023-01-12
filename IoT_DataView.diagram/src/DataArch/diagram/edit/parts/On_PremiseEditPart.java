@@ -38,7 +38,7 @@ public class On_PremiseEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3061;
+	public static final int VISUAL_ID = 3025;
 
 	/**
 	* @generated

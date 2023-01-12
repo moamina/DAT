@@ -38,7 +38,7 @@ public class RealTimeEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3027;
+	public static final int VISUAL_ID = 3029;
 
 	/**
 	* @generated

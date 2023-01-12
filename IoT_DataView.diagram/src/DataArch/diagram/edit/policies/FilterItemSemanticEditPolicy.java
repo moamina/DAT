@@ -25,7 +25,7 @@ public class FilterItemSemanticEditPolicy extends DataArch.diagram.edit.policies
 	* @generated
 	*/
 	public FilterItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Filter_3029);
+		super(DataArch.diagram.providers.DataArchElementTypes.Filter_3031);
 	}
 
 	/**

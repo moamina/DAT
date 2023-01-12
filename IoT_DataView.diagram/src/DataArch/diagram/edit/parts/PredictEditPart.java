@@ -38,7 +38,7 @@ public class PredictEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3032;
+	public static final int VISUAL_ID = 3034;
 
 	/**
 	* @generated

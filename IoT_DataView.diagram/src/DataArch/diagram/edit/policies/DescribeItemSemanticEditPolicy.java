@@ -25,7 +25,7 @@ public class DescribeItemSemanticEditPolicy extends DataArch.diagram.edit.polici
 	* @generated
 	*/
 	public DescribeItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Describe_3030);
+		super(DataArch.diagram.providers.DataArchElementTypes.Describe_3032);
 	}
 
 	/**

@@ -92,10 +92,11 @@ public class DataArchPaletteFactory {
 		paletteContainer.add(createTextFile57CreationTool());
 		paletteContainer.add(createTranfrom58CreationTool());
 		paletteContainer.add(createValidate59CreationTool());
-		paletteContainer.add(createVideo60CreationTool());
-		paletteContainer.add(createVisualize61CreationTool());
-		paletteContainer.add(createWordFile62CreationTool());
-		paletteContainer.add(createXML63CreationTool());
+		paletteContainer.add(createVerifyData60CreationTool());
+		paletteContainer.add(createVideo61CreationTool());
+		paletteContainer.add(createVisualize62CreationTool());
+		paletteContainer.add(createWordFile63CreationTool());
+		paletteContainer.add(createXML64CreationTool());
 		return paletteContainer;
 	}
 
@@ -119,7 +120,7 @@ public class DataArchPaletteFactory {
 	private ToolEntry createAPI1CreationTool() {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(DataArch.diagram.part.Messages.API1CreationTool_title,
 				DataArch.diagram.part.Messages.API1CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.API_3036));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.API_3038));
 		entry.setId("createAPI1CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/API.gif")); //$NON-NLS-1$
@@ -135,7 +136,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Aggregate2CreationTool_title,
 				DataArch.diagram.part.Messages.Aggregate2CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Aggregate_3045));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Aggregate_3047));
 		entry.setId("createAggregate2CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/aggregate.gif")); //$NON-NLS-1$
@@ -150,7 +151,7 @@ public class DataArchPaletteFactory {
 	private ToolEntry createAnalyze3CreationTool() {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(DataArch.diagram.part.Messages.Analyze3CreationTool_title,
 				DataArch.diagram.part.Messages.Analyze3CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Analyze_3056));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Analyze_3059));
 		entry.setId("createAnalyze3CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/analyze.gif")); //$NON-NLS-1$
@@ -165,7 +166,7 @@ public class DataArchPaletteFactory {
 	private ToolEntry createArchive4CreationTool() {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(DataArch.diagram.part.Messages.Archive4CreationTool_title,
 				DataArch.diagram.part.Messages.Archive4CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Archive_3051));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Archive_3053));
 		entry.setId("createArchive4CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/archive.gif")); //$NON-NLS-1$
@@ -195,7 +196,7 @@ public class DataArchPaletteFactory {
 	private ToolEntry createBatch6CreationTool() {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(DataArch.diagram.part.Messages.Batch6CreationTool_title,
 				DataArch.diagram.part.Messages.Batch6CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Batch_3028));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Batch_3030));
 		entry.setId("createBatch6CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/batch.gif")); //$NON-NLS-1$
@@ -226,7 +227,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Classify8CreationTool_title,
 				DataArch.diagram.part.Messages.Classify8CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Classify_3042));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Classify_3044));
 		entry.setId("createClassify8CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/classify.gif")); //$NON-NLS-1$
@@ -242,7 +243,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Cleaning9CreationTool_title,
 				DataArch.diagram.part.Messages.Cleaning9CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Cleaning_3046));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Cleaning_3048));
 		entry.setId("createCleaning9CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/clean.gif")); //$NON-NLS-1$
@@ -257,7 +258,7 @@ public class DataArchPaletteFactory {
 	private ToolEntry createCloud10CreationTool() {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(DataArch.diagram.part.Messages.Cloud10CreationTool_title,
 				DataArch.diagram.part.Messages.Cloud10CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Cloud_3060));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Cloud_3024));
 		entry.setId("createCloud10CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/cloud.gif")); //$NON-NLS-1$
@@ -289,7 +290,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Compress12CreationTool_title,
 				DataArch.diagram.part.Messages.Compress12CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Compress_3038));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Compress_3040));
 		entry.setId("createCompress12CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/compress.gif")); //$NON-NLS-1$
@@ -321,7 +322,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Describe14CreationTool_title,
 				DataArch.diagram.part.Messages.Describe14CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Describe_3030));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Describe_3032));
 		entry.setId("createDescribe14CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/descript.gif")); //$NON-NLS-1$
@@ -337,7 +338,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Diagnose15CreationTool_title,
 				DataArch.diagram.part.Messages.Diagnose15CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Diagnose_3031));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Diagnose_3033));
 		entry.setId("createDiagnose15CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/diagnose.gif")); //$NON-NLS-1$
@@ -414,7 +415,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.File_System20CreationTool_title,
 				DataArch.diagram.part.Messages.File_System20CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.File_System_3024));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.File_System_3026));
 		entry.setId("createFile_System20CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/fileSystem.gif")); //$NON-NLS-1$
@@ -429,7 +430,7 @@ public class DataArchPaletteFactory {
 	private ToolEntry createFilter21CreationTool() {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(DataArch.diagram.part.Messages.Filter21CreationTool_title,
 				DataArch.diagram.part.Messages.Filter21CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Filter_3029));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Filter_3031));
 		entry.setId("createFilter21CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/filter.gif")); //$NON-NLS-1$
@@ -461,7 +462,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Generate23CreationTool_title,
 				DataArch.diagram.part.Messages.Generate23CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Generate_3055));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Generate_3057));
 		entry.setId("createGenerate23CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/generatingData.gif")); //$NON-NLS-1$
@@ -476,7 +477,7 @@ public class DataArchPaletteFactory {
 	private ToolEntry createGovern24CreationTool() {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(DataArch.diagram.part.Messages.Govern24CreationTool_title,
 				DataArch.diagram.part.Messages.Govern24CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Govern_3052));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Govern_3054));
 		entry.setId("createGovern24CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/dataGovernance.gif")); //$NON-NLS-1$
@@ -523,7 +524,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Identify27CreationTool_title,
 				DataArch.diagram.part.Messages.Identify27CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Identify_3040));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Identify_3042));
 		entry.setId("createIdentify27CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/idetify.gif")); //$NON-NLS-1$
@@ -554,10 +555,10 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.InMessagePort29CreationTool_title,
 				DataArch.diagram.part.Messages.InMessagePort29CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.InMessagePort_3058));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.InMessagePort_3062));
 		entry.setId("createInMessagePort29CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.providers.DataArchElementTypes
-				.getImageDescriptor(DataArch.diagram.providers.DataArchElementTypes.InMessagePort_3058));
+				.getImageDescriptor(DataArch.diagram.providers.DataArchElementTypes.InMessagePort_3062));
 		entry.setLargeIcon(entry.getSmallIcon());
 		return entry;
 	}
@@ -568,7 +569,7 @@ public class DataArchPaletteFactory {
 	private ToolEntry createIngest30CreationTool() {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(DataArch.diagram.part.Messages.Ingest30CreationTool_title,
 				DataArch.diagram.part.Messages.Ingest30CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Ingest_3062));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Ingest_3058));
 		entry.setId("createIngest30CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/ingest.gif")); //$NON-NLS-1$
@@ -584,7 +585,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Integrate31CreationTool_title,
 				DataArch.diagram.part.Messages.Integrate31CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Integrate_3039));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Integrate_3041));
 		entry.setId("createIntegrate31CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/integrate.gif")); //$NON-NLS-1$
@@ -646,7 +647,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Math_Operation35CreationTool_title,
 				DataArch.diagram.part.Messages.Math_Operation35CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Math_Operation_3048));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Math_Operation_3050));
 		entry.setId("createMath_Operation35CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/mathOp.gif")); //$NON-NLS-1$
@@ -661,7 +662,7 @@ public class DataArchPaletteFactory {
 	private ToolEntry createMerge36CreationTool() {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(DataArch.diagram.part.Messages.Merge36CreationTool_title,
 				DataArch.diagram.part.Messages.Merge36CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Merge_3044));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Merge_3046));
 		entry.setId("createMerge36CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/merge.gif")); //$NON-NLS-1$
@@ -677,7 +678,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Multidimensional37CreationTool_title,
 				DataArch.diagram.part.Messages.Multidimensional37CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Multidimensional_3026));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Multidimensional_3028));
 		entry.setId("createMultidimensional37CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/multid.gif")); //$NON-NLS-1$
@@ -693,7 +694,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.On_Premise38CreationTool_title,
 				DataArch.diagram.part.Messages.On_Premise38CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.On_Premise_3061));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.On_Premise_3025));
 		entry.setId("createOn_Premise38CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/On_Premise.gif")); //$NON-NLS-1$
@@ -709,10 +710,10 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.OutMessagePort39CreationTool_title,
 				DataArch.diagram.part.Messages.OutMessagePort39CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.OutMessagePort_3059));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.OutMessagePort_3063));
 		entry.setId("createOutMessagePort39CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.providers.DataArchElementTypes
-				.getImageDescriptor(DataArch.diagram.providers.DataArchElementTypes.OutMessagePort_3059));
+				.getImageDescriptor(DataArch.diagram.providers.DataArchElementTypes.OutMessagePort_3063));
 		entry.setLargeIcon(entry.getSmallIcon());
 		return entry;
 	}
@@ -740,7 +741,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Predict41CreationTool_title,
 				DataArch.diagram.part.Messages.Predict41CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Predict_3032));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Predict_3034));
 		entry.setId("createPredict41CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/predict.gif")); //$NON-NLS-1$
@@ -756,7 +757,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Prescript42CreationTool_title,
 				DataArch.diagram.part.Messages.Prescript42CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Prescript_3033));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Prescript_3035));
 		entry.setId("createPrescript42CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/prescriptive.gif")); //$NON-NLS-1$
@@ -772,7 +773,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Process43CreationTool_title,
 				DataArch.diagram.part.Messages.Process43CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Process_3057));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Process_3060));
 		entry.setId("createProcess43CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/processing.gif")); //$NON-NLS-1$
@@ -788,7 +789,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Query_Report44CreationTool_title,
 				DataArch.diagram.part.Messages.Query_Report44CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Query_Report_3035));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Query_Report_3037));
 		entry.setId("createQuery_Report44CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/query.gif")); //$NON-NLS-1$
@@ -819,7 +820,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.RealTime46CreationTool_title,
 				DataArch.diagram.part.Messages.RealTime46CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.RealTime_3027));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.RealTime_3029));
 		entry.setId("createRealTime46CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/realtime.gif")); //$NON-NLS-1$
@@ -835,7 +836,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.ReceiveData47CreationTool_title,
 				DataArch.diagram.part.Messages.ReceiveData47CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.ReceiveData_3053));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.ReceiveData_3055));
 		entry.setId("createReceiveData47CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/ReceiveData.gif")); //$NON-NLS-1$
@@ -851,7 +852,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.ReduceNoise48CreationTool_title,
 				DataArch.diagram.part.Messages.ReduceNoise48CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.ReduceNoise_3047));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.ReduceNoise_3049));
 		entry.setId("createReduceNoise48CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/dataReduction.gif")); //$NON-NLS-1$
@@ -867,7 +868,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Relational49CreationTool_title,
 				DataArch.diagram.part.Messages.Relational49CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Relational_3025));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Relational_3027));
 		entry.setId("createRelational49CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/releationalDB.gif")); //$NON-NLS-1$
@@ -899,7 +900,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Retrieve51CreationTool_title,
 				DataArch.diagram.part.Messages.Retrieve51CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Retrieve_3049));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Retrieve_3051));
 		entry.setId("createRetrieve51CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/retrieveData.gif")); //$NON-NLS-1$
@@ -929,7 +930,7 @@ public class DataArchPaletteFactory {
 	private ToolEntry createSave53CreationTool() {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(DataArch.diagram.part.Messages.Save53CreationTool_title,
 				DataArch.diagram.part.Messages.Save53CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Save_3050));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Save_3052));
 		entry.setId("createSave53CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/store.gif")); //$NON-NLS-1$
@@ -945,7 +946,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.SendData54CreationTool_title,
 				DataArch.diagram.part.Messages.SendData54CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.SendData_3054));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.SendData_3056));
 		entry.setId("createSendData54CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/SendData.gif")); //$NON-NLS-1$
@@ -976,7 +977,7 @@ public class DataArchPaletteFactory {
 	private ToolEntry createSort56CreationTool() {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(DataArch.diagram.part.Messages.Sort56CreationTool_title,
 				DataArch.diagram.part.Messages.Sort56CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Sort_3043));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Sort_3045));
 		entry.setId("createSort56CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/sort.gif")); //$NON-NLS-1$
@@ -1008,7 +1009,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Tranfrom58CreationTool_title,
 				DataArch.diagram.part.Messages.Tranfrom58CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Tranfrom_3037));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Tranfrom_3039));
 		entry.setId("createTranfrom58CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/transform.gif")); //$NON-NLS-1$
@@ -1024,7 +1025,7 @@ public class DataArchPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
 				DataArch.diagram.part.Messages.Validate59CreationTool_title,
 				DataArch.diagram.part.Messages.Validate59CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Validate_3041));
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Validate_3043));
 		entry.setId("createValidate59CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/validate.gif")); //$NON-NLS-1$
@@ -1036,11 +1037,27 @@ public class DataArchPaletteFactory {
 	/**
 	* @generated
 	*/
-	private ToolEntry createVideo60CreationTool() {
-		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(DataArch.diagram.part.Messages.Video60CreationTool_title,
-				DataArch.diagram.part.Messages.Video60CreationTool_desc,
+	private ToolEntry createVerifyData60CreationTool() {
+		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
+				DataArch.diagram.part.Messages.VerifyData60CreationTool_title,
+				DataArch.diagram.part.Messages.VerifyData60CreationTool_desc,
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.VerifyData_3061));
+		entry.setId("createVerifyData60CreationTool"); //$NON-NLS-1$
+		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
+				.findImageDescriptor("/IoT_DataView/dataicons/basics/dataquality.gif")); //$NON-NLS-1$
+		entry.setLargeIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
+				.findImageDescriptor("/IoT_DataView/dataicons/basics/dataquality.gif")); //$NON-NLS-1$
+		return entry;
+	}
+
+	/**
+	* @generated
+	*/
+	private ToolEntry createVideo61CreationTool() {
+		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(DataArch.diagram.part.Messages.Video61CreationTool_title,
+				DataArch.diagram.part.Messages.Video61CreationTool_desc,
 				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Video_3002));
-		entry.setId("createVideo60CreationTool"); //$NON-NLS-1$
+		entry.setId("createVideo61CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/video.gif")); //$NON-NLS-1$
 		entry.setLargeIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
@@ -1051,12 +1068,12 @@ public class DataArchPaletteFactory {
 	/**
 	* @generated
 	*/
-	private ToolEntry createVisualize61CreationTool() {
+	private ToolEntry createVisualize62CreationTool() {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
-				DataArch.diagram.part.Messages.Visualize61CreationTool_title,
-				DataArch.diagram.part.Messages.Visualize61CreationTool_desc,
-				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Visualize_3034));
-		entry.setId("createVisualize61CreationTool"); //$NON-NLS-1$
+				DataArch.diagram.part.Messages.Visualize62CreationTool_title,
+				DataArch.diagram.part.Messages.Visualize62CreationTool_desc,
+				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.Visualize_3036));
+		entry.setId("createVisualize62CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/dataVisulization.gif")); //$NON-NLS-1$
 		entry.setLargeIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
@@ -1067,12 +1084,12 @@ public class DataArchPaletteFactory {
 	/**
 	* @generated
 	*/
-	private ToolEntry createWordFile62CreationTool() {
+	private ToolEntry createWordFile63CreationTool() {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(
-				DataArch.diagram.part.Messages.WordFile62CreationTool_title,
-				DataArch.diagram.part.Messages.WordFile62CreationTool_desc,
+				DataArch.diagram.part.Messages.WordFile63CreationTool_title,
+				DataArch.diagram.part.Messages.WordFile63CreationTool_desc,
 				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.WordFile_3005));
-		entry.setId("createWordFile62CreationTool"); //$NON-NLS-1$
+		entry.setId("createWordFile63CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/word.gif")); //$NON-NLS-1$
 		entry.setLargeIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
@@ -1083,11 +1100,11 @@ public class DataArchPaletteFactory {
 	/**
 	* @generated
 	*/
-	private ToolEntry createXML63CreationTool() {
-		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(DataArch.diagram.part.Messages.XML63CreationTool_title,
-				DataArch.diagram.part.Messages.XML63CreationTool_desc,
+	private ToolEntry createXML64CreationTool() {
+		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(DataArch.diagram.part.Messages.XML64CreationTool_title,
+				DataArch.diagram.part.Messages.XML64CreationTool_desc,
 				Collections.singletonList(DataArch.diagram.providers.DataArchElementTypes.XML_3009));
-		entry.setId("createXML63CreationTool"); //$NON-NLS-1$
+		entry.setId("createXML64CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin
 				.findImageDescriptor("/IoT_DataView/dataicons/basics/xml.gif")); //$NON-NLS-1$
 		entry.setLargeIcon(DataArch.diagram.part.DataArchDiagramEditorPlugin

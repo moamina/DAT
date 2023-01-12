@@ -25,7 +25,7 @@ public class SortItemSemanticEditPolicy extends DataArch.diagram.edit.policies.D
 	* @generated
 	*/
 	public SortItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Sort_3043);
+		super(DataArch.diagram.providers.DataArchElementTypes.Sort_3045);
 	}
 
 	/**

@@ -43,12 +43,14 @@ import DataArch.Link;
 import DataArch.Logs;
 import DataArch.Math_Operation;
 import DataArch.Merge;
+import DataArch.Metrics;
 import DataArch.Multidimensional;
 import DataArch.On_Premise;
 import DataArch.OutMessagePort;
 import DataArch.PDFFile;
 import DataArch.Predict;
 import DataArch.Prescript;
+import DataArch.QualityMetrices;
 import DataArch.Query_Report;
 import DataArch.RDF;
 import DataArch.RealTime;
@@ -65,12 +67,14 @@ import DataArch.Sort;
 import DataArch.TextFile;
 import DataArch.Tranfrom;
 import DataArch.Validate;
+import DataArch.VerifyData;
 import DataArch.Video;
 import DataArch.Visualize;
 import DataArch.WordFile;
 import DataArch.XML;
 
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EDataType;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
 
@@ -188,8 +192,40 @@ public class DataArchFactoryImpl extends EFactoryImpl implements DataArchFactory
 			case DataArchPackage.SAVE: return createSave();
 			case DataArchPackage.ARCHIVE: return createArchive();
 			case DataArchPackage.GOVERN: return createGovern();
+			case DataArchPackage.VERIFY_DATA: return createVerifyData();
+			case DataArchPackage.QUALITY_METRICES: return createQualityMetrices();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
+		}
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Object createFromString(EDataType eDataType, String initialValue) {
+		switch (eDataType.getClassifierID()) {
+			case DataArchPackage.METRICS:
+				return createMetricsFromString(eDataType, initialValue);
+			default:
+				throw new IllegalArgumentException("The datatype '" + eDataType.getName() + "' is not a valid classifier");
+		}
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public String convertToString(EDataType eDataType, Object instanceValue) {
+		switch (eDataType.getClassifierID()) {
+			case DataArchPackage.METRICS:
+				return convertMetricsToString(eDataType, instanceValue);
+			default:
+				throw new IllegalArgumentException("The datatype '" + eDataType.getName() + "' is not a valid classifier");
 		}
 	}
 
@@ -917,6 +953,48 @@ public class DataArchFactoryImpl extends EFactoryImpl implements DataArchFactory
 	public Govern createGovern() {
 		GovernImpl govern = new GovernImpl();
 		return govern;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public VerifyData createVerifyData() {
+		VerifyDataImpl verifyData = new VerifyDataImpl();
+		return verifyData;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public QualityMetrices createQualityMetrices() {
+		QualityMetricesImpl qualityMetrices = new QualityMetricesImpl();
+		return qualityMetrices;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Metrics createMetricsFromString(EDataType eDataType, String initialValue) {
+		Metrics result = Metrics.get(initialValue);
+		if (result == null) throw new IllegalArgumentException("The value '" + initialValue + "' is not a valid enumerator of '" + eDataType.getName() + "'");
+		return result;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public String convertMetricsToString(EDataType eDataType, Object instanceValue) {
+		return instanceValue == null ? null : instanceValue.toString();
 	}
 
 	/**

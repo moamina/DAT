@@ -25,7 +25,7 @@ public class CloudItemSemanticEditPolicy extends DataArch.diagram.edit.policies.
 	* @generated
 	*/
 	public CloudItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Cloud_3060);
+		super(DataArch.diagram.providers.DataArchElementTypes.Cloud_3024);
 	}
 
 	/**

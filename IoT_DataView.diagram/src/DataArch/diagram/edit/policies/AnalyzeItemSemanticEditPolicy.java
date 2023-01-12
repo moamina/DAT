@@ -25,7 +25,7 @@ public class AnalyzeItemSemanticEditPolicy extends DataArch.diagram.edit.policie
 	* @generated
 	*/
 	public AnalyzeItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Analyze_3056);
+		super(DataArch.diagram.providers.DataArchElementTypes.Analyze_3059);
 	}
 
 	/**

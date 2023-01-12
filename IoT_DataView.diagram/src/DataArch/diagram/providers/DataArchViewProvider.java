@@ -192,6 +192,7 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				case DataArch.diagram.edit.parts.IngestEditPart.VISUAL_ID:
 				case DataArch.diagram.edit.parts.AnalyzeEditPart.VISUAL_ID:
 				case DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID:
+				case DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID:
 				case DataArch.diagram.edit.parts.InMessagePortEditPart.VISUAL_ID:
 				case DataArch.diagram.edit.parts.OutMessagePortEditPart.VISUAL_ID:
 					if (domainElement == null || visualID != DataArch.diagram.part.DataArchVisualIDRegistry
@@ -265,6 +266,7 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				|| DataArch.diagram.edit.parts.IngestEditPart.VISUAL_ID == visualID
 				|| DataArch.diagram.edit.parts.AnalyzeEditPart.VISUAL_ID == visualID
 				|| DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID == visualID
+				|| DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID == visualID
 				|| DataArch.diagram.edit.parts.InMessagePortEditPart.VISUAL_ID == visualID
 				|| DataArch.diagram.edit.parts.OutMessagePortEditPart.VISUAL_ID == visualID;
 	}
@@ -366,83 +368,85 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 		case DataArch.diagram.edit.parts.KeyValueEditPart.VISUAL_ID:
 			return createKeyValue_3023(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.CloudEditPart.VISUAL_ID:
-			return createCloud_3060(domainElement, containerView, index, persisted, preferencesHint);
+			return createCloud_3024(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.On_PremiseEditPart.VISUAL_ID:
-			return createOn_Premise_3061(domainElement, containerView, index, persisted, preferencesHint);
+			return createOn_Premise_3025(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.File_SystemEditPart.VISUAL_ID:
-			return createFile_System_3024(domainElement, containerView, index, persisted, preferencesHint);
+			return createFile_System_3026(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.RelationalEditPart.VISUAL_ID:
-			return createRelational_3025(domainElement, containerView, index, persisted, preferencesHint);
+			return createRelational_3027(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.MultidimensionalEditPart.VISUAL_ID:
-			return createMultidimensional_3026(domainElement, containerView, index, persisted, preferencesHint);
+			return createMultidimensional_3028(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.RealTimeEditPart.VISUAL_ID:
-			return createRealTime_3027(domainElement, containerView, index, persisted, preferencesHint);
+			return createRealTime_3029(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.BatchEditPart.VISUAL_ID:
-			return createBatch_3028(domainElement, containerView, index, persisted, preferencesHint);
+			return createBatch_3030(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.FilterEditPart.VISUAL_ID:
-			return createFilter_3029(domainElement, containerView, index, persisted, preferencesHint);
+			return createFilter_3031(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.DescribeEditPart.VISUAL_ID:
-			return createDescribe_3030(domainElement, containerView, index, persisted, preferencesHint);
+			return createDescribe_3032(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.DiagnoseEditPart.VISUAL_ID:
-			return createDiagnose_3031(domainElement, containerView, index, persisted, preferencesHint);
+			return createDiagnose_3033(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.PredictEditPart.VISUAL_ID:
-			return createPredict_3032(domainElement, containerView, index, persisted, preferencesHint);
+			return createPredict_3034(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.PrescriptEditPart.VISUAL_ID:
-			return createPrescript_3033(domainElement, containerView, index, persisted, preferencesHint);
+			return createPrescript_3035(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.VisualizeEditPart.VISUAL_ID:
-			return createVisualize_3034(domainElement, containerView, index, persisted, preferencesHint);
+			return createVisualize_3036(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.Query_ReportEditPart.VISUAL_ID:
-			return createQuery_Report_3035(domainElement, containerView, index, persisted, preferencesHint);
+			return createQuery_Report_3037(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.APIEditPart.VISUAL_ID:
-			return createAPI_3036(domainElement, containerView, index, persisted, preferencesHint);
+			return createAPI_3038(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.TranfromEditPart.VISUAL_ID:
-			return createTranfrom_3037(domainElement, containerView, index, persisted, preferencesHint);
+			return createTranfrom_3039(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.CompressEditPart.VISUAL_ID:
-			return createCompress_3038(domainElement, containerView, index, persisted, preferencesHint);
+			return createCompress_3040(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.IntegrateEditPart.VISUAL_ID:
-			return createIntegrate_3039(domainElement, containerView, index, persisted, preferencesHint);
+			return createIntegrate_3041(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.IdentifyEditPart.VISUAL_ID:
-			return createIdentify_3040(domainElement, containerView, index, persisted, preferencesHint);
+			return createIdentify_3042(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.ValidateEditPart.VISUAL_ID:
-			return createValidate_3041(domainElement, containerView, index, persisted, preferencesHint);
+			return createValidate_3043(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.ClassifyEditPart.VISUAL_ID:
-			return createClassify_3042(domainElement, containerView, index, persisted, preferencesHint);
+			return createClassify_3044(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.SortEditPart.VISUAL_ID:
-			return createSort_3043(domainElement, containerView, index, persisted, preferencesHint);
+			return createSort_3045(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.MergeEditPart.VISUAL_ID:
-			return createMerge_3044(domainElement, containerView, index, persisted, preferencesHint);
+			return createMerge_3046(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.AggregateEditPart.VISUAL_ID:
-			return createAggregate_3045(domainElement, containerView, index, persisted, preferencesHint);
+			return createAggregate_3047(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.CleaningEditPart.VISUAL_ID:
-			return createCleaning_3046(domainElement, containerView, index, persisted, preferencesHint);
+			return createCleaning_3048(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.ReduceNoiseEditPart.VISUAL_ID:
-			return createReduceNoise_3047(domainElement, containerView, index, persisted, preferencesHint);
+			return createReduceNoise_3049(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.Math_OperationEditPart.VISUAL_ID:
-			return createMath_Operation_3048(domainElement, containerView, index, persisted, preferencesHint);
+			return createMath_Operation_3050(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.RetrieveEditPart.VISUAL_ID:
-			return createRetrieve_3049(domainElement, containerView, index, persisted, preferencesHint);
+			return createRetrieve_3051(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.SaveEditPart.VISUAL_ID:
-			return createSave_3050(domainElement, containerView, index, persisted, preferencesHint);
+			return createSave_3052(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.ArchiveEditPart.VISUAL_ID:
-			return createArchive_3051(domainElement, containerView, index, persisted, preferencesHint);
+			return createArchive_3053(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.GovernEditPart.VISUAL_ID:
-			return createGovern_3052(domainElement, containerView, index, persisted, preferencesHint);
+			return createGovern_3054(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.ReceiveDataEditPart.VISUAL_ID:
-			return createReceiveData_3053(domainElement, containerView, index, persisted, preferencesHint);
+			return createReceiveData_3055(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.SendDataEditPart.VISUAL_ID:
-			return createSendData_3054(domainElement, containerView, index, persisted, preferencesHint);
+			return createSendData_3056(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.GenerateEditPart.VISUAL_ID:
-			return createGenerate_3055(domainElement, containerView, index, persisted, preferencesHint);
+			return createGenerate_3057(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.IngestEditPart.VISUAL_ID:
-			return createIngest_3062(domainElement, containerView, index, persisted, preferencesHint);
+			return createIngest_3058(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.AnalyzeEditPart.VISUAL_ID:
-			return createAnalyze_3056(domainElement, containerView, index, persisted, preferencesHint);
+			return createAnalyze_3059(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID:
-			return createProcess_3057(domainElement, containerView, index, persisted, preferencesHint);
+			return createProcess_3060(domainElement, containerView, index, persisted, preferencesHint);
+		case DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID:
+			return createVerifyData_3061(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.InMessagePortEditPart.VISUAL_ID:
-			return createInMessagePort_3058(domainElement, containerView, index, persisted, preferencesHint);
+			return createInMessagePort_3062(domainElement, containerView, index, persisted, preferencesHint);
 		case DataArch.diagram.edit.parts.OutMessagePortEditPart.VISUAL_ID:
-			return createOutMessagePort_3059(domainElement, containerView, index, persisted, preferencesHint);
+			return createOutMessagePort_3063(domainElement, containerView, index, persisted, preferencesHint);
 		}
 		// can't happen, provided #provides(CreateNodeViewOperation) is correct
 		return null;
@@ -504,7 +508,7 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5060 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5064 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.DataNodeNodeNameEditPart.VISUAL_ID));
 		createCompartment(node,
 				DataArch.diagram.part.DataArchVisualIDRegistry.getType(
@@ -1482,7 +1486,7 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 	/**
 	* @generated
 	*/
-	public Node createCloud_3060(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createCloud_3024(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -1512,19 +1516,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5061 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5024 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.CloudNameEditPart.VISUAL_ID));
-		label5061.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5061 = (Location) label5061.getLayoutConstraint();
-		location5061.setX(0);
-		location5061.setY(5);
+		label5024.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5024 = (Location) label5024.getLayoutConstraint();
+		location5024.setX(0);
+		location5024.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createOn_Premise_3061(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createOn_Premise_3025(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -1554,19 +1558,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5062 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5025 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.On_PremiseNameEditPart.VISUAL_ID));
-		label5062.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5062 = (Location) label5062.getLayoutConstraint();
-		location5062.setX(0);
-		location5062.setY(5);
+		label5025.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5025 = (Location) label5025.getLayoutConstraint();
+		location5025.setX(0);
+		location5025.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createFile_System_3024(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createFile_System_3026(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -1596,19 +1600,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5024 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5026 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.File_SystemNameEditPart.VISUAL_ID));
-		label5024.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5024 = (Location) label5024.getLayoutConstraint();
-		location5024.setX(0);
-		location5024.setY(5);
+		label5026.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5026 = (Location) label5026.getLayoutConstraint();
+		location5026.setX(0);
+		location5026.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createRelational_3025(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createRelational_3027(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -1638,19 +1642,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5025 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5027 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.RelationalNameEditPart.VISUAL_ID));
-		label5025.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5025 = (Location) label5025.getLayoutConstraint();
-		location5025.setX(0);
-		location5025.setY(5);
+		label5027.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5027 = (Location) label5027.getLayoutConstraint();
+		location5027.setX(0);
+		location5027.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createMultidimensional_3026(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createMultidimensional_3028(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -1680,19 +1684,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5026 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5028 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.MultidimensionalNameEditPart.VISUAL_ID));
-		label5026.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5026 = (Location) label5026.getLayoutConstraint();
-		location5026.setX(0);
-		location5026.setY(5);
+		label5028.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5028 = (Location) label5028.getLayoutConstraint();
+		location5028.setX(0);
+		location5028.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createRealTime_3027(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createRealTime_3029(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -1722,19 +1726,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5027 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5029 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.RealTimeNameEditPart.VISUAL_ID));
-		label5027.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5027 = (Location) label5027.getLayoutConstraint();
-		location5027.setX(0);
-		location5027.setY(5);
+		label5029.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5029 = (Location) label5029.getLayoutConstraint();
+		location5029.setX(0);
+		location5029.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createBatch_3028(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createBatch_3030(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -1764,19 +1768,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5028 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5030 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.BatchNameEditPart.VISUAL_ID));
-		label5028.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5028 = (Location) label5028.getLayoutConstraint();
-		location5028.setX(0);
-		location5028.setY(5);
+		label5030.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5030 = (Location) label5030.getLayoutConstraint();
+		location5030.setX(0);
+		location5030.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createFilter_3029(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createFilter_3031(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -1806,19 +1810,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5029 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5031 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.FilterNameEditPart.VISUAL_ID));
-		label5029.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5029 = (Location) label5029.getLayoutConstraint();
-		location5029.setX(0);
-		location5029.setY(5);
+		label5031.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5031 = (Location) label5031.getLayoutConstraint();
+		location5031.setX(0);
+		location5031.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createDescribe_3030(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createDescribe_3032(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -1848,19 +1852,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5030 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5032 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.DescribeNameEditPart.VISUAL_ID));
-		label5030.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5030 = (Location) label5030.getLayoutConstraint();
-		location5030.setX(0);
-		location5030.setY(5);
+		label5032.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5032 = (Location) label5032.getLayoutConstraint();
+		location5032.setX(0);
+		location5032.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createDiagnose_3031(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createDiagnose_3033(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -1890,19 +1894,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5031 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5033 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.DiagnoseNameEditPart.VISUAL_ID));
-		label5031.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5031 = (Location) label5031.getLayoutConstraint();
-		location5031.setX(0);
-		location5031.setY(5);
+		label5033.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5033 = (Location) label5033.getLayoutConstraint();
+		location5033.setX(0);
+		location5033.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createPredict_3032(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createPredict_3034(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -1932,19 +1936,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5032 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5034 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.PredictNameEditPart.VISUAL_ID));
-		label5032.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5032 = (Location) label5032.getLayoutConstraint();
-		location5032.setX(0);
-		location5032.setY(5);
+		label5034.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5034 = (Location) label5034.getLayoutConstraint();
+		location5034.setX(0);
+		location5034.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createPrescript_3033(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createPrescript_3035(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -1974,19 +1978,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5033 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5035 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.PrescriptNameEditPart.VISUAL_ID));
-		label5033.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5033 = (Location) label5033.getLayoutConstraint();
-		location5033.setX(0);
-		location5033.setY(5);
+		label5035.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5035 = (Location) label5035.getLayoutConstraint();
+		location5035.setX(0);
+		location5035.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createVisualize_3034(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createVisualize_3036(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2016,19 +2020,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5034 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5036 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.VisualizeNameEditPart.VISUAL_ID));
-		label5034.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5034 = (Location) label5034.getLayoutConstraint();
-		location5034.setX(0);
-		location5034.setY(5);
+		label5036.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5036 = (Location) label5036.getLayoutConstraint();
+		location5036.setX(0);
+		location5036.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createQuery_Report_3035(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createQuery_Report_3037(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2058,19 +2062,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5035 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5037 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.Query_ReportNameEditPart.VISUAL_ID));
-		label5035.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5035 = (Location) label5035.getLayoutConstraint();
-		location5035.setX(0);
-		location5035.setY(5);
+		label5037.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5037 = (Location) label5037.getLayoutConstraint();
+		location5037.setX(0);
+		location5037.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createAPI_3036(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createAPI_3038(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2100,19 +2104,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5036 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5038 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.APINameEditPart.VISUAL_ID));
-		label5036.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5036 = (Location) label5036.getLayoutConstraint();
-		location5036.setX(0);
-		location5036.setY(5);
+		label5038.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5038 = (Location) label5038.getLayoutConstraint();
+		location5038.setX(0);
+		location5038.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createTranfrom_3037(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createTranfrom_3039(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2142,19 +2146,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5037 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5039 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.TranfromNameEditPart.VISUAL_ID));
-		label5037.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5037 = (Location) label5037.getLayoutConstraint();
-		location5037.setX(0);
-		location5037.setY(5);
+		label5039.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5039 = (Location) label5039.getLayoutConstraint();
+		location5039.setX(0);
+		location5039.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createCompress_3038(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createCompress_3040(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2184,19 +2188,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5038 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5040 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.CompressNameEditPart.VISUAL_ID));
-		label5038.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5038 = (Location) label5038.getLayoutConstraint();
-		location5038.setX(0);
-		location5038.setY(5);
+		label5040.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5040 = (Location) label5040.getLayoutConstraint();
+		location5040.setX(0);
+		location5040.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createIntegrate_3039(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createIntegrate_3041(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2226,19 +2230,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5039 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5041 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.IntegrateNameEditPart.VISUAL_ID));
-		label5039.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5039 = (Location) label5039.getLayoutConstraint();
-		location5039.setX(0);
-		location5039.setY(5);
+		label5041.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5041 = (Location) label5041.getLayoutConstraint();
+		location5041.setX(0);
+		location5041.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createIdentify_3040(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createIdentify_3042(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2268,19 +2272,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5040 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5042 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.IdentifyNameEditPart.VISUAL_ID));
-		label5040.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5040 = (Location) label5040.getLayoutConstraint();
-		location5040.setX(0);
-		location5040.setY(5);
+		label5042.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5042 = (Location) label5042.getLayoutConstraint();
+		location5042.setX(0);
+		location5042.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createValidate_3041(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createValidate_3043(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2310,19 +2314,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5041 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5043 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.ValidateNameEditPart.VISUAL_ID));
-		label5041.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5041 = (Location) label5041.getLayoutConstraint();
-		location5041.setX(0);
-		location5041.setY(5);
+		label5043.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5043 = (Location) label5043.getLayoutConstraint();
+		location5043.setX(0);
+		location5043.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createClassify_3042(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createClassify_3044(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2352,19 +2356,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5042 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5044 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.ClassifyNameEditPart.VISUAL_ID));
-		label5042.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5042 = (Location) label5042.getLayoutConstraint();
-		location5042.setX(0);
-		location5042.setY(5);
+		label5044.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5044 = (Location) label5044.getLayoutConstraint();
+		location5044.setX(0);
+		location5044.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createSort_3043(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createSort_3045(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2394,19 +2398,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5043 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5045 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.SortNameEditPart.VISUAL_ID));
-		label5043.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5043 = (Location) label5043.getLayoutConstraint();
-		location5043.setX(0);
-		location5043.setY(5);
+		label5045.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5045 = (Location) label5045.getLayoutConstraint();
+		location5045.setX(0);
+		location5045.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createMerge_3044(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createMerge_3046(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2436,19 +2440,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5044 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5046 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.MergeNameEditPart.VISUAL_ID));
-		label5044.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5044 = (Location) label5044.getLayoutConstraint();
-		location5044.setX(0);
-		location5044.setY(5);
+		label5046.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5046 = (Location) label5046.getLayoutConstraint();
+		location5046.setX(0);
+		location5046.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createAggregate_3045(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createAggregate_3047(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2478,19 +2482,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5045 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5047 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.AggregateNameEditPart.VISUAL_ID));
-		label5045.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5045 = (Location) label5045.getLayoutConstraint();
-		location5045.setX(0);
-		location5045.setY(5);
+		label5047.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5047 = (Location) label5047.getLayoutConstraint();
+		location5047.setX(0);
+		location5047.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createCleaning_3046(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createCleaning_3048(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2520,19 +2524,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5046 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5048 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.CleaningNameEditPart.VISUAL_ID));
-		label5046.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5046 = (Location) label5046.getLayoutConstraint();
-		location5046.setX(0);
-		location5046.setY(5);
+		label5048.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5048 = (Location) label5048.getLayoutConstraint();
+		location5048.setX(0);
+		location5048.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createReduceNoise_3047(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createReduceNoise_3049(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2562,19 +2566,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5047 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5049 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.ReduceNoiseNameEditPart.VISUAL_ID));
-		label5047.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5047 = (Location) label5047.getLayoutConstraint();
-		location5047.setX(0);
-		location5047.setY(5);
+		label5049.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5049 = (Location) label5049.getLayoutConstraint();
+		location5049.setX(0);
+		location5049.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createMath_Operation_3048(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createMath_Operation_3050(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2604,19 +2608,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5048 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5050 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.Math_OperationNameEditPart.VISUAL_ID));
-		label5048.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5048 = (Location) label5048.getLayoutConstraint();
-		location5048.setX(0);
-		location5048.setY(5);
+		label5050.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5050 = (Location) label5050.getLayoutConstraint();
+		location5050.setX(0);
+		location5050.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createRetrieve_3049(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createRetrieve_3051(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2646,19 +2650,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5049 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5051 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.RetrieveNameEditPart.VISUAL_ID));
-		label5049.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5049 = (Location) label5049.getLayoutConstraint();
-		location5049.setX(0);
-		location5049.setY(5);
+		label5051.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5051 = (Location) label5051.getLayoutConstraint();
+		location5051.setX(0);
+		location5051.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createSave_3050(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createSave_3052(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2688,19 +2692,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5050 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5052 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.SaveNameEditPart.VISUAL_ID));
-		label5050.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5050 = (Location) label5050.getLayoutConstraint();
-		location5050.setX(0);
-		location5050.setY(5);
+		label5052.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5052 = (Location) label5052.getLayoutConstraint();
+		location5052.setX(0);
+		location5052.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createArchive_3051(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createArchive_3053(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2730,19 +2734,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5051 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5053 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.ArchiveNameEditPart.VISUAL_ID));
-		label5051.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5051 = (Location) label5051.getLayoutConstraint();
-		location5051.setX(0);
-		location5051.setY(5);
+		label5053.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5053 = (Location) label5053.getLayoutConstraint();
+		location5053.setX(0);
+		location5053.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createGovern_3052(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createGovern_3054(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2772,19 +2776,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5052 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5054 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.GovernNameEditPart.VISUAL_ID));
-		label5052.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5052 = (Location) label5052.getLayoutConstraint();
-		location5052.setX(0);
-		location5052.setY(5);
+		label5054.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5054 = (Location) label5054.getLayoutConstraint();
+		location5054.setX(0);
+		location5054.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createReceiveData_3053(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createReceiveData_3055(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2814,19 +2818,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5053 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5055 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.ReceiveDataNameEditPart.VISUAL_ID));
-		label5053.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5053 = (Location) label5053.getLayoutConstraint();
-		location5053.setX(0);
-		location5053.setY(5);
+		label5055.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5055 = (Location) label5055.getLayoutConstraint();
+		location5055.setX(0);
+		location5055.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createSendData_3054(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createSendData_3056(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2856,19 +2860,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5054 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5056 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.SendDataNameEditPart.VISUAL_ID));
-		label5054.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5054 = (Location) label5054.getLayoutConstraint();
-		location5054.setX(0);
-		location5054.setY(5);
+		label5056.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5056 = (Location) label5056.getLayoutConstraint();
+		location5056.setX(0);
+		location5056.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createGenerate_3055(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createGenerate_3057(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2898,19 +2902,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5055 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5057 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.GenerateNameEditPart.VISUAL_ID));
-		label5055.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5055 = (Location) label5055.getLayoutConstraint();
-		location5055.setX(0);
-		location5055.setY(5);
+		label5057.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5057 = (Location) label5057.getLayoutConstraint();
+		location5057.setX(0);
+		location5057.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createIngest_3062(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createIngest_3058(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2940,19 +2944,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5063 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5058 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.IngestNameEditPart.VISUAL_ID));
-		label5063.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5063 = (Location) label5063.getLayoutConstraint();
-		location5063.setX(0);
-		location5063.setY(5);
+		label5058.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5058 = (Location) label5058.getLayoutConstraint();
+		location5058.setX(0);
+		location5058.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createAnalyze_3056(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createAnalyze_3059(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2982,19 +2986,19 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5056 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5059 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.AnalyzeNameEditPart.VISUAL_ID));
-		label5056.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5056 = (Location) label5056.getLayoutConstraint();
-		location5056.setX(0);
-		location5056.setY(5);
+		label5059.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5059 = (Location) label5059.getLayoutConstraint();
+		location5059.setX(0);
+		location5059.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createProcess_3057(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createProcess_3060(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -3024,19 +3028,61 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5057 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5060 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.ProcessNameEditPart.VISUAL_ID));
-		label5057.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location5057 = (Location) label5057.getLayoutConstraint();
-		location5057.setX(0);
-		location5057.setY(5);
+		label5060.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5060 = (Location) label5060.getLayoutConstraint();
+		location5060.setX(0);
+		location5060.setY(5);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createInMessagePort_3058(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createVerifyData_3061(EObject domainElement, View containerView, int index, boolean persisted,
+			PreferencesHint preferencesHint) {
+		Shape node = NotationFactory.eINSTANCE.createShape();
+		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
+		node.setType(DataArch.diagram.part.DataArchVisualIDRegistry
+				.getType(DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID));
+		ViewUtil.insertChildView(containerView, node, index, persisted);
+		node.setElement(domainElement);
+		// initializeFromPreferences 
+		final IPreferenceStore prefStore = (IPreferenceStore) preferencesHint.getPreferenceStore();
+
+		org.eclipse.swt.graphics.RGB lineRGB = PreferenceConverter.getColor(prefStore,
+				IPreferenceConstants.PREF_LINE_COLOR);
+		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getLineStyle_LineColor(),
+				FigureUtilities.RGBToInteger(lineRGB));
+		FontStyle nodeFontStyle = (FontStyle) node.getStyle(NotationPackage.Literals.FONT_STYLE);
+		if (nodeFontStyle != null) {
+			FontData fontData = PreferenceConverter.getFontData(prefStore, IPreferenceConstants.PREF_DEFAULT_FONT);
+			nodeFontStyle.setFontName(fontData.getName());
+			nodeFontStyle.setFontHeight(fontData.getHeight());
+			nodeFontStyle.setBold((fontData.getStyle() & SWT.BOLD) != 0);
+			nodeFontStyle.setItalic((fontData.getStyle() & SWT.ITALIC) != 0);
+			org.eclipse.swt.graphics.RGB fontRGB = PreferenceConverter.getColor(prefStore,
+					IPreferenceConstants.PREF_FONT_COLOR);
+			nodeFontStyle.setFontColor(FigureUtilities.RGBToInteger(fontRGB).intValue());
+		}
+		org.eclipse.swt.graphics.RGB fillRGB = PreferenceConverter.getColor(prefStore,
+				IPreferenceConstants.PREF_FILL_COLOR);
+		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
+				FigureUtilities.RGBToInteger(fillRGB));
+		Node label5061 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+				.getType(DataArch.diagram.edit.parts.VerifyDataNameEditPart.VISUAL_ID));
+		label5061.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location5061 = (Location) label5061.getLayoutConstraint();
+		location5061.setX(0);
+		location5061.setY(5);
+		return node;
+	}
+
+	/**
+	* @generated
+	*/
+	public Node createInMessagePort_3062(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Node node = NotationFactory.eINSTANCE.createNode();
 		node.getStyles().add(NotationFactory.eINSTANCE.createDescriptionStyle());
@@ -3064,7 +3110,7 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5058 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5062 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.InMessagePortNameEditPart.VISUAL_ID));
 		return node;
 	}
@@ -3072,7 +3118,7 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 	/**
 	* @generated
 	*/
-	public Node createOutMessagePort_3059(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createOutMessagePort_3063(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Node node = NotationFactory.eINSTANCE.createNode();
 		node.getStyles().add(NotationFactory.eINSTANCE.createDescriptionStyle());
@@ -3100,7 +3146,7 @@ public class DataArchViewProvider extends AbstractProvider implements IViewProvi
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5059 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
+		Node label5063 = createLabel(node, DataArch.diagram.part.DataArchVisualIDRegistry
 				.getType(DataArch.diagram.edit.parts.OutMessagePortNameEditPart.VISUAL_ID));
 		return node;
 	}

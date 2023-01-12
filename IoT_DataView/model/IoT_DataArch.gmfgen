@@ -444,7 +444,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3060" editPartClassName="CloudEditPart" itemSemanticEditPolicyClassName="CloudItemSemanticEditPolicy" canonicalEditPolicyClassName="CloudCanonicalEditPolicy" graphicalNodeEditPolicyClassName="CloudGraphicalNodeEditPolicy" createCommandClassName="CloudCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3024" editPartClassName="CloudEditPart" itemSemanticEditPolicyClassName="CloudItemSemanticEditPolicy" canonicalEditPolicyClassName="CloudCanonicalEditPolicy" graphicalNodeEditPolicyClassName="CloudGraphicalNodeEditPolicy" createCommandClassName="CloudCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="CloudEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="CloudFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class CloudFigure extends iot_DataView.figures.CloudFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public CloudFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -455,7 +455,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5061" editPartClassName="CloudNameEditPart" itemSemanticEditPolicyClassName="CloudNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5024" editPartClassName="CloudNameEditPart" itemSemanticEditPolicyClassName="CloudNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="CloudLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class CloudLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public CloudLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Cloud&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -463,7 +463,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3061" editPartClassName="On_PremiseEditPart" itemSemanticEditPolicyClassName="On_PremiseItemSemanticEditPolicy" canonicalEditPolicyClassName="On_PremiseCanonicalEditPolicy" graphicalNodeEditPolicyClassName="On_PremiseGraphicalNodeEditPolicy" createCommandClassName="On_PremiseCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3025" editPartClassName="On_PremiseEditPart" itemSemanticEditPolicyClassName="On_PremiseItemSemanticEditPolicy" canonicalEditPolicyClassName="On_PremiseCanonicalEditPolicy" graphicalNodeEditPolicyClassName="On_PremiseGraphicalNodeEditPolicy" createCommandClassName="On_PremiseCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="On_PremiseEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="On_PremiseFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class On_PremiseFigure extends iot_DataView.figures.On_PremiseFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public On_PremiseFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -474,7 +474,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5062" editPartClassName="On_PremiseNameEditPart" itemSemanticEditPolicyClassName="On_PremiseNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5025" editPartClassName="On_PremiseNameEditPart" itemSemanticEditPolicyClassName="On_PremiseNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="On_PremiseLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class On_PremiseLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public On_PremiseLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;On_Premise&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -482,7 +482,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3024" editPartClassName="File_SystemEditPart" itemSemanticEditPolicyClassName="File_SystemItemSemanticEditPolicy" canonicalEditPolicyClassName="File_SystemCanonicalEditPolicy" graphicalNodeEditPolicyClassName="File_SystemGraphicalNodeEditPolicy" createCommandClassName="File_SystemCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3026" editPartClassName="File_SystemEditPart" itemSemanticEditPolicyClassName="File_SystemItemSemanticEditPolicy" canonicalEditPolicyClassName="File_SystemCanonicalEditPolicy" graphicalNodeEditPolicyClassName="File_SystemGraphicalNodeEditPolicy" createCommandClassName="File_SystemCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="File_SystemEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="File_SystemFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class File_SystemFigure extends iot_DataView.figures.File_SystemFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public File_SystemFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -493,7 +493,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5024" editPartClassName="File_SystemNameEditPart" itemSemanticEditPolicyClassName="File_SystemNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5026" editPartClassName="File_SystemNameEditPart" itemSemanticEditPolicyClassName="File_SystemNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="File_SystemLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class File_SystemLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public File_SystemLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;File_System&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -501,7 +501,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3025" editPartClassName="RelationalEditPart" itemSemanticEditPolicyClassName="RelationalItemSemanticEditPolicy" canonicalEditPolicyClassName="RelationalCanonicalEditPolicy" graphicalNodeEditPolicyClassName="RelationalGraphicalNodeEditPolicy" createCommandClassName="RelationalCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3027" editPartClassName="RelationalEditPart" itemSemanticEditPolicyClassName="RelationalItemSemanticEditPolicy" canonicalEditPolicyClassName="RelationalCanonicalEditPolicy" graphicalNodeEditPolicyClassName="RelationalGraphicalNodeEditPolicy" createCommandClassName="RelationalCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="RelationalEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="RelationalFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class RelationalFigure extends iot_DataView.figures.RelationalFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public RelationalFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -512,7 +512,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5025" editPartClassName="RelationalNameEditPart" itemSemanticEditPolicyClassName="RelationalNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5027" editPartClassName="RelationalNameEditPart" itemSemanticEditPolicyClassName="RelationalNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="RelationalLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class RelationalLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public RelationalLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Relational&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -520,7 +520,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3026" editPartClassName="MultidimensionalEditPart" itemSemanticEditPolicyClassName="MultidimensionalItemSemanticEditPolicy" canonicalEditPolicyClassName="MultidimensionalCanonicalEditPolicy" graphicalNodeEditPolicyClassName="MultidimensionalGraphicalNodeEditPolicy" createCommandClassName="MultidimensionalCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3028" editPartClassName="MultidimensionalEditPart" itemSemanticEditPolicyClassName="MultidimensionalItemSemanticEditPolicy" canonicalEditPolicyClassName="MultidimensionalCanonicalEditPolicy" graphicalNodeEditPolicyClassName="MultidimensionalGraphicalNodeEditPolicy" createCommandClassName="MultidimensionalCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="MultidimensionalEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="MultidimensionalFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class MultidimensionalFigure extends iot_DataView.figures.MultidimensionalFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public MultidimensionalFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -531,7 +531,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5026" editPartClassName="MultidimensionalNameEditPart" itemSemanticEditPolicyClassName="MultidimensionalNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5028" editPartClassName="MultidimensionalNameEditPart" itemSemanticEditPolicyClassName="MultidimensionalNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="MultidimensionalLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class MultidimensionalLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public MultidimensionalLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Multidimensional&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -539,7 +539,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3027" editPartClassName="RealTimeEditPart" itemSemanticEditPolicyClassName="RealTimeItemSemanticEditPolicy" canonicalEditPolicyClassName="RealTimeCanonicalEditPolicy" graphicalNodeEditPolicyClassName="RealTimeGraphicalNodeEditPolicy" createCommandClassName="RealTimeCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3029" editPartClassName="RealTimeEditPart" itemSemanticEditPolicyClassName="RealTimeItemSemanticEditPolicy" canonicalEditPolicyClassName="RealTimeCanonicalEditPolicy" graphicalNodeEditPolicyClassName="RealTimeGraphicalNodeEditPolicy" createCommandClassName="RealTimeCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="RealTimeEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="RealTimeFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class RealTimeFigure extends iot_DataView.figures.RealTimeFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public RealTimeFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -550,7 +550,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5027" editPartClassName="RealTimeNameEditPart" itemSemanticEditPolicyClassName="RealTimeNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5029" editPartClassName="RealTimeNameEditPart" itemSemanticEditPolicyClassName="RealTimeNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="RealTimeLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class RealTimeLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public RealTimeLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;RealTime&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -558,7 +558,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3028" editPartClassName="BatchEditPart" itemSemanticEditPolicyClassName="BatchItemSemanticEditPolicy" canonicalEditPolicyClassName="BatchCanonicalEditPolicy" graphicalNodeEditPolicyClassName="BatchGraphicalNodeEditPolicy" createCommandClassName="BatchCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3030" editPartClassName="BatchEditPart" itemSemanticEditPolicyClassName="BatchItemSemanticEditPolicy" canonicalEditPolicyClassName="BatchCanonicalEditPolicy" graphicalNodeEditPolicyClassName="BatchGraphicalNodeEditPolicy" createCommandClassName="BatchCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="BatchEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="BatchFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class BatchFigure extends iot_DataView.figures.BatchFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public BatchFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -569,7 +569,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5028" editPartClassName="BatchNameEditPart" itemSemanticEditPolicyClassName="BatchNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5030" editPartClassName="BatchNameEditPart" itemSemanticEditPolicyClassName="BatchNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="BatchLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class BatchLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public BatchLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Batch&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -577,7 +577,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3029" editPartClassName="FilterEditPart" itemSemanticEditPolicyClassName="FilterItemSemanticEditPolicy" canonicalEditPolicyClassName="FilterCanonicalEditPolicy" graphicalNodeEditPolicyClassName="FilterGraphicalNodeEditPolicy" createCommandClassName="FilterCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3031" editPartClassName="FilterEditPart" itemSemanticEditPolicyClassName="FilterItemSemanticEditPolicy" canonicalEditPolicyClassName="FilterCanonicalEditPolicy" graphicalNodeEditPolicyClassName="FilterGraphicalNodeEditPolicy" createCommandClassName="FilterCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="FilterEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="FilterFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class FilterFigure extends iot_DataView.figures.FilterFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public FilterFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -588,7 +588,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5029" editPartClassName="FilterNameEditPart" itemSemanticEditPolicyClassName="FilterNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5031" editPartClassName="FilterNameEditPart" itemSemanticEditPolicyClassName="FilterNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="FilterLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class FilterLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public FilterLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Filter&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -596,7 +596,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3030" editPartClassName="DescribeEditPart" itemSemanticEditPolicyClassName="DescribeItemSemanticEditPolicy" canonicalEditPolicyClassName="DescribeCanonicalEditPolicy" graphicalNodeEditPolicyClassName="DescribeGraphicalNodeEditPolicy" createCommandClassName="DescribeCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3032" editPartClassName="DescribeEditPart" itemSemanticEditPolicyClassName="DescribeItemSemanticEditPolicy" canonicalEditPolicyClassName="DescribeCanonicalEditPolicy" graphicalNodeEditPolicyClassName="DescribeGraphicalNodeEditPolicy" createCommandClassName="DescribeCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="DescribeEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="DescribeFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class DescribeFigure extends iot_DataView.figures.DescribeFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public DescribeFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -607,7 +607,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5030" editPartClassName="DescribeNameEditPart" itemSemanticEditPolicyClassName="DescribeNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5032" editPartClassName="DescribeNameEditPart" itemSemanticEditPolicyClassName="DescribeNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="DescribeLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class DescribeLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public DescribeLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Describe&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -615,7 +615,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3031" editPartClassName="DiagnoseEditPart" itemSemanticEditPolicyClassName="DiagnoseItemSemanticEditPolicy" canonicalEditPolicyClassName="DiagnoseCanonicalEditPolicy" graphicalNodeEditPolicyClassName="DiagnoseGraphicalNodeEditPolicy" createCommandClassName="DiagnoseCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3033" editPartClassName="DiagnoseEditPart" itemSemanticEditPolicyClassName="DiagnoseItemSemanticEditPolicy" canonicalEditPolicyClassName="DiagnoseCanonicalEditPolicy" graphicalNodeEditPolicyClassName="DiagnoseGraphicalNodeEditPolicy" createCommandClassName="DiagnoseCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="DiagnoseEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="DiagnoseFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class DiagnoseFigure extends iot_DataView.figures.DiagnoseFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public DiagnoseFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -626,7 +626,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5031" editPartClassName="DiagnoseNameEditPart" itemSemanticEditPolicyClassName="DiagnoseNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5033" editPartClassName="DiagnoseNameEditPart" itemSemanticEditPolicyClassName="DiagnoseNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="DiagnoseLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class DiagnoseLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public DiagnoseLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Diagnose&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -634,7 +634,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3032" editPartClassName="PredictEditPart" itemSemanticEditPolicyClassName="PredictItemSemanticEditPolicy" canonicalEditPolicyClassName="PredictCanonicalEditPolicy" graphicalNodeEditPolicyClassName="PredictGraphicalNodeEditPolicy" createCommandClassName="PredictCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3034" editPartClassName="PredictEditPart" itemSemanticEditPolicyClassName="PredictItemSemanticEditPolicy" canonicalEditPolicyClassName="PredictCanonicalEditPolicy" graphicalNodeEditPolicyClassName="PredictGraphicalNodeEditPolicy" createCommandClassName="PredictCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="PredictEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="PredictFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class PredictFigure extends iot_DataView.figures.PredictFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public PredictFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -645,7 +645,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5032" editPartClassName="PredictNameEditPart" itemSemanticEditPolicyClassName="PredictNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5034" editPartClassName="PredictNameEditPart" itemSemanticEditPolicyClassName="PredictNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="PredictLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class PredictLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public PredictLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Predict&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -653,7 +653,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3033" editPartClassName="PrescriptEditPart" itemSemanticEditPolicyClassName="PrescriptItemSemanticEditPolicy" canonicalEditPolicyClassName="PrescriptCanonicalEditPolicy" graphicalNodeEditPolicyClassName="PrescriptGraphicalNodeEditPolicy" createCommandClassName="PrescriptCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3035" editPartClassName="PrescriptEditPart" itemSemanticEditPolicyClassName="PrescriptItemSemanticEditPolicy" canonicalEditPolicyClassName="PrescriptCanonicalEditPolicy" graphicalNodeEditPolicyClassName="PrescriptGraphicalNodeEditPolicy" createCommandClassName="PrescriptCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="PrescriptEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="PrescriptFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class PrescriptFigure extends iot_DataView.figures.PrescriptFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public PrescriptFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -664,7 +664,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5033" editPartClassName="PrescriptNameEditPart" itemSemanticEditPolicyClassName="PrescriptNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5035" editPartClassName="PrescriptNameEditPart" itemSemanticEditPolicyClassName="PrescriptNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="PrescriptLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class PrescriptLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public PrescriptLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Prescript&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -672,7 +672,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3034" editPartClassName="VisualizeEditPart" itemSemanticEditPolicyClassName="VisualizeItemSemanticEditPolicy" canonicalEditPolicyClassName="VisualizeCanonicalEditPolicy" graphicalNodeEditPolicyClassName="VisualizeGraphicalNodeEditPolicy" createCommandClassName="VisualizeCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3036" editPartClassName="VisualizeEditPart" itemSemanticEditPolicyClassName="VisualizeItemSemanticEditPolicy" canonicalEditPolicyClassName="VisualizeCanonicalEditPolicy" graphicalNodeEditPolicyClassName="VisualizeGraphicalNodeEditPolicy" createCommandClassName="VisualizeCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="VisualizeEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="VisualizeFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class VisualizeFigure extends iot_DataView.figures.VisualizeFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public VisualizeFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -683,7 +683,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5034" editPartClassName="VisualizeNameEditPart" itemSemanticEditPolicyClassName="VisualizeNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5036" editPartClassName="VisualizeNameEditPart" itemSemanticEditPolicyClassName="VisualizeNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="VisualizeLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class VisualizeLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public VisualizeLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Visualize&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -691,7 +691,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3035" editPartClassName="Query_ReportEditPart" itemSemanticEditPolicyClassName="Query_ReportItemSemanticEditPolicy" canonicalEditPolicyClassName="Query_ReportCanonicalEditPolicy" graphicalNodeEditPolicyClassName="Query_ReportGraphicalNodeEditPolicy" createCommandClassName="Query_ReportCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3037" editPartClassName="Query_ReportEditPart" itemSemanticEditPolicyClassName="Query_ReportItemSemanticEditPolicy" canonicalEditPolicyClassName="Query_ReportCanonicalEditPolicy" graphicalNodeEditPolicyClassName="Query_ReportGraphicalNodeEditPolicy" createCommandClassName="Query_ReportCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="Query_ReportEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="Query_ReportFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class Query_ReportFigure extends iot_DataView.figures.Query_ReportFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public Query_ReportFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -702,7 +702,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5035" editPartClassName="Query_ReportNameEditPart" itemSemanticEditPolicyClassName="Query_ReportNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5037" editPartClassName="Query_ReportNameEditPart" itemSemanticEditPolicyClassName="Query_ReportNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="Query_ReportLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class Query_ReportLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public Query_ReportLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Query_Report&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -710,7 +710,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3036" editPartClassName="APIEditPart" itemSemanticEditPolicyClassName="APIItemSemanticEditPolicy" canonicalEditPolicyClassName="APICanonicalEditPolicy" graphicalNodeEditPolicyClassName="APIGraphicalNodeEditPolicy" createCommandClassName="APICreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3038" editPartClassName="APIEditPart" itemSemanticEditPolicyClassName="APIItemSemanticEditPolicy" canonicalEditPolicyClassName="APICanonicalEditPolicy" graphicalNodeEditPolicyClassName="APIGraphicalNodeEditPolicy" createCommandClassName="APICreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="APIEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="APIFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class APIFigure extends iot_DataView.figures.APIFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public APIFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -721,7 +721,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5036" editPartClassName="APINameEditPart" itemSemanticEditPolicyClassName="APINameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5038" editPartClassName="APINameEditPart" itemSemanticEditPolicyClassName="APINameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="APILabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class APILabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public APILabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;API&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -729,7 +729,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3037" editPartClassName="TranfromEditPart" itemSemanticEditPolicyClassName="TranfromItemSemanticEditPolicy" canonicalEditPolicyClassName="TranfromCanonicalEditPolicy" graphicalNodeEditPolicyClassName="TranfromGraphicalNodeEditPolicy" createCommandClassName="TranfromCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3039" editPartClassName="TranfromEditPart" itemSemanticEditPolicyClassName="TranfromItemSemanticEditPolicy" canonicalEditPolicyClassName="TranfromCanonicalEditPolicy" graphicalNodeEditPolicyClassName="TranfromGraphicalNodeEditPolicy" createCommandClassName="TranfromCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="TranfromEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="TranfromFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class TranfromFigure extends iot_DataView.figures.TranformFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public TranfromFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -740,7 +740,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5037" editPartClassName="TranfromNameEditPart" itemSemanticEditPolicyClassName="TranfromNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5039" editPartClassName="TranfromNameEditPart" itemSemanticEditPolicyClassName="TranfromNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="TranfromLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class TranfromLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public TranfromLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Tranfrom&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -748,7 +748,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3038" editPartClassName="CompressEditPart" itemSemanticEditPolicyClassName="CompressItemSemanticEditPolicy" canonicalEditPolicyClassName="CompressCanonicalEditPolicy" graphicalNodeEditPolicyClassName="CompressGraphicalNodeEditPolicy" createCommandClassName="CompressCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3040" editPartClassName="CompressEditPart" itemSemanticEditPolicyClassName="CompressItemSemanticEditPolicy" canonicalEditPolicyClassName="CompressCanonicalEditPolicy" graphicalNodeEditPolicyClassName="CompressGraphicalNodeEditPolicy" createCommandClassName="CompressCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="CompressEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="CompressFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class CompressFigure extends iot_DataView.figures.CompressFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public CompressFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -759,7 +759,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5038" editPartClassName="CompressNameEditPart" itemSemanticEditPolicyClassName="CompressNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5040" editPartClassName="CompressNameEditPart" itemSemanticEditPolicyClassName="CompressNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="CompressLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class CompressLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public CompressLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Compress&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -767,7 +767,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3039" editPartClassName="IntegrateEditPart" itemSemanticEditPolicyClassName="IntegrateItemSemanticEditPolicy" canonicalEditPolicyClassName="IntegrateCanonicalEditPolicy" graphicalNodeEditPolicyClassName="IntegrateGraphicalNodeEditPolicy" createCommandClassName="IntegrateCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3041" editPartClassName="IntegrateEditPart" itemSemanticEditPolicyClassName="IntegrateItemSemanticEditPolicy" canonicalEditPolicyClassName="IntegrateCanonicalEditPolicy" graphicalNodeEditPolicyClassName="IntegrateGraphicalNodeEditPolicy" createCommandClassName="IntegrateCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="IntegrateEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="IntegrateFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class IntegrateFigure extends iot_DataView.figures.IntegrateFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public IntegrateFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -778,7 +778,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5039" editPartClassName="IntegrateNameEditPart" itemSemanticEditPolicyClassName="IntegrateNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5041" editPartClassName="IntegrateNameEditPart" itemSemanticEditPolicyClassName="IntegrateNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="IntegrateLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class IntegrateLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public IntegrateLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Integrate&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -786,7 +786,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3040" editPartClassName="IdentifyEditPart" itemSemanticEditPolicyClassName="IdentifyItemSemanticEditPolicy" canonicalEditPolicyClassName="IdentifyCanonicalEditPolicy" graphicalNodeEditPolicyClassName="IdentifyGraphicalNodeEditPolicy" createCommandClassName="IdentifyCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3042" editPartClassName="IdentifyEditPart" itemSemanticEditPolicyClassName="IdentifyItemSemanticEditPolicy" canonicalEditPolicyClassName="IdentifyCanonicalEditPolicy" graphicalNodeEditPolicyClassName="IdentifyGraphicalNodeEditPolicy" createCommandClassName="IdentifyCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="IdentifyEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="IdentifyFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class IdentifyFigure extends iot_DataView.figures.IdentifyFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public IdentifyFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -797,7 +797,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5040" editPartClassName="IdentifyNameEditPart" itemSemanticEditPolicyClassName="IdentifyNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5042" editPartClassName="IdentifyNameEditPart" itemSemanticEditPolicyClassName="IdentifyNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="IdentifyLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class IdentifyLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public IdentifyLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Identify&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -805,7 +805,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3041" editPartClassName="ValidateEditPart" itemSemanticEditPolicyClassName="ValidateItemSemanticEditPolicy" canonicalEditPolicyClassName="ValidateCanonicalEditPolicy" graphicalNodeEditPolicyClassName="ValidateGraphicalNodeEditPolicy" createCommandClassName="ValidateCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3043" editPartClassName="ValidateEditPart" itemSemanticEditPolicyClassName="ValidateItemSemanticEditPolicy" canonicalEditPolicyClassName="ValidateCanonicalEditPolicy" graphicalNodeEditPolicyClassName="ValidateGraphicalNodeEditPolicy" createCommandClassName="ValidateCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="ValidateEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ValidateFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ValidateFigure extends iot_DataView.figures.ValidateFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ValidateFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -816,7 +816,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5041" editPartClassName="ValidateNameEditPart" itemSemanticEditPolicyClassName="ValidateNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5043" editPartClassName="ValidateNameEditPart" itemSemanticEditPolicyClassName="ValidateNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ValidateLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ValidateLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ValidateLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Validate&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -824,7 +824,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3042" editPartClassName="ClassifyEditPart" itemSemanticEditPolicyClassName="ClassifyItemSemanticEditPolicy" canonicalEditPolicyClassName="ClassifyCanonicalEditPolicy" graphicalNodeEditPolicyClassName="ClassifyGraphicalNodeEditPolicy" createCommandClassName="ClassifyCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3044" editPartClassName="ClassifyEditPart" itemSemanticEditPolicyClassName="ClassifyItemSemanticEditPolicy" canonicalEditPolicyClassName="ClassifyCanonicalEditPolicy" graphicalNodeEditPolicyClassName="ClassifyGraphicalNodeEditPolicy" createCommandClassName="ClassifyCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="ClassifyEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ClassifyFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ClassifyFigure extends iot_DataView.figures.ClassifyFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ClassifyFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -835,7 +835,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5042" editPartClassName="ClassifyNameEditPart" itemSemanticEditPolicyClassName="ClassifyNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5044" editPartClassName="ClassifyNameEditPart" itemSemanticEditPolicyClassName="ClassifyNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ClassifyLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ClassifyLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ClassifyLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Classify&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -843,7 +843,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3043" editPartClassName="SortEditPart" itemSemanticEditPolicyClassName="SortItemSemanticEditPolicy" canonicalEditPolicyClassName="SortCanonicalEditPolicy" graphicalNodeEditPolicyClassName="SortGraphicalNodeEditPolicy" createCommandClassName="SortCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3045" editPartClassName="SortEditPart" itemSemanticEditPolicyClassName="SortItemSemanticEditPolicy" canonicalEditPolicyClassName="SortCanonicalEditPolicy" graphicalNodeEditPolicyClassName="SortGraphicalNodeEditPolicy" createCommandClassName="SortCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="SortEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="SortFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class SortFigure extends iot_DataView.figures.SortFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public SortFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -854,7 +854,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5043" editPartClassName="SortNameEditPart" itemSemanticEditPolicyClassName="SortNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5045" editPartClassName="SortNameEditPart" itemSemanticEditPolicyClassName="SortNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="SortLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class SortLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public SortLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Sort&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -862,7 +862,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3044" editPartClassName="MergeEditPart" itemSemanticEditPolicyClassName="MergeItemSemanticEditPolicy" canonicalEditPolicyClassName="MergeCanonicalEditPolicy" graphicalNodeEditPolicyClassName="MergeGraphicalNodeEditPolicy" createCommandClassName="MergeCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3046" editPartClassName="MergeEditPart" itemSemanticEditPolicyClassName="MergeItemSemanticEditPolicy" canonicalEditPolicyClassName="MergeCanonicalEditPolicy" graphicalNodeEditPolicyClassName="MergeGraphicalNodeEditPolicy" createCommandClassName="MergeCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="MergeEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="MergeFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class MergeFigure extends iot_DataView.figures.MergeFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public MergeFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -873,7 +873,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5044" editPartClassName="MergeNameEditPart" itemSemanticEditPolicyClassName="MergeNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5046" editPartClassName="MergeNameEditPart" itemSemanticEditPolicyClassName="MergeNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="MergeLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class MergeLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public MergeLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Merge&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -881,7 +881,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3045" editPartClassName="AggregateEditPart" itemSemanticEditPolicyClassName="AggregateItemSemanticEditPolicy" canonicalEditPolicyClassName="AggregateCanonicalEditPolicy" graphicalNodeEditPolicyClassName="AggregateGraphicalNodeEditPolicy" createCommandClassName="AggregateCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3047" editPartClassName="AggregateEditPart" itemSemanticEditPolicyClassName="AggregateItemSemanticEditPolicy" canonicalEditPolicyClassName="AggregateCanonicalEditPolicy" graphicalNodeEditPolicyClassName="AggregateGraphicalNodeEditPolicy" createCommandClassName="AggregateCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="AggregateEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="AggregateFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class AggregateFigure extends iot_DataView.figures.AggregateFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public AggregateFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -892,7 +892,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5045" editPartClassName="AggregateNameEditPart" itemSemanticEditPolicyClassName="AggregateNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5047" editPartClassName="AggregateNameEditPart" itemSemanticEditPolicyClassName="AggregateNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="AggregateLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class AggregateLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public AggregateLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Aggregate&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -900,7 +900,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3046" editPartClassName="CleaningEditPart" itemSemanticEditPolicyClassName="CleaningItemSemanticEditPolicy" canonicalEditPolicyClassName="CleaningCanonicalEditPolicy" graphicalNodeEditPolicyClassName="CleaningGraphicalNodeEditPolicy" createCommandClassName="CleaningCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3048" editPartClassName="CleaningEditPart" itemSemanticEditPolicyClassName="CleaningItemSemanticEditPolicy" canonicalEditPolicyClassName="CleaningCanonicalEditPolicy" graphicalNodeEditPolicyClassName="CleaningGraphicalNodeEditPolicy" createCommandClassName="CleaningCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="CleaningEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="CleaningFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class CleaningFigure extends iot_DataView.figures.CleaningFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public CleaningFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -911,7 +911,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5046" editPartClassName="CleaningNameEditPart" itemSemanticEditPolicyClassName="CleaningNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5048" editPartClassName="CleaningNameEditPart" itemSemanticEditPolicyClassName="CleaningNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="CleaningLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class CleaningLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public CleaningLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Cleaning&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -919,7 +919,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3047" editPartClassName="ReduceNoiseEditPart" itemSemanticEditPolicyClassName="ReduceNoiseItemSemanticEditPolicy" canonicalEditPolicyClassName="ReduceNoiseCanonicalEditPolicy" graphicalNodeEditPolicyClassName="ReduceNoiseGraphicalNodeEditPolicy" createCommandClassName="ReduceNoiseCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3049" editPartClassName="ReduceNoiseEditPart" itemSemanticEditPolicyClassName="ReduceNoiseItemSemanticEditPolicy" canonicalEditPolicyClassName="ReduceNoiseCanonicalEditPolicy" graphicalNodeEditPolicyClassName="ReduceNoiseGraphicalNodeEditPolicy" createCommandClassName="ReduceNoiseCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="ReduceNoiseEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ReduceNoiseFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ReduceNoiseFigure extends iot_DataView.figures.ReduceNoiseFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ReduceNoiseFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -930,7 +930,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5047" editPartClassName="ReduceNoiseNameEditPart" itemSemanticEditPolicyClassName="ReduceNoiseNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5049" editPartClassName="ReduceNoiseNameEditPart" itemSemanticEditPolicyClassName="ReduceNoiseNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ReduceNoiseLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ReduceNoiseLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ReduceNoiseLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;ReduceNoise&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -938,7 +938,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3048" editPartClassName="Math_OperationEditPart" itemSemanticEditPolicyClassName="Math_OperationItemSemanticEditPolicy" canonicalEditPolicyClassName="Math_OperationCanonicalEditPolicy" graphicalNodeEditPolicyClassName="Math_OperationGraphicalNodeEditPolicy" createCommandClassName="Math_OperationCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3050" editPartClassName="Math_OperationEditPart" itemSemanticEditPolicyClassName="Math_OperationItemSemanticEditPolicy" canonicalEditPolicyClassName="Math_OperationCanonicalEditPolicy" graphicalNodeEditPolicyClassName="Math_OperationGraphicalNodeEditPolicy" createCommandClassName="Math_OperationCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="Math_OperationEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="Math_OperationFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class Math_OperationFigure extends iot_DataView.figures.MathOpFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public Math_OperationFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -949,7 +949,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5048" editPartClassName="Math_OperationNameEditPart" itemSemanticEditPolicyClassName="Math_OperationNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5050" editPartClassName="Math_OperationNameEditPart" itemSemanticEditPolicyClassName="Math_OperationNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="Math_OperationLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class Math_OperationLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public Math_OperationLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Math_Operation&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -957,7 +957,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3049" editPartClassName="RetrieveEditPart" itemSemanticEditPolicyClassName="RetrieveItemSemanticEditPolicy" canonicalEditPolicyClassName="RetrieveCanonicalEditPolicy" graphicalNodeEditPolicyClassName="RetrieveGraphicalNodeEditPolicy" createCommandClassName="RetrieveCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3051" editPartClassName="RetrieveEditPart" itemSemanticEditPolicyClassName="RetrieveItemSemanticEditPolicy" canonicalEditPolicyClassName="RetrieveCanonicalEditPolicy" graphicalNodeEditPolicyClassName="RetrieveGraphicalNodeEditPolicy" createCommandClassName="RetrieveCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="RetrieveEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="RetrieveFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class RetrieveFigure extends iot_DataView.figures.RetrieveFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public RetrieveFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -968,7 +968,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5049" editPartClassName="RetrieveNameEditPart" itemSemanticEditPolicyClassName="RetrieveNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5051" editPartClassName="RetrieveNameEditPart" itemSemanticEditPolicyClassName="RetrieveNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="RetrieveLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class RetrieveLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public RetrieveLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Retrieve&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -976,7 +976,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3050" editPartClassName="SaveEditPart" itemSemanticEditPolicyClassName="SaveItemSemanticEditPolicy" canonicalEditPolicyClassName="SaveCanonicalEditPolicy" graphicalNodeEditPolicyClassName="SaveGraphicalNodeEditPolicy" createCommandClassName="SaveCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3052" editPartClassName="SaveEditPart" itemSemanticEditPolicyClassName="SaveItemSemanticEditPolicy" canonicalEditPolicyClassName="SaveCanonicalEditPolicy" graphicalNodeEditPolicyClassName="SaveGraphicalNodeEditPolicy" createCommandClassName="SaveCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="SaveEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="SaveFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class SaveFigure extends iot_DataView.figures.StoreFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public SaveFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -987,7 +987,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5050" editPartClassName="SaveNameEditPart" itemSemanticEditPolicyClassName="SaveNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5052" editPartClassName="SaveNameEditPart" itemSemanticEditPolicyClassName="SaveNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="SaveLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class SaveLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public SaveLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Save&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -995,7 +995,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3051" editPartClassName="ArchiveEditPart" itemSemanticEditPolicyClassName="ArchiveItemSemanticEditPolicy" canonicalEditPolicyClassName="ArchiveCanonicalEditPolicy" graphicalNodeEditPolicyClassName="ArchiveGraphicalNodeEditPolicy" createCommandClassName="ArchiveCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3053" editPartClassName="ArchiveEditPart" itemSemanticEditPolicyClassName="ArchiveItemSemanticEditPolicy" canonicalEditPolicyClassName="ArchiveCanonicalEditPolicy" graphicalNodeEditPolicyClassName="ArchiveGraphicalNodeEditPolicy" createCommandClassName="ArchiveCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="ArchiveEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ArchiveFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ArchiveFigure extends iot_DataView.figures.ArchiveFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ArchiveFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -1006,7 +1006,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5051" editPartClassName="ArchiveNameEditPart" itemSemanticEditPolicyClassName="ArchiveNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5053" editPartClassName="ArchiveNameEditPart" itemSemanticEditPolicyClassName="ArchiveNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ArchiveLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ArchiveLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ArchiveLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Archive&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -1014,7 +1014,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3052" editPartClassName="GovernEditPart" itemSemanticEditPolicyClassName="GovernItemSemanticEditPolicy" canonicalEditPolicyClassName="GovernCanonicalEditPolicy" graphicalNodeEditPolicyClassName="GovernGraphicalNodeEditPolicy" createCommandClassName="GovernCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3054" editPartClassName="GovernEditPart" itemSemanticEditPolicyClassName="GovernItemSemanticEditPolicy" canonicalEditPolicyClassName="GovernCanonicalEditPolicy" graphicalNodeEditPolicyClassName="GovernGraphicalNodeEditPolicy" createCommandClassName="GovernCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="GovernEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="GovernFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class GovernFigure extends iot_DataView.figures.GovernFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public GovernFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -1025,7 +1025,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5052" editPartClassName="GovernNameEditPart" itemSemanticEditPolicyClassName="GovernNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5054" editPartClassName="GovernNameEditPart" itemSemanticEditPolicyClassName="GovernNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="GovernLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class GovernLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public GovernLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Govern&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -1033,7 +1033,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3053" editPartClassName="ReceiveDataEditPart" itemSemanticEditPolicyClassName="ReceiveDataItemSemanticEditPolicy" canonicalEditPolicyClassName="ReceiveDataCanonicalEditPolicy" graphicalNodeEditPolicyClassName="ReceiveDataGraphicalNodeEditPolicy" createCommandClassName="ReceiveDataCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3055" editPartClassName="ReceiveDataEditPart" itemSemanticEditPolicyClassName="ReceiveDataItemSemanticEditPolicy" canonicalEditPolicyClassName="ReceiveDataCanonicalEditPolicy" graphicalNodeEditPolicyClassName="ReceiveDataGraphicalNodeEditPolicy" createCommandClassName="ReceiveDataCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="ReceiveDataEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ReceiveDataFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ReceiveDataFigure extends iot_DataView.figures.ReceiveDataFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ReceiveDataFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -1044,7 +1044,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5053" editPartClassName="ReceiveDataNameEditPart" itemSemanticEditPolicyClassName="ReceiveDataNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5055" editPartClassName="ReceiveDataNameEditPart" itemSemanticEditPolicyClassName="ReceiveDataNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ReceiveDataLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ReceiveDataLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ReceiveDataLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;ReceiveData&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -1052,7 +1052,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3054" editPartClassName="SendDataEditPart" itemSemanticEditPolicyClassName="SendDataItemSemanticEditPolicy" canonicalEditPolicyClassName="SendDataCanonicalEditPolicy" graphicalNodeEditPolicyClassName="SendDataGraphicalNodeEditPolicy" createCommandClassName="SendDataCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3056" editPartClassName="SendDataEditPart" itemSemanticEditPolicyClassName="SendDataItemSemanticEditPolicy" canonicalEditPolicyClassName="SendDataCanonicalEditPolicy" graphicalNodeEditPolicyClassName="SendDataGraphicalNodeEditPolicy" createCommandClassName="SendDataCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="SendDataEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="SendDataFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class SendDataFigure extends iot_DataView.figures.SendDataFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public SendDataFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -1063,7 +1063,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5054" editPartClassName="SendDataNameEditPart" itemSemanticEditPolicyClassName="SendDataNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5056" editPartClassName="SendDataNameEditPart" itemSemanticEditPolicyClassName="SendDataNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="SendDataLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class SendDataLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public SendDataLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;SendData&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -1071,7 +1071,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3055" editPartClassName="GenerateEditPart" itemSemanticEditPolicyClassName="GenerateItemSemanticEditPolicy" canonicalEditPolicyClassName="GenerateCanonicalEditPolicy" graphicalNodeEditPolicyClassName="GenerateGraphicalNodeEditPolicy" createCommandClassName="GenerateCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3057" editPartClassName="GenerateEditPart" itemSemanticEditPolicyClassName="GenerateItemSemanticEditPolicy" canonicalEditPolicyClassName="GenerateCanonicalEditPolicy" graphicalNodeEditPolicyClassName="GenerateGraphicalNodeEditPolicy" createCommandClassName="GenerateCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="GenerateEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="GenerateFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class GenerateFigure extends iot_DataView.figures.GenerateFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public GenerateFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -1082,7 +1082,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5055" editPartClassName="GenerateNameEditPart" itemSemanticEditPolicyClassName="GenerateNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5057" editPartClassName="GenerateNameEditPart" itemSemanticEditPolicyClassName="GenerateNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="GenerateLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class GenerateLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public GenerateLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Generate&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -1090,7 +1090,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3062" editPartClassName="IngestEditPart" itemSemanticEditPolicyClassName="IngestItemSemanticEditPolicy" canonicalEditPolicyClassName="IngestCanonicalEditPolicy" graphicalNodeEditPolicyClassName="IngestGraphicalNodeEditPolicy" createCommandClassName="IngestCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3058" editPartClassName="IngestEditPart" itemSemanticEditPolicyClassName="IngestItemSemanticEditPolicy" canonicalEditPolicyClassName="IngestCanonicalEditPolicy" graphicalNodeEditPolicyClassName="IngestGraphicalNodeEditPolicy" createCommandClassName="IngestCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="IngestEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="IngestFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class IngestFigure extends iot_DataView.figures.IngestFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public IngestFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -1101,7 +1101,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5063" editPartClassName="IngestNameEditPart" itemSemanticEditPolicyClassName="IngestNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5058" editPartClassName="IngestNameEditPart" itemSemanticEditPolicyClassName="IngestNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="IngestLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class IngestLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public IngestLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Ingest&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -1109,7 +1109,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3056" editPartClassName="AnalyzeEditPart" itemSemanticEditPolicyClassName="AnalyzeItemSemanticEditPolicy" canonicalEditPolicyClassName="AnalyzeCanonicalEditPolicy" graphicalNodeEditPolicyClassName="AnalyzeGraphicalNodeEditPolicy" createCommandClassName="AnalyzeCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3059" editPartClassName="AnalyzeEditPart" itemSemanticEditPolicyClassName="AnalyzeItemSemanticEditPolicy" canonicalEditPolicyClassName="AnalyzeCanonicalEditPolicy" graphicalNodeEditPolicyClassName="AnalyzeGraphicalNodeEditPolicy" createCommandClassName="AnalyzeCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="AnalyzeEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="AnalyzeFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class AnalyzeFigure extends iot_DataView.figures.AnalyzeFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public AnalyzeFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -1120,7 +1120,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5056" editPartClassName="AnalyzeNameEditPart" itemSemanticEditPolicyClassName="AnalyzeNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5059" editPartClassName="AnalyzeNameEditPart" itemSemanticEditPolicyClassName="AnalyzeNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="AnalyzeLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class AnalyzeLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public AnalyzeLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Analyze&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -1128,7 +1128,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes visualID="3057" editPartClassName="ProcessEditPart" itemSemanticEditPolicyClassName="ProcessItemSemanticEditPolicy" canonicalEditPolicyClassName="ProcessCanonicalEditPolicy" graphicalNodeEditPolicyClassName="ProcessGraphicalNodeEditPolicy" createCommandClassName="ProcessCreateCommand" containers="//@diagram/@compartments.0">
+    <childNodes visualID="3060" editPartClassName="ProcessEditPart" itemSemanticEditPolicyClassName="ProcessItemSemanticEditPolicy" canonicalEditPolicyClassName="ProcessCanonicalEditPolicy" graphicalNodeEditPolicyClassName="ProcessGraphicalNodeEditPolicy" createCommandClassName="ProcessCreateCommand" containers="//@diagram/@compartments.0">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="ProcessEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ProcessFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ProcessFigure extends iot_DataView.figures.ProcessFigure {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ProcessFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
@@ -1139,7 +1139,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
       </modelFacet>
-      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5057" editPartClassName="ProcessNameEditPart" itemSemanticEditPolicyClassName="ProcessNameItemSemanticEditPolicy">
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5060" editPartClassName="ProcessNameEditPart" itemSemanticEditPolicyClassName="ProcessNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ProcessLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ProcessLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ProcessLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Process&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -1147,7 +1147,26 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes xsi:type="gmfgen:GenChildSideAffixedNode" visualID="3058" editPartClassName="InMessagePortEditPart" itemSemanticEditPolicyClassName="InMessagePortItemSemanticEditPolicy" canonicalEditPolicyClassName="InMessagePortCanonicalEditPolicy" graphicalNodeEditPolicyClassName="InMessagePortGraphicalNodeEditPolicy" createCommandClassName="InMessagePortCreateCommand" containers="//@diagram/@topLevelNodes.0" preferredSideName="NORTH">
+    <childNodes visualID="3061" editPartClassName="VerifyDataEditPart" itemSemanticEditPolicyClassName="VerifyDataItemSemanticEditPolicy" canonicalEditPolicyClassName="VerifyDataCanonicalEditPolicy" graphicalNodeEditPolicyClassName="VerifyDataGraphicalNodeEditPolicy" createCommandClassName="VerifyDataCreateCommand" containers="//@diagram/@compartments.0">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="VerifyDataEditHelper"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="VerifyDataFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class VerifyDataFigure extends iot_DataView.figures.VerifyData {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public VerifyDataFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
+        <attributes xsi:type="gmfgen:DefaultSizeAttributes" width="48" height="48"/>
+      </viewmap>
+      <modelFacet>
+        <metaClass href="IoT_DataArch.genmodel#//DataArch/VerifyData"/>
+        <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
+        <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/behaviouralElements"/>
+      </modelFacet>
+      <labels xsi:type="gmfgen:GenExternalNodeLabel" visualID="5061" editPartClassName="VerifyDataNameEditPart" itemSemanticEditPolicyClassName="VerifyDataNameItemSemanticEditPolicy">
+        <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+        <viewmap xsi:type="gmfgen:InnerClassViewmap" className="VerifyDataLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class VerifyDataLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public VerifyDataLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;VerifyData&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+        <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
+          <metaFeatures href="IoT_DataArch.genmodel#//DataArch/BehaviouralElement/name"/>
+        </modelFacet>
+      </labels>
+    </childNodes>
+    <childNodes xsi:type="gmfgen:GenChildSideAffixedNode" visualID="3062" editPartClassName="InMessagePortEditPart" itemSemanticEditPolicyClassName="InMessagePortItemSemanticEditPolicy" canonicalEditPolicyClassName="InMessagePortCanonicalEditPolicy" graphicalNodeEditPolicyClassName="InMessagePortGraphicalNodeEditPolicy" createCommandClassName="InMessagePortCreateCommand" containers="//@diagram/@topLevelNodes.0" preferredSideName="NORTH">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="InMessagePortEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="InMessagePortFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class InMessagePortFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel fFigureInMessagePortLabelFigure; &#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public InMessagePortFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;&#x9;this.setForegroundColor(THIS_FORE&#xA;);&#xA;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(20)&#xA;, getMapMode().DPtoLP(20)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fFigureInMessagePortLabelFigure = new org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel();&#xA;&#xA;fFigureInMessagePortLabelFigure.setText(&quot;InMessagePort&quot;);&#xA;&#xA;this.add(fFigureInMessagePortLabelFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel getFigureInMessagePortLabelFigure() {&#xA;&#x9;&#x9;return fFigureInMessagePortLabelFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;/**&#xA; * @generated&#xA; */&#xA;static final org.eclipse.swt.graphics.Color THIS_FORE = new org.eclipse.swt.graphics.Color(null, 0, 255, 0);&#xA;&#xA;">
@@ -1159,7 +1178,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/ports"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/ports"/>
       </modelFacet>
-      <labels visualID="5058" editPartClassName="InMessagePortNameEditPart" itemSemanticEditPolicyClassName="InMessagePortNameItemSemanticEditPolicy">
+      <labels visualID="5062" editPartClassName="InMessagePortNameEditPart" itemSemanticEditPolicyClassName="InMessagePortNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getFigureInMessagePortLabelFigure" figureQualifiedClassName="org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -1167,7 +1186,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <childNodes xsi:type="gmfgen:GenChildSideAffixedNode" visualID="3059" editPartClassName="OutMessagePortEditPart" itemSemanticEditPolicyClassName="OutMessagePortItemSemanticEditPolicy" canonicalEditPolicyClassName="OutMessagePortCanonicalEditPolicy" graphicalNodeEditPolicyClassName="OutMessagePortGraphicalNodeEditPolicy" createCommandClassName="OutMessagePortCreateCommand" containers="//@diagram/@topLevelNodes.0" preferredSideName="NORTH">
+    <childNodes xsi:type="gmfgen:GenChildSideAffixedNode" visualID="3063" editPartClassName="OutMessagePortEditPart" itemSemanticEditPolicyClassName="OutMessagePortItemSemanticEditPolicy" canonicalEditPolicyClassName="OutMessagePortCanonicalEditPolicy" graphicalNodeEditPolicyClassName="OutMessagePortGraphicalNodeEditPolicy" createCommandClassName="OutMessagePortCreateCommand" containers="//@diagram/@topLevelNodes.0" preferredSideName="NORTH">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="OutMessagePortEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="OutMessagePortFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class OutMessagePortFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel fFigureOutMessagePortLabelFigure; &#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public OutMessagePortFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;&#x9;this.setForegroundColor(THIS_FORE&#xA;);&#xA;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(20)&#xA;, getMapMode().DPtoLP(20)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fFigureOutMessagePortLabelFigure = new org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel();&#xA;&#xA;fFigureOutMessagePortLabelFigure.setText(&quot;OutMessagePort&quot;);&#xA;&#xA;this.add(fFigureOutMessagePortLabelFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel getFigureOutMessagePortLabelFigure() {&#xA;&#x9;&#x9;return fFigureOutMessagePortLabelFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;/**&#xA; * @generated&#xA; */&#xA;static final org.eclipse.swt.graphics.Color THIS_FORE = new org.eclipse.swt.graphics.Color(null, 255, 0, 0);&#xA;&#xA;">
@@ -1179,7 +1198,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/ports"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataNode/ports"/>
       </modelFacet>
-      <labels visualID="5059" editPartClassName="OutMessagePortNameEditPart" itemSemanticEditPolicyClassName="OutMessagePortNameItemSemanticEditPolicy">
+      <labels visualID="5063" editPartClassName="OutMessagePortNameEditPart" itemSemanticEditPolicyClassName="OutMessagePortNameItemSemanticEditPolicy">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getFigureOutMessagePortLabelFigure" figureQualifiedClassName="org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -1187,7 +1206,7 @@
         </modelFacet>
       </labels>
     </childNodes>
-    <topLevelNodes visualID="2001" editPartClassName="DataNodeEditPart" itemSemanticEditPolicyClassName="DataNodeItemSemanticEditPolicy" canonicalEditPolicyClassName="DataNodeCanonicalEditPolicy" childNodes="//@diagram/@childNodes.60 //@diagram/@childNodes.61" compartments="//@diagram/@compartments.0" graphicalNodeEditPolicyClassName="DataNodeGraphicalNodeEditPolicy" createCommandClassName="DataNodeCreateCommand">
+    <topLevelNodes visualID="2001" editPartClassName="DataNodeEditPart" itemSemanticEditPolicyClassName="DataNodeItemSemanticEditPolicy" canonicalEditPolicyClassName="DataNodeCanonicalEditPolicy" childNodes="//@diagram/@childNodes.61 //@diagram/@childNodes.62" compartments="//@diagram/@compartments.0" graphicalNodeEditPolicyClassName="DataNodeGraphicalNodeEditPolicy" createCommandClassName="DataNodeCreateCommand">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="DataNodeEditHelper"/>
       <viewmap xsi:type="gmfgen:InnerClassViewmap" className="DataNodeFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class DataNodeFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel fFigureDataNodeLabelFigure; &#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RectangleFigure fDataNodeBehaviouralElementsCompartmentFigure; &#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public DataNodeFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;&#x9;this.setForegroundColor(THIS_FORE&#xA;);&#xA;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(48)&#xA;, getMapMode().DPtoLP(48)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fFigureDataNodeLabelFigure = new org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel();&#xA;&#xA;fFigureDataNodeLabelFigure.setText(&quot;DataNode&quot;);&#xA;fFigureDataNodeLabelFigure.setMaximumSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(10000)&#xA;, getMapMode().DPtoLP(50)&#xA;));&#xA;&#xA;this.add(fFigureDataNodeLabelFigure);&#xA;&#xA;&#xA;&#xA;fDataNodeBehaviouralElementsCompartmentFigure = new org.eclipse.draw2d.RectangleFigure();&#xA;&#xA;fDataNodeBehaviouralElementsCompartmentFigure.setOutline(false);&#xA;&#xA;this.add(fDataNodeBehaviouralElementsCompartmentFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel getFigureDataNodeLabelFigure() {&#xA;&#x9;&#x9;return fFigureDataNodeLabelFigure;&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.draw2d.RectangleFigure getDataNodeBehaviouralElementsCompartmentFigure() {&#xA;&#x9;&#x9;return fDataNodeBehaviouralElementsCompartmentFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;/**&#xA; * @generated&#xA; */&#xA;static final org.eclipse.swt.graphics.Color THIS_FORE = new org.eclipse.swt.graphics.Color(null, 0, 0, 0);&#xA;&#xA;">
@@ -1200,7 +1219,7 @@
         <containmentMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataArchitecture/dataNodes"/>
         <childMetaFeature href="IoT_DataArch.genmodel#//DataArch/DataArchitecture/dataNodes"/>
       </modelFacet>
-      <labels visualID="5060" editPartClassName="DataNodeNodeNameEditPart" itemSemanticEditPolicyClassName="DataNodeNodeNameItemSemanticEditPolicy" elementIcon="true">
+      <labels visualID="5064" editPartClassName="DataNodeNodeNameEditPart" itemSemanticEditPolicyClassName="DataNodeNodeNameItemSemanticEditPolicy" elementIcon="true">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getFigureDataNodeLabelFigure" figureQualifiedClassName="org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel"/>
         <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
@@ -1273,7 +1292,7 @@
         <modelFacet xsi:type="gmfgen:DesignLabelModelFacet" parser="//@labelParsers/@implementations.1"/>
       </labels>
     </links>
-    <compartments visualID="7001" editPartClassName="DataNodeDataNodeBehaviouralElementsCompartmentEditPart" itemSemanticEditPolicyClassName="DataNodeDataNodeBehaviouralElementsCompartmentItemSemanticEditPolicy" canonicalEditPolicyClassName="DataNodeDataNodeBehaviouralElementsCompartmentCanonicalEditPolicy" childNodes="//@diagram/@childNodes.0 //@diagram/@childNodes.1 //@diagram/@childNodes.2 //@diagram/@childNodes.3 //@diagram/@childNodes.4 //@diagram/@childNodes.5 //@diagram/@childNodes.6 //@diagram/@childNodes.7 //@diagram/@childNodes.8 //@diagram/@childNodes.9 //@diagram/@childNodes.10 //@diagram/@childNodes.11 //@diagram/@childNodes.12 //@diagram/@childNodes.13 //@diagram/@childNodes.14 //@diagram/@childNodes.15 //@diagram/@childNodes.16 //@diagram/@childNodes.17 //@diagram/@childNodes.18 //@diagram/@childNodes.19 //@diagram/@childNodes.20 //@diagram/@childNodes.21 //@diagram/@childNodes.22 //@diagram/@childNodes.23 //@diagram/@childNodes.24 //@diagram/@childNodes.25 //@diagram/@childNodes.26 //@diagram/@childNodes.27 //@diagram/@childNodes.28 //@diagram/@childNodes.29 //@diagram/@childNodes.30 //@diagram/@childNodes.31 //@diagram/@childNodes.32 //@diagram/@childNodes.33 //@diagram/@childNodes.34 //@diagram/@childNodes.35 //@diagram/@childNodes.36 //@diagram/@childNodes.37 //@diagram/@childNodes.38 //@diagram/@childNodes.39 //@diagram/@childNodes.40 //@diagram/@childNodes.41 //@diagram/@childNodes.42 //@diagram/@childNodes.43 //@diagram/@childNodes.44 //@diagram/@childNodes.45 //@diagram/@childNodes.46 //@diagram/@childNodes.47 //@diagram/@childNodes.48 //@diagram/@childNodes.49 //@diagram/@childNodes.50 //@diagram/@childNodes.51 //@diagram/@childNodes.52 //@diagram/@childNodes.53 //@diagram/@childNodes.54 //@diagram/@childNodes.55 //@diagram/@childNodes.56 //@diagram/@childNodes.57 //@diagram/@childNodes.58 //@diagram/@childNodes.59" title="DataNodeBehaviouralElementsCompartment" needsTitle="false" node="//@diagram/@topLevelNodes.0" listLayout="false">
+    <compartments visualID="7001" editPartClassName="DataNodeDataNodeBehaviouralElementsCompartmentEditPart" itemSemanticEditPolicyClassName="DataNodeDataNodeBehaviouralElementsCompartmentItemSemanticEditPolicy" canonicalEditPolicyClassName="DataNodeDataNodeBehaviouralElementsCompartmentCanonicalEditPolicy" childNodes="//@diagram/@childNodes.0 //@diagram/@childNodes.1 //@diagram/@childNodes.2 //@diagram/@childNodes.3 //@diagram/@childNodes.4 //@diagram/@childNodes.5 //@diagram/@childNodes.6 //@diagram/@childNodes.7 //@diagram/@childNodes.8 //@diagram/@childNodes.9 //@diagram/@childNodes.10 //@diagram/@childNodes.11 //@diagram/@childNodes.12 //@diagram/@childNodes.13 //@diagram/@childNodes.14 //@diagram/@childNodes.15 //@diagram/@childNodes.16 //@diagram/@childNodes.17 //@diagram/@childNodes.18 //@diagram/@childNodes.19 //@diagram/@childNodes.20 //@diagram/@childNodes.21 //@diagram/@childNodes.22 //@diagram/@childNodes.23 //@diagram/@childNodes.24 //@diagram/@childNodes.25 //@diagram/@childNodes.26 //@diagram/@childNodes.27 //@diagram/@childNodes.28 //@diagram/@childNodes.29 //@diagram/@childNodes.30 //@diagram/@childNodes.31 //@diagram/@childNodes.32 //@diagram/@childNodes.33 //@diagram/@childNodes.34 //@diagram/@childNodes.35 //@diagram/@childNodes.36 //@diagram/@childNodes.37 //@diagram/@childNodes.38 //@diagram/@childNodes.39 //@diagram/@childNodes.40 //@diagram/@childNodes.41 //@diagram/@childNodes.42 //@diagram/@childNodes.43 //@diagram/@childNodes.44 //@diagram/@childNodes.45 //@diagram/@childNodes.46 //@diagram/@childNodes.47 //@diagram/@childNodes.48 //@diagram/@childNodes.49 //@diagram/@childNodes.50 //@diagram/@childNodes.51 //@diagram/@childNodes.52 //@diagram/@childNodes.53 //@diagram/@childNodes.54 //@diagram/@childNodes.55 //@diagram/@childNodes.56 //@diagram/@childNodes.57 //@diagram/@childNodes.58 //@diagram/@childNodes.59 //@diagram/@childNodes.60" title="DataNodeBehaviouralElementsCompartment" needsTitle="false" node="//@diagram/@topLevelNodes.0" listLayout="false">
       <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getDataNodeBehaviouralElementsCompartmentFigure" figureQualifiedClassName="org.eclipse.draw2d.RectangleFigure"/>
     </compartments>
@@ -1307,7 +1326,7 @@
         <entries xsi:type="gmfgen:ToolEntry" title="HTML" description="Create new HTML" largeIconPath="/IoT_DataView/dataicons/basics/html.gif" smallIconPath="/IoT_DataView/dataicons/basics/html.gif" genNodes="//@diagram/@childNodes.12"/>
         <entries xsi:type="gmfgen:ToolEntry" title="Identify" description="Create new Identify" largeIconPath="/IoT_DataView/dataicons/basics/idetify.gif" smallIconPath="/IoT_DataView/dataicons/basics/idetify.gif" genNodes="//@diagram/@childNodes.41"/>
         <entries xsi:type="gmfgen:ToolEntry" title="Image" description="Create new Image" largeIconPath="/IoT_DataView/dataicons/basics/image.gif" smallIconPath="/IoT_DataView/dataicons/basics/image.gif" genNodes="//@diagram/@childNodes.2"/>
-        <entries xsi:type="gmfgen:ToolEntry" title="InMessagePort" description="Create new InMessagePort" genNodes="//@diagram/@childNodes.60"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="InMessagePort" description="Create new InMessagePort" genNodes="//@diagram/@childNodes.61"/>
         <entries xsi:type="gmfgen:ToolEntry" title="Ingest" description="Create new Ingest" largeIconPath="/IoT_DataView/dataicons/basics/ingest.gif" smallIconPath="/IoT_DataView/dataicons/basics/ingest.gif" genNodes="//@diagram/@childNodes.57"/>
         <entries xsi:type="gmfgen:ToolEntry" title="Integrate" description="Create new Integrate" largeIconPath="/IoT_DataView/dataicons/basics/integrate.gif" smallIconPath="/IoT_DataView/dataicons/basics/integrate.gif" genNodes="//@diagram/@childNodes.40"/>
         <entries xsi:type="gmfgen:ToolEntry" title="JSON" description="Create new JSON" largeIconPath="/IoT_DataView/dataicons/basics/JSON.gif" smallIconPath="/IoT_DataView/dataicons/basics/JSON.gif" genNodes="//@diagram/@childNodes.9"/>
@@ -1317,7 +1336,7 @@
         <entries xsi:type="gmfgen:ToolEntry" title="Merge" description="Create new Merge" largeIconPath="/IoT_DataView/dataicons/basics/merge.gif" smallIconPath="/IoT_DataView/dataicons/basics/merge.gif" genNodes="//@diagram/@childNodes.45"/>
         <entries xsi:type="gmfgen:ToolEntry" title="Multidimensional" description="Create new Multidimensional" largeIconPath="/IoT_DataView/dataicons/basics/multid.gif" smallIconPath="/IoT_DataView/dataicons/basics/multid.gif" genNodes="//@diagram/@childNodes.27"/>
         <entries xsi:type="gmfgen:ToolEntry" title="On_Premise" description="Create new On_Premise" largeIconPath="/IoT_DataView/dataicons/basics/On_Premise.gif" smallIconPath="/IoT_DataView/dataicons/basics/On_Premise.gif" genNodes="//@diagram/@childNodes.24"/>
-        <entries xsi:type="gmfgen:ToolEntry" title="OutMessagePort" description="Create new OutMessagePort" genNodes="//@diagram/@childNodes.61"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="OutMessagePort" description="Create new OutMessagePort" genNodes="//@diagram/@childNodes.62"/>
         <entries xsi:type="gmfgen:ToolEntry" title="PDFFile" description="Create new PDFFile" largeIconPath="/IoT_DataView/dataicons/basics/pdf.gif" smallIconPath="/IoT_DataView/dataicons/basics/pdf.gif" genNodes="//@diagram/@childNodes.5"/>
         <entries xsi:type="gmfgen:ToolEntry" title="Predict" description="Create new Predict" largeIconPath="/IoT_DataView/dataicons/basics/predict.gif" smallIconPath="/IoT_DataView/dataicons/basics/predict.gif" genNodes="//@diagram/@childNodes.33"/>
         <entries xsi:type="gmfgen:ToolEntry" title="Prescript" description="Create new Prescript" largeIconPath="/IoT_DataView/dataicons/basics/prescriptive.gif" smallIconPath="/IoT_DataView/dataicons/basics/prescriptive.gif" genNodes="//@diagram/@childNodes.34"/>
@@ -1338,6 +1357,7 @@
         <entries xsi:type="gmfgen:ToolEntry" title="TextFile" description="Create new TextFile" largeIconPath="/IoT_DataView/dataicons/basics/txt.gif" smallIconPath="/IoT_DataView/dataicons/basics/txt.gif" genNodes="//@diagram/@childNodes.6"/>
         <entries xsi:type="gmfgen:ToolEntry" title="Tranfrom" description="Create new Tranfrom" largeIconPath="/IoT_DataView/dataicons/basics/transform.gif" smallIconPath="/IoT_DataView/dataicons/basics/transform.gif" genNodes="//@diagram/@childNodes.38"/>
         <entries xsi:type="gmfgen:ToolEntry" title="Validate" description="Create new Validate" largeIconPath="/IoT_DataView/dataicons/basics/validate.gif" smallIconPath="/IoT_DataView/dataicons/basics/validate.gif" genNodes="//@diagram/@childNodes.42"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="VerifyData" description="Create new VerifyData" largeIconPath="/IoT_DataView/dataicons/basics/dataquality.gif" smallIconPath="/IoT_DataView/dataicons/basics/dataquality.gif" genNodes="//@diagram/@childNodes.60"/>
         <entries xsi:type="gmfgen:ToolEntry" title="Video" description="Create new Video" largeIconPath="/IoT_DataView/dataicons/basics/Video.gif" smallIconPath="/IoT_DataView/dataicons/basics/video.gif" genNodes="//@diagram/@childNodes.1"/>
         <entries xsi:type="gmfgen:ToolEntry" title="Visualize" description="Create new Visualize" largeIconPath="/IoT_DataView/dataicons/basics/dataVisulization.gif" smallIconPath="/IoT_DataView/dataicons/basics/dataVisulization.gif" genNodes="//@diagram/@childNodes.35"/>
         <entries xsi:type="gmfgen:ToolEntry" title="WordFile" description="Create new WordFile" largeIconPath="/IoT_DataView/dataicons/basics/word.gif" smallIconPath="/IoT_DataView/dataicons/basics/word.gif" genNodes="//@diagram/@childNodes.4"/>
@@ -1427,6 +1447,7 @@
     <childReferences parent="//@diagram/@topLevelNodes.0" child="//@diagram/@childNodes.59"/>
     <childReferences parent="//@diagram/@topLevelNodes.0" child="//@diagram/@childNodes.60"/>
     <childReferences parent="//@diagram/@topLevelNodes.0" child="//@diagram/@childNodes.61"/>
+    <childReferences parent="//@diagram/@topLevelNodes.0" child="//@diagram/@childNodes.62"/>
     <childReferences parent="//@diagram" child="//@diagram/@topLevelNodes.0"/>
     <childReferences parent="//@diagram" child="//@diagram/@links.0" groupName="links" groupIcon="icons/linksNavigatorGroup.gif"/>
     <childReferences parent="//@diagram/@links.0" child="//@diagram/@childNodes.0" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
@@ -1547,6 +1568,8 @@
     <childReferences parent="//@diagram/@childNodes.58" child="//@diagram/@links.0" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
     <childReferences parent="//@diagram/@links.0" child="//@diagram/@childNodes.59" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
     <childReferences parent="//@diagram/@childNodes.59" child="//@diagram/@links.0" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.0" child="//@diagram/@childNodes.60" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@childNodes.60" child="//@diagram/@links.0" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
     <childReferences parent="//@diagram/@links.0" child="//@diagram/@childNodes.0" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
     <childReferences parent="//@diagram/@childNodes.0" child="//@diagram/@links.0" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
     <childReferences parent="//@diagram/@links.0" child="//@diagram/@childNodes.1" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
@@ -1667,19 +1690,21 @@
     <childReferences parent="//@diagram/@childNodes.58" child="//@diagram/@links.0" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
     <childReferences parent="//@diagram/@links.0" child="//@diagram/@childNodes.59" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
     <childReferences parent="//@diagram/@childNodes.59" child="//@diagram/@links.0" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.0" child="//@diagram/@childNodes.60" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@childNodes.60" child="//@diagram/@links.0" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
     <childReferences parent="//@diagram" child="//@diagram/@links.1" groupName="links" groupIcon="icons/linksNavigatorGroup.gif"/>
-    <childReferences parent="//@diagram/@links.1" child="//@diagram/@childNodes.60" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
-    <childReferences parent="//@diagram/@childNodes.60" child="//@diagram/@links.1" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
-    <childReferences parent="//@diagram/@links.1" child="//@diagram/@childNodes.61" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
-    <childReferences parent="//@diagram/@childNodes.61" child="//@diagram/@links.1" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.1" child="//@diagram/@childNodes.61" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@childNodes.61" child="//@diagram/@links.1" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.1" child="//@diagram/@childNodes.62" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@childNodes.62" child="//@diagram/@links.1" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
     <childReferences parent="//@diagram" child="//@diagram/@links.2" groupName="links" groupIcon="icons/linksNavigatorGroup.gif"/>
-    <childReferences parent="//@diagram/@links.2" child="//@diagram/@childNodes.60" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
-    <childReferences parent="//@diagram/@childNodes.60" child="//@diagram/@links.2" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.2" child="//@diagram/@childNodes.61" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@childNodes.61" child="//@diagram/@links.2" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
     <childReferences parent="//@diagram/@links.2" child="//@diagram/@childNodes.54" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
     <childReferences parent="//@diagram/@childNodes.54" child="//@diagram/@links.2" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
     <childReferences parent="//@diagram" child="//@diagram/@links.3" groupName="links" groupIcon="icons/linksNavigatorGroup.gif"/>
-    <childReferences parent="//@diagram/@links.3" child="//@diagram/@childNodes.61" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
-    <childReferences parent="//@diagram/@childNodes.61" child="//@diagram/@links.3" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.3" child="//@diagram/@childNodes.62" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@childNodes.62" child="//@diagram/@links.3" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
     <childReferences parent="//@diagram/@links.3" child="//@diagram/@childNodes.55" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
     <childReferences parent="//@diagram/@childNodes.55" child="//@diagram/@links.3" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
   </navigator>
@@ -1697,7 +1722,7 @@
   </propertySheet>
   <domainGenModel href="IoT_DataArch.genmodel#/"/>
   <labelParsers extensibleViaService="true">
-    <implementations xsi:type="gmfgen:PredefinedParser" uses="//@diagram/@childNodes.0/@labels.0/@modelFacet //@diagram/@childNodes.1/@labels.0/@modelFacet //@diagram/@childNodes.2/@labels.0/@modelFacet //@diagram/@childNodes.3/@labels.0/@modelFacet //@diagram/@childNodes.4/@labels.0/@modelFacet //@diagram/@childNodes.5/@labels.0/@modelFacet //@diagram/@childNodes.6/@labels.0/@modelFacet //@diagram/@childNodes.7/@labels.0/@modelFacet //@diagram/@childNodes.8/@labels.0/@modelFacet //@diagram/@childNodes.9/@labels.0/@modelFacet //@diagram/@childNodes.10/@labels.0/@modelFacet //@diagram/@childNodes.11/@labels.0/@modelFacet //@diagram/@childNodes.12/@labels.0/@modelFacet //@diagram/@childNodes.13/@labels.0/@modelFacet //@diagram/@childNodes.14/@labels.0/@modelFacet //@diagram/@childNodes.15/@labels.0/@modelFacet //@diagram/@childNodes.16/@labels.0/@modelFacet //@diagram/@childNodes.17/@labels.0/@modelFacet //@diagram/@childNodes.18/@labels.0/@modelFacet //@diagram/@childNodes.19/@labels.0/@modelFacet //@diagram/@childNodes.20/@labels.0/@modelFacet //@diagram/@childNodes.21/@labels.0/@modelFacet //@diagram/@childNodes.22/@labels.0/@modelFacet //@diagram/@childNodes.23/@labels.0/@modelFacet //@diagram/@childNodes.24/@labels.0/@modelFacet //@diagram/@childNodes.25/@labels.0/@modelFacet //@diagram/@childNodes.26/@labels.0/@modelFacet //@diagram/@childNodes.27/@labels.0/@modelFacet //@diagram/@childNodes.28/@labels.0/@modelFacet //@diagram/@childNodes.29/@labels.0/@modelFacet //@diagram/@childNodes.30/@labels.0/@modelFacet //@diagram/@childNodes.31/@labels.0/@modelFacet //@diagram/@childNodes.32/@labels.0/@modelFacet //@diagram/@childNodes.33/@labels.0/@modelFacet //@diagram/@childNodes.34/@labels.0/@modelFacet //@diagram/@childNodes.35/@labels.0/@modelFacet //@diagram/@childNodes.36/@labels.0/@modelFacet //@diagram/@childNodes.37/@labels.0/@modelFacet //@diagram/@childNodes.38/@labels.0/@modelFacet //@diagram/@childNodes.39/@labels.0/@modelFacet //@diagram/@childNodes.40/@labels.0/@modelFacet //@diagram/@childNodes.41/@labels.0/@modelFacet //@diagram/@childNodes.42/@labels.0/@modelFacet //@diagram/@childNodes.43/@labels.0/@modelFacet //@diagram/@childNodes.44/@labels.0/@modelFacet //@diagram/@childNodes.45/@labels.0/@modelFacet //@diagram/@childNodes.46/@labels.0/@modelFacet //@diagram/@childNodes.47/@labels.0/@modelFacet //@diagram/@childNodes.48/@labels.0/@modelFacet //@diagram/@childNodes.49/@labels.0/@modelFacet //@diagram/@childNodes.50/@labels.0/@modelFacet //@diagram/@childNodes.51/@labels.0/@modelFacet //@diagram/@childNodes.52/@labels.0/@modelFacet //@diagram/@childNodes.53/@labels.0/@modelFacet //@diagram/@childNodes.54/@labels.0/@modelFacet //@diagram/@childNodes.55/@labels.0/@modelFacet //@diagram/@childNodes.56/@labels.0/@modelFacet //@diagram/@childNodes.57/@labels.0/@modelFacet //@diagram/@childNodes.58/@labels.0/@modelFacet //@diagram/@childNodes.59/@labels.0/@modelFacet //@diagram/@childNodes.60/@labels.0/@modelFacet //@diagram/@childNodes.61/@labels.0/@modelFacet //@diagram/@topLevelNodes.0/@labels.0/@modelFacet //@diagram/@links.1/@labels.0/@modelFacet"/>
+    <implementations xsi:type="gmfgen:PredefinedParser" uses="//@diagram/@childNodes.0/@labels.0/@modelFacet //@diagram/@childNodes.1/@labels.0/@modelFacet //@diagram/@childNodes.2/@labels.0/@modelFacet //@diagram/@childNodes.3/@labels.0/@modelFacet //@diagram/@childNodes.4/@labels.0/@modelFacet //@diagram/@childNodes.5/@labels.0/@modelFacet //@diagram/@childNodes.6/@labels.0/@modelFacet //@diagram/@childNodes.7/@labels.0/@modelFacet //@diagram/@childNodes.8/@labels.0/@modelFacet //@diagram/@childNodes.9/@labels.0/@modelFacet //@diagram/@childNodes.10/@labels.0/@modelFacet //@diagram/@childNodes.11/@labels.0/@modelFacet //@diagram/@childNodes.12/@labels.0/@modelFacet //@diagram/@childNodes.13/@labels.0/@modelFacet //@diagram/@childNodes.14/@labels.0/@modelFacet //@diagram/@childNodes.15/@labels.0/@modelFacet //@diagram/@childNodes.16/@labels.0/@modelFacet //@diagram/@childNodes.17/@labels.0/@modelFacet //@diagram/@childNodes.18/@labels.0/@modelFacet //@diagram/@childNodes.19/@labels.0/@modelFacet //@diagram/@childNodes.20/@labels.0/@modelFacet //@diagram/@childNodes.21/@labels.0/@modelFacet //@diagram/@childNodes.22/@labels.0/@modelFacet //@diagram/@childNodes.23/@labels.0/@modelFacet //@diagram/@childNodes.24/@labels.0/@modelFacet //@diagram/@childNodes.25/@labels.0/@modelFacet //@diagram/@childNodes.26/@labels.0/@modelFacet //@diagram/@childNodes.27/@labels.0/@modelFacet //@diagram/@childNodes.28/@labels.0/@modelFacet //@diagram/@childNodes.29/@labels.0/@modelFacet //@diagram/@childNodes.30/@labels.0/@modelFacet //@diagram/@childNodes.31/@labels.0/@modelFacet //@diagram/@childNodes.32/@labels.0/@modelFacet //@diagram/@childNodes.33/@labels.0/@modelFacet //@diagram/@childNodes.34/@labels.0/@modelFacet //@diagram/@childNodes.35/@labels.0/@modelFacet //@diagram/@childNodes.36/@labels.0/@modelFacet //@diagram/@childNodes.37/@labels.0/@modelFacet //@diagram/@childNodes.38/@labels.0/@modelFacet //@diagram/@childNodes.39/@labels.0/@modelFacet //@diagram/@childNodes.40/@labels.0/@modelFacet //@diagram/@childNodes.41/@labels.0/@modelFacet //@diagram/@childNodes.42/@labels.0/@modelFacet //@diagram/@childNodes.43/@labels.0/@modelFacet //@diagram/@childNodes.44/@labels.0/@modelFacet //@diagram/@childNodes.45/@labels.0/@modelFacet //@diagram/@childNodes.46/@labels.0/@modelFacet //@diagram/@childNodes.47/@labels.0/@modelFacet //@diagram/@childNodes.48/@labels.0/@modelFacet //@diagram/@childNodes.49/@labels.0/@modelFacet //@diagram/@childNodes.50/@labels.0/@modelFacet //@diagram/@childNodes.51/@labels.0/@modelFacet //@diagram/@childNodes.52/@labels.0/@modelFacet //@diagram/@childNodes.53/@labels.0/@modelFacet //@diagram/@childNodes.54/@labels.0/@modelFacet //@diagram/@childNodes.55/@labels.0/@modelFacet //@diagram/@childNodes.56/@labels.0/@modelFacet //@diagram/@childNodes.57/@labels.0/@modelFacet //@diagram/@childNodes.58/@labels.0/@modelFacet //@diagram/@childNodes.59/@labels.0/@modelFacet //@diagram/@childNodes.60/@labels.0/@modelFacet //@diagram/@childNodes.61/@labels.0/@modelFacet //@diagram/@childNodes.62/@labels.0/@modelFacet //@diagram/@topLevelNodes.0/@labels.0/@modelFacet //@diagram/@links.1/@labels.0/@modelFacet"/>
     <implementations xsi:type="gmfgen:ExternalParser" uses="//@diagram/@links.2/@labels.0/@modelFacet //@diagram/@links.3/@labels.0/@modelFacet"/>
   </labelParsers>
   <contextMenus context="//@diagram">

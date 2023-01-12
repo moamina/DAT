@@ -25,7 +25,7 @@ public class GovernItemSemanticEditPolicy extends DataArch.diagram.edit.policies
 	* @generated
 	*/
 	public GovernItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Govern_3052);
+		super(DataArch.diagram.providers.DataArchElementTypes.Govern_3054);
 	}
 
 	/**

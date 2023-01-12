@@ -25,7 +25,7 @@ public class IngestItemSemanticEditPolicy extends DataArch.diagram.edit.policies
 	* @generated
 	*/
 	public IngestItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Ingest_3062);
+		super(DataArch.diagram.providers.DataArchElementTypes.Ingest_3058);
 	}
 
 	/**

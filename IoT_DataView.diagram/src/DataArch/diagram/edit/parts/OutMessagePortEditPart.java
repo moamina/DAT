@@ -34,7 +34,7 @@ public class OutMessagePortEditPart extends AbstractBorderItemEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3059;
+	public static final int VISUAL_ID = 3063;
 
 	/**
 	* @generated

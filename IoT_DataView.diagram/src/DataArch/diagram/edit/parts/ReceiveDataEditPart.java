@@ -38,7 +38,7 @@ public class ReceiveDataEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3053;
+	public static final int VISUAL_ID = 3055;
 
 	/**
 	* @generated

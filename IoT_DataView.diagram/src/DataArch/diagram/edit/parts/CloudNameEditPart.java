@@ -57,7 +57,7 @@ public class CloudNameEditPart extends LabelEditPart implements ITextAwareEditPa
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5061;
+	public static final int VISUAL_ID = 5024;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class CloudNameEditPart extends LabelEditPart implements ITextAwareEditPa
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.Cloud_3060, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.Cloud_3024, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.CloudNameEditPart.VISUAL_ID));
 		}

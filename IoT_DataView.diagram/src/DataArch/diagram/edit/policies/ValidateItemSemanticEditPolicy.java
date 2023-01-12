@@ -25,7 +25,7 @@ public class ValidateItemSemanticEditPolicy extends DataArch.diagram.edit.polici
 	* @generated
 	*/
 	public ValidateItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Validate_3041);
+		super(DataArch.diagram.providers.DataArchElementTypes.Validate_3043);
 	}
 
 	/**

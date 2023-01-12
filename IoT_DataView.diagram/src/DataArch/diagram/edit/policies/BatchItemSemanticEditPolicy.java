@@ -25,7 +25,7 @@ public class BatchItemSemanticEditPolicy extends DataArch.diagram.edit.policies.
 	* @generated
 	*/
 	public BatchItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Batch_3028);
+		super(DataArch.diagram.providers.DataArchElementTypes.Batch_3030);
 	}
 
 	/**

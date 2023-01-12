@@ -426,4 +426,26 @@ class Qualitative extends Technique {
 class Statistical extends Technique {
 }*/
 
+@gmf.node(figure="iot_DataView.figures.VerifyData",label.placement="external", label.icon="false", size="48,48",tool.small.bundle="IoT_DataView", tool.small.path="dataicons/basics/dataquality.gif", tool.large.bundle="IoT_DataView", tool.large.path="dataicons/basics/dataquality.gif")
+class VerifyData extends Action {
+	attr Metrics[6] QualityMetrics;
+	attr String desc;
+}
+
+class QualityMetrices
+{
+	
+	attr String desc;
+	attr Metrics type;
+	
+}
+enum Metrics
+{
+	Completeness=1;
+	Consistency=2;
+	Validity=3;
+	Accuracy=4;
+	Uniqueness=5;
+	Timeliness=6;
+}
 

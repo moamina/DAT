@@ -25,7 +25,7 @@ public class TranfromItemSemanticEditPolicy extends DataArch.diagram.edit.polici
 	* @generated
 	*/
 	public TranfromItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Tranfrom_3037);
+		super(DataArch.diagram.providers.DataArchElementTypes.Tranfrom_3039);
 	}
 
 	/**

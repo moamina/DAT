@@ -38,7 +38,7 @@ public class IngestEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3062;
+	public static final int VISUAL_ID = 3058;
 
 	/**
 	* @generated

@@ -38,7 +38,7 @@ public class ProcessEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3057;
+	public static final int VISUAL_ID = 3060;
 
 	/**
 	* @generated

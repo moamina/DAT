@@ -25,7 +25,7 @@ public class VisualizeItemSemanticEditPolicy extends DataArch.diagram.edit.polic
 	* @generated
 	*/
 	public VisualizeItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Visualize_3034);
+		super(DataArch.diagram.providers.DataArchElementTypes.Visualize_3036);
 	}
 
 	/**

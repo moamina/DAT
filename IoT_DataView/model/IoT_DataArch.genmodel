@@ -5,6 +5,14 @@
     copyrightFields="false">
   <foreignModel>IoT_DataArch.ecore</foreignModel>
   <genPackages prefix="DataArch" disposableProviderFactory="true" ecorePackage="IoT_DataArch.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="IoT_DataArch.ecore#//Metrics">
+      <genEnumLiterals ecoreEnumLiteral="IoT_DataArch.ecore#//Metrics/Completeness"/>
+      <genEnumLiterals ecoreEnumLiteral="IoT_DataArch.ecore#//Metrics/Consistency"/>
+      <genEnumLiterals ecoreEnumLiteral="IoT_DataArch.ecore#//Metrics/Validity"/>
+      <genEnumLiterals ecoreEnumLiteral="IoT_DataArch.ecore#//Metrics/Accuracy"/>
+      <genEnumLiterals ecoreEnumLiteral="IoT_DataArch.ecore#//Metrics/Uniqueness"/>
+      <genEnumLiterals ecoreEnumLiteral="IoT_DataArch.ecore#//Metrics/Timeliness"/>
+    </genEnums>
     <genClasses ecoreClass="IoT_DataArch.ecore#//DataArchitecture">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//DataArchitecture/dataNodes"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference IoT_DataArch.ecore#//DataArchitecture/dataConnection"/>
@@ -172,5 +180,13 @@
     <genClasses ecoreClass="IoT_DataArch.ecore#//Save"/>
     <genClasses ecoreClass="IoT_DataArch.ecore#//Archive"/>
     <genClasses ecoreClass="IoT_DataArch.ecore#//Govern"/>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//VerifyData">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//VerifyData/QualityMetrics"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//VerifyData/desc"/>
+    </genClasses>
+    <genClasses ecoreClass="IoT_DataArch.ecore#//QualityMetrices">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//QualityMetrices/desc"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute IoT_DataArch.ecore#//QualityMetrices/type"/>
+    </genClasses>
   </genPackages>
 </genmodel:GenModel>

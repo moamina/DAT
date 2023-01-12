@@ -57,7 +57,7 @@ public class DiagnoseNameEditPart extends LabelEditPart implements ITextAwareEdi
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5031;
+	public static final int VISUAL_ID = 5033;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class DiagnoseNameEditPart extends LabelEditPart implements ITextAwareEdi
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.Diagnose_3031, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.Diagnose_3033, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.DiagnoseNameEditPart.VISUAL_ID));
 		}

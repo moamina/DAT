@@ -57,7 +57,7 @@ public class SortNameEditPart extends LabelEditPart implements ITextAwareEditPar
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5043;
+	public static final int VISUAL_ID = 5045;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class SortNameEditPart extends LabelEditPart implements ITextAwareEditPar
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.Sort_3043, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.Sort_3045, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.SortNameEditPart.VISUAL_ID));
 		}

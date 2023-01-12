@@ -25,7 +25,7 @@ public class ArchiveItemSemanticEditPolicy extends DataArch.diagram.edit.policie
 	* @generated
 	*/
 	public ArchiveItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.Archive_3051);
+		super(DataArch.diagram.providers.DataArchElementTypes.Archive_3053);
 	}
 
 	/**

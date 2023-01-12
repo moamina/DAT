@@ -62,7 +62,7 @@
           </labelMappings>
           <tool
               xsi:type="gmftool:CreationTool"
-              href="IoT_DataArch.gmftool#//@palette/@tools.0/@tools.59"/>
+              href="IoT_DataArch.gmftool#//@palette/@tools.0/@tools.60"/>
           <diagramNode
               href="IoT_DataArch.gmfgraph#Video"/>
         </ownedChild>
@@ -125,7 +125,7 @@
           </labelMappings>
           <tool
               xsi:type="gmftool:CreationTool"
-              href="IoT_DataArch.gmftool#//@palette/@tools.0/@tools.61"/>
+              href="IoT_DataArch.gmftool#//@palette/@tools.0/@tools.62"/>
           <diagramNode
               href="IoT_DataArch.gmfgraph#WordFile"/>
         </ownedChild>
@@ -209,7 +209,7 @@
           </labelMappings>
           <tool
               xsi:type="gmftool:CreationTool"
-              href="IoT_DataArch.gmftool#//@palette/@tools.0/@tools.62"/>
+              href="IoT_DataArch.gmftool#//@palette/@tools.0/@tools.63"/>
           <diagramNode
               href="IoT_DataArch.gmfgraph#XML"/>
         </ownedChild>
@@ -251,7 +251,7 @@
           </labelMappings>
           <tool
               xsi:type="gmftool:CreationTool"
-              href="IoT_DataArch.gmftool#//@palette/@tools.0/@tools.0"/>
+              href="IoT_DataArch.gmftool#//@palette/@tools.0/@tools.6"/>
           <diagramNode
               href="IoT_DataArch.gmfgraph#CSV"/>
         </ownedChild>
@@ -776,7 +776,7 @@
           </labelMappings>
           <tool
               xsi:type="gmftool:CreationTool"
-              href="IoT_DataArch.gmftool#//@palette/@tools.0/@tools.60"/>
+              href="IoT_DataArch.gmftool#//@palette/@tools.0/@tools.61"/>
           <diagramNode
               href="IoT_DataArch.gmfgraph#Visualize"/>
         </ownedChild>
@@ -1285,6 +1285,27 @@
               href="IoT_DataArch.gmfgraph#Process"/>
         </ownedChild>
       </children>
+      <children
+          compartment="//@nodes.0/@ownedChild/@compartments.0">
+        <containmentFeature
+            href="IoT_DataArch.ecore#//DataNode/behaviouralElements"/>
+        <ownedChild>
+          <domainMetaElement
+              href="IoT_DataArch.ecore#//VerifyData"/>
+          <labelMappings
+              xsi:type="gmfmap:FeatureLabelMapping">
+            <diagramLabel
+                href="IoT_DataArch.gmfgraph#VerifyDataLabel"/>
+            <features
+                href="IoT_DataArch.ecore#//BehaviouralElement/name"/>
+          </labelMappings>
+          <tool
+              xsi:type="gmftool:CreationTool"
+              href="IoT_DataArch.gmftool#//@palette/@tools.0/@tools.59"/>
+          <diagramNode
+              href="IoT_DataArch.gmfgraph#VerifyData"/>
+        </ownedChild>
+      </children>
       <children>
         <containmentFeature
             href="IoT_DataArch.ecore#//DataNode/ports"/>
@@ -1326,7 +1347,7 @@
         </ownedChild>
       </children>
       <compartments
-          children="//@nodes.0/@ownedChild/@children.0 //@nodes.0/@ownedChild/@children.1 //@nodes.0/@ownedChild/@children.2 //@nodes.0/@ownedChild/@children.3 //@nodes.0/@ownedChild/@children.4 //@nodes.0/@ownedChild/@children.5 //@nodes.0/@ownedChild/@children.6 //@nodes.0/@ownedChild/@children.7 //@nodes.0/@ownedChild/@children.8 //@nodes.0/@ownedChild/@children.9 //@nodes.0/@ownedChild/@children.10 //@nodes.0/@ownedChild/@children.11 //@nodes.0/@ownedChild/@children.12 //@nodes.0/@ownedChild/@children.13 //@nodes.0/@ownedChild/@children.14 //@nodes.0/@ownedChild/@children.15 //@nodes.0/@ownedChild/@children.16 //@nodes.0/@ownedChild/@children.17 //@nodes.0/@ownedChild/@children.18 //@nodes.0/@ownedChild/@children.19 //@nodes.0/@ownedChild/@children.20 //@nodes.0/@ownedChild/@children.21 //@nodes.0/@ownedChild/@children.22 //@nodes.0/@ownedChild/@children.23 //@nodes.0/@ownedChild/@children.24 //@nodes.0/@ownedChild/@children.25 //@nodes.0/@ownedChild/@children.26 //@nodes.0/@ownedChild/@children.27 //@nodes.0/@ownedChild/@children.28 //@nodes.0/@ownedChild/@children.29 //@nodes.0/@ownedChild/@children.30 //@nodes.0/@ownedChild/@children.31 //@nodes.0/@ownedChild/@children.32 //@nodes.0/@ownedChild/@children.33 //@nodes.0/@ownedChild/@children.34 //@nodes.0/@ownedChild/@children.35 //@nodes.0/@ownedChild/@children.36 //@nodes.0/@ownedChild/@children.37 //@nodes.0/@ownedChild/@children.38 //@nodes.0/@ownedChild/@children.39 //@nodes.0/@ownedChild/@children.40 //@nodes.0/@ownedChild/@children.41 //@nodes.0/@ownedChild/@children.42 //@nodes.0/@ownedChild/@children.43 //@nodes.0/@ownedChild/@children.44 //@nodes.0/@ownedChild/@children.45 //@nodes.0/@ownedChild/@children.46 //@nodes.0/@ownedChild/@children.47 //@nodes.0/@ownedChild/@children.48 //@nodes.0/@ownedChild/@children.49 //@nodes.0/@ownedChild/@children.50 //@nodes.0/@ownedChild/@children.51 //@nodes.0/@ownedChild/@children.52 //@nodes.0/@ownedChild/@children.53 //@nodes.0/@ownedChild/@children.54 //@nodes.0/@ownedChild/@children.55 //@nodes.0/@ownedChild/@children.56 //@nodes.0/@ownedChild/@children.57 //@nodes.0/@ownedChild/@children.58 //@nodes.0/@ownedChild/@children.59">
+          children="//@nodes.0/@ownedChild/@children.0 //@nodes.0/@ownedChild/@children.1 //@nodes.0/@ownedChild/@children.2 //@nodes.0/@ownedChild/@children.3 //@nodes.0/@ownedChild/@children.4 //@nodes.0/@ownedChild/@children.5 //@nodes.0/@ownedChild/@children.6 //@nodes.0/@ownedChild/@children.7 //@nodes.0/@ownedChild/@children.8 //@nodes.0/@ownedChild/@children.9 //@nodes.0/@ownedChild/@children.10 //@nodes.0/@ownedChild/@children.11 //@nodes.0/@ownedChild/@children.12 //@nodes.0/@ownedChild/@children.13 //@nodes.0/@ownedChild/@children.14 //@nodes.0/@ownedChild/@children.15 //@nodes.0/@ownedChild/@children.16 //@nodes.0/@ownedChild/@children.17 //@nodes.0/@ownedChild/@children.18 //@nodes.0/@ownedChild/@children.19 //@nodes.0/@ownedChild/@children.20 //@nodes.0/@ownedChild/@children.21 //@nodes.0/@ownedChild/@children.22 //@nodes.0/@ownedChild/@children.23 //@nodes.0/@ownedChild/@children.24 //@nodes.0/@ownedChild/@children.25 //@nodes.0/@ownedChild/@children.26 //@nodes.0/@ownedChild/@children.27 //@nodes.0/@ownedChild/@children.28 //@nodes.0/@ownedChild/@children.29 //@nodes.0/@ownedChild/@children.30 //@nodes.0/@ownedChild/@children.31 //@nodes.0/@ownedChild/@children.32 //@nodes.0/@ownedChild/@children.33 //@nodes.0/@ownedChild/@children.34 //@nodes.0/@ownedChild/@children.35 //@nodes.0/@ownedChild/@children.36 //@nodes.0/@ownedChild/@children.37 //@nodes.0/@ownedChild/@children.38 //@nodes.0/@ownedChild/@children.39 //@nodes.0/@ownedChild/@children.40 //@nodes.0/@ownedChild/@children.41 //@nodes.0/@ownedChild/@children.42 //@nodes.0/@ownedChild/@children.43 //@nodes.0/@ownedChild/@children.44 //@nodes.0/@ownedChild/@children.45 //@nodes.0/@ownedChild/@children.46 //@nodes.0/@ownedChild/@children.47 //@nodes.0/@ownedChild/@children.48 //@nodes.0/@ownedChild/@children.49 //@nodes.0/@ownedChild/@children.50 //@nodes.0/@ownedChild/@children.51 //@nodes.0/@ownedChild/@children.52 //@nodes.0/@ownedChild/@children.53 //@nodes.0/@ownedChild/@children.54 //@nodes.0/@ownedChild/@children.55 //@nodes.0/@ownedChild/@children.56 //@nodes.0/@ownedChild/@children.57 //@nodes.0/@ownedChild/@children.58 //@nodes.0/@ownedChild/@children.59 //@nodes.0/@ownedChild/@children.60">
         <compartment
             href="IoT_DataArch.gmfgraph#DataNodeBehaviouralElementsCompartment"/>
       </compartments>

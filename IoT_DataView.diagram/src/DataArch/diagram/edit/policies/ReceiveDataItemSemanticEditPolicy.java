@@ -29,7 +29,7 @@ public class ReceiveDataItemSemanticEditPolicy
 	* @generated
 	*/
 	public ReceiveDataItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.ReceiveData_3053);
+		super(DataArch.diagram.providers.DataArchElementTypes.ReceiveData_3055);
 	}
 
 	/**

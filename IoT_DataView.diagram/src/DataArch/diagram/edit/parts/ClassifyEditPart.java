@@ -38,7 +38,7 @@ public class ClassifyEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3042;
+	public static final int VISUAL_ID = 3044;
 
 	/**
 	* @generated

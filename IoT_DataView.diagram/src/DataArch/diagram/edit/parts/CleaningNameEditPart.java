@@ -57,7 +57,7 @@ public class CleaningNameEditPart extends LabelEditPart implements ITextAwareEdi
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5046;
+	public static final int VISUAL_ID = 5048;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class CleaningNameEditPart extends LabelEditPart implements ITextAwareEdi
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.Cleaning_3046, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.Cleaning_3048, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.CleaningNameEditPart.VISUAL_ID));
 		}

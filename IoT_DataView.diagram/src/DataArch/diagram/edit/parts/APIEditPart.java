@@ -38,7 +38,7 @@ public class APIEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3036;
+	public static final int VISUAL_ID = 3038;
 
 	/**
 	* @generated

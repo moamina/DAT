@@ -26,7 +26,7 @@ public class ReduceNoiseItemSemanticEditPolicy
 	* @generated
 	*/
 	public ReduceNoiseItemSemanticEditPolicy() {
-		super(DataArch.diagram.providers.DataArchElementTypes.ReduceNoise_3047);
+		super(DataArch.diagram.providers.DataArchElementTypes.ReduceNoise_3049);
 	}
 
 	/**

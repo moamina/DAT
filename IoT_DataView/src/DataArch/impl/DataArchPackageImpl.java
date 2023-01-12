@@ -49,6 +49,7 @@ import DataArch.Logs;
 import DataArch.Math_Operation;
 import DataArch.Merge;
 import DataArch.MessagePort;
+import DataArch.Metrics;
 import DataArch.Multidimensional;
 import DataArch.Multimedia;
 import DataArch.NoSQL;
@@ -58,6 +59,7 @@ import DataArch.OutMessagePort;
 import DataArch.PDFFile;
 import DataArch.Predict;
 import DataArch.Prescript;
+import DataArch.QualityMetrices;
 import DataArch.Query_Report;
 import DataArch.RealTime;
 import DataArch.ReceiveData;
@@ -78,12 +80,14 @@ import DataArch.Tranfrom;
 import DataArch.Type;
 import DataArch.UnStructuredData;
 import DataArch.Validate;
+import DataArch.VerifyData;
 import DataArch.Video;
 import DataArch.Visualize;
 import DataArch.WordFile;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EEnum;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.EReference;
 
@@ -697,6 +701,27 @@ public class DataArchPackageImpl extends EPackageImpl implements DataArchPackage
 	 * @generated
 	 */
 	private EClass governEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass verifyDataEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass qualityMetricesEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EEnum metricsEEnum = null;
 
 	/**
 	 * Creates an instance of the model <b>Package</b>, registered with
@@ -2255,6 +2280,76 @@ public class DataArchPackageImpl extends EPackageImpl implements DataArchPackage
 	 * @generated
 	 */
 	@Override
+	public EClass getVerifyData() {
+		return verifyDataEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getVerifyData_QualityMetrics() {
+		return (EAttribute)verifyDataEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getVerifyData_Desc() {
+		return (EAttribute)verifyDataEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getQualityMetrices() {
+		return qualityMetricesEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getQualityMetrices_Desc() {
+		return (EAttribute)qualityMetricesEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getQualityMetrices_Type() {
+		return (EAttribute)qualityMetricesEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EEnum getMetrics() {
+		return metricsEEnum;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public DataArchFactory getDataArchFactory() {
 		return (DataArchFactory)getEFactoryInstance();
 	}
@@ -2512,6 +2607,17 @@ public class DataArchPackageImpl extends EPackageImpl implements DataArchPackage
 		archiveEClass = createEClass(ARCHIVE);
 
 		governEClass = createEClass(GOVERN);
+
+		verifyDataEClass = createEClass(VERIFY_DATA);
+		createEAttribute(verifyDataEClass, VERIFY_DATA__QUALITY_METRICS);
+		createEAttribute(verifyDataEClass, VERIFY_DATA__DESC);
+
+		qualityMetricesEClass = createEClass(QUALITY_METRICES);
+		createEAttribute(qualityMetricesEClass, QUALITY_METRICES__DESC);
+		createEAttribute(qualityMetricesEClass, QUALITY_METRICES__TYPE);
+
+		// Create enums
+		metricsEEnum = createEEnum(METRICS);
 	}
 
 	/**
@@ -2624,6 +2730,7 @@ public class DataArchPackageImpl extends EPackageImpl implements DataArchPackage
 		saveEClass.getESuperTypes().add(this.getStore());
 		archiveEClass.getESuperTypes().add(this.getStore());
 		governEClass.getESuperTypes().add(this.getStore());
+		verifyDataEClass.getESuperTypes().add(this.getAction());
 
 		// Initialize classes and features; add operations and parameters
 		initEClass(dataArchitectureEClass, DataArchitecture.class, "DataArchitecture", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
@@ -2860,6 +2967,23 @@ public class DataArchPackageImpl extends EPackageImpl implements DataArchPackage
 		initEClass(archiveEClass, Archive.class, "Archive", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
 		initEClass(governEClass, Govern.class, "Govern", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+
+		initEClass(verifyDataEClass, VerifyData.class, "VerifyData", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getVerifyData_QualityMetrics(), this.getMetrics(), "QualityMetrics", null, 6, 6, VerifyData.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getVerifyData_Desc(), ecorePackage.getEString(), "desc", null, 0, 1, VerifyData.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+		initEClass(qualityMetricesEClass, QualityMetrices.class, "QualityMetrices", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getQualityMetrices_Desc(), ecorePackage.getEString(), "desc", null, 0, 1, QualityMetrices.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getQualityMetrices_Type(), this.getMetrics(), "type", null, 0, 1, QualityMetrices.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+		// Initialize enums and add enum literals
+		initEEnum(metricsEEnum, Metrics.class, "Metrics");
+		addEEnumLiteral(metricsEEnum, Metrics.COMPLETENESS);
+		addEEnumLiteral(metricsEEnum, Metrics.CONSISTENCY);
+		addEEnumLiteral(metricsEEnum, Metrics.VALIDITY);
+		addEEnumLiteral(metricsEEnum, Metrics.ACCURACY);
+		addEEnumLiteral(metricsEEnum, Metrics.UNIQUENESS);
+		addEEnumLiteral(metricsEEnum, Metrics.TIMELINESS);
 
 		// Create resource
 		createResource(eNS_URI);
@@ -3783,6 +3907,19 @@ public class DataArchPackageImpl extends EPackageImpl implements DataArchPackage
 			   "size", "48,48",
 			   "tool.small.bundle", "IoT_DataView",
 			   "tool.small.path", "dataicons/basics/dataGovernance.gif"
+		   });
+		addAnnotation
+		  (verifyDataEClass,
+		   source,
+		   new String[] {
+			   "figure", "iot_DataView.figures.VerifyData",
+			   "label.placement", "external",
+			   "label.icon", "false",
+			   "size", "48,48",
+			   "tool.small.bundle", "IoT_DataView",
+			   "tool.small.path", "dataicons/basics/dataquality.gif",
+			   "tool.large.bundle", "IoT_DataView",
+			   "tool.large.path", "dataicons/basics/dataquality.gif"
 		   });
 	}
 

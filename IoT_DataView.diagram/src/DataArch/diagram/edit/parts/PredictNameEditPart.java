@@ -57,7 +57,7 @@ public class PredictNameEditPart extends LabelEditPart implements ITextAwareEdit
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5032;
+	public static final int VISUAL_ID = 5034;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class PredictNameEditPart extends LabelEditPart implements ITextAwareEdit
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.Predict_3032, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.Predict_3034, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.PredictNameEditPart.VISUAL_ID));
 		}

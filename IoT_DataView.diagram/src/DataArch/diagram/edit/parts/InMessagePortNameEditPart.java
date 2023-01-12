@@ -55,7 +55,7 @@ public class InMessagePortNameEditPart extends CompartmentEditPart implements IT
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5058;
+	public static final int VISUAL_ID = 5062;
 
 	/**
 	* @generated
@@ -288,7 +288,7 @@ public class InMessagePortNameEditPart extends CompartmentEditPart implements IT
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.InMessagePort_3058, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.InMessagePort_3062, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.InMessagePortNameEditPart.VISUAL_ID));
 		}

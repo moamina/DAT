@@ -8,26 +8,6 @@
       title="DataArchPalette">
     <tools
         xsi:type="gmftool:ToolGroup"
-        title="Data Formats"
-        collapsible="true">
-      <tools
-          xsi:type="gmftool:CreationTool"
-          title="CSV"
-          description="Create new CSV">
-        <smallIcon
-            xsi:type="gmftool:BundleImage"
-            path="dataicons/basics/CSV.gif"
-            bundle="IoT_DataView"/>
-        <largeIcon
-            xsi:type="gmftool:BundleImage"
-            path="dataicons/basics/CSV.gif"
-            bundle="IoT_DataView"/>
-      </tools>
-    </tools>
-    <tools
-        xsi:type="gmftool:PaletteSeparator"/>
-    <tools
-        xsi:type="gmftool:ToolGroup"
         title="Objects"
         collapsible="true">
       <tools
@@ -106,6 +86,19 @@
         <largeIcon
             xsi:type="gmftool:BundleImage"
             path="dataicons/basics/batch.gif"
+            bundle="IoT_DataView"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="CSV"
+          description="Create new CSV">
+        <smallIcon
+            xsi:type="gmftool:BundleImage"
+            path="dataicons/basics/CSV.gif"
+            bundle="IoT_DataView"/>
+        <largeIcon
+            xsi:type="gmftool:BundleImage"
+            path="dataicons/basics/CSV.gif"
             bundle="IoT_DataView"/>
       </tools>
       <tools
@@ -774,6 +767,19 @@
         <largeIcon
             xsi:type="gmftool:BundleImage"
             path="dataicons/basics/validate.gif"
+            bundle="IoT_DataView"/>
+      </tools>
+      <tools
+          xsi:type="gmftool:CreationTool"
+          title="VerifyData"
+          description="Create new VerifyData">
+        <smallIcon
+            xsi:type="gmftool:BundleImage"
+            path="dataicons/basics/dataquality.gif"
+            bundle="IoT_DataView"/>
+        <largeIcon
+            xsi:type="gmftool:BundleImage"
+            path="dataicons/basics/dataquality.gif"
             bundle="IoT_DataView"/>
       </tools>
       <tools

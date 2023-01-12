@@ -57,7 +57,7 @@ public class ProcessNameEditPart extends LabelEditPart implements ITextAwareEdit
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5057;
+	public static final int VISUAL_ID = 5060;
 
 	/**
 	* @generated
@@ -320,7 +320,7 @@ public class ProcessNameEditPart extends LabelEditPart implements ITextAwareEdit
 	public IParser getParser() {
 		if (parser == null) {
 			parser = DataArch.diagram.providers.DataArchParserProvider.getParser(
-					DataArch.diagram.providers.DataArchElementTypes.Process_3057, getParserElement(),
+					DataArch.diagram.providers.DataArchElementTypes.Process_3060, getParserElement(),
 					DataArch.diagram.part.DataArchVisualIDRegistry
 							.getType(DataArch.diagram.edit.parts.ProcessNameEditPart.VISUAL_ID));
 		}

@@ -616,6 +616,24 @@ public interface DataArchFactory extends EFactory {
 	Govern createGovern();
 
 	/**
+	 * Returns a new object of class '<em>Verify Data</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Verify Data</em>'.
+	 * @generated
+	 */
+	VerifyData createVerifyData();
+
+	/**
+	 * Returns a new object of class '<em>Quality Metrices</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Quality Metrices</em>'.
+	 * @generated
+	 */
+	QualityMetrices createQualityMetrices();
+
+	/**
 	 * Returns the package supported by this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

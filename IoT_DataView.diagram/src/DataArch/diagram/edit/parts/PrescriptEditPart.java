@@ -38,7 +38,7 @@ public class PrescriptEditPart extends AbstractBorderedShapeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3033;
+	public static final int VISUAL_ID = 3035;
 
 	/**
 	* @generated

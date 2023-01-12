@@ -306,6 +306,9 @@ public class DataArchVisualIDRegistry {
 			if (DataArch.DataArchPackage.eINSTANCE.getProcess().isSuperTypeOf(domainElement.eClass())) {
 				return DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID;
 			}
+			if (DataArch.DataArchPackage.eINSTANCE.getVerifyData().isSuperTypeOf(domainElement.eClass())) {
+				return DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID;
+			}
 			break;
 		}
 		return -1;
@@ -650,6 +653,11 @@ public class DataArchVisualIDRegistry {
 				return true;
 			}
 			break;
+		case DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID:
+			if (DataArch.diagram.edit.parts.VerifyDataNameEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
 		case DataArch.diagram.edit.parts.InMessagePortEditPart.VISUAL_ID:
 			if (DataArch.diagram.edit.parts.InMessagePortNameEditPart.VISUAL_ID == nodeVisualID) {
 				return true;
@@ -841,6 +849,9 @@ public class DataArchVisualIDRegistry {
 			if (DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
+			if (DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
 			break;
 		case DataArch.diagram.edit.parts.ConnectionEditPart.VISUAL_ID:
 			if (DataArch.diagram.edit.parts.ConnectionTextEditPart.VISUAL_ID == nodeVisualID) {
@@ -942,6 +953,8 @@ public class DataArchVisualIDRegistry {
 		case DataArch.diagram.edit.parts.ColumnOrientedEditPart.VISUAL_ID:
 		case DataArch.diagram.edit.parts.GraphsDatabaseEditPart.VISUAL_ID:
 		case DataArch.diagram.edit.parts.KeyValueEditPart.VISUAL_ID:
+		case DataArch.diagram.edit.parts.CloudEditPart.VISUAL_ID:
+		case DataArch.diagram.edit.parts.On_PremiseEditPart.VISUAL_ID:
 		case DataArch.diagram.edit.parts.File_SystemEditPart.VISUAL_ID:
 		case DataArch.diagram.edit.parts.RelationalEditPart.VISUAL_ID:
 		case DataArch.diagram.edit.parts.MultidimensionalEditPart.VISUAL_ID:
@@ -974,13 +987,12 @@ public class DataArchVisualIDRegistry {
 		case DataArch.diagram.edit.parts.ReceiveDataEditPart.VISUAL_ID:
 		case DataArch.diagram.edit.parts.SendDataEditPart.VISUAL_ID:
 		case DataArch.diagram.edit.parts.GenerateEditPart.VISUAL_ID:
+		case DataArch.diagram.edit.parts.IngestEditPart.VISUAL_ID:
 		case DataArch.diagram.edit.parts.AnalyzeEditPart.VISUAL_ID:
 		case DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID:
+		case DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID:
 		case DataArch.diagram.edit.parts.InMessagePortEditPart.VISUAL_ID:
 		case DataArch.diagram.edit.parts.OutMessagePortEditPart.VISUAL_ID:
-		case DataArch.diagram.edit.parts.CloudEditPart.VISUAL_ID:
-		case DataArch.diagram.edit.parts.On_PremiseEditPart.VISUAL_ID:
-		case DataArch.diagram.edit.parts.IngestEditPart.VISUAL_ID:
 			return true;
 		default:
 			break;

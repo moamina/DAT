@@ -149,163 +149,164 @@ public class DataArchElementTypes {
 	/**
 	* @generated
 	*/
-	public static final IElementType Cloud_3060 = getElementType("IoT_DataView.diagram.Cloud_3060"); //$NON-NLS-1$
-
+	public static final IElementType Cloud_3024 = getElementType("IoT_DataView.diagram.Cloud_3024"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType On_Premise_3061 = getElementType("IoT_DataView.diagram.On_Premise_3061"); //$NON-NLS-1$
-
+	public static final IElementType On_Premise_3025 = getElementType("IoT_DataView.diagram.On_Premise_3025"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType File_System_3024 = getElementType("IoT_DataView.diagram.File_System_3024"); //$NON-NLS-1$
+	public static final IElementType File_System_3026 = getElementType("IoT_DataView.diagram.File_System_3026"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Relational_3025 = getElementType("IoT_DataView.diagram.Relational_3025"); //$NON-NLS-1$
+	public static final IElementType Relational_3027 = getElementType("IoT_DataView.diagram.Relational_3027"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Multidimensional_3026 = getElementType(
-			"IoT_DataView.diagram.Multidimensional_3026"); //$NON-NLS-1$
+	public static final IElementType Multidimensional_3028 = getElementType(
+			"IoT_DataView.diagram.Multidimensional_3028"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType RealTime_3027 = getElementType("IoT_DataView.diagram.RealTime_3027"); //$NON-NLS-1$
+	public static final IElementType RealTime_3029 = getElementType("IoT_DataView.diagram.RealTime_3029"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Batch_3028 = getElementType("IoT_DataView.diagram.Batch_3028"); //$NON-NLS-1$
+	public static final IElementType Batch_3030 = getElementType("IoT_DataView.diagram.Batch_3030"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Filter_3029 = getElementType("IoT_DataView.diagram.Filter_3029"); //$NON-NLS-1$
+	public static final IElementType Filter_3031 = getElementType("IoT_DataView.diagram.Filter_3031"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Describe_3030 = getElementType("IoT_DataView.diagram.Describe_3030"); //$NON-NLS-1$
+	public static final IElementType Describe_3032 = getElementType("IoT_DataView.diagram.Describe_3032"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Diagnose_3031 = getElementType("IoT_DataView.diagram.Diagnose_3031"); //$NON-NLS-1$
+	public static final IElementType Diagnose_3033 = getElementType("IoT_DataView.diagram.Diagnose_3033"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Predict_3032 = getElementType("IoT_DataView.diagram.Predict_3032"); //$NON-NLS-1$
+	public static final IElementType Predict_3034 = getElementType("IoT_DataView.diagram.Predict_3034"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Prescript_3033 = getElementType("IoT_DataView.diagram.Prescript_3033"); //$NON-NLS-1$
+	public static final IElementType Prescript_3035 = getElementType("IoT_DataView.diagram.Prescript_3035"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Visualize_3034 = getElementType("IoT_DataView.diagram.Visualize_3034"); //$NON-NLS-1$
+	public static final IElementType Visualize_3036 = getElementType("IoT_DataView.diagram.Visualize_3036"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Query_Report_3035 = getElementType("IoT_DataView.diagram.Query_Report_3035"); //$NON-NLS-1$
+	public static final IElementType Query_Report_3037 = getElementType("IoT_DataView.diagram.Query_Report_3037"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType API_3036 = getElementType("IoT_DataView.diagram.API_3036"); //$NON-NLS-1$
+	public static final IElementType API_3038 = getElementType("IoT_DataView.diagram.API_3038"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Tranfrom_3037 = getElementType("IoT_DataView.diagram.Tranfrom_3037"); //$NON-NLS-1$
+	public static final IElementType Tranfrom_3039 = getElementType("IoT_DataView.diagram.Tranfrom_3039"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Compress_3038 = getElementType("IoT_DataView.diagram.Compress_3038"); //$NON-NLS-1$
+	public static final IElementType Compress_3040 = getElementType("IoT_DataView.diagram.Compress_3040"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Integrate_3039 = getElementType("IoT_DataView.diagram.Integrate_3039"); //$NON-NLS-1$
+	public static final IElementType Integrate_3041 = getElementType("IoT_DataView.diagram.Integrate_3041"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Identify_3040 = getElementType("IoT_DataView.diagram.Identify_3040"); //$NON-NLS-1$
+	public static final IElementType Identify_3042 = getElementType("IoT_DataView.diagram.Identify_3042"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Validate_3041 = getElementType("IoT_DataView.diagram.Validate_3041"); //$NON-NLS-1$
+	public static final IElementType Validate_3043 = getElementType("IoT_DataView.diagram.Validate_3043"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Classify_3042 = getElementType("IoT_DataView.diagram.Classify_3042"); //$NON-NLS-1$
+	public static final IElementType Classify_3044 = getElementType("IoT_DataView.diagram.Classify_3044"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Sort_3043 = getElementType("IoT_DataView.diagram.Sort_3043"); //$NON-NLS-1$
+	public static final IElementType Sort_3045 = getElementType("IoT_DataView.diagram.Sort_3045"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Merge_3044 = getElementType("IoT_DataView.diagram.Merge_3044"); //$NON-NLS-1$
+	public static final IElementType Merge_3046 = getElementType("IoT_DataView.diagram.Merge_3046"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Aggregate_3045 = getElementType("IoT_DataView.diagram.Aggregate_3045"); //$NON-NLS-1$
+	public static final IElementType Aggregate_3047 = getElementType("IoT_DataView.diagram.Aggregate_3047"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Cleaning_3046 = getElementType("IoT_DataView.diagram.Cleaning_3046"); //$NON-NLS-1$
+	public static final IElementType Cleaning_3048 = getElementType("IoT_DataView.diagram.Cleaning_3048"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType ReduceNoise_3047 = getElementType("IoT_DataView.diagram.ReduceNoise_3047"); //$NON-NLS-1$
+	public static final IElementType ReduceNoise_3049 = getElementType("IoT_DataView.diagram.ReduceNoise_3049"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Math_Operation_3048 = getElementType("IoT_DataView.diagram.Math_Operation_3048"); //$NON-NLS-1$
+	public static final IElementType Math_Operation_3050 = getElementType("IoT_DataView.diagram.Math_Operation_3050"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Retrieve_3049 = getElementType("IoT_DataView.diagram.Retrieve_3049"); //$NON-NLS-1$
+	public static final IElementType Retrieve_3051 = getElementType("IoT_DataView.diagram.Retrieve_3051"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Save_3050 = getElementType("IoT_DataView.diagram.Save_3050"); //$NON-NLS-1$
+	public static final IElementType Save_3052 = getElementType("IoT_DataView.diagram.Save_3052"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Archive_3051 = getElementType("IoT_DataView.diagram.Archive_3051"); //$NON-NLS-1$
+	public static final IElementType Archive_3053 = getElementType("IoT_DataView.diagram.Archive_3053"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Govern_3052 = getElementType("IoT_DataView.diagram.Govern_3052"); //$NON-NLS-1$
+	public static final IElementType Govern_3054 = getElementType("IoT_DataView.diagram.Govern_3054"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType ReceiveData_3053 = getElementType("IoT_DataView.diagram.ReceiveData_3053"); //$NON-NLS-1$
+	public static final IElementType ReceiveData_3055 = getElementType("IoT_DataView.diagram.ReceiveData_3055"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType SendData_3054 = getElementType("IoT_DataView.diagram.SendData_3054"); //$NON-NLS-1$
+	public static final IElementType SendData_3056 = getElementType("IoT_DataView.diagram.SendData_3056"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Generate_3055 = getElementType("IoT_DataView.diagram.Generate_3055"); //$NON-NLS-1$
+	public static final IElementType Generate_3057 = getElementType("IoT_DataView.diagram.Generate_3057"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Ingest_3062 = getElementType("IoT_DataView.diagram.Ingest_3062"); //$NON-NLS-1$
-
+	public static final IElementType Ingest_3058 = getElementType("IoT_DataView.diagram.Ingest_3058"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Analyze_3056 = getElementType("IoT_DataView.diagram.Analyze_3056"); //$NON-NLS-1$
+	public static final IElementType Analyze_3059 = getElementType("IoT_DataView.diagram.Analyze_3059"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Process_3057 = getElementType("IoT_DataView.diagram.Process_3057"); //$NON-NLS-1$
+	public static final IElementType Process_3060 = getElementType("IoT_DataView.diagram.Process_3060"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType InMessagePort_3058 = getElementType("IoT_DataView.diagram.InMessagePort_3058"); //$NON-NLS-1$
+	public static final IElementType VerifyData_3061 = getElementType("IoT_DataView.diagram.VerifyData_3061"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType OutMessagePort_3059 = getElementType("IoT_DataView.diagram.OutMessagePort_3059"); //$NON-NLS-1$
+	public static final IElementType InMessagePort_3062 = getElementType("IoT_DataView.diagram.InMessagePort_3062"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType OutMessagePort_3063 = getElementType("IoT_DataView.diagram.OutMessagePort_3063"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
@@ -413,83 +414,85 @@ public class DataArchElementTypes {
 
 			elements.put(KeyValue_3023, DataArch.DataArchPackage.eINSTANCE.getKeyValue());
 
-			elements.put(Cloud_3060, DataArch.DataArchPackage.eINSTANCE.getCloud());
+			elements.put(Cloud_3024, DataArch.DataArchPackage.eINSTANCE.getCloud());
 
-			elements.put(On_Premise_3061, DataArch.DataArchPackage.eINSTANCE.getOn_Premise());
+			elements.put(On_Premise_3025, DataArch.DataArchPackage.eINSTANCE.getOn_Premise());
 
-			elements.put(File_System_3024, DataArch.DataArchPackage.eINSTANCE.getFile_System());
+			elements.put(File_System_3026, DataArch.DataArchPackage.eINSTANCE.getFile_System());
 
-			elements.put(Relational_3025, DataArch.DataArchPackage.eINSTANCE.getRelational());
+			elements.put(Relational_3027, DataArch.DataArchPackage.eINSTANCE.getRelational());
 
-			elements.put(Multidimensional_3026, DataArch.DataArchPackage.eINSTANCE.getMultidimensional());
+			elements.put(Multidimensional_3028, DataArch.DataArchPackage.eINSTANCE.getMultidimensional());
 
-			elements.put(RealTime_3027, DataArch.DataArchPackage.eINSTANCE.getRealTime());
+			elements.put(RealTime_3029, DataArch.DataArchPackage.eINSTANCE.getRealTime());
 
-			elements.put(Batch_3028, DataArch.DataArchPackage.eINSTANCE.getBatch());
+			elements.put(Batch_3030, DataArch.DataArchPackage.eINSTANCE.getBatch());
 
-			elements.put(Filter_3029, DataArch.DataArchPackage.eINSTANCE.getFilter());
+			elements.put(Filter_3031, DataArch.DataArchPackage.eINSTANCE.getFilter());
 
-			elements.put(Describe_3030, DataArch.DataArchPackage.eINSTANCE.getDescribe());
+			elements.put(Describe_3032, DataArch.DataArchPackage.eINSTANCE.getDescribe());
 
-			elements.put(Diagnose_3031, DataArch.DataArchPackage.eINSTANCE.getDiagnose());
+			elements.put(Diagnose_3033, DataArch.DataArchPackage.eINSTANCE.getDiagnose());
 
-			elements.put(Predict_3032, DataArch.DataArchPackage.eINSTANCE.getPredict());
+			elements.put(Predict_3034, DataArch.DataArchPackage.eINSTANCE.getPredict());
 
-			elements.put(Prescript_3033, DataArch.DataArchPackage.eINSTANCE.getPrescript());
+			elements.put(Prescript_3035, DataArch.DataArchPackage.eINSTANCE.getPrescript());
 
-			elements.put(Visualize_3034, DataArch.DataArchPackage.eINSTANCE.getVisualize());
+			elements.put(Visualize_3036, DataArch.DataArchPackage.eINSTANCE.getVisualize());
 
-			elements.put(Query_Report_3035, DataArch.DataArchPackage.eINSTANCE.getQuery_Report());
+			elements.put(Query_Report_3037, DataArch.DataArchPackage.eINSTANCE.getQuery_Report());
 
-			elements.put(API_3036, DataArch.DataArchPackage.eINSTANCE.getAPI());
+			elements.put(API_3038, DataArch.DataArchPackage.eINSTANCE.getAPI());
 
-			elements.put(Tranfrom_3037, DataArch.DataArchPackage.eINSTANCE.getTranfrom());
+			elements.put(Tranfrom_3039, DataArch.DataArchPackage.eINSTANCE.getTranfrom());
 
-			elements.put(Compress_3038, DataArch.DataArchPackage.eINSTANCE.getCompress());
+			elements.put(Compress_3040, DataArch.DataArchPackage.eINSTANCE.getCompress());
 
-			elements.put(Integrate_3039, DataArch.DataArchPackage.eINSTANCE.getIntegrate());
+			elements.put(Integrate_3041, DataArch.DataArchPackage.eINSTANCE.getIntegrate());
 
-			elements.put(Identify_3040, DataArch.DataArchPackage.eINSTANCE.getIdentify());
+			elements.put(Identify_3042, DataArch.DataArchPackage.eINSTANCE.getIdentify());
 
-			elements.put(Validate_3041, DataArch.DataArchPackage.eINSTANCE.getValidate());
+			elements.put(Validate_3043, DataArch.DataArchPackage.eINSTANCE.getValidate());
 
-			elements.put(Classify_3042, DataArch.DataArchPackage.eINSTANCE.getClassify());
+			elements.put(Classify_3044, DataArch.DataArchPackage.eINSTANCE.getClassify());
 
-			elements.put(Sort_3043, DataArch.DataArchPackage.eINSTANCE.getSort());
+			elements.put(Sort_3045, DataArch.DataArchPackage.eINSTANCE.getSort());
 
-			elements.put(Merge_3044, DataArch.DataArchPackage.eINSTANCE.getMerge());
+			elements.put(Merge_3046, DataArch.DataArchPackage.eINSTANCE.getMerge());
 
-			elements.put(Aggregate_3045, DataArch.DataArchPackage.eINSTANCE.getAggregate());
+			elements.put(Aggregate_3047, DataArch.DataArchPackage.eINSTANCE.getAggregate());
 
-			elements.put(Cleaning_3046, DataArch.DataArchPackage.eINSTANCE.getCleaning());
+			elements.put(Cleaning_3048, DataArch.DataArchPackage.eINSTANCE.getCleaning());
 
-			elements.put(ReduceNoise_3047, DataArch.DataArchPackage.eINSTANCE.getReduceNoise());
+			elements.put(ReduceNoise_3049, DataArch.DataArchPackage.eINSTANCE.getReduceNoise());
 
-			elements.put(Math_Operation_3048, DataArch.DataArchPackage.eINSTANCE.getMath_Operation());
+			elements.put(Math_Operation_3050, DataArch.DataArchPackage.eINSTANCE.getMath_Operation());
 
-			elements.put(Retrieve_3049, DataArch.DataArchPackage.eINSTANCE.getRetrieve());
+			elements.put(Retrieve_3051, DataArch.DataArchPackage.eINSTANCE.getRetrieve());
 
-			elements.put(Save_3050, DataArch.DataArchPackage.eINSTANCE.getSave());
+			elements.put(Save_3052, DataArch.DataArchPackage.eINSTANCE.getSave());
 
-			elements.put(Archive_3051, DataArch.DataArchPackage.eINSTANCE.getArchive());
+			elements.put(Archive_3053, DataArch.DataArchPackage.eINSTANCE.getArchive());
 
-			elements.put(Govern_3052, DataArch.DataArchPackage.eINSTANCE.getGovern());
+			elements.put(Govern_3054, DataArch.DataArchPackage.eINSTANCE.getGovern());
 
-			elements.put(ReceiveData_3053, DataArch.DataArchPackage.eINSTANCE.getReceiveData());
+			elements.put(ReceiveData_3055, DataArch.DataArchPackage.eINSTANCE.getReceiveData());
 
-			elements.put(SendData_3054, DataArch.DataArchPackage.eINSTANCE.getSendData());
+			elements.put(SendData_3056, DataArch.DataArchPackage.eINSTANCE.getSendData());
 
-			elements.put(Generate_3055, DataArch.DataArchPackage.eINSTANCE.getGenerate());
+			elements.put(Generate_3057, DataArch.DataArchPackage.eINSTANCE.getGenerate());
 
-			elements.put(Ingest_3062, DataArch.DataArchPackage.eINSTANCE.getIngest());
+			elements.put(Ingest_3058, DataArch.DataArchPackage.eINSTANCE.getIngest());
 
-			elements.put(Analyze_3056, DataArch.DataArchPackage.eINSTANCE.getAnalyze());
+			elements.put(Analyze_3059, DataArch.DataArchPackage.eINSTANCE.getAnalyze());
 
-			elements.put(Process_3057, DataArch.DataArchPackage.eINSTANCE.getProcess());
+			elements.put(Process_3060, DataArch.DataArchPackage.eINSTANCE.getProcess());
 
-			elements.put(InMessagePort_3058, DataArch.DataArchPackage.eINSTANCE.getInMessagePort());
+			elements.put(VerifyData_3061, DataArch.DataArchPackage.eINSTANCE.getVerifyData());
 
-			elements.put(OutMessagePort_3059, DataArch.DataArchPackage.eINSTANCE.getOutMessagePort());
+			elements.put(InMessagePort_3062, DataArch.DataArchPackage.eINSTANCE.getInMessagePort());
+
+			elements.put(OutMessagePort_3063, DataArch.DataArchPackage.eINSTANCE.getOutMessagePort());
 
 			elements.put(Link_4001, DataArch.DataArchPackage.eINSTANCE.getLink());
 
@@ -541,45 +544,46 @@ public class DataArchElementTypes {
 			KNOWN_ELEMENT_TYPES.add(ColumnOriented_3021);
 			KNOWN_ELEMENT_TYPES.add(GraphsDatabase_3022);
 			KNOWN_ELEMENT_TYPES.add(KeyValue_3023);
-			KNOWN_ELEMENT_TYPES.add(Cloud_3060);
-			KNOWN_ELEMENT_TYPES.add(On_Premise_3061);
-			KNOWN_ELEMENT_TYPES.add(File_System_3024);
-			KNOWN_ELEMENT_TYPES.add(Relational_3025);
-			KNOWN_ELEMENT_TYPES.add(Multidimensional_3026);
-			KNOWN_ELEMENT_TYPES.add(RealTime_3027);
-			KNOWN_ELEMENT_TYPES.add(Batch_3028);
-			KNOWN_ELEMENT_TYPES.add(Filter_3029);
-			KNOWN_ELEMENT_TYPES.add(Describe_3030);
-			KNOWN_ELEMENT_TYPES.add(Diagnose_3031);
-			KNOWN_ELEMENT_TYPES.add(Predict_3032);
-			KNOWN_ELEMENT_TYPES.add(Prescript_3033);
-			KNOWN_ELEMENT_TYPES.add(Visualize_3034);
-			KNOWN_ELEMENT_TYPES.add(Query_Report_3035);
-			KNOWN_ELEMENT_TYPES.add(API_3036);
-			KNOWN_ELEMENT_TYPES.add(Tranfrom_3037);
-			KNOWN_ELEMENT_TYPES.add(Compress_3038);
-			KNOWN_ELEMENT_TYPES.add(Integrate_3039);
-			KNOWN_ELEMENT_TYPES.add(Identify_3040);
-			KNOWN_ELEMENT_TYPES.add(Validate_3041);
-			KNOWN_ELEMENT_TYPES.add(Classify_3042);
-			KNOWN_ELEMENT_TYPES.add(Sort_3043);
-			KNOWN_ELEMENT_TYPES.add(Merge_3044);
-			KNOWN_ELEMENT_TYPES.add(Aggregate_3045);
-			KNOWN_ELEMENT_TYPES.add(Cleaning_3046);
-			KNOWN_ELEMENT_TYPES.add(ReduceNoise_3047);
-			KNOWN_ELEMENT_TYPES.add(Math_Operation_3048);
-			KNOWN_ELEMENT_TYPES.add(Retrieve_3049);
-			KNOWN_ELEMENT_TYPES.add(Save_3050);
-			KNOWN_ELEMENT_TYPES.add(Archive_3051);
-			KNOWN_ELEMENT_TYPES.add(Govern_3052);
-			KNOWN_ELEMENT_TYPES.add(ReceiveData_3053);
-			KNOWN_ELEMENT_TYPES.add(SendData_3054);
-			KNOWN_ELEMENT_TYPES.add(Generate_3055);
-			KNOWN_ELEMENT_TYPES.add(Ingest_3062);
-			KNOWN_ELEMENT_TYPES.add(Analyze_3056);
-			KNOWN_ELEMENT_TYPES.add(Process_3057);
-			KNOWN_ELEMENT_TYPES.add(InMessagePort_3058);
-			KNOWN_ELEMENT_TYPES.add(OutMessagePort_3059);
+			KNOWN_ELEMENT_TYPES.add(Cloud_3024);
+			KNOWN_ELEMENT_TYPES.add(On_Premise_3025);
+			KNOWN_ELEMENT_TYPES.add(File_System_3026);
+			KNOWN_ELEMENT_TYPES.add(Relational_3027);
+			KNOWN_ELEMENT_TYPES.add(Multidimensional_3028);
+			KNOWN_ELEMENT_TYPES.add(RealTime_3029);
+			KNOWN_ELEMENT_TYPES.add(Batch_3030);
+			KNOWN_ELEMENT_TYPES.add(Filter_3031);
+			KNOWN_ELEMENT_TYPES.add(Describe_3032);
+			KNOWN_ELEMENT_TYPES.add(Diagnose_3033);
+			KNOWN_ELEMENT_TYPES.add(Predict_3034);
+			KNOWN_ELEMENT_TYPES.add(Prescript_3035);
+			KNOWN_ELEMENT_TYPES.add(Visualize_3036);
+			KNOWN_ELEMENT_TYPES.add(Query_Report_3037);
+			KNOWN_ELEMENT_TYPES.add(API_3038);
+			KNOWN_ELEMENT_TYPES.add(Tranfrom_3039);
+			KNOWN_ELEMENT_TYPES.add(Compress_3040);
+			KNOWN_ELEMENT_TYPES.add(Integrate_3041);
+			KNOWN_ELEMENT_TYPES.add(Identify_3042);
+			KNOWN_ELEMENT_TYPES.add(Validate_3043);
+			KNOWN_ELEMENT_TYPES.add(Classify_3044);
+			KNOWN_ELEMENT_TYPES.add(Sort_3045);
+			KNOWN_ELEMENT_TYPES.add(Merge_3046);
+			KNOWN_ELEMENT_TYPES.add(Aggregate_3047);
+			KNOWN_ELEMENT_TYPES.add(Cleaning_3048);
+			KNOWN_ELEMENT_TYPES.add(ReduceNoise_3049);
+			KNOWN_ELEMENT_TYPES.add(Math_Operation_3050);
+			KNOWN_ELEMENT_TYPES.add(Retrieve_3051);
+			KNOWN_ELEMENT_TYPES.add(Save_3052);
+			KNOWN_ELEMENT_TYPES.add(Archive_3053);
+			KNOWN_ELEMENT_TYPES.add(Govern_3054);
+			KNOWN_ELEMENT_TYPES.add(ReceiveData_3055);
+			KNOWN_ELEMENT_TYPES.add(SendData_3056);
+			KNOWN_ELEMENT_TYPES.add(Generate_3057);
+			KNOWN_ELEMENT_TYPES.add(Ingest_3058);
+			KNOWN_ELEMENT_TYPES.add(Analyze_3059);
+			KNOWN_ELEMENT_TYPES.add(Process_3060);
+			KNOWN_ELEMENT_TYPES.add(VerifyData_3061);
+			KNOWN_ELEMENT_TYPES.add(InMessagePort_3062);
+			KNOWN_ELEMENT_TYPES.add(OutMessagePort_3063);
 			KNOWN_ELEMENT_TYPES.add(Link_4001);
 			KNOWN_ELEMENT_TYPES.add(Connection_4002);
 			KNOWN_ELEMENT_TYPES.add(ReceiveDataFromMessagePorts_4003);
@@ -644,83 +648,85 @@ public class DataArchElementTypes {
 		case DataArch.diagram.edit.parts.KeyValueEditPart.VISUAL_ID:
 			return KeyValue_3023;
 		case DataArch.diagram.edit.parts.CloudEditPart.VISUAL_ID:
-			return Cloud_3060;
+			return Cloud_3024;
 		case DataArch.diagram.edit.parts.On_PremiseEditPart.VISUAL_ID:
-			return On_Premise_3061;
+			return On_Premise_3025;
 		case DataArch.diagram.edit.parts.File_SystemEditPart.VISUAL_ID:
-			return File_System_3024;
+			return File_System_3026;
 		case DataArch.diagram.edit.parts.RelationalEditPart.VISUAL_ID:
-			return Relational_3025;
+			return Relational_3027;
 		case DataArch.diagram.edit.parts.MultidimensionalEditPart.VISUAL_ID:
-			return Multidimensional_3026;
+			return Multidimensional_3028;
 		case DataArch.diagram.edit.parts.RealTimeEditPart.VISUAL_ID:
-			return RealTime_3027;
+			return RealTime_3029;
 		case DataArch.diagram.edit.parts.BatchEditPart.VISUAL_ID:
-			return Batch_3028;
+			return Batch_3030;
 		case DataArch.diagram.edit.parts.FilterEditPart.VISUAL_ID:
-			return Filter_3029;
+			return Filter_3031;
 		case DataArch.diagram.edit.parts.DescribeEditPart.VISUAL_ID:
-			return Describe_3030;
+			return Describe_3032;
 		case DataArch.diagram.edit.parts.DiagnoseEditPart.VISUAL_ID:
-			return Diagnose_3031;
+			return Diagnose_3033;
 		case DataArch.diagram.edit.parts.PredictEditPart.VISUAL_ID:
-			return Predict_3032;
+			return Predict_3034;
 		case DataArch.diagram.edit.parts.PrescriptEditPart.VISUAL_ID:
-			return Prescript_3033;
+			return Prescript_3035;
 		case DataArch.diagram.edit.parts.VisualizeEditPart.VISUAL_ID:
-			return Visualize_3034;
+			return Visualize_3036;
 		case DataArch.diagram.edit.parts.Query_ReportEditPart.VISUAL_ID:
-			return Query_Report_3035;
+			return Query_Report_3037;
 		case DataArch.diagram.edit.parts.APIEditPart.VISUAL_ID:
-			return API_3036;
+			return API_3038;
 		case DataArch.diagram.edit.parts.TranfromEditPart.VISUAL_ID:
-			return Tranfrom_3037;
+			return Tranfrom_3039;
 		case DataArch.diagram.edit.parts.CompressEditPart.VISUAL_ID:
-			return Compress_3038;
+			return Compress_3040;
 		case DataArch.diagram.edit.parts.IntegrateEditPart.VISUAL_ID:
-			return Integrate_3039;
+			return Integrate_3041;
 		case DataArch.diagram.edit.parts.IdentifyEditPart.VISUAL_ID:
-			return Identify_3040;
+			return Identify_3042;
 		case DataArch.diagram.edit.parts.ValidateEditPart.VISUAL_ID:
-			return Validate_3041;
+			return Validate_3043;
 		case DataArch.diagram.edit.parts.ClassifyEditPart.VISUAL_ID:
-			return Classify_3042;
+			return Classify_3044;
 		case DataArch.diagram.edit.parts.SortEditPart.VISUAL_ID:
-			return Sort_3043;
+			return Sort_3045;
 		case DataArch.diagram.edit.parts.MergeEditPart.VISUAL_ID:
-			return Merge_3044;
+			return Merge_3046;
 		case DataArch.diagram.edit.parts.AggregateEditPart.VISUAL_ID:
-			return Aggregate_3045;
+			return Aggregate_3047;
 		case DataArch.diagram.edit.parts.CleaningEditPart.VISUAL_ID:
-			return Cleaning_3046;
+			return Cleaning_3048;
 		case DataArch.diagram.edit.parts.ReduceNoiseEditPart.VISUAL_ID:
-			return ReduceNoise_3047;
+			return ReduceNoise_3049;
 		case DataArch.diagram.edit.parts.Math_OperationEditPart.VISUAL_ID:
-			return Math_Operation_3048;
+			return Math_Operation_3050;
 		case DataArch.diagram.edit.parts.RetrieveEditPart.VISUAL_ID:
-			return Retrieve_3049;
+			return Retrieve_3051;
 		case DataArch.diagram.edit.parts.SaveEditPart.VISUAL_ID:
-			return Save_3050;
+			return Save_3052;
 		case DataArch.diagram.edit.parts.ArchiveEditPart.VISUAL_ID:
-			return Archive_3051;
+			return Archive_3053;
 		case DataArch.diagram.edit.parts.GovernEditPart.VISUAL_ID:
-			return Govern_3052;
+			return Govern_3054;
 		case DataArch.diagram.edit.parts.ReceiveDataEditPart.VISUAL_ID:
-			return ReceiveData_3053;
+			return ReceiveData_3055;
 		case DataArch.diagram.edit.parts.SendDataEditPart.VISUAL_ID:
-			return SendData_3054;
+			return SendData_3056;
 		case DataArch.diagram.edit.parts.GenerateEditPart.VISUAL_ID:
-			return Generate_3055;
+			return Generate_3057;
 		case DataArch.diagram.edit.parts.IngestEditPart.VISUAL_ID:
-			return Ingest_3062;
+			return Ingest_3058;
 		case DataArch.diagram.edit.parts.AnalyzeEditPart.VISUAL_ID:
-			return Analyze_3056;
+			return Analyze_3059;
 		case DataArch.diagram.edit.parts.ProcessEditPart.VISUAL_ID:
-			return Process_3057;
+			return Process_3060;
+		case DataArch.diagram.edit.parts.VerifyDataEditPart.VISUAL_ID:
+			return VerifyData_3061;
 		case DataArch.diagram.edit.parts.InMessagePortEditPart.VISUAL_ID:
-			return InMessagePort_3058;
+			return InMessagePort_3062;
 		case DataArch.diagram.edit.parts.OutMessagePortEditPart.VISUAL_ID:
-			return OutMessagePort_3059;
+			return OutMessagePort_3063;
 		case DataArch.diagram.edit.parts.LinkEditPart.VISUAL_ID:
 			return Link_4001;
 		case DataArch.diagram.edit.parts.ConnectionEditPart.VISUAL_ID:
