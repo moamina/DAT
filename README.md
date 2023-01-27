@@ -5,4 +5,5 @@ This data view is considered the fourth view for the CAPS (http://caps.disim.uni
 The DAT was able to model data pipelines, Data warehouses (verified by Amazon), and big data architectures like Lambda.
 
 https://www.youtube.com/watch?v=NuMy_MCYXcI
+
 https://www.youtube.com/watch?v=bJ20B_w_-lg
